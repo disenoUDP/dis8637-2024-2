@@ -4,4 +4,4 @@
 
 la clase fue escuchar muchas referencias y cosas
 
-![texto](link).
+![texto](./apuntes.jpg).
