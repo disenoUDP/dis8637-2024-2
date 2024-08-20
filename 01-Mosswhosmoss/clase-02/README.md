@@ -4,6 +4,8 @@
 - Joy Buolamwini
 - Don don / Donald Dorman
 - Jakob Nielsen
+- Mitchel resnick and the 4 p's 
+
 ### *Libros .𖥔 ݁ ˖* 
 - Unmasking AI
 - Weapons of math destruction
@@ -49,3 +51,12 @@ justificar cosillas en el github principal, etiquetar se etiqueta con @
 - **../** significa detras de aqui mismo
  
 ## Arduino ৻( •̀ ᗜ •́ ৻)
+### Primeras apreciaciones
+- **ES AZUL**
+- TIENE LEDS Y STICKERS
+- al final del instructivo tiene un corazon
+- tiene un microcontrolador
+- tiene varios puertos
+  - Un usb c
+  - uno para una bateria
+   
