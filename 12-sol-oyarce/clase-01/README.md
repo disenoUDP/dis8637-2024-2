@@ -1,3 +1,3 @@
 # clase-01
 
-![texto](./apuntes.jpg)
+![texto](./apuntes.jpeg)
