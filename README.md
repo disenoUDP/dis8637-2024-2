@@ -24,7 +24,7 @@ equipo docente:
 - [10-](./10-/)
 - [11-sofiaolivares](./11-sofiaolivares/)
 - [12-sol-oyarce](./12-sol-oyarce/)
-- [13-](./13-/)
+- [13-juanpareschi](./13-juanpareschi/)
 - [14-](./14-/)
 - [15-cattaclismo](./15-cattaclismo/)
 - [16-pedroprat2](./16-pedroprat2/)
