@@ -50,7 +50,8 @@ Es un microcontrolador de color azul, con distintos tipos de puertos de conexió
 - Masificación de dispositivos que lo implementan
 - "Mayor durabilidad"
 
-## Una placa de Arduino puede ser mas potente que el comutador que hizo los calculos para mandar al Apolo11 al espacio (._.)
+## Una placa de Arduino puede ser mas potente que el comutador que hizo los cálculos para mandar al Apolo11 al espacio (._.)
+
 
 
 
