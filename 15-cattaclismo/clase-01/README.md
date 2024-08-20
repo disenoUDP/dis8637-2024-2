@@ -2,4 +2,4 @@
 
 provando subir archivo jpq
 
-![imagen de bitacora clase 01](./apuntes.jpg)
+![imagen de bitacora clase 01](./apuntesclase01.jpg)
