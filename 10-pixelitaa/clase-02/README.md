@@ -1,11 +1,15 @@
-# clase-02
-probando markdown
+# ⋆˙⟡♡✧˖°clase-02⋆˙⟡♡✧˖°
 
-<code style="color : magenta">Hola esta es mi bitacora</code>
-
+### _Hola esta es mi bitacora_
+⠀⠀
 _hoy estamos aprendiendo a usar **Github** es **muy divertido**_
 
-## sensores
+### _Sensores_ ♪ ˖ ⊹ ♬˚₊‧
 
 1. perilla
 2. crespuscular
+3. d-pad
+4. tilt
+5. presencia
+6. movimiento
+7. proximidad
