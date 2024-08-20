@@ -31,6 +31,8 @@ Clase 20 de agosto de 2024
 7. Microfono
 8. Crepuscular
 
+https://www.figma.com/board/5KIemd8KjIroqXSkUQ52Pb/interfaces-cotidianas?node-id=0-1&t=aNqyjnmjioonqD9B-0
+
 ## ¿Cómo subir una imagen?
 
 ![Texto](./img /nombrearchivo.jpg)
