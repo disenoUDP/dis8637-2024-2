@@ -22,7 +22,7 @@
 - botones
 - micrófono
 - perilla
-## ux
+## extras
 - ¿Qué es la NLP? El procesamiento de lenguaje natural (NLP) es una tecnología de machine learning que brinda a las computadoras la capacidad de interpretar, manipular y comprender el lenguaje humano.
 - que es lo que quiero hacer y que medios tengo para ello
 ## runaway
