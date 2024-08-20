@@ -1,9 +1,9 @@
 # clase-02
-probando markdown
-otra prueba
 
-## sensores
+## sensores 
+1. proximidad
+2. perilla
+3. botones
 
-1. sjashjs
-1. jhsjhaJH
+
 
