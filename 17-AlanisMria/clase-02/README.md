@@ -41,7 +41,9 @@ Clase 20 de agosto de 2024
 - ../../../ tres carpetas hacia atrás
 
   ## Placa de arduino
-Es un microcontrolador de color azul, con distintos tipos de puertos de conexión, cuenta con un metodo de conexión vía Wifi, una mini pantalla led para proyectar animaciones y una placa de algún tipo de polimero, que sirve a modo de aislante para evitar coto sircuitos y tambien para poder adherir la placa en un aterial por medio de tornillos, ya que cuenta con orificios.
+Es un microcontrolador de color azul, con distintos tipos de puertos de conexión, cuenta con un metodo de conexión vía Wifi, una mini pantalla led para proyectar animaciones, un pequeño botón blanco y una placa de algún tipo de polimero, que sirve a modo de aislante para evitar coto sircuitos y tambien para poder adherir la placa en un aterial por medio de tornillos, ya que cuenta con orificios.
+![Texto](./Arduino.jpg)
+
 
 
 
