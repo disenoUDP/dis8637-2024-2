@@ -9,6 +9,6 @@ Se presentaron los profes y nos presentamos nosotros
 
 ## **Tarea**
 
-![Tarea parte 1](./tareaParte1)
-![Tarea parte 2](./tareaParte2)
-![Tarea parte 3](./tareaParte3)
+![Tarea parte 1](./tareaParte1.png)
+![Tarea parte 2](./tareaParte2.png)
+![Tarea parte 3](./tareaParte3.png)
