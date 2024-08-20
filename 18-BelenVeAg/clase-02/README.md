@@ -60,24 +60,34 @@ Tips para Markdown:
 
 Últimos avances de tecnología: 
 
-## Arduino
+## Arduino https://arduino.cl/
+Es la empresa, el software y la placa (hardware).
 
-Tiene: 
+Nuestra versión la UNO R4 Wifi tiene: 
 - Placa
 - Chip para
 - Pantalla led: para hacer animaciones
-- Wifi
+- Wifi: permite conectarse a internet.
+- Bluetooth
 - Entrada usb C
 - Plástico inferior, es un aislante para proteger las conexiones electricas y no se heche a perder. Es desmontable (no recomendable).
 - Tiene Hotiyos para atornillarlo
 - Puerto circular: para que entre corriente
+- Botón para reset: simula conectar y desconectar el arduino.
 
 En la imagen sale la pantalla led mostrando un corazón
 <img width="373" alt="Captura de pantalla 2024-08-20 a la(s) 16 15 06" src="https://github.com/user-attachments/assets/da2f275d-2a03-4c21-ab1e-491f1eba61d9">
 
 La app de arduino es para programar para la placa.
 
-¿Por qué se popularizaron los puertos C? Porque no tiene dirección incorrecta para enchufarse
+¿Por qué se popularizaron los puertos C? Porque no tiene dirección incorrecta para enchufarse.
 
+**Mitchel Resnick:**
+- LEGO paper,
+- Lfelong kindergarden
+- Creador de scratch
+- 4 Ps de aprender: passion (gusto por lo que se hace), play, peers (trabajar con compañeros), proyects (haciendo proyectos). 
+
+¿Cómo pongo animaciones? Arduino UNO R4 Wifi led animations.
 
 
