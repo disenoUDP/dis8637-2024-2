@@ -1,3 +1,4 @@
 # clase-02
-Revisamos el encargo numero 2 
+
+## Revición al encargo numero 2 
 
