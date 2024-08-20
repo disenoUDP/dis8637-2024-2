@@ -3,14 +3,32 @@
 Clase 20 de agosto de 2024
 
 ## Conceptos
-- Resolución:
-- 
+- Resolución: Intervalos (Espacio/Tiempo)
+- Dimensión fisica: Forma/Ubicación
+- Variables: Cantidad de resultados
+- Latencia: Tiempo de respuesta
+- Etiqueta
+- Control
+- Feedback
+- Instrucciones
+- Visibilidad
+- Calibración
+
 
 
 ## sensores 
-1. proximidad
-2. perilla
-3. botones
+1. Perillas
+2. Botones
+3. D-Pad
+4. Tilt
+5. Presencia/Movimiento
+6. Proximidad
+7. Microfono
+8. Crepuscular
+
+## ¿Como subir una imagen?
+
+
 
 
 
