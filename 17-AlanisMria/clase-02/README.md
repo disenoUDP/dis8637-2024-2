@@ -57,6 +57,21 @@ Es un microcontrolador de color azul, con distintos tipos de puertos de conexió
   ## Galeria de animación Arduino
   https://forum.arduino.cc/t/help-with-led-matrix-animations-on-arduino-uno-r4-wifi-board/1247865/1 
 
+  ## Encargo 03
+  Entreagar un documento con el desarrollo conceptual de este objeto, implementando alguna de las interacciones presentes en el encargo anterior.
+  
+  - Nombre
+    
+  - Sensores: Características, como interactua, familia de sensores
+    
+  - Capacidades técnicas
+    
+  - Análogo o digital
+
+  - Como indicaremos la acción que esperamos del usuario
+  
+  Montaje de objetos interactivos, con manifestación visual en la pantalla de los arduinos incluyendo algún sensor. Debe ser elegante
+
 
 
 
