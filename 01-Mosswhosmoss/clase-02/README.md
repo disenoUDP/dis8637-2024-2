@@ -1,4 +1,4 @@
-# # clase-02
+# clase-02
 ### *Personas* ###
 - Leo Prieto
 - Joy Buolamwini
@@ -10,7 +10,7 @@
 ### *tarea* ###
 Ver documental Coded bias
 
-## Eperiencia e Interfaz ##
+## Eperiencia e Interfaz, conceptos del curso ##
 
 - **Resolución:** Estados que tiene / dimensiones
 - **Latencia:** Tiempo entre acción y reacción 
