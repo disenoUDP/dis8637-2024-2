@@ -9,12 +9,12 @@ Clase 20 de agosto de 2024
 - Latencia: Tiempo de respuesta
 - Etiqueta
 - Control
-- Feedback
+- Feedback: Sonido; Vibración/Háptico
 - Instrucciones
 - Visibilidad
 - Calibración
 
-
+  ## "En la iformación todo puede ser contextual"
 
 ## sensores 
 1. Perillas
@@ -27,7 +27,11 @@ Clase 20 de agosto de 2024
 8. Crepuscular
 
 ## ¿Como subir una imagen?
-
+![Texto](./img /nombrearchivo.jpg)
+ Se agrega img/ para crear una carpeta
+./ significa justo despues
+../ significa que estaran en la carpeta de atras
+../../../ tres carpetas hacia atrás
 
 
 
