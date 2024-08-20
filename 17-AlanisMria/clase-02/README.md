@@ -44,13 +44,13 @@ Clase 20 de agosto de 2024
 Es un microcontrolador de color azul, con distintos tipos de puertos de conexión, cuenta con un metodo de conexión vía Wifi, una mini pantalla led para proyectar animaciones, un pequeño botón blanco y una placa de algún tipo de polimero, que sirve a modo de aislante para evitar coto sircuitos y tambien para poder adherir la placa en un aterial por medio de tornillos, ya que cuenta con orificios.
 ![Texto](./Arduino.jpg)
 
-##¿Por qué el USB C paso a la universalidad?
+## ¿Por qué el USB C paso a la universalidad?
 
 - Orientación en la que debe posicionarse el puerto, ya que con el usb anterior era muy facil confundir las dirección.
 - Masificación de dispositivos que lo implementan
 - "Mayor durabilidad"
 
-##Una placa de Arduino puede ser mas potente que el comutador que hizo los calculos para mandar al Apolo11 al espacio (._.)
+## Una placa de Arduino puede ser mas potente que el comutador que hizo los calculos para mandar al Apolo11 al espacio (._.)
 
 
 
