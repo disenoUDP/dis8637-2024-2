@@ -14,7 +14,7 @@ jekyll
 ### *Issues (๑>؂•̀๑)*
 justificar cosillas en el github principal, etiquetar se etiqueta con @  
 
-## Eperiencia e Interfaz, conceptos del curso ##
+## Eperiencia e Interfaz, conceptos del curso ₍ᐢ. .ᐢ₎
 
 - **Resolución:** Estados que tiene / dimensiones
 - **Latencia:** Tiempo entre acción y reacción 
@@ -26,16 +26,20 @@ justificar cosillas en el github principal, etiquetar se etiqueta con @
 - **Skeumorfismo:** metafora visual estetica y funcional, una forma de representar un elemento
 - **Control de errores**
 
-## Sensores vistos ##
+## Sensores vistos (๑ > ᴗ < ๑)
 - Perilla
-- Panel tactil
+  - Potenciometro
+  - Encoder
+  - Panel tactil
 - Botones
-- Interruptor
+  - Interruptor
 - D-Pad
 - Joystick
 - Tilt
 - Pir
-- Presencia - Movimiento
+- Presencia
+  - Movimiento
 - Proximidad
 - Micrófono
 - Crepuscular
+- 
