@@ -1,13 +1,12 @@
 # # clase-02
 
 ### recomendaciones
-
-- documental. coded bias de la obra de joy buolamwini, tiene un libro
-- libro: weapons of math destruction
-- Leo Prieto, fundador de lemu
-- Donald Norman
-- Jackob Nilsen, investigador y creador de las heuristicas
-- runway
+1. documental. coded bias de la obra de joy buolamwini, tiene un libro
+2. libro: weapons of math destruction
+3. Leo Prieto, fundador de lemu
+4. Donald Norman
+5. Jackob Nilsen, investigador y creador de las heuristicas
+6. runway
 
 ### sensores
 
