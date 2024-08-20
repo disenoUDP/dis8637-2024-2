@@ -14,6 +14,7 @@
 
 ![texto](./apuntes
 
+
 En la parte superior del menú: dis8637-2024-2/18-BelenVeAg/clase-01
 / README.md 
   - Si está entre slash es que es una carpeta.
@@ -24,3 +25,6 @@ Cuando yo subo una imagen, puedo entrar a la imagen y con el ícono de 3 puntos 
 ./ es para decir "esto vive aquí", para decirle al programa dónde debe buscar mi archivo. Como escribir enlaces en el compu
 
 ../ = de donde estoy, una carpeta carpeta más atras. Mientras más puntos, más carpetas atrás. 
+
+Al visualizar un código puedes ver tres puntitos en las líneas de código y si lo apretas puedes apretar la opción de crear un link permanente que siempre te va a llevar eso.
+<img width="405" alt="Captura de pantalla 2024-08-20 a la(s) 16 00 13" src="https://github.com/user-attachments/assets/dc36b52e-b536-4a4c-9b89-99f2203ef010">
