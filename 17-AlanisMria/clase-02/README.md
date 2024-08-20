@@ -58,7 +58,7 @@ Es un microcontrolador de color azul, con distintos tipos de puertos de conexió
   https://forum.arduino.cc/t/help-with-led-matrix-animations-on-arduino-uno-r4-wifi-board/1247865/1 
 
   ## Encargo 03
-  Entreagar un documento con el desarrollo conceptual de este objeto, implementando alguna de las interacciones presentes en el encargo anterior.
+  Entregar un documento con el desarrollo conceptual de este objeto, implementando alguna de las interacciones presentes en el encargo anterior.
   
   - Nombre
     
