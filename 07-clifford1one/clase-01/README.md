@@ -4,4 +4,4 @@
 
 la clase fue escuchar muchas referencias y cosas
 
-![texto](./bitacora c1.jpg).
+![texto](./bitacoraC1tux.jpg).
