@@ -1,14 +1,18 @@
 # clase-02
-### *Personas ꒰ᐢ. .ᐢ꒱₊˚⊹* ###
+### *Personas ꒰ᐢ. .ᐢ꒱₊˚⊹*
 - Leo Prieto
 - Joy Buolamwini
 - Don don / Donald Dorman
 - Jakob Nielsen
-### *Libros .𖥔 ݁ ˖* ###
+### *Libros .𖥔 ݁ ˖* 
 - Unmasking AI
 - Weapons of math destruction
-### *tarea ٩(ˊᗜˋ*)و* ###
+### *tarea ٩(ˊᗜˋ*)و* 
 Ver documental Coded bias
+### *páginas web ⋆⑅˚₊* 
+jekyll
+### *Issues (๑>؂•̀๑)*
+justificar cosillas en el github principal, etiquetar se etiqueta con @  
 
 ## Eperiencia e Interfaz, conceptos del curso ##
 
