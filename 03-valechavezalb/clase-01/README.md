@@ -4,4 +4,4 @@
 
 Introducción al taller, presentación profesores y estudiantes
 
-![texto](./apuntes.jpg)
+![texto](./img.apuntes_1.jpg)
