@@ -5,6 +5,6 @@ otra prueba
 
 ## sensores
 
-0. perilla
+8. perilla
 1. proximidad
 1. crepuscular
