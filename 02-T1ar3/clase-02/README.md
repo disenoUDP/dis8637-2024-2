@@ -1,1 +1,3 @@
-# # clase-02
+# clase-02
+Revisamos el encargo numero 2 
+
