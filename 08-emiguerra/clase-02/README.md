@@ -55,3 +55,16 @@ Reference-style:
 ![alt text][logo]
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
+## arduino r4 💯
+- pjrc
+- conexión wifi, pantalla y bluetooth
+- smooth colores cables ya están definidos
+
+
+
+
+## mitchel resnick 
+- MIT lego paper/ kindergarten overview
+- 4 ps: project/ passion/ playing/ peers:)
+- 
