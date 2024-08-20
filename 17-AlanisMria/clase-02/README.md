@@ -91,8 +91,30 @@ Digital Write, envia una señal electrica a donde sea que este conectado
 
 Podemos escribir codigos antes de lo que esta predeterminado
 
-
 ## "En Arduino se piensa en el comportamiento y a la vez en la parte fisica"
+
+1.1.1 siginifica:
+
+primer numero -> Mejor versión
+
+Segundo numero -> Menor versión
+
+Tercer numero -> Parche
+
+Boards Manajer: Se pueden instalar elementos que nos permitan trabajar con distintas placas
+
+Library manager: Biblioteca donde podemos sacar codigos y no hacer todo desde 0.
+
+- Una manera de escribir espacios es con un _
+- Si algo esta en mayusculas es muy importante
+- Output: Emite salidas electricas
+- Delay: Tiempo de domora
+- 
+
+
+
+
+
 
 
 
