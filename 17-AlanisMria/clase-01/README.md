@@ -6,6 +6,6 @@
 ## ¿Como subir una imagen?
 ![Texto](link"texto")
 
-![Texto](./Apuntes.jpg)
-![Texto](./Apuntes1.jpg)
-![Texto](./Apuntes2.jpg)
+![Texto](./img/Apuntes.jpg)
+![Texto](./img/Apuntes1.jpg)
+![Texto](./img/Apuntes2.jpg)
