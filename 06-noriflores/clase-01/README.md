@@ -4,4 +4,4 @@ holi
 
 ## apuntes 
 
-![apuntes](/.apuntesclase1nori.jpeg)
+![apuntes](./apuntesclase1nori.jpeg)
