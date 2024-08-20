@@ -7,6 +7,7 @@ Hola apuntes de hoy -->
 Simpatia 
 Resolución
 Latencia 
+heurística
 
 ## Ejemplo interacciones curso 
 
@@ -21,7 +22,7 @@ variables monomando --> izq caliente - derecha fría  
 variables monomando --> arriba mucha agua - abajo poca agua 
 cantidad de estados —-> tiene un tiempo de respuesta —-> Latencia 
 
-## sensores
+## Sensores identificados
 
 1. perilla / panel tactil
 2. botones
@@ -39,7 +40,12 @@ Alexa usa nlp
 Hacer nuestra Alexa artesanal
 Sampleo
 Porque Alexa reconoces algunas voces?
+Jakob Nielsen ---> Heurística, aprendizaje que hemos construido a través de la experiencia
+Como por ejemplo el login a la derecha
 
 ## Recomendada para hoy
 1. Coded bias Joy buolamwini VER ESTE DOCUMENTAL COMO TAREA
 2. Leo prieto Satelite
+
+
+
