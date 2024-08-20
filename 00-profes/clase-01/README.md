@@ -4,3 +4,4 @@
 
 hicimos la introduccion al taller, nos presentamos como profesores y estudiantes. 
 
+![texto](link)
