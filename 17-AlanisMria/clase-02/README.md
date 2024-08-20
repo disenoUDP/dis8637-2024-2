@@ -71,6 +71,8 @@ Es un microcontrolador de color azul, con distintos tipos de puertos de conexió
   - Como indicaremos la acción que esperamos del usuario
 
   - 3 repositores en github quienes lo hayan implemententado
+
+  - Pensar en sus caracteristicas formales y materiales.
   
   Montaje de objetos interactivos, con manifestación visual en la pantalla de los arduinos incluyendo algún sensor. Debe ser elegante
 
