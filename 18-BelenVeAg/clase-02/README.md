@@ -33,14 +33,27 @@ Ejemplo: Hay sensores que tienen tinta para identificar a quienes lo accionaron.
 
 **Calibración**: forma de ajustar los parámetros de por ejemplo un sensor.
 
--------
+**Tipos de sensores que vimos:**
 
+- Botones
+- D-PAD
+- TILT
+- Presencia
+- Proximidad
+- Micrófono
+- Crespuscular: que detecta la presencia de luz solar
+- Perilla: como la de la estufa para regular la potencia de calor
+- Panel táctil
+
+---
 
 Github campus: programa para hacer repositorios académicos de Github, que después se puede hacer público.
 
 Runway: https://runwayml.com/   Empresa de gente chile que utilizan diseño e IA.
 
 HTML: High Markup Language, lenguaje de marcado utilizado en la creación de páginas web.
+
+
 
 
 
