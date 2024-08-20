@@ -54,6 +54,10 @@ Es un microcontrolador de color azul, con distintos tipos de puertos de conexió
 ## Una placa de Arduino puede ser mas potente que el comutador que hizo los cálculos para mandar al Apolo11 al espacio (._.)
 
 
+  ## Galeria de animación Arduino
+  https://forum.arduino.cc/t/help-with-led-matrix-animations-on-arduino-uno-r4-wifi-board/1247865/1 
+
+
 
 
 
