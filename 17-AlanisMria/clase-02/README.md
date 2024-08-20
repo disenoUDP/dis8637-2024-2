@@ -15,6 +15,7 @@ Clase 20 de agosto de 2024
 - Calibración
 - Esqueomorfismo: Botones, palancas, etc. ,mecánicas que permanecen en la digitalidad
 - Heuristica: Cosas aprendidas en base a la experienxia previa
+- Función
   
   ## "En la iformación todo puede ser contextual"
 
