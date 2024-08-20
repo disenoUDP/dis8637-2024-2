@@ -3,5 +3,5 @@
 13 de agosto de 2024
 
 
-## ¡Como subir una imagen?
+## ¿Como subir una imagen?
 ![Texto](link"texto")
