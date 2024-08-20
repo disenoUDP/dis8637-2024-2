@@ -3,13 +3,29 @@ probando mark down
 <!-- Dejar una linea en blanco para que el enter sea visible -->
 Hola apuntes de hoy
 
+### Palabras clave
+Simpatia 
+Resolución
+Latencia 
+
+## Ejemplo interacciones curso 
+
+### Ejemplo 1
+Botón nintendo
+division ——> forma - ubicación 
+Fisica
+
+### Ejemplo 2
+Monomando ——> parámetros ----> para sacar agua Una interfaz que maneja 2 variables 
+variables monomando --> izq caliente - derecha fría  
+variables monomando --> arriba mucha agua - abajo poca agua 
+cantidad de estados —-> tiene un tiempo de respuesta —-> Latencia 
+
 ## sensores
 
 1. perilla / panel tactil
 2. botones
 3. proximidad
-4. crepuscular
-5. Lista
 6. botones - interruptores
 7. D-pad
 8. Sensor Tilt
