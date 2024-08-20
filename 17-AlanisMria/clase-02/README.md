@@ -20,7 +20,7 @@ Clase 20 de agosto de 2024
 
   JAKOB NIELSEN -> "PRINCIPIOS DE LA USABILIDAD"
 
-## sensores 
+## Sensores 
 1. Perillas
 2. Botones
 3. D-Pad
@@ -30,7 +30,7 @@ Clase 20 de agosto de 2024
 7. Microfono
 8. Crepuscular
 
-## ¿Como subir una imagen?
+## ¿Cómo subir una imagen?
 
 ![Texto](./img /nombrearchivo.jpg)
 
