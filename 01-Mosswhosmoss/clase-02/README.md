@@ -27,19 +27,20 @@ justificar cosillas en el github principal, etiquetar se etiqueta con @
 - **Control de errores**
 
 ## Sensores vistos (๑ > ᴗ < ๑)
+- Proximidad
+- Micrófono
+- Crepuscular
+- D-Pad
+- Joystick
+- Tilt
+- Pir
 - Perilla
   - Potenciometro
   - Encoder
   - Panel tactil
 - Botones
   - Interruptor
-- D-Pad
-- Joystick
-- Tilt
-- Pir
 - Presencia
   - Movimiento
-- Proximidad
-- Micrófono
-- Crepuscular
-- 
+ 
+## Arduino ৻( •̀ ᗜ •́ ৻)
