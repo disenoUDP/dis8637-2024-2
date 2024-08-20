@@ -59,4 +59,19 @@ justificar cosillas en el github principal, etiquetar se etiqueta con @
 - tiene varios puertos
   - Un usb c
   - uno para una bateria
-   
+### ¿como funciona?
+funciones y variables
+lenguaje c++
+### variables
+/* = comentarios
+int = sirve para guardar números enteros, es decir, cualquier número positivo o negativo pero sin decimales.
+void = sólo se utiliza en las declaraciones de funciones. Indica que se espera que la función no devuelva información a la función desde la que se llamó.
+float = Tipo de datos para números de punto flotante, un número que tiene un punto decimal.
+string = Es un tipo de datos que es usado para guardar cadenas de caracteres.
+char = es un tipo de datos que ocupa 1 byte de memoria y almacena el valor de un caracter.
+ 
+## Encargo #03 (grupo de 2 en 2 semanas )
+Vamos a construir objetos interactivos, manifestacion visual con el led der arduino, y que tenga un sensor, elegante como el arduino
+- 1ra semana brief conceptual de las interacciones de los objetos, como base usar investigacion de interacciones mias o de mis pares.
+- 3 repositores en github usando el sensor que queremos usar
+### referente brand new noise, teenage.engieering
