@@ -46,4 +46,10 @@ para poder crear una carpeta en nuestro readme, podemos editar el nombre y agreg
 
 ### arduino
 
+- ES AZUL!!!
+- tiene pantalla led, donde podemos hacer animacioes
+- micro conyrolador que hace una tarea
+- tiene dos puertos a bateria y usb c
+- 
+
 
