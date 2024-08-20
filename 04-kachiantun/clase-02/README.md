@@ -5,6 +5,7 @@ Hola apuntes de hoy -->
 
 ##### Palabras clave
 Simpatia 
+Dimension
 Resolución
 Latencia 
 heurística
@@ -13,7 +14,7 @@ heurística
 
 #### Ejemplo 1
 Botón nintendo
-division ——> forma - ubicación 
+dimension ——> forma - ubicación 
 Fisica
 
 #### Ejemplo 2
@@ -46,6 +47,7 @@ Como por ejemplo el login a la derecha
 ## Recomendada para hoy
 1. Coded bias Joy buolamwini VER ESTE DOCUMENTAL COMO TAREA
 2. Leo prieto Satelite
+
 
 
 
