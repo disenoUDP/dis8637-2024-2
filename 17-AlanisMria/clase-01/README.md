@@ -4,4 +4,4 @@
 
 
 ## ¡Como subir una imagen?
-![Texto].(link "texto")
+![Texto](link"texto")
