@@ -53,6 +53,9 @@ Runway: https://runwayml.com/   Empresa de gente chile que utilizan diseño e IA
 
 HTML: High Markup Language, lenguaje de marcado utilizado en la creación de páginas web.
 
+Github tiene la capacidad de convertir tus apuntes en Readme.md en lenguaje HTML/página web.
+
+
 
 
 
