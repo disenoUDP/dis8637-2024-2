@@ -1,7 +1,7 @@
 # clase-02
 probando markdown
 
-***Hola esta es mi bitacora***
+<code style="color : magenta">Hola esta es mi bitacora</code>
 
 _hoy estamos aprendiendo a usar **Github** es **muy divertido**_
 
