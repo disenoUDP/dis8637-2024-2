@@ -8,7 +8,7 @@ Clase 20 de agosto de 2024
 - Variables: Cantidad de resultados
 - Latencia: Tiempo de respuesta
 - Etiqueta
-- Control
+- Control                
 - Feedback: Sonido; Vibración/Háptico
 - Instrucciones
 - Visibilidad: como se persive el estado del sistema
@@ -18,7 +18,7 @@ Clase 20 de agosto de 2024
   
   ## "En la iformación todo puede ser contextual"
 
-  JAKOB NIELSEN "PRINCIPIOS DE LA USABILIDAD"
+  JAKOB NIELSEN -> "PRINCIPIOS DE LA USABILIDAD"
 
 ## sensores 
 1. Perillas
