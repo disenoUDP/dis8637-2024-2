@@ -7,5 +7,5 @@ Se presentaron los profes y nos presentamos nosotros
 
 ![apuntes](./apuntes.jpg)
 
-**Alt text** 
-sirve para narrar la imagen para alguien
+## **Tarea**
+
