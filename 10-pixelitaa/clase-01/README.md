@@ -2,4 +2,4 @@
 
 ### Apuntes primera clase!. ݁₊ ⊹ . ݁˖ . ݁
 
-![_foto de los apuntes_](./apuntes.jpg)
+![_foto de los apuntes_](./apuntes.jpg.jpg)
