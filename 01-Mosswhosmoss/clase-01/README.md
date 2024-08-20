@@ -1,5 +1,5 @@
 # clase-01
-Estos son los apuntes de la clase 01, día 13 de agosto 2024
+Estos son los apuntes de la clase 01, día 13 de agosto 2024 𐙚₊˚⊹ᡣ𐭩( • ̀ω•́ )✧
 
 Se presentaron los profes y nos presentamos nosotros 
 
@@ -7,7 +7,7 @@ Se presentaron los profes y nos presentamos nosotros
 
 ![apuntes](./apuntes.jpg)
 
-## **Tarea**
+## **Tarea ( • ̀ω•́ )✧**
 
 ![Tarea parte 1](./tareaParte1.png)
 ![Tarea parte 2](./tareaParte2.png)
