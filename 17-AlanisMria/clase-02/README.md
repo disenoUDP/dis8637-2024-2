@@ -54,7 +54,7 @@ Es un microcontrolador de color azul, con distintos tipos de puertos de conexió
 ## Una placa de Arduino puede ser mas potente que el comutador que hizo los cálculos para mandar al Apolo11 al espacio (._.)
 
 
-  ## Galeria de animación Arduino
+  ## Galería de animación Arduino
   https://forum.arduino.cc/t/help-with-led-matrix-animations-on-arduino-uno-r4-wifi-board/1247865/1 
 
   ## Encargo 03
@@ -69,9 +69,12 @@ Es un microcontrolador de color azul, con distintos tipos de puertos de conexió
   - Análogo o digital
 
   - Como indicaremos la acción que esperamos del usuario
+
+  - 3 repositores en github quienes lo hayan implemententado
   
   Montaje de objetos interactivos, con manifestación visual en la pantalla de los arduinos incluyendo algún sensor. Debe ser elegante
 
+  ## Led Matrix edition 
 
 
 
