@@ -32,5 +32,9 @@
 - feedback
 - mapeo:
 - dimension fisica:
-- __skeuomorfismo__:metafora visual
+- __skeuomorfismo__: metafora visual
 - accesibilidad:
+
+### arduino
+
+
