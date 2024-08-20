@@ -52,7 +52,7 @@ Es un microcontrolador de color azul, con distintos tipos de puertos de conexió
 - Masificación de dispositivos que lo implementan
 - "Mayor durabilidad"
 
-## Una placa de Arduino puede ser mas potente que el computador que hizo los cálculos para mandar al Apolo11 al espacio (._.)
+## "Una placa de Arduino puede ser mas potente que el computador que hizo los cálculos para mandar al Apolo11 al espacio (._.)"
 
 
   ## Galería de animación Arduino
@@ -90,7 +90,7 @@ Digital Write, envia una señal electrica a donde sea que este conectado
 Podemos escribir codigos antes de lo que esta predeterminado
 
 
-## En Arduino se piensa en el comportamiento y a la vez en la parte fisica
+## "En Arduino se piensa en el comportamiento y a la vez en la parte fisica"
 
 
 
