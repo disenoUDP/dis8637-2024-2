@@ -106,11 +106,14 @@ Boards Manajer: Se pueden instalar elementos que nos permitan trabajar con disti
 Library manager: Biblioteca donde podemos sacar codigos y no hacer todo desde 0.
 
 - Una manera de escribir espacios es con un _
-- Si algo esta en mayusculas es muy importante
-- Output: Emite salidas electricas
-- Delay: Tiempo de domora
 - 
+- Si algo esta en mayusculas es muy importante
 
+- Output: Emite salidas electricas
+
+- Delay: Tiempo de domora
+
+- Int division = /2: sirve para inventar palabras como "division" que al ponerlas en cualquier parte completen la accion con lo que viene despues de el =
 
 
 
