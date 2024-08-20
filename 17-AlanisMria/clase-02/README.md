@@ -81,13 +81,14 @@ Es un microcontrolador de color azul, con distintos tipos de puertos de conexió
 
 ## Programación Arduino
 
+Podemos escribir codigos antes de lo que esta predeterminado
+
 Función set up contiene el codigo que da ordenes y la funcion loop contiene los codigos que se repetirán, los () contienen la información,  Pinmode busca un pin (Cual y que debe hacer), int "nombre de pin" = "numero de pin" define donde se dirigirá la info
 
 Digital Write, envia una señal electrica a donde sea que este conectado 
 
 Podemos escribir codigos antes de lo que esta predeterminado
 
-Si se carga el codigo en una placa de arduino
 
 ## En Arduino se piensa en el comportamiento y a la vez en la parte fisica
 
