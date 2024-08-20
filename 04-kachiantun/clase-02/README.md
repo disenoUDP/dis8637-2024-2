@@ -3,19 +3,19 @@ probando mark down
 <!-- Dejar una linea en blanco para que el enter sea visible -->
 Hola apuntes de hoy
 
-### Palabras clave
+##### Palabras clave
 Simpatia 
 Resolución
 Latencia 
 
 ## Ejemplo interacciones curso 
 
-### Ejemplo 1
+#### Ejemplo 1
 Botón nintendo
 division ——> forma - ubicación 
 Fisica
 
-### Ejemplo 2
+#### Ejemplo 2
 Monomando ——> parámetros ----> para sacar agua Una interfaz que maneja 2 variables 
 variables monomando --> izq caliente - derecha fría  
 variables monomando --> arriba mucha agua - abajo poca agua 
