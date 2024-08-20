@@ -43,4 +43,9 @@ justificar cosillas en el github principal, etiquetar se etiqueta con @
 - Presencia
   - Movimiento
  
+## markdown
+- **Alt text** sirve para narrar la imagen para alguien
+- **./** significa desde aqui mismo, como se escriben enlaces en el computador
+- **../** significa detras de aqui mismo
+ 
 ## Arduino ৻( •̀ ᗜ •́ ৻)
