@@ -11,10 +11,14 @@ Clase 20 de agosto de 2024
 - Control
 - Feedback: Sonido; Vibración/Háptico
 - Instrucciones
-- Visibilidad
+- Visibilidad: como se persive el estado del sistema
 - Calibración
-
+- Esqueomorfismo: Botones, palancas, etc. ,mecánicas que permanecen en la digitalidad
+- Heuristica: Cosas aprendidas en base a la experienxia previa
+  
   ## "En la iformación todo puede ser contextual"
+
+  JAKOB NIELSEN "PRINCIPIOS DE LA USABILIDAD"
 
 ## sensores 
 1. Perillas
@@ -27,11 +31,14 @@ Clase 20 de agosto de 2024
 8. Crepuscular
 
 ## ¿Como subir una imagen?
+
 ![Texto](./img /nombrearchivo.jpg)
+
  Se agrega img/ para crear una carpeta
-./ significa justo despues
-../ significa que estaran en la carpeta de atras
-../../../ tres carpetas hacia atrás
+ 
+- ./ significa justo despues
+- ../ significa que estaran en la carpeta de atras
+- ../../../ tres carpetas hacia atrás
 
 
 
