@@ -7,6 +7,7 @@
 4. Donald Norman
 5. Jackob Nilsen, investigador y creador de las heuristicas
 6. runway
+7. brand new noise, tienda
 
 ### sensores
 
@@ -50,6 +51,12 @@ para poder crear una carpeta en nuestro readme, podemos editar el nombre y agreg
 - tiene pantalla led, donde podemos hacer animacioes
 - micro conyrolador que hace una tarea
 - tiene dos puertos a bateria y usb c
-- 
 
-
+## encargo (para dos semana mas)
+- montaje de objetos interactivos, que tnedran una manifestacion visual con el led de arduino y que tenga un sensor
+- proxima semana comenzaremos con el desarrollo conce´tual del objeto, punto de partida el trabajo de hoy, mio o de mis compañero
+- referentes de esas interacciones
+- entregable, un brief de la conceptualizacion
+- muy importante la manufactura fisica
+- INTENSA INVENTIGACION DE REFERENTES
+- 3 repocitorios en github que use los censores que queremos usar
