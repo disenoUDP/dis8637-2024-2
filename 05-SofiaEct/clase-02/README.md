@@ -51,6 +51,10 @@ para poder crear una carpeta en nuestro readme, podemos editar el nombre y agreg
 - tiene pantalla led, donde podemos hacer animacioes
 - micro conyrolador que hace una tarea
 - tiene dos puertos a bateria y usb c
+- int funciona como let en arduino, nos deja tener mas variables ya que let es muy limitado, en este caso int e sun numero entero
+  <img width="617" alt="image" src="https://github.com/user-attachments/assets/b01c5688-7657-4091-bfc4-7a9f10342438">
+- char es equivalente a una letra, si ponemos el numero 3, no es un nuero, sino mas bien un caracter representativo
+
 
 ## encargo (para dos semana mas)
 - montaje de objetos interactivos, que tnedran una manifestacion visual con el led de arduino y que tenga un sensor
