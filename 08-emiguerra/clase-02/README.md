@@ -1,4 +1,6 @@
 # clase-02
+esto se hizo el dia martes 20 de agosto del 2024
+
 ## características y dimensiones físicas/ entendimiento del objeto (conceptos)
 - leyenda/ instrucciones
 - resolución
