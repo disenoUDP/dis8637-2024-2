@@ -5,3 +5,5 @@ holi
 ## apuntes 
 
 ![apuntes](./apuntesclase1nori.jpeg)
+
+viva chile funciono
