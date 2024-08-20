@@ -1,5 +1,5 @@
 # clase-02
-probando
+# probando
 
 ## probando
 1. prueba
