@@ -7,6 +7,7 @@
 - Leo Prieto, fundador de lemu
 - Donald Norman
 - Jackob Nilsen, investigador y creador de las heuristicas
+- runway
 
 ### sensores
 
