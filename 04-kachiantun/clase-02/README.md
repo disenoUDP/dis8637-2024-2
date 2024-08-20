@@ -1,7 +1,7 @@
 # clase-02
-probando mark down
-<!-- Dejar una linea en blanco para que el enter sea visible -->
-Hola apuntes de hoy
+<!-- probando mark down
+Dejar una linea en blanco para que el enter sea visible 
+Hola apuntes de hoy -->
 
 ##### Palabras clave
 Simpatia 
