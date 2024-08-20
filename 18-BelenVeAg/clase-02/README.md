@@ -55,7 +55,12 @@ HTML: High Markup Language, lenguaje de marcado utilizado en la creación de pá
 
 Github tiene la capacidad de convertir tus apuntes en Readme.md en lenguaje HTML/página web.
 
-Markdown 
+Tips para Markdown:
+  - https://www.markdownguide.org/cheat-sheet/
+
+
+
+
 
 
 
