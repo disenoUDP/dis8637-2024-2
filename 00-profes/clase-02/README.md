@@ -1,9 +1,10 @@
 # clase-02
-# Ejercicio 01
-Revisión de los principales criterios y componentes de las experiencas presentadas por los estudiantes.
+probando markdown
 
-Armamos un glosario de términos importantes, y otro de sensores
+otra prueba
 
-# Introducción a Github
+## sensores
 
-# Introducción a Arduino
+8. perilla
+1. proximidad
+1. crepuscular
