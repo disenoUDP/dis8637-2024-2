@@ -5,3 +5,5 @@
 la clase fue escuchar muchas referencias y cosas
 
 ![texto](./bitacoraC1tux.jpg).
+
+./https://www.imdb.com
