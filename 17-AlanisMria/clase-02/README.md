@@ -118,7 +118,7 @@ Library manager: Biblioteca donde podemos sacar codigos y no hacer todo desde 0.
 ##Una manera facil de programar Arduinos es seleccionarlo primero como puerto, para luego ir a examples y que aparezcan modos específicos para el modelo de manera predeterminada, por ejemplo LED_matrix, que sirve para poder animar y controlar las luces led.
 
 
-![Texto](./VideoArduino.mp4)
+![Texto](./videoArduino.mp4)
 
 
 
