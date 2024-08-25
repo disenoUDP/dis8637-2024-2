@@ -1,6 +1,6 @@
 # clase-03
 
-# # avance de encargo
+## avance de encargo
 
 el sensor que me llevé es un sensor de distancia con luz infrarroja (SHARP 2YOAO2 F 5X)
 
