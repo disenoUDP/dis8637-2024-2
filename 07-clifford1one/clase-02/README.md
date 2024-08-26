@@ -43,5 +43,5 @@ https://guitarhero.fandom.com/es/wiki/Guitar_Hero_Wiki:Guitar_Hero_Wiki
 https://www.reddit.com/r/GuitarHero/
 
 
-![texto](./hexadeciamltux.jpg).
+![texto](./apunteHexadeciTux.jpg).
 
