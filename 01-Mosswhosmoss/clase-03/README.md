@@ -21,7 +21,7 @@ Ideamos el diseño del dispositivo como una caja de madera transportable, en la 
 
 ***Boceto de "HUE HUNT"***
 
-![Boceto Hue Hunt](bocetoproyecto.jpg)
+![Boceto Hue Hunt](bocetoproyecto.jpeg)
 
 ***Imagen de [@brandnewnoise](https://www.instagram.com/brandnewnoise)***
 
