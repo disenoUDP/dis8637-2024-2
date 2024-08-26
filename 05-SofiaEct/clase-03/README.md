@@ -1,10 +1,12 @@
 # clase-03
 
-## Brief
+## HUE HUNT
 
 Con [@Mosswhosmoss](https://github.com/Mosswhosmoss/dis8637-2024-2) ideamos el proyecto __"HUE HUNT"__ en base a las referencias de el juego _"whack-a-mole"_. El proyecto consiste principalmente en juego de memoria y color, como lo seria el juego _"pop it"_ y a medida que vaya suprando los "niveles aumente la dificultad.
 
 El proposito de este juego es trabajar la habilidad motora de los reflejos, tanto para niños como adultos mayores, a quienes se les dificulta mas desarrollar estas habilidades.
+
+## REFEREBTES
 
 ***Ejemplo del juego whack-a-mole***
 
@@ -13,6 +15,8 @@ El proposito de este juego es trabajar la habilidad motora de los reflejos, tant
 ***Ejemplo del juego pop it***
 
 https://github.com/user-attachments/assets/cc712618-53b4-4c0d-a535-d1b04aa49962
+
+## DISEÑO Y MATERIALES
 
 Ideamos el diseño del dispositivo como una caja de madera transportable, en la cual tendria sus repectivas instrucciones y gruias graficas para el uso de el mismo.
 
