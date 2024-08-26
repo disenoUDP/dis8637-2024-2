@@ -4,7 +4,7 @@
 
 Con [@Mosswhosmoss](https://github.com/Mosswhosmoss/dis8637-2024-2) ideamos el proyecto __"HUE HUNT"__ en base a las referencias de el juego _"whack-a-mole"_. El proyecto consiste principalmente en juego de memoria y color, como lo sería el juego _"pop it"_ y a medida que vaya superando los "niveles” aumente la dificultad.
 
-El proyecto ”HUE HUNT” que trata de un juego interactiovo que combina el reconocimiento de color, inspirado por el juego _“whack-a-mole”_. El objetivo del juego es ayudar a los jugadores a mejorar sus habilidades cognitivas, como la memoria y reconocimiento de patrones y colores como lo sería el juego_”pop it”_. A medida que los jugadores avanzan los patrones de color, estos aumentan en dificultad. 
+El proyecto ”HUE HUNT” que trata de un juego interactiovo que combina el reconocimiento de color, inspirado por el juego _“whack-a-mole”_. El objetivo del juego es ayudar a los jugadores a mejorar sus habilidades cognitivas, como la memoria y reconocimiento de patrones y colores como lo sería el juego _”pop it”_. A medida que los jugadores avanzan los patrones de color, estos aumentan en dificultad. 
 
 El propósito principal de "HUE HUNT" es desarrollar y mantener las habilidades motoras finas y reflejos, especialmente en grupos etarios que pueden encontrar desafíos particulares en estas áreas, como niños en desarrollo y adultos mayores. Al enfocarse en la velocidad de reacción y la coordinación ojo-mano, el juego ofrece un entrenamiento cognitivo y físico divertido y accesible.
 
