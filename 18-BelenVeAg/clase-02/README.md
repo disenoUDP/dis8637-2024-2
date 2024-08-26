@@ -162,3 +162,9 @@ delay= es una pausa---> delay(1000); es esperar un segundo
 Cuando yo pongo = estoy haciendo una declaración
 
 const int x = y : es para evitar cambiar el valor durante el código. Si no esta puesto (solo int) puedes ir cambiando el valor de x más adelante. 
+
+## Investigación posterior a la clase
+
+Toda la info en: <https://www.figma.com/board/xVQXT7prN3tPQGOM8VX5pf/Untitled?node-id=14-253&t=Yj3GUr811eOvytBd-0>
+
+<https://www.youtube.com/watch?v=KQiDKHCCF64>
