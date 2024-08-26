@@ -78,6 +78,7 @@ Nuestra versión la UNO R4 Wifi tiene:
 - Botón para reset: simula conectar y desconectar el arduino.
 
 En la imagen sale la pantalla led mostrando un corazón
+
 <img width="373" alt="Captura de pantalla 2024-08-20 a la(s) 16 15 06" src="https://github.com/user-attachments/assets/da2f275d-2a03-4c21-ab1e-491f1eba61d9">
 
 La app de arduino es para programar para la placa.
@@ -146,6 +147,7 @@ https://semver.org/lang/es/
 Podemos escribir así nuestros commits
 
 Ejemplo de que podemos publicar nuestro software en la biblioteca de arduino (este es de Aarón
+
 <img width="264" alt="Captura de pantalla 2024-08-20 a la(s) 17 48 30" src="https://github.com/user-attachments/assets/7b66e41b-201a-4486-9833-79ba2ccb9639">
 
 El pin 13 en nuestro arduino está conectado al LED.
@@ -162,3 +164,9 @@ delay= es una pausa---> delay(1000); es esperar un segundo
 Cuando yo pongo = estoy haciendo una declaración
 
 const int x = y : es para evitar cambiar el valor durante el código. Si no esta puesto (solo int) puedes ir cambiando el valor de x más adelante. 
+
+## Investigación posterior a la clase
+
+Toda la info en: <https://www.figma.com/board/xVQXT7prN3tPQGOM8VX5pf/Untitled?node-id=14-253&t=Yj3GUr811eOvytBd-0>
+
+<https://www.youtube.com/watch?v=KQiDKHCCF64>

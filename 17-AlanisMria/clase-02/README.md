@@ -115,6 +115,10 @@ Library manager: Biblioteca donde podemos sacar codigos y no hacer todo desde 0.
 
 - Int division = /2: sirve para inventar palabras como "division" que al ponerlas en cualquier parte completen la accion con lo que viene despues de el =
 
+## Una manera facil de programar Arduinos es seleccionarlo primero como puerto, para luego ir a examples y que aparezcan modos específicos para el modelo de manera predeterminada, por ejemplo LED_matrix, que sirve para poder animar y controlar las luces led.
+
+
+![VideoArduino](./videoArduino.mp4) 
 
 
 
