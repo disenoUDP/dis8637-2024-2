@@ -6,7 +6,7 @@ Con [@Mosswhosmoss](https://github.com/Mosswhosmoss/dis8637-2024-2) ideamos el p
 
 El proposito de este juego es trabajar la habilidad motora de los reflejos, tanto para niños como adultos mayores, a quienes se les dificulta mas desarrollar estas habilidades.
 
-## REFEREBTES
+## REFERENTES
 
 ***Ejemplo del juego whack-a-mole***
 
@@ -28,3 +28,12 @@ Ideamos el diseño del dispositivo como una caja de madera transportable, en la 
 
 <img width="422" alt="image" src="https://github.com/user-attachments/assets/52393c02-7d55-47f8-8ff8-1a245522591a">
 
+Materiales:
+1. Madera
+2. botones
+3. luces led
+4. interruptores
+5. cables de conexion
+6. etc
+
+## REPOSITORIOS DE GITHUB
