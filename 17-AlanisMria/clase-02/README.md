@@ -127,7 +127,7 @@ Esto se puede hacer habilitando la opcion de led_matrix y luego LivePreview en a
 https://ledmatrix-editor.arduino.cc/
 https://www.youtube.com/watch?v=6A_xKy1qANw
 
-## Codigo de animación de un HOLA en calve morse
+## Código de animación de un HOLA en calve morse
 
 const uint32_t animation[][4] = {
 	{
@@ -204,7 +204,7 @@ const uint32_t animation[][4] = {
 	}
 };
 
-## Codigo animación estrellita
+## Código animación estrellita
 
 const uint32_t animation[][4] = {
 	{
