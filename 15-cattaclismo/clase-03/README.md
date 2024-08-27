@@ -14,9 +14,13 @@ a partir de ver cómo funciona este sensor en particular se me ocurrieron muchas
 
 3. dron, en este caso se me ocurre un dron con forma de casa (como la de up), en esta, el sensor que tengo en mis manos funcionaría como sensor de proximidad, cosa de que, al colocar la mano bajo la casa, se active y vuele.
 
+[ver imagen bitacora](./bitacora03.jpg) 
+
 # AVANCE TRABAJO
 
 [en el siguiente archivo se mostrará a detalle nuestro proyecto](./Uptoy.pdf)
+
+referente: https://youtu.be/zC75822HU9o?feature=shared 
 
 ## lista de repositorios 
 
@@ -24,5 +28,6 @@ a partir de ver cómo funciona este sensor en particular se me ocurrieron muchas
 
 2. https://github.com/ZenoRobotics/SharpIRDistanceScanner/blob/main/SharpIRDistanceSensorObjTrack/SharpIRDistanceSensorObjTrack.ino
 
-3. https://github.com/RodrigoSturm14/Sensores-Sharp-2Y0A02 
+3. https://github.com/RodrigoSturm14/Sensores-Sharp-2Y0A02
+   
 
