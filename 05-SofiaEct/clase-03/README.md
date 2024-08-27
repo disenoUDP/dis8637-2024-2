@@ -37,7 +37,7 @@ Materiales:
 4. interruptores
 5. cables de conexión a toma corriente
 
-## Como se juega/Jugabilidad 
+## CÓMO SE JUEGA? 
 
 Después de encender nuestro “HUE HUNT” veremos que se prenden los aros de luz alrededor de los “topos” estos una vez dejen de parpadear empezaran a crear una secuencia de colores que se debe de memorizar, para que así una vez termine esta secuencia, el jugador presione los “topos” en el orden correcto, pasando al siguiente nivel.
 
