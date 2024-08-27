@@ -45,3 +45,10 @@ Después de encender nuestro “HUE HUNT” veremos que se prenden los aros de l
 2. [ButtonDriver-](https://github.com/myles-parfeniuk/button_driver) Es una guía de como usar botones.
 3. [ClickButton](https://github.com/marcobrianza/ClickButton) Es una biblioteca de botones en arduino.
 
+# Clase
+
+## tarea
+Ayudar a compañeres con la iniciacion de actividades en el SII 
+
+## Plan del día
+Desarrollar tecnicamente el trabajo conceptual del encargo
