@@ -1,6 +1,6 @@
 # clase-03
 
-## Repositorios y videos explicativos que usan el codigo
+## Repositorios y videos explicativos que usan el sensor
 #### Un sensor de Sonido y una tira Led RGB que cambia de color con la frecuencia del sonido, se utiliza la música como ejemplo:
 
 ### 1. BRAIN SMASH
