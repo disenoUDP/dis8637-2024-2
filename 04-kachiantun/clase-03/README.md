@@ -5,7 +5,7 @@
 
 ### 1. BRAIN SMASH
 
-AUTOR: DAEDALUS 7/2019
+AUTOR: DAEDALUS
 
 Github.com/BrainSmash 
 
