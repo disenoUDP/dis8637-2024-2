@@ -2,3 +2,5 @@
 
 ## Encargo
 Hacer inicio de actividades (o fallar en el intento) 
+
+
