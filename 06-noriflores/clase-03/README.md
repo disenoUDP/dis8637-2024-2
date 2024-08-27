@@ -5,7 +5,7 @@
 ![encargo03](./Uptoy.jpg "encargo3uptoy")
 
 
-### Alt-repositorios de github
+### Alt-H2repositorios de github
 
 https://github.com/RodrigoSturm14/Sensores-Sharp-2Y0A02
 
