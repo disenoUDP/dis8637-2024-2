@@ -263,6 +263,8 @@ const uint32_t animation[][4] = {
 	}
 };
 
+![VideoArduino](./estrellita.mp4) 
+
 ## Repositorio Matrices Led
 
 https://github.com/danidask/MatrizLed
@@ -318,6 +320,8 @@ nuevo en el alfabeto español y luego en código morse.
 - dot-dash
   
 - dash-dot
+
+  
 
  
 
