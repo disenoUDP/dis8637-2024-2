@@ -17,4 +17,5 @@ frong  https://www.frog.co/
 uno puede simplificar tu programcion .
 objetos que se puedan replicables 
 correcion puede ser simbolos .
+vidrio de aumento para que se vea mejor el arduino ( muy buena eleccion del grupo 2)
 
