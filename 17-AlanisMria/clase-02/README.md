@@ -208,6 +208,8 @@ const uint32_t animation[][4] = {
 
 https://github.com/danidask/MatrizLed
 
+https://github.com/MajicDesigns/MD_MAX72XX
+ 
 
 
 
