@@ -221,6 +221,10 @@ https://github.com/danidask/MatrizLed
 
 ## FigJam
 https://www.figma.com/board/xVQXT7prN3tPQGOM8VX5pf/Untitled?node-id=0-1&t=JB5KrtRkH9XKZWRm-0
+
+## Repositorio Parlantes y arduino 
+
+https://github.com/gcupko00/ArMus
  
 
 
