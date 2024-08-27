@@ -49,6 +49,11 @@ Después de encender nuestro “HUE HUNT” veremos que se prenden los aros de l
 
 ## tarea
 Ayudar a compañeres con la iniciacion de actividades en el SII 
+Escuchar disco 2 y 3 de charly garcia
 
 ## Plan del día
 Desarrollar tecnicamente el trabajo conceptual del encargo
+
+## correcciones
+
+
