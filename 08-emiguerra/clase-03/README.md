@@ -4,6 +4,8 @@
 
 ### ENTREGABLES:
 
+dispositivo que sirve para guardar cosas de valor, imitando a una caja fuerte que se puede abrir solo con reconocimiento facial
+
 
 
 ## 1. nombre del dispositivo:
