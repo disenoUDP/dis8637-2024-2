@@ -3,4 +3,4 @@
 ## Encargo
 Hacer inicio de actividades (o fallar en el intento) 
 
-
+¡No usar caht gpt para hacer codigos!
