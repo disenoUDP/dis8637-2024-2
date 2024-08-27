@@ -115,3 +115,4 @@ https://jayeshkumarjangir49.medium.com/door-unlock-using-face-recognition-arduin
 - https://github.com/deepinsight/insightface
 - https://github.com/animikhaich/Facial-recognition-based-automatic-door-lock-unlock-system
 - https://github.com/espressif/esp32-camera
+- https://github.com/fundacionayesa/ai-reconocimiento-facial-python/blob/master/Reconocedor%20Facial.ipynb
