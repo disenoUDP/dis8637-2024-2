@@ -263,7 +263,7 @@ const uint32_t animation[][4] = {
 	}
 };
 
-![VideoArduino](./estrellita.mp4) 
+![VideoEstrellita](./estrellita.mp4) 
 
 ## Repositorio Matrices Led
 
