@@ -46,3 +46,17 @@ Después de encender nuestro “HUE HUNT” veremos que se prenden los aros de l
 1. [Plaid-Pad](https://github.com/Keycapsss/Plaid-Pad) Es un teclado númerico. 
 2. [ButtonDriver-](https://github.com/myles-parfeniuk/button_driver) Es una guía de como usar botones.
 3. [ClickButton](https://github.com/marcobrianza/ClickButton) Es una biblioteca de botones en arduino.
+
+## 27 AGOSTO
+
+Listado de componentes
+1. arduino
+2. interruptor
+3. bateria (pilas)
+4. porta pilas
+5. cables de conexion (ver nombres)
+6. botones led arcade retroiluminado
+7. cable jumper
+8. resistores
+9. tela de almohadilla
+10. relleno para la almohadilla
