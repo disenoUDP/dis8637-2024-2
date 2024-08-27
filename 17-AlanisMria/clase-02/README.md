@@ -215,6 +215,8 @@ https://github.com/danidask/MatrizLed
  Luego de descargar el archivo Zip, nos dirigimos a la opcion Sketch, ppara luego ir a include library y por ultimo a Add.Zip library.
  
  Por ultimo iremos a ejemplos y buscaremos MD_MAX72XX.
+
+ Cuando ya se encuentra la matriz led y el arduino conectados, nos aseguraremos en Herramientas de que se encuentren en las opciones tanto del modelo de ardiuno como del puerto correctamente, finalmente enviamos nuestro codigo.
  
 
 ## FigJam
