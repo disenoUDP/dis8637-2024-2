@@ -7,3 +7,11 @@
  natural lenguaje processing (npl): lenguaje utilizado por interfaces como alexa
 
  recordar descargar arduino ide 2.3.2
+
+ # encargo 03
+
+ montaje de objetos interactivos
+
+ clase 03 traer: desarrollo conceptual de la interaccion que se quiere hacer, nombre, sensor que va a usar, caracteristicas de operacion y forma general que va a tener.
+
+ 
