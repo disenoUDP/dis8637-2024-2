@@ -18,4 +18,6 @@ uno puede simplificar tu programcion .
 objetos que se puedan replicables 
 correcion puede ser simbolos .
 vidrio de aumento para que se vea mejor el arduino ( muy buena eleccion del grupo 2)
-
+medir el tiempo del cada proceso 
+traer en la clase marte 3 : la proxima clases ya contruido pero funcional 
+mostrar nuestras fortalezas 
