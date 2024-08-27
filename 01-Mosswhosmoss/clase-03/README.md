@@ -54,6 +54,28 @@ Escuchar disco 2 y 3 de charly garcia
 ## Plan del día
 Desarrollar tecnicamente el trabajo conceptual del encargo
 
-## correcciones
+## Sensor
 
+### __Botones retroiluminados con led:__
+#### ¿Que son?
 
+Estos botones (tambien denominados switches) son un tipo de botón diseñado para proporcionar información visual cuando están activados.
+Los interruptores incorporan una pequeña luz LED que se ilumina cuando se encuentra encendido. Esta luz puede utilizarse para indicar información diversa, como si un dispositivo está encendido o apagado, si se ha seleccionado un ajuste específico o si una función concreta está activa.
+
+#### Tipos de botones led
+
+Existen dos tipos principales de pulsadores con iluminación LED: 
+1. Montaje en PCB
+2. Montaje en Panel
+
+__Montaje en PCB__
+
+Los botones montados en PCB suelen ser más pequeños y están diseñados para soldarse a una placa de circuito impreso, lo que los convierte en la opción ideal para dispositivos pequeños.
+
+__Montaje en Panel__
+
+Los botones de montaje en panel son más grandes y están diseñados para montarse en un panel o caja.
+
+__Boton retroiluminado led arcade__ 
+
+Estos botones estan diseñados para iluminarse cuando esten presionados para generar una informacion visual.
