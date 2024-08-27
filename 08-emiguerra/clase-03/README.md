@@ -64,8 +64,11 @@ https://articulo.mercadolibre.cl/MLC-928329655-buzzer-zumbador-95-db-3-24v-12v-p
 
 
 ## 5. materialidad (como se va a construir)
-- "caja fuerte" y sistema de cerradura en impresion 3d
+- "caja fuerte" y sistema de cerradura 
 - posibles formas:
+- Terciado en la cnc 
+- Acrilico transparente 
+- componentes con impresión 3d
 
 ![image](https://github.com/user-attachments/assets/e2a91312-450b-4885-a2aa-834d9ffd98c6)
 ![image](https://github.com/user-attachments/assets/5e71a191-4fe3-42db-a0d5-169c939dd577)
