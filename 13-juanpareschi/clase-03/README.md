@@ -18,3 +18,7 @@ Pensando en la forma, a Paula se le ocurrió la idea de recurrir a la forma de u
 ![bola](https://github.com/user-attachments/assets/47278d04-ec85-4fa3-83dc-244142150065)
 
 Para que el objeto se adapte a esta forma estacionaria, convertimos la bola en un domo, para así poder apoyarse sobre una superficie y estar el display en la parte superior del domo debemos asegurarnos que la entrada para el sensor de sonido se encuentre en la orientación adecuada.
+
+### Referencias de codigo
+- [Patapom - Datasheet de uso del modulo del microfono](https://github.com/Patapom/Arduino/blob/master/Doc/Datasheets/Elegoo%20Devices/Arduino%20KY-037%20Sensitive%20microphone%20sensor%20module.pdf)
+- [Ricardo Moreno - Sketch para uso del sensor de sonido](https://www.github.com/rmorenojr/ElegooTutorial/tree/master/Lesson%2020%20-%20Sound%20Sensor%20Module/SoundSensor)
