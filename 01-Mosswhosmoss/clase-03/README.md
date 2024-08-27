@@ -9,7 +9,7 @@ El propósito principal de "HUE HUNT" es desarrollar y mantener las habilidades 
 
 ***Ejemplo del juego whack-a-mole***
 
-![***Ejemplo whack-a-mole*** ](./whackamole.png)
+![***Ejemplo whack-a-mole*** ](img/whackamole.png)
 
 ***Ejemplo del juego pop it***
 
@@ -21,7 +21,7 @@ Ideamos el diseño del dispositivo como una caja de madera transportable, en la 
 
 ***Boceto de "HUE HUNT"***
 
-![Boceto Hue Hunt](bocetoproyecto.jpeg)
+![Boceto Hue Hunt](img/bocetoproyecto.jpeg)
 
 ***Imagen de [@brandnewnoise](https://www.instagram.com/brandnewnoise)***
 
