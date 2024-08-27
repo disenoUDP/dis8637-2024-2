@@ -46,3 +46,5 @@ https://www.reddit.com/r/GuitarHero/
 ![texto](./apunteHexaTux.jpg).
 
 ![texto](./apunteHexaTux2.jpg).
+
+![texto](./apunteHexaTux3.jpg).
