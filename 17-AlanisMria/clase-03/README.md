@@ -1,4 +1,4 @@
 # clase-03 27 de Agosto de 2024
 
 ## Encargo
-Hacer inicio de actividades 
+Hacer inicio de actividades (o fallar en el intento) 
