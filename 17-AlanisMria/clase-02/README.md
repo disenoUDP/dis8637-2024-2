@@ -208,7 +208,7 @@ const uint32_t animation[][4] = {
 
 https://github.com/danidask/MatrizLed
 
-https://github.com/MajicDesigns/MD_MAX72XX
+ para usar el array de led debemos descargar una biblioteca para arduinohttps://github.com/MajicDesigns/MD_MAX72XX
 
 ## FigJam
 https://www.figma.com/board/xVQXT7prN3tPQGOM8VX5pf/Untitled?node-id=0-1&t=JB5KrtRkH9XKZWRm-0
