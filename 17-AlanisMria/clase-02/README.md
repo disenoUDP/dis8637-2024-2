@@ -204,6 +204,65 @@ const uint32_t animation[][4] = {
 	}
 };
 
+## Codigo animación estrellita
+
+const uint32_t animation[][4] = {
+	{
+		0x4006006,
+		0x7fe3f80,
+		0xf819830c,
+		80
+	},
+	{
+		0x4006006,
+		0x7fe3980,
+		0xf819830c,
+		66
+	},
+	{
+		0x4006006,
+		0x79e3080,
+		0x981f830c,
+		80
+	},
+	{
+		0x44825016,
+		0xfffe00,
+		0xd0148244,
+		66
+	},
+	{
+		0x44825016,
+		0xfffe00,
+		0xd0148244,
+		66
+	},
+	{
+		0x25016,
+		0xfe7e00,
+		0xd0148000,
+		66
+	},
+	{
+		0x16,
+		0xfc3e00,
+		0xd0000000,
+		66
+	},
+	{
+		0x0,
+		0xf81e00,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0x600600,
+		0x0,
+		66
+	}
+};
+
 ## Repositorio Matrices Led
 
 https://github.com/danidask/MatrizLed
