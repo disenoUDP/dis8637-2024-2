@@ -120,6 +120,13 @@ Library manager: Biblioteca donde podemos sacar codigos y no hacer todo desde 0.
 
 ![VideoArduino](./videoArduino.mp4) 
 
+## ¿Como hago funcionar la matriz led del arduino?
+
+Esto se puede hacer habilitando la opcion de led_matrix y luego LivePreview en arduino, este habilita el puerto del arduino que recibe información desde Led matrix editor , en el cual podemos dibujar para indicar cuales leds queremos encender y cuales no. Luego de tener dibujado lo que queremos proyectar, descargaremos el archivo. para  cargar el archivo en un sketch debemos ir a la opcion de led_matrix y luego play animation y pegar el contenido en Animation.h.
+
+https://ledmatrix-editor.arduino.cc/
+https://www.youtube.com/watch?v=6A_xKy1qANw
+
 
 
 
