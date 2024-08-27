@@ -2,4 +2,4 @@
 
 ## encargo 3 yupi
 
-![encargo03](./Uptoy.pdf "encargo3uptoy")
+![encargo03](./Uptoy.jpg "encargo3uptoy")
