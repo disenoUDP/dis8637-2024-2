@@ -14,7 +14,18 @@ dispositivo que sirve para guardar cosas de valor, imitando a una caja fuerte qu
 
 
 ## 2. que sensor se va a utilizar:
-  - ESP32-CAM
+- Sensor De Distancia Ultrasónico Módulo Hc-sr04 Para Arduino
+
+
+<img width="382" alt="Screenshot 2024-08-27 at 10 41 35 AM" src="https://github.com/user-attachments/assets/a6b28c4a-89cd-404e-bb60-747609abe58c">
+
+https://www.mercadolibre.cl/sensor-de-distancia-ultrasonico-modulo-hc-sr04-para-arduino/p/MLC34488490?item_id=MLC1474185049&from=gshop&matt_tool=93585317&matt_word=&matt_source=google&matt_campaign_id=14571116301&matt_ad_group_id=127448628672&matt_match_type=&matt_network=g&matt_device=c&matt_creative=544459510238&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735119080&matt_product_id=MLC34488490-product&matt_product_partition_id=2265590047380&matt_target_id=pla-2265590047380&cq_src=google_ads&cq_cmp=14571116301&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gclid=CjwKCAjw8rW2BhAgEiwAoRO5rD2-svqn_zh4oxREEYWoxNMlcvWH2MTr8st0wIyIf05jU_MPnPynhxoCg7MQAvD_BwE
+
+
+
+
+
+- ESP32-CAM
 
 <img width="476" alt="Screenshot 2024-08-26 at 7 20 32 PM" src="https://github.com/user-attachments/assets/94aef791-dfd4-472b-bb4d-dc85610eec51">
 
