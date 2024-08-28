@@ -95,7 +95,10 @@ Cosas que ver:
 
 Terciado de eucalipto-> envegecerla con nogalina o oxido de birutilla.
 
-
-
-
 Una pila tiene 1.5V (AA, AAA)
+
+<img width="1185" alt="Captura de pantalla 2024-08-27 a la(s) 20 09 04" src="https://github.com/user-attachments/assets/637e519b-adb9-4864-8e62-95aa9eed2163">
+
+## EXEL
+
+<https://docs.google.com/spreadsheets/d/1BCdR-9mJKZP1YUBNScogqAx247PKNL_Pt13DRaMHU78/edit?pli=1&gid=145813713#gid=145813713>
