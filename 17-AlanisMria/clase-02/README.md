@@ -120,8 +120,210 @@ Library manager: Biblioteca donde podemos sacar codigos y no hacer todo desde 0.
 
 ![VideoArduino](./videoArduino.mp4) 
 
+## ¿Como hago funcionar la matriz led del arduino?
+
+Esto se puede hacer habilitando la opcion de led_matrix y luego LivePreview en arduino, este habilita el puerto del arduino que recibe información desde Led matrix editor , en el cual podemos dibujar para indicar cuales leds queremos encender y cuales no. Luego de tener dibujado lo que queremos proyectar, descargaremos el archivo. para  cargar el archivo en un sketch debemos ir a la opcion de led_matrix y luego play animation y pegar el contenido en Animation.h.
+
+https://ledmatrix-editor.arduino.cc/
+https://www.youtube.com/watch?v=6A_xKy1qANw
+
+## Código de animación de un HOLA en calve morse
+
+const uint32_t animation[][4] = {
+	{
+		0x30c20,
+		0x43fc3fc2,
+		0x430c000,
+		66
+	},
+	{
+		0x30c29,
+		0x436c36c2,
+		0x9430c000,
+		66
+	},
+	{
+		0x30c2f,
+		0x430c30c2,
+		0xf430c000,
+		66
+	},
+	{
+		0x36c29,
+		0x41081082,
+		0x9436c000,
+		66
+	},
+	{
+		0x3fc30,
+		0xc1081083,
+		0xc3fc000,
+		66
+	},
+	{
+		0x3fc20,
+		0x42042042,
+		0x43fc000,
+		66
+	},
+	{
+		0x3f,
+		0xc2042043,
+		0xfc000000,
+		66
+	},
+	{
+		0x0,
+		0x3fc3fc0,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0x1f81f80,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0xf00f00,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0x600600,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0x0,
+		0x0,
+		66
+	}
+};
+
+## Código animación estrellita
+
+const uint32_t animation[][4] = {
+	{
+		0x4006006,
+		0x7fe3f80,
+		0xf819830c,
+		80
+	},
+	{
+		0x4006006,
+		0x7fe3980,
+		0xf819830c,
+		66
+	},
+	{
+		0x4006006,
+		0x79e3080,
+		0x981f830c,
+		80
+	},
+	{
+		0x44825016,
+		0xfffe00,
+		0xd0148244,
+		66
+	},
+	{
+		0x44825016,
+		0xfffe00,
+		0xd0148244,
+		66
+	},
+	{
+		0x25016,
+		0xfe7e00,
+		0xd0148000,
+		66
+	},
+	{
+		0x16,
+		0xfc3e00,
+		0xd0000000,
+		66
+	},
+	{
+		0x0,
+		0xf81e00,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0x600600,
+		0x0,
+		66
+	}
+};
+
+![VideoEstrellita](./estrellita.mp4) 
+
+## Repositorio Matrices Led
+
+https://github.com/danidask/MatrizLed
+
+ para usar el array de led debemos descargar una biblioteca para arduino desde el siguiente repositorio.
+ 
+  https://github.com/MajicDesigns/MD_MAX72XX
+ 
+ Luego de descargar el archivo Zip, nos dirigimos a la opcion Sketch, ppara luego ir a include library y por ultimo a Add.Zip library.
+ 
+ Por ultimo iremos a ejemplos y buscaremos MD_MAX72XX.
+
+ Cuando ya se encuentra la matriz led y el arduino conectados, nos aseguraremos en Herramientas de que se encuentren en las opciones tanto del modelo de ardiuno como del puerto correctamente, finalmente enviamos nuestro codigo.
+ 
+
+## FigJam
+https://www.figma.com/board/xVQXT7prN3tPQGOM8VX5pf/Untitled?node-id=0-1&t=JB5KrtRkH9XKZWRm-0
+
+## Repositorio Parlantes y arduino 
+
+https://github.com/gcupko00/ArMus
+
+## ¿Qué queremos crear?
+
+Queremos crear un objeto interactivo en donde las personas puedan aprender de forma lúdica el código morse.
+En cuanto a su dimensión física, proyectamos que este objeto podría tener una forma más orgánica para lograr una mejor ergonomía con las manos y de estilo retro.
+Su materialidad será de madera e impresión 3D. Tendrá a la vista un botón, una matriz led y unos orificios hacia su interior que permiten la salida del sonido. En
+el interior se encontrarán escondidos el arduino, un parlante y las demás conexiones. 
+
+## ¿Cómo funciona?
+
+Para utilizar este objeto, primero se tiene que encender manteniendo presionado por 5 segundos el botón (input), si se hace bien, la matriz LED dará un output 
+haciendo un sonido y mostrando la palabra “hola” 2 veces, primero en el alfabeto español y luego en código morse. Después, comenzará el juego,  aparecerá una 
+letra aleatoria en morse en la matriz junto con un sonido característico para el punto y el espacio. Una vez listo, el usuario deberá presionar el botón, haciendo
+click para el punto y manteniéndolo presionado menos de 3 segundos para la raya, para así imitar el ritmo y duración del sonido. Si el usuario logra recrearlo con
+éxito, se presentará un dibujo mostrando la letra en el alfabeto español, seguido de un dibujo relacionado a la inicial de lo que se escribió, pero si no lo logra
+aparecerá una gran X y un sonido de desaprobación, la cual reiniciará (a definir) el nivel o todo el juego. Por lo tanto, cada letra tendrá dos variables.
 
 
+Este patrón de funcionamiento correrá infinitamente hasta lograr todo el abecedario o apagando el equipo. Si la persona logra completar el desafío, la matriz LED
+mostrará una pequeña animación de felicitaciones (idea: aplausos, confeti, “Felicidades”) junto a una pequeña melodía. Finalmente, para apagar el equipo, la 
+persona deberá mantener apretado el botón por 5 segundos y al apagarse la matriz LED dará un output haciendo un sonido y mostrando la palabra “adios” 2 veces, de
+nuevo en el alfabeto español y luego en código morse. 
+
+
+
+## Nombre del proyecto
+
+- point-line
+  
+- line-point
+  
+- dot-dash
+  
+- dash-dot
+
+  
+
+ 
 
 
 
