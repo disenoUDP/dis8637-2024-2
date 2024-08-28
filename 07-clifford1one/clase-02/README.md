@@ -41,3 +41,16 @@ https://www.youtube.com/watch?v=82LAlbSSgRY
 https://guitarhero.fandom.com/es/wiki/Guitar_Hero_Wiki:Guitar_Hero_Wiki
 
 https://www.reddit.com/r/GuitarHero/
+
+10. FIGMA
+
+https://www.figma.com/board/73baQbvoc15cwFXiWEnhS4/TALLERSITO?node-id=0-1&t=Ehvh211xISXoF8w5-1
+
+
+![texto](./apunteHexaTux.jpg).
+
+![texto](./hexaTux4.jpg).
+
+![texto](./apunteHexaTux2.jpg).
+
+![texto](./apunteHexaTux3.jpg).
