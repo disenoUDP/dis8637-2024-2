@@ -20,7 +20,7 @@ Entrega de encargo y correcciones.
 + Ver dónde estará ubicada la pantalla del Arduino.
 + Explicar cómo va a funionar.
 + Que sea atractivo al usuario.
-+ La pelota actuará como pulsador
++ La pelota actuará como pulsador.
 + La pelota al caer, hace contacto y automáticamente empieza a correr el tiempo para poder llegar a la meta.
 
 ### Mapeo del funcionamiento del juego
