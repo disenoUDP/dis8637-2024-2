@@ -6,9 +6,9 @@ Entrega de encargo y correcciones.
 
 ### ENCARGO: Juego de habilidades: Laberinto
 
-![texto](./figma1.jpg)
+![texto](./figma1.png)
 
-![texto](./figma2.jpg)
+![texto](./figma2.png)
 
 
 
@@ -24,7 +24,7 @@ Entrega de encargo y correcciones.
 + La pelota al caer, hace contacto y automáticamente empieza a correr el tiempo para poder llegar a la meta.
 
 ### Mapeo del funcionamiento del juego
-![texto](./mapa_conceptual.jpg)
+![texto](./mapa_conceptual.png)
 
 
   
