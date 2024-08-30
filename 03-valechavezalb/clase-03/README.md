@@ -23,7 +23,7 @@ Entrega de encargo y correcciones.
 + La pelota actuará como pulsador
 + La pelota al caer, hace contacto y automáticamente empieza a correr el tiempo para poder llegar a la meta.
 
-# Mapeo del funcionamiento del juego
+### Mapeo del funcionamiento del juego
 ![texto](./mapa_conceptual.jpg)
 
 
