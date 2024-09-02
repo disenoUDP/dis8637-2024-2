@@ -21,3 +21,4 @@ vidrio de aumento para que se vea mejor el arduino ( muy buena eleccion del grup
 medir el tiempo del cada proceso 
 traer en la clase marte 3 : la proxima clases ya contruido pero funcional 
 mostrar nuestras fortalezas 
+dicribir los componentes
