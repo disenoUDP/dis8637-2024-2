@@ -57,3 +57,4 @@ Primer acercamiento a la morfología de Heroe Guitarra
 Aca saque las meidas del arduino, para hcer un modelo básico de las dimensiones de Arduino r4 Wifi, para poder calcular medidas y datos en el modelo "carcasa"
 
 
+![texto](./avanceTUXdiagram.pdf). 
