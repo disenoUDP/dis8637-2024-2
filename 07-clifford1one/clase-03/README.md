@@ -27,4 +27,6 @@ https://www.tinkercad.com/things/giOBoGTMZWH-exquisite-jaagub-gaaris/editel?shar
 
 #P R O G R E S O
 
-![texto](./croquis_tux1.jpeg).
+![texto](./croquis_tux1.jpeg). ![texto](./croquis_tux2.jpeg).
+
+![texto](./croquis_tux3.jpeg). ![texto](./croquis_tux4.jpeg).
