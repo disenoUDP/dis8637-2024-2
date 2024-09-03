@@ -6,8 +6,9 @@ Avances laberinto
 
 ![texto](./laberinto.jpg)
 
-*archivo ai 
-Para hacer el laberinto, se usó madera mdf en corte láser, a 
+*archivo ai
+
+Para hacer el laberinto, se usó madera mdf en corte láser, dimensiones: 15 x 21 x 3 cm 
 
 
 ### Corrección encargo: Laberinto
