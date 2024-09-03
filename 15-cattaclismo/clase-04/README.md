@@ -34,4 +34,23 @@ cables de conexion
 cable para pilas
 pilas 9v
 
+## Descripción textual de la interacción y funcionamiento 
+
+pixarup 
+
+tarea: Hacer funcionar la pantalla en la puerta de la casa. 
+
+
+1. Asegurate de que la pantalla esté quieta mostrando la imagen de un globo y la luz led en la base de la casa esté encendida. 
+
+2. Para que la pantalla reaccione debes acercar tu mano a la base de la casa.
+
+3. Una vez se apague la luz led en la base de la casa, la pantalla empezará a mostrar la animación de una casa que sube y baja. 
+
+4. Dependiendo de la distancia de tu mano con la base de la casa, la animación va a ir más rápido (si está a menos de 20cm) o más lento (si está a más de 20cm)
+
+## cambios 
+
+Se va a cambiar la medida de las murallas laterales, en la porte de atrás, para que haya más espacio para la altura de la conexión de pilas.
+
 
