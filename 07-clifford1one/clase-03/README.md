@@ -22,3 +22,9 @@ Una vez que se encuentrena apagadas todas las casillas, se pasa a la siguiente "
 https://www.tinkercad.com/things/giOBoGTMZWH-exquisite-jaagub-gaaris/editel?sharecode=cyrerJqFRBJgO17nTo0HEt22Bv-Y0sGsiJkA3hiFBI0
 
 ![texto](./cableadorela0.1.2.png).
+
+
+
+#P R O G R E S O
+
+![texto](./croquis_tux1.jpg).
