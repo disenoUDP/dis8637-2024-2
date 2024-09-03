@@ -27,6 +27,26 @@ https://www.tinkercad.com/things/giOBoGTMZWH-exquisite-jaagub-gaaris/editel?shar
 
 #P R O G R E S O
 
-![texto](./croquis_tux1.jpeg). ![texto](./croquis_tux2.jpeg).
+![texto](./croquis_tux1.jpeg). 
+En estos croquis se exploran las posibilidades y limitaciones del display de 8x12 pixeles. Llegué a las siguientes conclusiones:
 
-![texto](./croquis_tux3.jpeg). ![texto](./croquis_tux4.jpeg).
+-Tiene que visualizarse una "división" entre cada uno de los 3 carriles para que se explicite su funcionamiento vertical.
+-¿EN caso de haber 2 leds continuos en el mismo carril, se debe mantener presionado el gatillo? NO; y para evitar confusiones respecto a aquello, los leds que se enciendan también estaránn "divididos" en el eje horizontal.
+
+POR ESTO, el tamaño de la luz encendida paso de ser de 2x2 a ser de 2x1.
+
+![texto](./croquis_tux2.jpeg).
+
+En este croquis se explora la forma física de Heroe Guitarra.
+
+Esquema de como se disponen las distintas "capas" de Heroe Guitarra
+
+![texto](./croquis_tux4.jpeg).
+
+Iteración en la forma de explicar el funcionamiento de Heroe Guitarra, búsqueda por hablar el idioma que el arduino entienda.
+
+
+
+![texto](./croquis_tux3.jpeg). 
+
+
