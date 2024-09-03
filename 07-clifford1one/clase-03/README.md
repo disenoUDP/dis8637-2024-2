@@ -50,3 +50,7 @@ Iteración en la forma de explicar el funcionamiento de Heroe Guitarra, búsqued
 ![texto](./croquis_tux3.jpeg). 
 
 
+
+![texto](./side2heGui0.1.0). 
+
+![texto](./side1heGui0.1.0). 
