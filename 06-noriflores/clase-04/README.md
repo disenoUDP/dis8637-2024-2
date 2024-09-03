@@ -1,6 +1,6 @@
 # clase-04
 
-## casita
+## plano casita
 
 ![encargo04](./planocasita.jpg "encargo4uptoy")
 
