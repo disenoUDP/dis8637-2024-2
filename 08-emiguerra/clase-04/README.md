@@ -21,3 +21,11 @@ Tanto las dimensiones como los materiales han sido cuidadosamente seleccionados 
 
 [repositorio del Sensor de Distancia](https://github.com/FryFr/Sensor_de_distancia) 
 
+### FEEDBACK AL TALLER
+- emoción
+- lo bueno
+- lo malo/ lo poco claro
+- referentes
+
+### REFERENTES
+- Camila Ramírez
