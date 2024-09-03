@@ -47,10 +47,13 @@ Iteración en la forma de explicar el funcionamiento de Heroe Guitarra, búsqued
 
 
 
-![texto](./croquis_tux3.jpeg). 
-
-
-
 ![texto](./side2heGui0.1.0.png). 
 
 ![texto](./side1heGui0.1.0.png). 
+
+Primer acercamiento a la morfología de Heroe Guitarra
+
+![texto](./croquis_tux3.jpeg). 
+Modelo básico de las dimensiones de Arduino r4 Wifi, para poder calcular medidas y datos en el modelo "carcasa"
+
+
