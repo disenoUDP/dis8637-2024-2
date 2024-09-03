@@ -1,6 +1,6 @@
 # clase-02
 
-20 de mayo
+20 de agosto de 2024
 
 ## Ejercicio 01
 

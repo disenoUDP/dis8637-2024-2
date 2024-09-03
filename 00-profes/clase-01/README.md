@@ -1,6 +1,6 @@
 # clase-01
 
-13 de mayo 2024
+13 de agosto 2024
 
 ## Presentación general
 
