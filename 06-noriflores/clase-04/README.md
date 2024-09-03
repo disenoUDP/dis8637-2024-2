@@ -14,4 +14,9 @@ quizas incluir los globos
 quizas cambiar los colores de la casa para que sea mas llamativa, dejar mas en claro que es la casa del up
 
 
+caso limite: caso extremo que puede atentar con el funcionamiento que uno espera
+
+
+
+
 
