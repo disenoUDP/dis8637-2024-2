@@ -4,7 +4,7 @@
 
 Avances laberinto
 
-![texto](./laberinto.JPG.jpg)
+![texto](./laberinto.JPG)
 
 *archivo ai
 
