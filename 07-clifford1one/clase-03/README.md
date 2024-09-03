@@ -54,6 +54,6 @@ Iteración en la forma de explicar el funcionamiento de Heroe Guitarra, búsqued
 Primer acercamiento a la morfología de Heroe Guitarra
 
 ![texto](./croquis_tux3.jpeg). 
-Modelo básico de las dimensiones de Arduino r4 Wifi, para poder calcular medidas y datos en el modelo "carcasa"
+Aca saque las meidas del arduino, para hcer un modelo básico de las dimensiones de Arduino r4 Wifi, para poder calcular medidas y datos en el modelo "carcasa"
 
 
