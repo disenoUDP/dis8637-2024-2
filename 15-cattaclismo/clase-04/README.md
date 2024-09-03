@@ -23,5 +23,5 @@ pensar en el montaje y como se va a lograr de manera correcta la interacción, e
 
 ## idea
 
-cambiar la posición en la que está el sensor a la base, atrás
+cambiar la posición en la que está el sensor a la base, atrás y agrgar una luz led al lado, asi, cuando la casa esté en reposo, la luz va a estar encendida y cuando le llegue un estímulo de que alguien pase su mano por debajo, esta luz se apague y la pantalla muestre la animación de la casa. Entonces, dependiendo de la distancia a la que va a estar la mano del sensor, la animación en la pantalla va a ir más rápido o más lento. 
 
