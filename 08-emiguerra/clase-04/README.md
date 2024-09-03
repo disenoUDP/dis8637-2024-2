@@ -21,3 +21,23 @@ Tanto las dimensiones como los materiales han sido cuidadosamente seleccionados 
 
 [repositorio del Sensor de Distancia](https://github.com/FryFr/Sensor_de_distancia) 
 
+### FEEDBACK AL TALLER
+- emoción
+- lo bueno
+- lo malo/ lo poco claro
+- referentes
+- cmd+T ordenar código arduino ide
+- usuarioCerca
+- ctr+a seleccionar todo
+
+### pauta evaluación
+- como interactúo con el objeto (manual de uso textual)
+- orden del código (comentarios, legible, citas)
+- oficio, terminaciones, facturas
+- comentarios en discord, ayuda a otrxs
+- proyecto claro, bien presentado, identidad de proyecto, textual
+- 
+
+### REFERENTES
+- Camila Ramírez
+- https://stackoverflow.com/
