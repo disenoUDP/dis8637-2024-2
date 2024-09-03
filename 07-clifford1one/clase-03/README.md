@@ -51,6 +51,6 @@ Iteración en la forma de explicar el funcionamiento de Heroe Guitarra, búsqued
 
 
 
-![texto](./side2heGui0.1.0). 
+![texto](./side2heGui0.1.0.png). 
 
-![texto](./side1heGui0.1.0). 
+![texto](./side1heGui0.1.0.png). 
