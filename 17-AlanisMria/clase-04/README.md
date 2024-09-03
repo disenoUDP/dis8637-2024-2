@@ -18,3 +18,6 @@ Nosotros podemos crear los estados con la palabra que queramos.
 
 control F: Buscar
 
+Rojo es error y amarillo es cuidado
+
+
