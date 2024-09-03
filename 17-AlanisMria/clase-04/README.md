@@ -17,3 +17,4 @@ else: al estado que pasará
 Nosotros podemos crear los estados con la palabra que queramos.
 
 control F: Buscar
+
