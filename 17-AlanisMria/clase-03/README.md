@@ -8,3 +8,7 @@ Hacer inicio de actividades (o fallar en el intento)
 Sensor (IMPUT): Receptor de una señal X
 
 Actuador (OUTPUT): respuesta a la señal x, hace que ese algo ocurra
+
+## Construir el objeto.
+
+ 
