@@ -17,7 +17,18 @@ else: al estado que pasará
 Nosotros podemos crear los estados con la palabra que queramos.
 
 control F: Buscar
+en menu HERRAMIENTAS se puede ordenar con ctr+t
 
 Rojo es error y amarillo es cuidado
+
+Bool revisaBoton ()   {
+
+digitalRead (button_pin) 
+
+Boole = si o no 
+
+## Entrega proxima clase 
+
+Abstraer maneras de busqueda y dividirlas en pequeñas tareas
 
 
