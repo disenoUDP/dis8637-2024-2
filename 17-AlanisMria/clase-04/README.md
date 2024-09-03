@@ -13,3 +13,5 @@ el arduino "pregunta" que haran los pines
 
 if: Si estoy en este estado
 else: al estado que pasará
+
+Nosotros podemos crear los estados con la palabra que queramos.
