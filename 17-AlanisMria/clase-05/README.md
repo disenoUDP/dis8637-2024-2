@@ -1,14 +1,20 @@
 # clase-05
 
 
-## Retroalimentacíon y ayuda entre pares
+# Retroalimentacíon y ayuda entre pares
 
-## Explicación textual
+# Explicación textual
 
-## Documentación audiovisual
+# Documentación audiovisual
 
-## Manual de uso textual
+## Archivos 3D
 
-## Orden del codigo
+```stl
+[]
+```
 
-## Calidad de factura
+# Manual de uso textual
+
+# Orden del codigo
+
+# Calidad de factura
