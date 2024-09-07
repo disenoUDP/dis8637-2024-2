@@ -7,6 +7,9 @@ El objeto consiste en una caja fabricada en corte laser la cual tiene la figura 
 <img width="569" alt="Screen Shot 2024-09-07 at 7 37 57 pm" src="https://github.com/user-attachments/assets/83f3e943-68ee-40c9-b2ac-d7674bca486a">
 ![IMG_3884](https://github.com/user-attachments/assets/f0d59336-f46d-4b3b-b658-ceb7b6389418)
 ![IMG_3882](https://github.com/user-attachments/assets/c3cf10bc-c1c4-41db-be2a-b472939615f1)
+<img width="531" alt="Screen Shot 2024-09-07 at 7 47 15 pm" src="https://github.com/user-attachments/assets/706412ac-6925-4c91-a0a2-704a5525cd9d">
+<img width="527" alt="Screen Shot 2024-09-07 at 7 46 59 pm" src="https://github.com/user-attachments/assets/05205f20-bd5a-44e7-b2c2-f91e3b06d06a">
+
 
 
 
