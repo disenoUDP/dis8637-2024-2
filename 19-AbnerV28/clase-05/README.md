@@ -15,3 +15,26 @@ const uint32_t animationenojado[][4] = {
 };
 
 ```
+``` cpp
+//Codigo para matriz led ojo calmado
+const uint32_t animationcalmado [][4] = {
+	{
+		0x0,
+		0x7fe8010,
+		0x0,
+		66
+	}
+};
+```
+``` cpp
+//Codigo para matriz led ojo triste 
+const uint32_t animationtriste [][4] = {
+	{
+		0x2001f816,
+		0x81689097,
+		0xfe000000,
+		66
+	}
+};
+
+```
