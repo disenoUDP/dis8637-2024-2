@@ -113,7 +113,7 @@ El objeto final se compondrá de:
 -Pushbutton(x2)
 -Potenciómetro deslizante
 
-Los cambios realizados responden a la nueva mecánica del juego. La versión actual del juego (v1.1.0) consiste en una mecánica de coordinación entre ambas manos. (como en el guitar hero original)
+Los cambios realizados responden a la nueva mecánica del juego. La versión actual del juego (v1.1.0) consiste en una mecánica de coordinación entre ambas manos. (como en el guitar hero original) Además, con la nueva morfología de heroeGuitarra se ahorra es materiales, costos, y tiempo de fabricación.
 
 ![texto](./croquisHG-5.jpeg).
 
