@@ -101,7 +101,7 @@ XIV. juan pareschi.
 4. Juegos de arcade de ritmo (buscar Pop'n'Music, Taiko no Tatsujin o japanese rhythm games arcade en google) o controles de juego en general, pensar sobre todo como el usuario toma e interactúa con el objeto
 
 
-![texto](./procesoHG-v2.pdf).
+![texto](./procesoHG-v2.png).
 
 El modelo avanzó hacia una morfología más ergonómica, la cual permite un mejor agarre gracias a su tamaño disminuido respecto a la versión anterior.
 
