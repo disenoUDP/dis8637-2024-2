@@ -1,4 +1,4 @@
 # TITULO
 
 ## MEDIANO
-![texto](./Imagen.jpg)
+![texto](./Imagen.jfif)
