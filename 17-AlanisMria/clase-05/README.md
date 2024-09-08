@@ -5,7 +5,10 @@
 ## Retroalimentación y ayuda entre pares
 
 Ayudamos al grupo de Morgan y Sofía, compartiendoles el archivo de nuestro visor, ayudandoles a adaptar la pieza a su objeto y finalmente pusimos su objeto a imprimir en la impresora 3d, mencionando tambien que hicimos una pequeña introducción a morgan en Rhino.
-![Uploading Ayuda_Morgan.jpg…]()
+![IMG_2650](https://github.com/user-attachments/assets/3c6372e4-7ca7-4cd1-a118-e5f344e84487)
+
+![IMG_2657](https://github.com/user-attachments/assets/313a4652-a228-4987-bc4c-3733af3ddbec)
+
 
 Emilia intento ayudarnos a solucionar un problema con el codigo del speaker pero no funcionó :(
 
