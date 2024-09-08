@@ -12,6 +12,8 @@ También ayudamos a Emi haciendole una breve intro al slicer Ultimaker cura, par
 
 Hicimos pequeñas "capsulas" tutoriales que fuimos grabando a lo largo de nuestro proceso y las compartimos.
 
+Explicamos a Santiago y Tiare como habiamos hecho la division de nuestra pieza 3D, porque nos preguntaron en que tolerancia habiamos hecho el encaje.
+
 ## Explicación textual
 
 Lo que queremos que sea
