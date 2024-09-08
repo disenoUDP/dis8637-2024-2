@@ -9,8 +9,7 @@ El propósito principal de "VOCAL HUNT" es desarrollar y mantener las habilidade
 
 ***Ejemplo del juego whack-a-mole***
 
-![***Ejemplo whack-a-mole*** ](img
-/whackamole.png)
+![***Ejemplo whack-a-mole*** ](img/whackamole.png)
 
 ***Ejemplo del juego pop it***
 
