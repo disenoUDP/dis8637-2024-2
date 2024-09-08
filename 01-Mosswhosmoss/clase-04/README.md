@@ -56,7 +56,7 @@ Luego siguiendo con la idea de la transportabilidad hicimos una caja chiquita co
 ![cortandoMadera](img/cortandoMadera.jpg)
 ![maderaCortada](img/maderaCortada.jpg)
 ![piezasCaja](img/piezasCaja.jpeg)
-![cajaArmada](img/cajaArmada.jpg)
+![cajaArmada](img/cajaArmada.jpeg)
 
 Al final no cabía ningún circuito en la caja así que se hizo una mas grande
 
