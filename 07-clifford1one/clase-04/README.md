@@ -121,22 +121,22 @@ En el caso de Heroe Guitarra 1.1.0 el "strum bar" y los "fret buttons" son emula
 
 Estos cambios fueron inspirados por los comentarios e ideas de Paula y Juan (pixelitaa y starbrowser).
 
-![texto](./HGmedida1).
+![texto](./HGmedida1.jpeg).
 Medidas de la renura por la cual se asome la "perilla" del potenciómetro
 
 
-![texto](./HGmedida2).
+![texto](./HGmedida2.jpeg).
 Medida de donde va el pushbutton. (Si se traza una linea vertical desde donde termine la curva hasta efinal del objeto, es justo al medio)
 
 
-![texto](./HGmedida3).
+![texto](./HGmedida3.jpeg).
 Medidas grosores pushbutton
 
 
-![texto](./HGmedida4).
+![texto](./HGmedida4.jpeg).
 Medidas potenciómetro slicer(comprado en MCI electronics a 5.290 CLP
 https://mcielectronics.cl/shop/product/potenciometro-lineal-de-10kohm-10242/
 
 
-![texto](./HGmedida5).
+![texto](./HGmedida5.jpeg).
 Imagen explicativa de donde iria el arduino, y la pantalla.
