@@ -9,7 +9,7 @@ El propósito principal de "VOCAL HUNT" es desarrollar y mantener las habilidade
 
 ***Ejemplo del juego whack-a-mole***
 
-![***Ejemplo whack-a-mole*** ](img/whackamole.png)
+![***Ejemplo whack-a-mole*** ](./whackamole.png)
 
 ***Ejemplo del juego pop it***
 
@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/cc712618-53b4-4c0d-a535-d1b04aa49962
 
 ***Ejemplo de virtual sports play dance mat***
 
-![***Ejemplo virtual sports mat*** ](img/virtual_sport_mat.png)
+![***Ejemplo virtual sports mat*** ](./virtual_sport_mat.png)
 
 ## DISEÑO Y MATERIALES
 
@@ -25,7 +25,7 @@ Ideamos el diseño del dispositivo como una caja de madera, en la cual tendría 
 
 ***Boceto de "VOCAL HUNT"***
 
-![Boceto Vocal Hunt](img/bocetoproyecto.jpeg)
+![Boceto Vocal Hunt](./bocetoproyecto.jpeg)
 
 ***Imagen de [@brandnewnoise](https://www.instagram.com/brandnewnoise)***
 
@@ -47,27 +47,27 @@ El jugador cuenta con 2 vidas, y perderá una cada vez que cometa un error o no 
 ## Construcción del objeto
 
 Al principio intentamos hacer una estructura transportable, es decir pequeña. Primero lo intentamos hacer con impresión 3d donde [@AlanisMria](https://github.com/AlanisMria/dis8637-2024-2) me ayudo a modelar, con un tiempo de espera de 12 hrs y que terminó fallando
-![Modelado_3D](img/Modelado_3D.jpg).
-![Fallo_modelado_3D](img/Fallo_modelado_3D.jpg)
+![Modelado_3D](./Modelado_3D.jpg).
+![Fallo_modelado_3D](./Fallo_modelado_3D.jpg)
 Descubrimos que falló porque confundimos un filamento ABS por uno PLA
 
 Luego siguiendo con la idea de la transportabilidad hicimos una caja chiquita con la ayuda de mi papá
 
-![cortandoMadera](img/cortandoMadera.jpg)
-![maderaCortada](img/maderaCortada.jpg)
-![piezasCaja](img/piezasCaja.jpeg)
-![cajaArmada](img/cajaArmada.jpeg)
+![cortandoMadera](./cortandoMadera.jpg)
+![maderaCortada](./maderaCortada.jpg)
+![piezasCaja](./piezasCaja.jpeg)
+![cajaArmada](./cajaArmada.jpeg)
 
 Al final no cabía ningún circuito en la caja así que se hizo una mas grande
 
-![cajaGrande](img/cajaGrande.jpeg)
-![cajaLijadaArriba](img/cajaLijadaArriba.jpeg)
-![cajaLijada](img/cajaLijada.jpeg)
+![cajaGrande](./cajaGrande.jpeg)
+![cajaLijadaArriba](./cajaLijadaArriba.jpeg)
+![cajaLijada](./cajaLijada.jpeg)
 
 para hacerle los agujeros requerimos de la ayuda de mi padre nuevamente
 
-![hoyosBotones](img/hoyosBotones.jpg)
-![hoyosBotonesProblemas](img/hoyosBotonesProblemas.jpg)
+![hoyosBotones](./hoyosBotones.jpg)
+![hoyosBotonesProblemas](./hoyosBotonesProblemas.jpg)
 El problema de hacer los ahgujeros era que el MDF se quemaba y se pegaba en la broca demorandonos más en hacer todos los agujeros
 
 https://github.com/user-attachments/assets/67e6b9ee-4b94-49aa-abf2-10c8dd6cbc03
