@@ -46,6 +46,8 @@ Hicimos pequeñas "capsulas" tutoriales que fuimos grabando a lo largo de nuestr
 
 13. Finalmente el juego se reiniciará.
 
+En este caso se logro realizar un código ue abarca hasta el punto ...
+
 
 ## Orden del codigo
 
