@@ -49,7 +49,7 @@ Hicimos pequeñas "capsulas" tutoriales que fuimos grabando a lo largo de nuestr
 En este caso se logro realizar un código ue abarca hasta el punto ...
 
 
-## Orden del codigo
+## Orden del código
 
 
 
