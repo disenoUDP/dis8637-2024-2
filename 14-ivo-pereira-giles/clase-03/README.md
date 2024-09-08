@@ -22,4 +22,4 @@ Empezar las actividades sii te hace estar bajo juramento o implementar ciertas o
 
 
 # MODELADO PROTOTIPO 1.2.0
-![texto](.diagramacion de dispositivos.jpg).
+![texto](./diagramaciondedispositivos.png).
