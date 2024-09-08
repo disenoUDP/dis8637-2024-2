@@ -5,6 +5,7 @@
 ## Retroalimentación y ayuda entre pares
 
 Ayudamos al grupo de Morgan y Sofía, compartiendoles el archivo de nuestro visor, ayudandoles a adaptar la pieza a su objeto y finalmente pusimos su objeto a imprimir en la impresora 3d, mencionando tambien que hicimos una pequeña introducción a morgan en Rhino.
+![Uploading Ayuda_Morgan.jpg…]()
 
 Emilia intento ayudarnos a solucionar un problema con el codigo del speaker pero no funcionó :(
 
@@ -13,6 +14,8 @@ También ayudamos a Emi haciendole una breve intro al slicer Ultimaker cura, par
 Hicimos pequeñas "capsulas" tutoriales que fuimos grabando a lo largo de nuestro proceso y las compartimos.
 
 Explicamos a Santiago y Tiare como habiamos hecho la division de nuestra pieza 3D, porque nos preguntaron en que tolerancia habiamos hecho el encaje.
+![consejo_tiare_stgo](https://github.com/user-attachments/assets/85fa4435-548b-4b63-aab3-313a5d7395d6)
+
 
 ## Explicación textual
 
@@ -25,6 +28,13 @@ Lo que es
 MarcaMorsa es un objeto interactivo en donde las personas pueden aprender a escribir de forma lúdica una palabra en código morse.
 
 ## Documentación audiovisual
+
+![Primer_acercamiento_formal](https://github.com/user-attachments/assets/9ae2aaf8-583b-42bc-98cd-7b7764a39ef9)
+
+
+https://github.com/user-attachments/assets/4acc925a-60b0-445c-951b-d35a6fdb3f18
+
+![Uploading Ubicación_componentes.jpg…]()
 
 
 ## Manual de uso textual
