@@ -7,6 +7,7 @@
 Ayudamos al grupo de Morgan y Sofía, compartiendoles el archivo de nuestro visor, ayudandoles a adaptar la pieza a su objeto y finalmente pusimos su objeto a imprimir en la impresora 3d, mencionando tambien que hicimos una pequeña introducción a morgan en Rhino.
 ![Uploading Ayuda_Morgan.jpg…]()
 
+
 Emilia intento ayudarnos a solucionar un problema con el codigo del speaker pero no funcionó :(
 
 También ayudamos a Emi haciendole una breve intro al slicer Ultimaker cura, para que ella pudiera ayudar a las personas que irían al laboratorio el dia sabado. 
@@ -30,9 +31,6 @@ MarcaMorsa es un objeto interactivo en donde las personas pueden aprender a escr
 ## Documentación audiovisual
 
 ![Primer_acercamiento_formal](https://github.com/user-attachments/assets/9ae2aaf8-583b-42bc-98cd-7b7764a39ef9)
-
-
-https://github.com/user-attachments/assets/4acc925a-60b0-445c-951b-d35a6fdb3f18
 
 ![Uploading Ubicación_componentes.jpg…]()
 
