@@ -120,3 +120,23 @@ Los cambios realizados responden a la nueva mecánica del juego. La versión act
 En el caso de Heroe Guitarra 1.1.0 el "strum bar" y los "fret buttons" son emulados por el potenciómetro y pushbutton respectivamente. De esta forma, el usuario, con el dedo pulgar de una mano debe seleccionar el carril donde se ejecutará la acción(con el potenciómetro) y con el dedo índice de la otra mano deberá ejecutar la acción(con el pushbutton). 
 
 Estos cambios fueron inspirados por los comentarios e ideas de Paula y Juan (pixelitaa y starbrowser).
+
+![texto](./HGmedida1).
+Medidas de la renura por la cual se asome la "perilla" del potenciómetro
+
+
+![texto](./HGmedida2).
+Medida de donde va el pushbutton. (Si se traza una linea vertical desde donde termine la curva hasta efinal del objeto, es justo al medio)
+
+
+![texto](./HGmedida3).
+Medidas grosores pushbutton
+
+
+![texto](./HGmedida4).
+Medidas potenciómetro slicer(comprado en MCI electronics a 5.290 CLP
+https://mcielectronics.cl/shop/product/potenciometro-lineal-de-10kohm-10242/
+
+
+![texto](./HGmedida5).
+Imagen explicativa de donde iria el arduino, y la pantalla.
