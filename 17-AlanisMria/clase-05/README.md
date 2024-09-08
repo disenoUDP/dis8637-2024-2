@@ -19,8 +19,6 @@ MarcaMorsa es un objeto interactivo en donde las personas pueden aprender a escr
 
 En cuanto a su dimensión física, proyectamos que este objeto podría tener una forma más orgánica en la parte inferior, para lograr una mejor ergonomía con las manos y un agarre más cómodo. Su materialidad será de madera e impresión 3D. Tendrá a la vista un botón, una matriz led y unos orificios hacia su interior que permiten la salida del sonido. En el interior se encontrarán escondidos el arduino, un parlante y las demás conexiones. 
 
-Este patrón de funcionamiento correrá infinitamente hasta lograr todo el abecedario o apagando el equipo. Si la persona logra completar el desafío, la matriz LED mostrará una pequeña animación de felicitaciones (idea: aplausos, confeti, “Felicidades”) junto a una pequeña melodía. Finalmente, para apagar el equipo, la persona deberá mantener apretado el botón por 5 segundos y al apagarse la matriz LED dará un output haciendo un sonido y mostrando la palabra “adios” 2 veces, de nuevo en el alfabeto español y luego en código morse. 
-
 Lo que es
 MarcaMorsa es un objeto interactivo en donde las personas pueden aprender a escribir de forma lúdica una palabra en código morse.
 
