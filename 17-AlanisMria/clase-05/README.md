@@ -51,6 +51,30 @@ En este caso se logro realizar un código ue abarca hasta el punto ...
 
 ## Orden del codigo
 
+
+
+
+
+
+
+
+
+
+**Links Visitados**
+
+- https:​​/​/docs​.arduino​.cc​/built​-in​-examples​/digital​/toneMelody​/
+  
+- pitches.h
+pitches.h. GitHub Gist: instantly share code, notes, and snippets.
+gist.github.com
+
+- https:​​/​/docs​.arduino​.cc​/built​-in​-examples​/digital​/Button​/
+
+- programar un pulsador en Arduino para animación LED - Search VideosVideos
+bing.com
+
+- https://www.profetolocka.com.ar/2024/07/22/tutorial-usando-la-matriz-led-del-arduino-uno-r4-parte-1/ 
+
 Al realizar el codigo, muchas veces surgieron problemas respecto a bibliotecas que eran necesarias para los codigos que debiamos usar, ya que estas se encontraban disponibles, pero no en todas las ocaciones se encontraban comprimidas como archivo zip y al comprimirlo costaba que arduino pudiera abrirla.
 
 (Acabamos de descubrir que discord funciona con lenguaje markdown :o)
