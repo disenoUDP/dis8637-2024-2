@@ -1,6 +1,7 @@
 # clase-04
 El objeto consiste en una caja fabricada en corte laser la cual tiene la figura de un gato con un ojo perforado, por donde el usuario puede mirar hacia adentro de la caja y ver la silueta de un gato el cual al cabo de unos segundos de ser obvservado muere. esta caja esta inspirada en el dicho la curiosidad mato al gato. El objeto consta de un arduino uno r4 wifi (entrega animacion gato vivo., gato muerto )mas tres cables conectados a un sesor de distancia marca sharp (si la señal es positiva empieza a gastar tiempo de vida del gato, si es negativa se pausa el tiempo), ademas de un portapilas (da energia al arduino)
 <img width="327" alt="Screen Shot 2024-09-07 at 7 32 14 pm" src="https://github.com/user-attachments/assets/ed9144d2-9557-4ecd-8cfa-4040191df906">
+ El objeto consta de un arduino uno r4 wifi (entrega animacion gato vivo., gato muerto )mas tres cables conectados a un sesor de distancia marca sharp (si la señal es positiva empieza a gastar tiempo de vida del gato, si es negativa se pausa el tiempo), ademas de un portapilas (da energia al arduino)
 ![IMG_3855 2](https://github.com/user-attachments/assets/ebd64208-1d50-4a56-aac9-0a4895a33aa6)
 <img width="136" alt="Screen Shot 2024-09-07 at 7 35 42 pm" src="https://github.com/user-attachments/assets/35a9e227-04a1-4306-affb-91e0586e57d7">
 <img width="140" alt="Screen Shot 2024-09-07 at 7 36 12 pm" src="https://github.com/user-attachments/assets/410dc299-39d6-4c3f-9429-8123a2933246">
