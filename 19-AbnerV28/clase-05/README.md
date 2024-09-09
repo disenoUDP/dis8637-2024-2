@@ -13,7 +13,7 @@ El problema del tamaño de los Led fue resuelto con una lupa, la cual fue puesta
 
 // ![texto](./imagenueve.jpg)
 // ![texto](./imagendiez.jpg)
-// ![texto](./imagenonce.jpg)
+// ![texto](./imagenonce.jpg.jpeg)
 
 ¿Qué es "shh"?: Criatura que no quiere ser molestado, "shh" es sensible al sonido por lo que despierta tanto enojado como triste al sonido, la idea de "shh" es poder controlar lugares de niños en donde el 
 # Manual de uso proyecto "shh"
