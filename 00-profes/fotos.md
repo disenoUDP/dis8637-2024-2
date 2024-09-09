@@ -1,2 +1,0 @@
-#fotos
-acá irán fotos 
