@@ -140,3 +140,8 @@ https://mcielectronics.cl/shop/product/potenciometro-lineal-de-10kohm-10242/
 
 ![texto](./HGmedida5.jpeg).
 Imagen explicativa de donde iria el arduino, y la pantalla.
+
+MÁS AVANCES
+
+https://roboticsbackend.com/arduino-control-led-brightness-with-a-potentiometer/
+
