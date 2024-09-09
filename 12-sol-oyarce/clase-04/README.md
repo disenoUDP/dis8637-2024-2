@@ -62,7 +62,8 @@ if  (sensorFin ()  | |  cuentaRegresiv ( ) )
 estadoActual = Trabajando
 
 ## LABERINTO
-
+Archivo de corte de la base de madera 
+![texto](./CorteLáserlaberinto.ai) 
 ![texto](./laberinto.JPG)
 
 ¿QUE ES?
