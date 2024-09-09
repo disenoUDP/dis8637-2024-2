@@ -48,7 +48,10 @@ Por ejemplo, si el Arduino recibe la señal, esto indica que el usuario se encue
 primeros acercamientos del modelo 3d para impresión
 
 ![17AC0345-5986-4378-B971-08FE142C0EC8](https://github.com/user-attachments/assets/6a2eee82-4926-49fe-866a-7bd5fee819f9)
-### Video MP4
+### Video impresora v.1.0
+
+![Uploading Screenshot 2024-09-07 at 5.02.45 PM.png…]()
+
 
 <video width="640" height="360" controls>
   <source src="https://github.com/user-attachments/assets/2ca4c08c-d6ae-44eb-a102-e5835ddd7cf7" type="video/impresora_mp4">
@@ -57,5 +60,109 @@ primeros acercamientos del modelo 3d para impresión
 ![F822F74E-AC6A-43E7-B61F-71892113A5BA](https://github.com/user-attachments/assets/cc121aba-1e0f-4d3f-9467-a9d247f6a96a)
 
 
+el compartimiento diseñado inicialmente para el arduino 1 r4 se redireccionó para que la vista del usuario solo se enfocara en la pantalla led que contendrá las animaciones de: 
+1. pausa (modo espera)
+2. detección de usuario (vibración lumínica)
+3. cierre de caja (animación con lengua afuera)
 
+luego de entender la diagramación interna de todos los componentes utilizados (servo motor, sensor tof, arduino 1 r4) llegamos a:
+
+![50354EC4-8A74-4073-AB2E-516803784EF3](https://github.com/user-attachments/assets/5171b09b-f906-4988-b847-d8f5cb71f719)
+
+luego comenzamos a prototipar conecciones, comenzamos con código de prueba para el servomotor:
+
+referente: https://www.youtube.com/watch?v=GUhPrO1BEJ0&t=986s
+
+![conección servo](https://github.com/user-attachments/assets/18fe884d-e9d8-4836-9bb7-e001045e8231)
+
+
+
+```
+#include <Servo.h>
+
+Servo myservo;  // create servo object to control a servo
+// twelve servo objects can be created on most boards
+
+int pos = 0;    // variable to store the servo position
+
+void setup() {
+  myservo.attach(9);  // attaches the servo on pin 9 to the servo object
+}
+
+void loop() {
+  for (pos = 0; pos <= 180; pos += 1) { // goes from 0 degrees to 180 degrees
+    // in steps of 1 degree
+    myservo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(15);                       // waits 15ms for the servo to reach the position
+  }
+  for (pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
+    myservo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(15);                       // waits 15ms for the servo to reach the position
+  }
+}
+```
+
+![9827FCEB-913E-4524-9204-43E3DF971118](https://github.com/user-attachments/assets/37c1ef08-ca4b-48ea-80ad-f1834e925692)
+
+### Video servoMotor 1.0
+
+<video width="640" height="360" controls>
+  <source src="
+https://github.com/user-attachments/assets/7b2b6193-91a1-4793-acc0-7ca88b015aad" type="video/impresora_mp4">
+</video>
+
+definimos el ángulo necesario de recorrido para que la tapa abra y cierre en 20°, creando la pieza necesaria:
+
+![Captura de pantalla 2024-09-08 222525](https://github.com/user-attachments/assets/1cb0badb-6946-4d7e-9f90-5de33489ce17)
+
+Respecto al Sensor Laser de Distancia VL53L0X, hicimos las siguientes pruebas y conecciones, no hemos logrado que lea las distancias como debería, ya que la primera vez que cargamos el código al arduino corrió bien pero al aproximar otro objeto no lo distingió
+
+<img width="841" alt="Screenshot 2024-09-09 at 11 08 59 AM" src="https://github.com/user-attachments/assets/a0e6ef54-96bf-457e-bae4-30e5399fdf75">
+
+
+
+```
+#include "Adafruit_VL53L0X.h"
+
+Adafruit_VL53L0X lox = Adafruit_VL53L0X();
+
+void setup() {
+  Serial.begin(115200);
+
+  // wait until serial port opens for native USB devices
+  while (! Serial) {
+    delay(1);
+  }
+  
+  Serial.println("Adafruit VL53L0X test");
+  if (!lox.begin()) {
+    Serial.println(F("Failed to boot VL53L0X"));
+    while(1);
+  }
+  // power 
+  Serial.println(F("VL53L0X API Simple Ranging example\n\n")); 
+}
+
+
+void loop() {
+  VL53L0X_RangingMeasurementData_t measure;
+    
+  Serial.print("Reading a measurement... ");
+  lox.rangingTest(&measure, false); // pass in 'true' to get debug data printout!
+
+  if (measure.RangeStatus != 4) {  // phase failures have incorrect data
+    Serial.print("Distance (mm): "); Serial.println(measure.RangeMilliMeter);
+  } else {
+    Serial.println(" out of range ");
+  }
+    
+  delay(100);
+}
+
+```
+
+
+![sensor tof coneccion](https://github.com/user-attachments/assets/1c2a5f22-5a06-4820-8436-de08a55649d7)
+
+![sensor tof frente](https://github.com/user-attachments/assets/990ad5cb-5369-4c4d-a2e2-bbac652924f9)
 
