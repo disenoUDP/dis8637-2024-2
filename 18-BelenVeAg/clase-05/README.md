@@ -60,41 +60,47 @@ Este primer modelo, contaba con un visor, cuyo principal elemento sería una lup
 []
 ```
 
+También comenzamos a hacer experimentaciones con las animaciones de la LED en <https://ledmatrix-editor.arduino.cc/>
 
 **Materiales**
 - Botón arcade con led de 12v (compra por mercado libre)
 - Speaker de 4 ohm (se lo compramos a la Paula)
-  
+
+**Partes del pulsador LED Arcade que aramamos según el tutorial de youtube:**
+<https://m.youtube.com/watch?v=sRhLCAXLlMc>
+
 ![Botón](https://github.com/user-attachments/assets/f715aa49-fc03-4bf9-86e1-6cd7b3c27d1f)
+![IMG_2698](https://github.com/user-attachments/assets/0f3bac0f-37b7-4554-bfd2-0f819a90a8c9)
 ![Speaker](https://github.com/user-attachments/assets/cbdf7ac3-661e-41b1-89c8-b4cc89b9a143)
 
-Definimos la formalidad final del prototipo y la ubicación de sus componentes
-
-![disposición_interna](https://github.com/user-attachments/assets/84af1df8-c4e1-4ca1-a6e8-18296ee6ae8e)
-
-**Carcasa de prototipo armada.**
+**Carcasa de prototipo armada para la entrega del 3**
 
 ![prototipo](https://github.com/user-attachments/assets/ceedf951-1fe8-44d8-8551-3bb5ac90e240)
 
 <https://github.com/user-attachments/assets/9c6cbb66-ea07-461d-8140-be1caa0b029b>
 
+Después de la corrección, se decidió centrar la morsa para que el objeto fuera completamente simétrico, no quisimos cambiar el botón ya que el que sea un único botón y grande te tienta a apretarlo, por lo que definimos la formalidad final del prototipo y la ubicación de sus componentes
+
+![disposición_interna](https://github.com/user-attachments/assets/84af1df8-c4e1-4ca1-a6e8-18296ee6ae8e)
+
+Hicimos pruebas para ver que nuestros componentes funcionaran, con ayuda del Arduino, del multimetro y Aaron.
+
+<https://github.com/user-attachments/assets/926fe974-6d12-47e7-9c0a-9a0f67151f40>
+
 Mediante ayuda del profesor, tutoriales y códigos de arduino, logramos descubrir los pines mas convenientes, donde conectar ambos componentes.
+
+Fuentes:
+- <https://docs.arduino.cc/built-in-examples/digital/toneMelody/>
+- <https://gist.github.com/mikeputnam/2820675#file-pitches-h>
+- <https://docs.arduino.cc/built-in-examples/digital/Button/>
 
 ![Conexión_componentes (1)](https://github.com/user-attachments/assets/84702961-b32f-4690-adf6-3bb1e5a6e194)
 
-Luego de descubrir donde van las conexiones negativas y positivas soldamos los cables a los componentes.
+Luego de descubrir y confirmar donde van las conexiones negativas y positivas, cortamos los cables y luego los soldamos a sus respectivos componentes.
 
-
-Logramos hacer funcionar el speaker y el botón mediante códigos de arduino ;)
+Logramos hacer funcionar el speaker y el botón con los códigos de arduino mencionados arriba ;)
 
 https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
-
-
-## Archivos 3D
-
-```stl
-[]
-```
 
 ## Manual de uso textual
 
@@ -133,14 +139,12 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 ## Orden del código
 
 ### Links Visitados**
-
-- https:​​/​/docs​.arduino​.cc​/built​-in​-examples​/digital​/toneMelody​/
-- **pitches.h**-> GitHub Gist: instantly share code, notes, and snippets.
-gist.github.com
-- https:​​/​/docs​.arduino​.cc​/built​-in​-examples​/digital​/Button​/
+- <https://docs.arduino.cc/built-in-examples/digital/toneMelody/>
+- <https://gist.github.com/mikeputnam/2820675#file-pitches-h>
+- <https://docs.arduino.cc/built-in-examples/digital/Button/>
 - programar un pulsador en Arduino para animación LED - Search Videos Videos
 bing.com
-- https://www.profetolocka.com.ar/2024/07/22/tutorial-usando-la-matriz-led-del-arduino-uno-r4-parte-1/ 
+- <https://www.profetolocka.com.ar/2024/07/22/tutorial-usando-la-matriz-led-del-arduino-uno-r4-parte-1/>
 
 Al realizar el código, muchas veces surgieron problemas respecto a bibliotecas que eran necesarias para los códigos que debíamos usar, ya que estas se encontraban disponibles, pero no en todas las ocasiones se encontraban comprimidas como archivo zip y al comprimirlo costaba que arduino pudiese abrirla.
 
