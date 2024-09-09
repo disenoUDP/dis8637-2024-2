@@ -143,256 +143,78 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
 # Código prueba pulsador # 
 
-#include "LedControl.h"
 /*
+  Button
 
-LedControl lc=LedControl(12,11,10,1);
+  Turns on and off a light emitting diode(LED) connected to digital pin 13,
+  
+  when pressing a pushbutton attached to pin 2.
 
-int button =2;
-/* we always wait a bit between updates of the display */
+  The circuit:
+  - LED attached from pin 13 to ground through 220 ohm resistor
+  - pushbutton attached to pin 2 from +5V
+  - 10K resistor attached to pin 2 from ground
 
-unsigned long delaytime=500;
+  - Note: on most Arduinos there is already an LED on the board
+    attached to pin 13.
 
-  byte six[8]={B00000000,B11011011,B11011011,B00000000,B00000000,B11011011,B11011011,B00000000};
+  created 2005
   
-  byte five[8]={B00000000,B01100110,B01100110,B00011000,B00011000,B01100110,B01100110,B00000000};
+  by DojoDave <http://www.0j0.org>
   
-  byte four[8]={B00000000,B01100110,B01100110,B00000000,B00000000,B01100110,B01100110,B00000000};
+  modified 30 Aug 2011
   
-  byte three[8]={B11000000,B11000000,B00000000,B00011000,B00011000,B00000000,B00000011,B00000011};
-  
-  byte two[8]={B00000000,B00000000,B00000000,B01100110,B01100110,B00000000,B00000000,B00000000};
-  
-  byte one[8]={B00000000,B00000000,B00000000,B00011000,B00011000,B00000000,B00000000,B00000000};
+  by Tom Igoe
+
+  This example code is in the public domain.
+
+  https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button
+
+*/
+
+// constants won't change. They're used here to set pin numbers:
+
+const int buttonPin = 2;  // the number of the pushbutton pin
+
+const int ledPin = 13;    // the number of the LED pin
+
+// variables will change:
+
+int buttonState = 0;  // variable for reading the pushbutton status
 
 void setup() {
-  /*
-   The MAX72XX is in power-saving mode on startup,
-   
-   we have to do a wakeup call
-   
-   */
-  
-  pinMode(button,INPUT);
-  
-  lc.shutdown(0,false);
-  
-  /* Set the brightness to a medium values */
 
-  lc.setIntensity(0,14);
+  // initialize the LED pin as an output:
   
-  /* and clear the display */
+  pinMode(ledPin, OUTPUT);
   
-  lc.clearDisplay(0);
+  // initialize the pushbutton pin as an input:
+  
+  pinMode(buttonPin, INPUT);
 
 }
 
+void loop() {
 
-/*
+  // read the state of the pushbutton value:
+  
+  buttonState = digitalRead(buttonPin);
 
-
- This method will display the characters
- 
- (you need at least 7x7 leds to see the whole chars)
- 
- */
-
-void one1() {
-
-  /* here is the data for the characters */
+  // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
   
-  /* now display them one by one with a small delay */
+  if (buttonState == HIGH) {
   
-  lc.setRow(0,0,one[0]);
+    // turn LED on:
+    
+    digitalWrite(ledPin, HIGH);
   
-  lc.setRow(0,1,one[1]);
+  } else {
   
-  lc.setRow(0,2,one[2]);
+    // turn LED off:
+    
+    digitalWrite(ledPin, LOW);
   
-  lc.setRow(0,3,one[3]);
-  
-  lc.setRow(0,4,one[4]);
-  
-  lc.setRow(0,5,one[5]);
-  
-  lc.setRow(0,6,one[6]);
-  
-  lc.setRow(0,7,one[7]);
-  
-  delay(delaytime);
-}
-
-void two2() {
-
-  /* here is the data for the characters */
-  
-  /* now display them one by one with a small delay */
-  
-  lc.setRow(0,0,two[0]);
-  
-  lc.setRow(0,1,two[1]);
-  
-  lc.setRow(0,2,two[2]);
-  
-  lc.setRow(0,3,two[3]);
-  
-  lc.setRow(0,4,two[4]);
-  
-  lc.setRow(0,5,two[5]);
-  
-  lc.setRow(0,6,two[6]);
-  
-  lc.setRow(0,7,two[7]);
-  
-  delay(delaytime);
-
-}
-
-void three3() {
-
-  /* here is the data for the characters */
-  
-  /* now display them one by one with a small delay */
-  
-  lc.setRow(0,0,three[0]);
-  
-  lc.setRow(0,1,three[1]);
-  
-  lc.setRow(0,2,three[2]);
-  
-  lc.setRow(0,3,three[3]);
-  
-  lc.setRow(0,4,three[4]);
-  
-  lc.setRow(0,5,three[5]);
-  
-  lc.setRow(0,6,three[6]);
-  
-  lc.setRow(0,7,three[7]);
-  
-  delay(delaytime);
-
-}
-
-void four4() {
-
-  /* here is the data for the characters */
-  
-  /* now display them four by four with a small delay */
-  
-  lc.setRow(0,0,four[0]);
-  
-  lc.setRow(0,1,four[1]);
-  
-  lc.setRow(0,2,four[2]);
-  
-  lc.setRow(0,3,four[3]);
-  
-  lc.setRow(0,4,four[4]);
-  
-  lc.setRow(0,5,four[5]);
-  
-  lc.setRow(0,6,four[6]);
-  
-  lc.setRow(0,7,four[7]);
- 
-  delay(delaytime);
-
-}
-
-void five5() {
-
-  /* here is the data for the characters */
-  
-  
-  /* now display them five by five with a small delay */
-  
-  lc.setRow(0,0,five[0]);
-  
-  lc.setRow(0,1,five[1]);
-  
-  lc.setRow(0,2,five[2]);
-  
-  lc.setRow(0,3,five[3]);
-  
-  lc.setRow(0,4,five[4]);
-  
-  lc.setRow(0,5,five[5]);
-  
-  lc.setRow(0,6,five[6]);
-  
-  lc.setRow(0,7,five[7]);
-
-  delay(delaytime);
-
-}
-
-void six6() {
-
-  
-  /* here is the data for the characters */
-  
-  /* now display them six by six with a small delay */
-  
-  lc.setRow(0,0,six[0]);
-  
-  lc.setRow(0,1,six[1]);
-  
-  lc.setRow(0,2,six[2]);
-  
-  lc.setRow(0,3,six[3]);
-  
-  lc.setRow(0,4,six[4]);
-  
-  lc.setRow(0,5,six[5]);
-  
-  lc.setRow(0,6,six[6]);
-  
-  lc.setRow(0,7,six[7]);
-  
-  delay(delaytime);
-
-}
-
-
-void loop() { 
-
-  int x ;
-  
-  if(digitalRead(button)== HIGH )
-
-{
-
- x = random(1,7);
-
-
-switch(x){
-
-case 1 : one1();
-
-break;
-
-case 2 : two2();
-
-break;
-
-case 3 : three3();
-
-break;
-
-case 4 : four4();
-
-break;
-
-case 5 : five5();
-
-break;
-
-case 6 : six6();
-
-break;}
-
-}
+  }
 
 }
 
