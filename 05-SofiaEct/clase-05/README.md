@@ -77,3 +77,73 @@ para que quien no tenga un pulsador o tenga problemas para conectarlo/hacerlo fu
 
 ![image](https://github.com/user-attachments/assets/b4b9688c-c1cf-419b-8a3e-4f943cf69729)
 
+## CÓDIGO
+```c++
+#include "Arduino_LED_Matrix.h"
+
+// lenguaje de c++ para detectar posibles errores en el código y valores
+//por lo que lo usamos ahora para definir los estados de nuestro dispopsitivo
+enum State {
+  // en espera
+  STANDBY,
+  // mientras el usuario juega con con 'vocal hunt' (mientras que este dentro del rango de vidas)
+  TRABAJANDO
+};
+
+// el pin es donde se conecta el botón al arduino, en este casi en la ranura número 2
+const int BOTON_ENTRADA_A = 2;
+const int BOTON_ENTRADA_E = 3;
+const int BOTON_ENTRADA_I = 4;
+const int BOTON_ENTRADA_O = 5;
+const int BOTON_ENTRADA_U = 6;
+
+//estado actual en espera
+State currentState = STANDBY;
+
+// comandos utilizados de edgar pon para usar botones en arduino con if-else https://edgarpons.com/botones-en-arduino-y-comandos-if-else/
+
+void setup() {
+  // configurar las entradas
+  pinMode(BOTON_ENTRADA_A, INPUT_PULLUP);
+  pinMode(BOTON_ENTRADA_E, INPUT_PULLUP);
+  pinMode(BOTON_ENTRADA_I, INPUT_PULLUP);
+  pinMode(BOTON_ENTRADA_O, INPUT_PULLUP);
+  pinMode(BOTON_ENTRADA_U, INPUT_PULLUP);
+
+
+
+  Serial.begin(9600);
+}
+// aqui se ponen todos los comandos que el ardino debe de ejecutar haciandolos que esten en continua funcionamiento, que pase mas de una vez
+void loop() {
+  //sirve para leer un valor (o poner en un estado) un pin digital.
+  switch (currentState) {
+    // en este estado esperamos la accion del usuario
+    // 'presionar cualquie boton para que empiece el juego' y asi cambie a un estado activo
+    case STANDBY:
+      {
+        Serial.println("En estado STANDBY");
+        int lecturaA = digitalRead(BOTON_ENTRADA_A);
+        int lecturaE = digitalRead(BOTON_ENTRADA_E);
+        int lecturaI = digitalRead(BOTON_ENTRADA_I);
+        int lecturaO = digitalRead(BOTON_ENTRADA_O);
+        int lecturaU = digitalRead(BOTON_ENTRADA_U);
+
+        // presiona cualquier boton para salir del estado standby y pasa a estado trabajando
+        if (!lecturaA || !lecturaE || !lecturaI || !lecturaO || !lecturaU) {
+          currentState = TRABAJANDO;
+        }
+        break;
+      }
+    case TRABAJANDO:
+      {
+        Serial.println("En estado TRABAJANDO");
+        //if (animacionA) aparece en la pantalla{
+          //se presiona lecturaA
+      //}
+        //}else{} (quizas) si no lo hace en el tiempo establecido pierde vida
+          break;
+      }
+  }
+}
+```
