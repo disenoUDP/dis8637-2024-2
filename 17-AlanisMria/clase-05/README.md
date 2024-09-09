@@ -137,12 +137,11 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
 13. Finalmente el juego se reiniciará.
 
-### Lo quequ
 
 
 ## Orden del código
 
-## Código prueba pulsador ## 
+# Código prueba pulsador # 
 
 #include "LedControl.h"
 /*
@@ -398,7 +397,7 @@ break;}
 }
 
 
-## Código prueba Speaker ##
+# Código prueba Speaker *
 
 /*
 
@@ -475,7 +474,7 @@ void loop() {
 
 }
 
-## Código animación hola morse y español ##
+# Código animación hola morse y español #
 
 /*
 
