@@ -94,7 +94,7 @@ que el tiempo no corra.
 PLACA ARDUINO 
 - Apuntes en base a tutorial arduino de Johann Perez E ( https://www.youtube.com/watch?v=gx5yFvVDUsY&list=PLyLh25DppBIe40j3VBAslnVfs4Pz-B3ZB ) Johann Perez E
 
-![texto](./placaarduino.JPG)
+![texto](./placaarduino.jpg)
 **PROGRAMAR** 
 
 ***void setup* ()** solo se ejecuta una vez 
@@ -104,32 +104,32 @@ PLACA ARDUINO
 ***void setup > pinmode* *(13, OUTPUT);***  avisa a Arduino que usare uno de los pines  *OUTPUT*  enviar info  **y se usa ; para finalizar
 
 Enviando info a través de lod pines ***void loop()> digitalWrite* *(13,HIGH);***  para prender el led
-![texto](./progamacion1.JPG)
-![texto](./primerintento.JPG)
+![texto](./progamacion1.png)
+![texto](./primerintento.jpg)
 
 Para apagar el led 13  ***void loop()> digitalWrite* *(13,LOW);***  
 
 al escribir bajo este el tiempo que se demore en encender ***delay(1000);***  se mide en milisegundos y si lo volvemos a agregar bajo  LOW >  ***delay(1000);***  se prende y apagara la luz en 1000 milisegundos
-![texto](./programacion2.JPG)
+![texto](./programacion2.png)
 
 USO DE LA PROTOBOARD (TARJETA DE PROTOTIPADO)
-![texto](./PROTOBOARD.JPG)
+![texto](./PROTOBOARD.jpg)
 
 LEDS : Pata larga es (+) y la pata corta (-) por lo que el LED se debe conectar de forma vertical ( Ej: en la fila 30 el polo positivo y en la 31 el negativo )  
 
 RESISTENCIAS:  Para que pase solo la energía necesaria (para el ejemplo se usara una resistencia de 220v la patita quedara al positivo del led)
 
 CABLE JUMPER: se usan los cables oscuros para aludir al - y el mas claro al +  el cable se pasa primero por la resistencia  (el mas claro +) luego conecto el cable a tierra , conectándolo al negativo del LED (cable oscuro -)
-![texto](./led1.JPG)
+![texto](./led1.jpg)
 
 PROGRAMAR EL  LED
 luego para programar el LED se agregan 2 cables para conectar al pin 8 y al de tierra
-![texto](./led2.JPG)
+![texto](./led2.jpg)
 programando lo siguiente 
-![texto](./programacion3.JPG)
+![texto](./programacion3.png)
 https://youtube.com/shorts/_zaioiT6iik  Parpadeo LED
 
 y si se queremos  queremos crear una variante en las velocidades se debemos volver a agregar los códigos  las veces que queramos y modificar el tiempo (con este parpadea 3 veces lento y 3 veces rápido)
-![texto](./programacion4.JPG)
+![texto](./programacion4.png)
 
 
