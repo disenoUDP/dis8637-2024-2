@@ -64,9 +64,11 @@ estadoActual = Trabajando
 ## LABERINTO
 
 ¿QUE ES?
+
 Un juego que busca alcanzar completar un circuito en un tiempo definido (tiempo mostrado por los led del arduino), donde  el jugador que logre llegar al final del juego antes de que finalise el tiempo ganara el juego
 
 ¿COMO ES?
+
 ![texto](./laberinto.JPG)
 Archivo de corte de la base de madera 
 CorteLaserlaberinto.ai  (archivo en la carpeta)
@@ -98,6 +100,7 @@ PLACA ARDUINO
 - Apuntes en base a tutorial arduino de Johann Perez E ( https://www.youtube.com/watch?v=gx5yFvVDUsY&list=PLyLh25DppBIe40j3VBAslnVfs4Pz-B3ZB ) Johann Perez E
 
 ![texto](./placaarduino.jpg)
+
 **PROGRAMAR** 
 
 ***void setup* ()** solo se ejecuta una vez 
@@ -139,6 +142,7 @@ y si se queremos  queremos crear una variante en las velocidades se debemos volv
 
 
 ## INTENTOS PROGRAMACION 
+
 No nos funciono la biblioteca del sensor CapacitiveSensor.h
 1. Sensor tactil capacitivo por Rincon Ingenieril Youtube https://www.youtube.com/watch?v=V3l2Vj3lXZU
    https://www.rinconingenieril.es/sensor-capacitivo/
