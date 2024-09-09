@@ -232,6 +232,14 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
   - 8 ohm speaker on digital pin 8
 
   created 21 Jan 2010
+  
+  modified 30 Aug 2011
+
+  by Tom Igoe
+
+  This example code is in the public domain.
+
+  https://www.arduino.cc/en/Tutorial/Tone 
 
     modified 30 Aug 2011
 
