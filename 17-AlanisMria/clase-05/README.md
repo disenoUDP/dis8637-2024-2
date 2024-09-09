@@ -53,10 +53,13 @@ Este primer modelo, contaba con un visor, cuyo principal elemento sería una lup
 **Pieza nueva visor aislante**
 ![Captura de pantalla 2024-09-09 104057](https://github.com/user-attachments/assets/d7229d48-ca1b-4502-8052-b57ad357efbd)
 ![Captura de pantalla 2024-09-09 104154](https://github.com/user-attachments/assets/0a311c72-58c0-4baa-9b67-9bd7d05fa91c)
-![Captura de pantalla 2024-09-09 104050](https://github.com/user-attachments/assets/27529071-ef54-41c4-b66a-fc87c59ad6d2)
 
 
 También comenzamos a hacer experimentaciones con las animaciones de la LED en <https://ledmatrix-editor.arduino.cc/>
+
+
+https://github.com/user-attachments/assets/9075fb73-d20f-4405-bf96-9e03a68bdeac
+
 
 **Materiales**
 - Botón arcade con led de 12v (compra por mercado libre)
