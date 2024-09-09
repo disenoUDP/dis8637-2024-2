@@ -37,6 +37,18 @@ En cuanto a su dimensión física, proyectamos que este objeto podría tener una
 
 # Documentación audiovisual
 
+Medimos los elementos de los componentes, para poder ubicarlos dentro de la proporción del objeto y priorizar el buen funcionamiento y comodidad del usuario.
+
+![Ubicación_componentes](https://github.com/user-attachments/assets/26c63777-e0a3-4f30-8c81-035a3050efca)
+
+
+![Primer_acercamiento_formal](https://github.com/user-attachments/assets/43528323-b057-482c-9261-75206b473a61)
+
+![prototipo](https://github.com/user-attachments/assets/ceedf951-1fe8-44d8-8551-3bb5ac90e240)
+
+![prototipo](https://github.com/user-attachments/assets/49da7269-7bca-40e8-88b2-e41117f0b846)
+
+
 ## Archivos 3D
 
 ```stl
