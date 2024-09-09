@@ -63,7 +63,7 @@ estadoActual = Trabajando
 
 ## LABERINTO
 Archivo de corte de la base de madera 
-![texto](./CorteLaserlaberinto.ai)  
+CorteLaserlaberinto.ai  (archivo en la carpeta)
 ![texto](./laberinto.JPG)
 
 ¿QUE ES?
