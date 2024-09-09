@@ -19,3 +19,7 @@ Se esperan modificaciones de los mismos conceptos mencionados anteriormente /erg
 ya se esta trabajando en la version 0.2.1 la cual solucion en forma parcial la forma con respecto a los botones y el accionar del dispositivo.
 
 Empezar las actividades sii te hace estar bajo juramento o implementar ciertas obligaciones a tu profesionalismo, pero ayuda tambien a darle mas valos a tu trabajo emitiendo boletas y cumpliendo con la ley conforme a los servicios entregados.
+
+
+# MODELADO PROTOTIPO 1.2.0
+![texto](./diagramaciondedispositivos).
