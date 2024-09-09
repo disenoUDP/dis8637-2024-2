@@ -469,25 +469,27 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
 **Links Visitados**
 
-- https:​​/​/docs​.arduino​.cc​/built​-in​-examples​/digital​/toneMelody​/
+-  https:​​/​/docs​.arduino​.cc​/built​-in​-examples​/digital​/toneMelody​/
   
-- pitches.h
+-  pitches.h. GitHub Gist: instantly share code, notes, and snippets. gist.github.com
 
-pitches.h. GitHub Gist: instantly share code, notes, and snippets.
+-  https:​​/​/docs​.arduino​.cc​/built​-in​-examples​/digital​/Button​/
 
-gist.github.com
+-  programar un pulsador en Arduino para animación LED - Search Videos Videos bing.com
 
-- https:​​/​/docs​.arduino​.cc​/built​-in​-examples​/digital​/Button​/
-
-- programar un pulsador en Arduino para animación LED - Search Videos Videos
-
-bing.com
-
-- https://www.profetolocka.com.ar/2024/07/22/tutorial-usando-la-matriz-led-del-arduino-uno-r4-parte-1/ 
+-  https://www.profetolocka.com.ar/2024/07/22/tutorial-usando-la-matriz-led-del-arduino-uno-r4-parte-1/ 
 
 Al realizar el código, muchas veces surgieron problemas respecto a bibliotecas que eran necesarias para los códigos que debíamos usar, ya que estas se encontraban disponibles, pero no en todas las ocasiones se encontraban comprimidas como archivo zip y al comprimirlo costaba que arduino pudiese abrirla.
 
 (Acabamos de descubrir que discord funciona con lenguaje markdown y documentos de Google igual :o)
+
+Por alguna razón al utilizar el codigo de prueba del pulsador, sucedio que al acercar nustra mano o un objeto, la luz del arduino reaccionaba como si estuvieramos pulsando el botón, no sabemos si el imán del speaker interfirió o si es algo relacionado a la conexión.
+
+
+https://github.com/user-attachments/assets/d36848d5-d107-4345-9b57-94f9a4a42a05
+
+
+
 
 ## Resultado Final
 
