@@ -33,13 +33,13 @@ MarcaMorsa es un objeto interactivo en donde las personas pueden aprender a escr
 
 ## Documentación audiovisual
 
-- Medimos los elementos de los componentes, para poder ubicarlos dentro de la proporción del objeto y priorizar el buen funcionamiento y comodidad del usuario.
-
-![Ubicación_componentes](https://github.com/user-attachments/assets/26c63777-e0a3-4f30-8c81-035a3050efca)
-
 - Primer modelo realizado en clase, algunos elementos fueron cambiados, como el boton y el tamaño del speaker lo que nos llevo a variar en su forma.
 ![IMG_2696](https://github.com/user-attachments/assets/ca27ee2c-dec3-492a-98d9-13925ae4cffa)
 ![Primer_acercamiento_formal](https://github.com/user-attachments/assets/43528323-b057-482c-9261-75206b473a61)
+
+- Medimos los elementos de los componentes, para poder ubicarlos dentro de la proporción del objeto y priorizar el buen funcionamiento y comodidad del usuario.
+
+![Ubicación_componentes](https://github.com/user-attachments/assets/26c63777-e0a3-4f30-8c81-035a3050efca)
 
 - Este primer modelo, contaba con un visor, cuyo principal elemento sería una lupa, esto con el fin de acercar la pantalla led a la visión del usuario.
 Estaba compuesto por un soporte desmontable, que permitiera ubicar la lupa en la parte superior de la carcasa, este visor fue descartado por la alta probabilidad de distorsion de la pantalla que podía provocar dependiendo del ángulo en que fuera visto. 
