@@ -48,6 +48,9 @@ Estaba compuesto por un soporte desmontable, que permitiera ubicar la lupa en la
 
 ![Pieza_visor_primer_prototipo](https://github.com/user-attachments/assets/7bde45f9-fbc8-4a63-99e0-d9af7ac2826c)
 
+- Definimos la formalidad final del prototipo y la ubicación de sus componentes
+- 
+![disposición_interna](https://github.com/user-attachments/assets/84af1df8-c4e1-4ca1-a6e8-18296ee6ae8e)
 
 - Carcasa de prototipo armada.
 
@@ -67,11 +70,12 @@ https://github.com/user-attachments/assets/9c6cbb66-ea07-461d-8140-be1caa0b029b
 
 - Mediante ayuda del profesor, tutoriales y códigos de arduino, logramos descubrir los pines mas convenientes, donde conectar ambos componentes.
 
+
+
 ![Conexión_componentes (1)](https://github.com/user-attachments/assets/84702961-b32f-4690-adf6-3bb1e5a6e194)
 
 - Luego de descubrir donde van las conexiones negativas y positivas soldamos los cables a los componentes.
 
-https://github.com/user-attachments/assets/037e6f25-e61f-41e3-8bbc-7dfc30f15b54
 
 - Logramos hacer funcionar el speaker y el botón mediante codigos de arduino ;)
 
