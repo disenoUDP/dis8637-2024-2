@@ -136,6 +136,7 @@ y si se queremos  queremos crear una variante en las velocidades se debemos volv
 ## INTENTOS PROGRAMACION 
 No nos funciono la biblioteca del sensor CapacitiveSensor.h
 1. Sensor tactil capacitivo por Rincon Ingenieril Youtube https://www.youtube.com/watch?v=V3l2Vj3lXZU
+   https://www.rinconingenieril.es/sensor-capacitivo/
    codigo :
 
    //Sensor Tactil capacitivo por Rincon Ingenieril
@@ -165,5 +166,56 @@ delay(10);
 }
 
 CONEXION DEL ARDUINO
-![texto](./PROTOBOARD.jpg)
+![texto](./intento1sensor.jpg)
+
+2. Sensor de toque capacitivo como interruptor, no se logro adecuar para nuestro sensor ya que este ya tenia un sensor de toque capacitivo TTP2233B https://www.squids.com.br/arduino/projetos-arduino/projetos-squids/basico/257-projeto-77-sensor-de-toque-capacitivo-como-interruptor-liga-e-desliga
+
+3. Creando un sensor capacitivo con Arduino por Xukyo https://www.aranacorp.com/es/creando-un-sensor-capacitivo-con-arduino/
+   codigo:
+   //Libraries
+#include <CapacitiveSensor.h>//https://github.com/PaulStoffregen/CapacitiveSensor
+//Parameters
+bool autocal 	= 0;
+const int numReadings 	= 10;
+long readings [numReadings];
+int readIndex 	= 0;
+long total 	= 0;
+const int sensitivity 	= 1000;
+const int thresh 	= 200;
+const int csStep 	= 10000;
+CapacitiveSensor cs 	= CapacitiveSensor(2, 3);
+void setup() {
+ 	//Init Serial USB
+ 	Serial.begin(9600);
+ 	Serial.println(F("Initialize System"));
+ 	//Init cs
+ 	if (autocal == 0) {
+ 			{
+ 					cs.set_CS_AutocaL_Millis(0xFFFFFFFF);
+ 			}
+ 	}
+}
+void loop() {
+ 	Serial.println(smooth());
+}
+long smooth() { /* function smooth */
+ 	////Perform average on sensor readings
+ 	long average;
+ 	// subtract the last reading:
+ 	total = total - readings[readIndex];
+ 	// read the sensor:
+ 	readings[readIndex] = cs.capacitiveSensor(sensitivity);
+ 	// add value to total:
+ 	total = total + readings[readIndex];
+ 	// handle index
+ 	readIndex = readIndex + 1;
+ 	if (readIndex >= numReadings) {
+ 			readIndex = 0;
+ 	}
+ 	// calculate the average:
+ 	average = total / numReadings;
+ 	return average;
+}
+
+
 
