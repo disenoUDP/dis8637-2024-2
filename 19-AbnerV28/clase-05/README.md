@@ -1,5 +1,5 @@
 Solemne 01
-El objetivo del proyecto “Shh” es que la matriz LED reaccione a un nivel de sonido preestablecido, permitiendo que la criatura exprese su estado emocional a través de su ojo. La idea es que, al captar un cierto umbral de ruido, el ojo de la criatura se ilumine de manera que refleje su estado de ánimo. Dependiendo de la intensidad del sonido, la criatura podrá manifestar emociones como enojo o tristeza, utilizando el cambio en la iluminación y patrones visuales de la matriz LED para comunicar estas sensaciones. Este enfoque busca dar vida al objeto, haciéndolo interactivo y emotivo.
+*El objetivo del proyecto “Shh” es que la matriz LED reaccione a un nivel de sonido preestablecido, permitiendo que la criatura exprese su estado emocional a través de su ojo*. La idea es que, al captar un cierto umbral de ruido, el ojo de la criatura se ilumine de manera que refleje su estado de ánimo. Dependiendo de la intensidad del sonido, la criatura podrá manifestar emociones como enojo o tristeza, utilizando el cambio en la iluminación y patrones visuales de la matriz LED para comunicar estas sensaciones. Este enfoque busca dar vida al objeto, haciéndolo interactivo y emotivo.
 
 Imágenes del proceso
 // ![texto](./procesoshh.jpg.jpeg)
@@ -11,7 +11,7 @@ Imágenes del proceso
 // ![texto](./imagensiete.jpg.jpeg)
 
 
-Cambios 
+*Cambios*  
 Los cambios propuestos en clase para esta criatura incluyen varias mejoras. Primero, se sugirió que estuviera adherida a la pared para facilitar su interacción con las personas a su alrededor. Para lograrlo, diseñamos una placa que permite colgarla en el muro, con un agujero incorporado para facilitar su montaje. Además, se añadió un soporte específico para el Arduino y se creó un espacio adicional para proyectar de manera óptima, mejorando así la funcionalidad y la estética del diseño.
 El problema del tamaño de los Led fue resuelto con una lupa, la cual fue puesta en el ojo de la criatura, lo que permitió poder ampliar la luz y ver de mejor forma el ojo. 
 
