@@ -132,4 +132,37 @@ https://youtube.com/shorts/_zaioiT6iik  Parpadeo LED
 y si se queremos  queremos crear una variante en las velocidades se debemos volver a agregar los códigos  las veces que queramos y modificar el tiempo (con este parpadea 3 veces lento y 3 veces rápido)
 ![texto](./programacion4.png)
 
+## INTENTOS PROGRAMACION 
+No nos funciono la biblioteca del sensor CapacitiveSensor.h
+1. Sensor tactil capacitivo por Rincon Ingenieril Youtube https://www.youtube.com/watch?v=V3l2Vj3lXZU
+   codigo :
+
+   //Sensor Tactil capacitivo por Rincon Ingenieril
+//Uso de la libreria CapacitiveSensor.h de Paul Stroffregen
+
+#include <CapacitiveSensor.h>
+
+CapacitiveSensor sensor = CapacitiveSensor(4,3);
+
+void setup() 
+{
+  // put your setup code here, to run once:
+pinMode(12,OUTPUT);
+}
+
+void loop() 
+{
+  // put your main code here, to run repeatedly:
+long lectura = sensor.capacitiveSensor(30);
+
+if(lectura>1)
+digitalWrite(12,HIGH);
+else
+digitalWrite(12,LOW);
+
+delay(10);
+}
+
+CONEXION DEL ARDUINO
+![texto](./PROTOBOARD.jpg)
 
