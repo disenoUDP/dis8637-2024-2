@@ -62,13 +62,15 @@ if  (sensorFin ()  | |  cuentaRegresiv ( ) )
 estadoActual = Trabajando
 
 ## LABERINTO
-Archivo de corte de la base de madera 
-CorteLaserlaberinto.ai  (archivo en la carpeta)
-![texto](./laberinto.JPG)
 
 ¿QUE ES?
+Un juego que busca alcanzar completar un circuito en un tiempo definido (tiempo mostrado por los led del arduino), donde  el jugador que logre llegar al final del juego antes de que finalise el tiempo ganara el juego
 
-Un juego de laberinto donde se busca alcanzar completar un circuito en un tiempo definido (mostrado por los led del arduino), donde  el jugador que logre llegar al final del juego antes de que finalise el tiempo definido  ganara el juego.
+¿COMO ES?
+![texto](./laberinto.JPG)
+Archivo de corte de la base de madera 
+CorteLaserlaberinto.ai  (archivo en la carpeta)
+![texto](./ConexionesLaberinto.jpeg)
 
 ## Diagrama de flujo laberinto
 
@@ -106,7 +108,9 @@ PLACA ARDUINO
 
 Enviando info a través de lod pines ***void loop()> digitalWrite* *(13,HIGH);***  para prender el led
 ![texto](./progamacion1.png)
-![texto](./primerintento.jpg)
+![texto](./primerintento.jpg)  
+
+
 
 Para apagar el led 13  ***void loop()> digitalWrite* *(13,LOW);***  
 
@@ -221,5 +225,63 @@ long smooth() { /* function smooth */
  	return average;
 }
 
+## CODIGO UTILIZADO 
 
 
+#include "Arduino_LED_Matrix.h"   //Include the LED_Matrix library
+#include "animation.h"            //Include animation.h header file
+
+// Create an instance of the ArduinoLEDMatrix class
+ArduinoLEDMatrix matrix;  
+
+void setup() {
+  pinMode(2, INPUT);
+  pinMode(3, OUTPUT);
+}
+
+void loop() {
+  if (digitalRead(2) == HIGH) {
+    digitalWrite(3, HIGH);
+    matrix.loadSequence(animation);
+    matrix.begin();
+    matrix.play(true);
+    delay(10000);
+  }
+  else {
+    digitalWrite(3, LOW);
+    matrix.play(false);
+    delay(1000);
+  }
+}
+
+ANIMACION 
+
+const uint32_t animation[][4] = {
+	{
+		0x30c20,
+    0x43fc3fc2,
+    0x430c000,
+		50
+    },
+
+    {
+    0x36c29,
+    0x41081082,
+    0x9436c000,
+    50
+    },
+
+    {
+    0x30c20,
+    0x43fc3fc2,
+    0x430c000,
+    50
+    },
+
+    {
+    0x0,
+    0x0,
+    0x0,
+    66,
+    },
+};
