@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/646359c1-f907-4201-9201-39cc2cefaaa2
 # clase-05
 
 10 de septiembre de 2024
