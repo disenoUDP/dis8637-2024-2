@@ -92,7 +92,7 @@ que el tiempo no corra.
 
 ## ¿COMO USAR ARDUINO?
 PLACA ARDUINO 
-- Apuntes tutorial arduino de ( https://www.youtube.com/watch?v=gx5yFvVDUsY&list=PLyLh25DppBIe40j3VBAslnVfs4Pz-B3ZB ) Johann Perez E
+- Apuntes en base a tutorial arduino de Johann Perez E ( https://www.youtube.com/watch?v=gx5yFvVDUsY&list=PLyLh25DppBIe40j3VBAslnVfs4Pz-B3ZB ) Johann Perez E
 
 ![texto](./placaarduino.JPG)
 **PROGRAMAR** 
