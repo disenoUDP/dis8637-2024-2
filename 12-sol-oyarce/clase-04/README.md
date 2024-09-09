@@ -61,3 +61,7 @@ if  (sensorFin ()  | |  cuentaRegresiv ( ) )
 
 estadoActual = Trabajando
 
+## LABERINTO
+
+![texto](./laberinto.jpeg)
+
