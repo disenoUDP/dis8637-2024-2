@@ -1,3 +1,9 @@
+// aqui va el encabezado
+// autores
+// fecha
+// tecnologia
+// etc
+
 #include "Arduino_LED_Matrix.h"
 #include "gallery.h"
 #include "PushButton.h"
