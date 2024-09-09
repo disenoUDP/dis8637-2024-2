@@ -165,6 +165,7 @@ digitalWrite(12,LOW);
 delay(10);
 }
 
+
 CONEXION DEL ARDUINO
 ![texto](./intento1sensor.jpg)
 
@@ -172,6 +173,8 @@ CONEXION DEL ARDUINO
 
 3. Creando un sensor capacitivo con Arduino por Xukyo https://www.aranacorp.com/es/creando-un-sensor-capacitivo-con-arduino/
    codigo:
+
+   
    //Libraries
 #include <CapacitiveSensor.h>//https://github.com/PaulStoffregen/CapacitiveSensor
 //Parameters
