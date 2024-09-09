@@ -14,3 +14,24 @@ Para el espacio del sensor me equivoqué por tres milimetros y solo calza bien u
 
 ![ver](pequeñoerror.jpg)
 
+## Lento y seguro
+
+Código de prueba para luz led externa
+
+```cpp
+int pinred = 11;
+void setup() {
+  // put your setup code here, to run once:
+ pinMode(pinred, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+digitalWrite(pinred, HIGH);
+delay(1000);
+digitalWrite(pinred, LOW);
+delay(1000);
+}
+```
+
+
