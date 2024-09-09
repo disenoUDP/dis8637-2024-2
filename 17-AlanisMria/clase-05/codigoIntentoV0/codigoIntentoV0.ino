@@ -1,4 +1,4 @@
-// aqui va el encabezado
+// TODO aqui va el encabezado
 // autores
 // fecha
 // tecnologia
@@ -9,27 +9,40 @@
 #include "PushButton.h"
 #include "Nivel4.h"
 
-// Código de referencia del repositorio de la Sofi Etchepare
+// codigo de referencia del repositorio de la Sofia Etchepare
+// TODO agregar enlace a ese repositorio
 // lenguaje de c++ para detectar posibles errores en el código y valores
 //por lo que lo usamos ahora para definir los estados de nuestro dispopsitivo
 enum State {
+  
   // estado de reposo
-  STANDBY,
+  REPOSO,
+
   // primer nivel introductorio
+  // para aprender como hacer un punto
   NIVEL_PUNTO,
+
   //  segundo nivel introductorio
+  // para aprender como hacer una linea
   NIVEL_LINEA,
-  // en este nivel el usuario debera mantener presionado o clikear el boton, respectivamente para escribir una letra M en morse
-  NIVEL1,
-  // en este nivel el usuario debera mantener presionado o clikear el boton, respectivamente para escribir una letra O en morse
-  NIVEL2,
-  // en este nivel el usuario debera mantener presionado o clikear el boton, respectivamente para escribir una letra R en morse
-  NIVEL3,
-  // en este nivel el usuario debera mantener presionado o clikear el boton, respectivamente para escribir una letra s en morse
-  NIVEL4,
-  // en este nivel el usuario debera mantener presionado o clikear el boton, respectivamente para escribir una letra A en morse
-  NIVEL5,
-  // al lograr pasar todos los niveles, el usuario visualizara una pequeña morsa guiñando el ojo en felicitación
+  
+
+  // en los niveles numerados el usuario debe clickear o mantener presionado el boton
+  // para escribir las letras en morse
+  
+  // letra M
+  NIVEL_1,
+  // letra O
+  NIVEL_2,
+  // letra R
+  NIVEL_3,
+  // letra S
+  NIVEL_4,
+  // letra A
+  NIVEL_5,
+
+  // al lograr pasar todos los niveles,
+  // el usuario visualizara una pequeña morsa guinando el ojo para felicitarle
   NIVEL_FINAL
 };
 
