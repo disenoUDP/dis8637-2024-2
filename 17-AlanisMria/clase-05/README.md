@@ -97,6 +97,9 @@ Fuentes:
 
 Luego de descubrir y confirmar donde van las conexiones negativas y positivas, cortamos los cables y luego los soldamos a sus respectivos componentes.
 
+https://github.com/user-attachments/assets/6ba302c7-f9ce-47a3-a28b-e3b3d07060a4
+![soldandoo](https://github.com/user-attachments/assets/d13386ef-7704-4a90-ada1-dcc255533d56)
+
 Logramos hacer funcionar el speaker y el botón con los códigos de arduino mencionados arriba ;)
 
 https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
