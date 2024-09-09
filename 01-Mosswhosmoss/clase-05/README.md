@@ -19,4 +19,13 @@ aqui se ve ya vectorizado
 
 ![instrucciones vector](./instruccionesvector.png)
 
+### Corte laser del personaje e instrucciones
+
+![corte laser personaje](./cortelaserButtom.jpg)
+
+Tuvimos un error en dimensionar los tamaños 
+![instrucciones tamaños](./instruccionesantiguaynueva.jpg)
+
+aqui se aprecia como se ve el personaje al lado de las instrucciones
+![cortado laser](./cortadopluserror.jpg)
 
