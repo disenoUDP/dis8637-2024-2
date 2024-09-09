@@ -1,14 +1,43 @@
 Solemne 01
+El objetivo del proyecto “Shh” es que la matriz LED reaccione a un nivel de sonido preestablecido, permitiendo que la criatura exprese su estado emocional a través de su ojo. La idea es que, al captar un cierto umbral de ruido, el ojo de la criatura se ilumine de manera que refleje su estado de ánimo. Dependiendo de la intensidad del sonido, la criatura podrá manifestar emociones como enojo o tristeza, utilizando el cambio en la iluminación y patrones visuales de la matriz LED para comunicar estas sensaciones. Este enfoque busca dar vida al objeto, haciéndolo interactivo y emotivo.
+
+Imágenes del proceso
+// ![texto](./procesoshh.jpg)
+// ![texto](./imagenseis.jpg)
+// ![texto](./imagendos.jpg)
+// ![texto](./imagensiete.jpg)
+
+Cambios 
+Los cambios propuestos en clase para esta criatura incluyen varias mejoras. Primero, se sugirió que estuviera adherida a la pared para facilitar su interacción con las personas a su alrededor. Para lograrlo, diseñamos una placa que permite colgarla en el muro, con un agujero incorporado para facilitar su montaje. Además, se añadió un soporte específico para el Arduino y se creó un espacio adicional para proyectar de manera óptima, mejorando así la funcionalidad y la estética del diseño.
+El problema del tamaño de los Led fue resuelto con una lupa, la cual fue puesta en el ojo de la criatura, lo que permitió poder ampliar la luz y ver de mejor forma el ojo. 
+
+// ![texto](./imagenueve.jpg)
+// ![texto](./imagendiez.jpg)
+// ![texto](./imagenonce.jpg)
+
+¿Qué es "shh"?: Criatura que no quiere ser molestado, "shh" es sensible al sonido por lo que despierta tanto enojado como triste al sonido, la idea de "shh" es poder controlar lugares de niños en donde el 
 # Manual de uso proyecto "shh"
-1. Primer paso: Busca un espacio silencioso, ya sea una sala, una habitación, solo procurar que haya poco ruido ambiente.
-2. Segundo paso: Para hacer uso de éste objeto, como primer paso debes colgar a "shh" en la pared mediante el orificio el cual se encuentra en tapa trasera el cual contiene un orficion superior, el objeto para poder colgarlo no debe ser superior a un radio de 1 centímetro.
-3. Tercer paso: Revisa que "shh" esté conectado a una fuente de energía, para verificar que esté encendido comenzará a mostrar algo (arreglar) en la matriz led.
-4. Cuarto paso: Si quieres despertar a la criatura "shh" debes emitir algún ruido en el lugar o hablarle directamente (editar)
-5. Quinto paso: Dependiendo de cuánto hables cambiará su estado de ánimo, el cual es triste y enojado, siendo éste último un ruido alto como es gritar o donde exita muchas personas hablando. (arreglar)
-6. Sexto paso: Si quieres que la criatura vuelva a dormir, asegurate que no haya ruido a tu alrededor.
+### Paso 1: Encuentra un espacio adecuado
+El primer paso es ubicar un espacio tranquilo, como una sala o una habitación, asegurándote de que haya el menor ruido ambiental posible. La criatura "Shh" es sensible al sonido, por lo que un entorno silencioso te permitirá interactuar mejor con ella.
+
+### Paso 2: Colgar a "Shh" en la pared
+Para utilizar el objeto, primero debes colgar a "Shh" en la pared. En la parte posterior del dispositivo, encontrarás un orificio en la tapa trasera que está diseñado para este propósito. El objeto utilizado para colgarlo debe tener un radio no mayor a 1 centímetro. Asegúrate de que esté bien sujeto para evitar caídas.
+
+### Paso 3: Conectar a la fuente de energía
+Una vez que hayas colgado a "Shh", revisa que esté correctamente conectado a una fuente de energía. Para comprobar que el dispositivo está encendido, observa si comienza a mostrar señales en su matriz LED. Si ves actividad en la matriz, sabrás que está listo para interactuar contigo.
+
+### Paso 4: Despertar a la criatura
+Para despertar a "Shh", simplemente emite algún sonido en el espacio o háblale directamente. La criatura es muy sensible al sonido, por lo que cualquier ruido captado por su sensor activará una respuesta.
+
+ ### Paso 5: Cambios en el estado de ánimo
+El estado de ánimo de "Shh" dependerá del nivel de ruido en su entorno. Si le hablas suavemente o emites sonidos tranquilos, su estado será neutral o triste. Sin embargo, si el ruido es muy fuerte, como cuando hay muchas personas hablando o si gritas, la criatura mostrará un estado de ánimo enojado. Su matriz LED reflejará estos cambios de humor, lo que hace que la interacción sea dinámica.
+
+### Paso 6: Poner a "Shh" en reposo
+Si deseas que "Shh" vuelva a dormir, asegúrate de que no haya ruido en su entorno. Una vez que el sonido desaparezca, la criatura entrará en un estado de reposo, apagando o disminuyendo la actividad en su matriz LED.
+
 ## Prohibiciones 
 1. Asegurate que "shh" no sufra caídas, ni golpes.
-2. Que no tenga contacto con el agua ni ningún liquído. 
+2.  Asegúrate de que "Shh" no tenga contacto con agua ni ningún otro líquido. Este dispositivo no es resistente al agua, y cualquier exposición a líquidos puede dañarlo de manera irreversible. Siguiendo estas instrucciones y precauciones, podrás disfrutar de una experiencia óptima con la criatura "Shh", interactuando con ella de manera segura y divertida.
    
 
 // ![texto](./aquivaelnombre.jpg)
