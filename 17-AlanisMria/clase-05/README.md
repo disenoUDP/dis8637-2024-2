@@ -143,7 +143,7 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
 # Código prueba pulsador # 
 
-/*
+  /*
   Button
 
   Turns on and off a light emitting diode(LED) connected to digital pin 13,
@@ -170,58 +170,58 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button
 
-*/
+ */
 
-// constants won't change. They're used here to set pin numbers:
+    // constants won't change. They're used here to set pin numbers:
 
-const int buttonPin = 2;  // the number of the pushbutton pin
+    const int buttonPin = 2;  // the number of the pushbutton pin
 
-const int ledPin = 13;    // the number of the LED pin
+    const int ledPin = 13;    // the number of the LED pin
 
-// variables will change:
+    // variables will change:
 
-int buttonState = 0;  // variable for reading the pushbutton status
+    int buttonState = 0;  // variable for reading the pushbutton status
 
-void setup() {
+    void setup() {
 
-  // initialize the LED pin as an output:
+    // initialize the LED pin as an output:
   
-  pinMode(ledPin, OUTPUT);
+    pinMode(ledPin, OUTPUT);
   
-  // initialize the pushbutton pin as an input:
+    // initialize the pushbutton pin as an input:
   
-  pinMode(buttonPin, INPUT);
+    pinMode(buttonPin, INPUT);
 
-}
+    }
 
-void loop() {
+    void loop() {
 
-  // read the state of the pushbutton value:
+    // read the state of the pushbutton value:
   
-  buttonState = digitalRead(buttonPin);
+    buttonState = digitalRead(buttonPin);
 
-  // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
+    // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
   
-  if (buttonState == HIGH) {
+    if (buttonState == HIGH) {
   
     // turn LED on:
     
     digitalWrite(ledPin, HIGH);
   
-  } else {
+    } else {
   
     // turn LED off:
     
     digitalWrite(ledPin, LOW);
   
-  }
+    }
 
-}
+    }
 
 
 # Código prueba Speaker *
 
-/*
+ /*
 
   Melody
 
@@ -233,39 +233,39 @@ void loop() {
 
   created 21 Jan 2010
 
-  modified 30 Aug 2011
+    modified 30 Aug 2011
 
-  by Tom Igoe
+    by Tom Igoe
 
-  This example code is in the public domain.
+    This example code is in the public domain.
 
-  https://www.arduino.cc/en/Tutorial/Tone
+    https://www.arduino.cc/en/Tutorial/Tone
 
-*/
+    */
 
-#include "pitches.h"
+ #include "pitches.h"
 
-// notes in the melody:
+    // notes in the melody:
 
-int melody[] = {
+    int melody[] = {
 
-  NOTE_C6
+    NOTE_C6
+  
+    };
 
-};
+    // note durations: 3 = quarter note, 8 = eighth note, etc.:
 
-// note durations: 3 = quarter note, 8 = eighth note, etc.:
+    int noteDurations[] = {
 
-int noteDurations[] = {
+    3
 
-3
+    };
+  
+    void setup() {
+ 
+    // iterate over the notes of the melody:
 
-};
-
-void setup() {
-
-  // iterate over the notes of the melody:
-
-  for (int thisNote = 0; thisNote < 8; thisNote++) {
+    for (int thisNote = 0; thisNote < 8; thisNote++) {
 
     // to calculate the note duration, take one second divided by the note type.
 
@@ -287,14 +287,14 @@ void setup() {
 
     noTone(8);
 
-  }
-}
+    }
+    }
 
-void loop() {
+    void loop() {
 
-  // no need to repeat the melody.
+    // no need to repeat the melody.
 
-}
+    }
 
 # Código animación hola morse y español #
 
@@ -312,151 +312,151 @@ void loop() {
 
 
 
-#include "Arduino_LED_Matrix.h"   //Include the LED_Matrix library
+    #include "Arduino_LED_Matrix.h"   //Include the LED_Matrix library
 
-#include "animation.h"            //Include animation.h header file
+    #include "animation.h"            //Include animation.h header file
 
-// Create an instance of the ArduinoLEDMatrix class
+    // Create an instance of the ArduinoLEDMatrix class
 
 
-ArduinoLEDMatrix matrix;  
+    ArduinoLEDMatrix matrix;  
 
-const int BUTTON_PIN = 2;
+    const int BUTTON_PIN = 2;
+ 
+    void setup() {
 
-void setup() {
+    if (BUTTON_PIN, IMPUT, PULLUP);
 
-  if (BUTTON_PIN, IMPUT, PULLUP);
+    digitalread (2);
 
-  digitalread (2);
+    }
 
-}
+    else  {
 
-else  {
-
-  Serial.begin(115200);
+    Serial.begin(115200);
   
-  // you can also load frames at runtime, without stopping the refresh
+    // you can also load frames at runtime, without stopping the refresh
   
-  matrix.loadSequence(animation);
+    matrix.loadSequence(animation);
   
-  matrix.begin();
+    matrix.begin();
   
-  // turn on autoscroll to avoid calling next() to show the next frame; the paramenter is in milliseconds
+    // turn on autoscroll to avoid calling next() to show the next frame; the paramenter is in milliseconds
   
-  // matrix.autoscroll(300);
+    // matrix.autoscroll(300);
   
-  matrix.play(true);
+    matrix.play(true);
 
-}
+    }
 
-void loop() {
+    void loop() {
 
-  delay(500);
+    delay(500);
   
-  Serial.println(millis());
+    Serial.println(millis());
 
-}
+    }
 
 
-const uint32_t animation[][4] = {
+    const uint32_t animation[][4] = {
 
- {
+    {
+  
+    0x30c30c30,
 
-  0x30c30c30,
+    0xc3fc3fc3,
 
-  0xc3fc3fc3,
+    0xc30c30c,
 
-  0xc30c30c,
+    600
 
-  600
+    },
 
- },
+    {
 
- {
+    0x3fc3fc30,
+ 
+    0xc30c30c3,
 
-  0x3fc3fc30,
+    0xc3fc3fc,
 
-  0xc30c30c3,
+    600
 
-  0xc3fc3fc,
+    },
 
-  600
+    {
 
- },
+    0xc00c00c,
 
- {
+    0xc00c00,
 
-  0xc00c00c,
+    0xc00f80f8,
 
-  0xc00c00,
+    600
+  
+    },
 
-  0xc00f80f8,
+    {
 
-  600
+    0x3fc3fc30,
 
- },
+    0xc30c3fc3,
 
- {
+    0xfc30c30c,
 
-  0x3fc3fc30,
+    600
 
-  0xc30c3fc3,
+    },
 
-  0xfc30c30c,
+    {
 
-  600
+    0x0,
 
- },
+    0x1540,
 
- {
+    0x0,
 
-  0x0,
+    600
 
-  0x1540,
+    },
+  
+    {
 
-  0x0,
+    0x0,
 
-  600
+    0x36c0,
 
- },
+    0x0,
 
- {
+    600
 
-  0x0,
+    },
 
-  0x36c0,
+    {
 
-  0x0,
+    0x0,
 
-  600
+    0x5a80,
 
- },
+    0x0,
 
- {
+    600
 
-  0x0,
+    },
 
-  0x5a80,
+    {
 
-  0x0,
+    0x0,
+ 
+    0xb00,
 
-  600
+    0x0,
 
- },
+    600
 
- {
+    }
 
-  0x0,
-
-  0xb00,
-
-  0x0,
-
-  600
-
- }
-
-};
+    };
 
 
 **Links Visitados**
