@@ -50,10 +50,11 @@ Este primer modelo, contaba con un visor, cuyo principal elemento sería una lup
 **Pieza visor primer prototipo**
 ![Pieza_visor_primer_prototipo](https://github.com/user-attachments/assets/7bde45f9-fbc8-4a63-99e0-d9af7ac2826c)
 
-**Pieza nueva aislante**
-```stl
-[]
-```
+**Pieza nueva visor aislante**
+![Captura de pantalla 2024-09-09 104057](https://github.com/user-attachments/assets/d7229d48-ca1b-4502-8052-b57ad357efbd)
+![Captura de pantalla 2024-09-09 104154](https://github.com/user-attachments/assets/0a311c72-58c0-4baa-9b67-9bd7d05fa91c)
+![Captura de pantalla 2024-09-09 104050](https://github.com/user-attachments/assets/27529071-ef54-41c4-b66a-fc87c59ad6d2)
+
 
 También comenzamos a hacer experimentaciones con las animaciones de la LED en <https://ledmatrix-editor.arduino.cc/>
 
