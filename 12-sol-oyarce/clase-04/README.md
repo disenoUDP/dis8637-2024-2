@@ -67,9 +67,9 @@ estadoActual = Trabajando
 
 ¿QUE ES?
 
-Es un juego de un laberinto donde se busca alcanzar completar un circuito en el minimo tiempo posible, donde se dipondra de un tiempo maximo para intentar lograr llegar a la meta, el jugador que logre llegar al final del juego antes de que finalice el tiepo designado (mostrado por los led del arduino) ganara el juego.
+Un juego de laberinto donde se busca alcanzar completar un circuito en un tiempo definido (mostrado por los led del arduino), donde  el jugador que logre llegar al final del juego antes de que finalise el tiempo definido  ganara el juego.
 
-Diagrama de flujo
+## Diagrama de flujo laberinto
 
 tarea: quiero empezar a jugar 
 
