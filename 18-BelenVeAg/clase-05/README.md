@@ -2,7 +2,7 @@
 
 # Proyecto 1
 
-## Retroalimentacíon y ayuda entre pares
+## Retroalimentación y ayuda entre pares
 
 Tomamos en cuenta el concejo de Santiago de diseñar una mascota para el juego y también de Aarón para que esta fuera una morsa, ya que suena parecido a la palabra “Morse”.
 
@@ -35,18 +35,59 @@ En cuanto a su dimensión física, proyectamos que este objeto podría tener una
 **MarcaMorsa** es un objeto interactivo en donde las personas pueden aprender a escribir de forma lúdica una palabra en código morse.
 
 
-# Documentación audiovisual
+## Documentación audiovisual
 
-Medimos los elementos de los componentes, para poder ubicarlos dentro de la proporción del objeto y priorizar el buen funcionamiento y comodidad del usuario.
+Primeros bocetos y lluvia de ideas que hicimos en un moodboard de nuestro figjam colaborativo
 
-![Ubicación_componentes](https://github.com/user-attachments/assets/26c63777-e0a3-4f30-8c81-035a3050efca)
+<img width="570" alt="Captura de pantalla 2024-09-08 a la(s) 21 31 59" src="https://github.com/user-attachments/assets/12577980-0607-450e-8abc-729be99b69f8">
 
+Después de la corrección comenzó la etapa de modelado 3D y prototipado, para ver posibles dimensiones, formas y disposición de los elementos.
 
+![IMG_2696](https://github.com/user-attachments/assets/ca27ee2c-dec3-492a-98d9-13925ae4cffa)
+
+Este fue el primer modelo realizado en clase, algunos elementos fueron cambiados, como que en vez de modelar un botón que se adaptara a las dimenciones del pulsador disponible en sala decidmos comprar un pulsador de arcade, también el tamaño del speaker fue redefinido. Todo lo anterior nos llevó a variar su forma. Andrés nos sugirió que cambiaramos la forma de los agujeros para el speaker, por lo que se decidió que fuera con la forma de la mascota para incluirla de forma más natural en el diseño físico.
+
+**Imagen del primer modelo previo a los cambios mencionados anteriormente**
 ![Primer_acercamiento_formal](https://github.com/user-attachments/assets/43528323-b057-482c-9261-75206b473a61)
+
+Este primer modelo, contaba con un visor, cuyo principal elemento sería una lupa, esto tomando en cuenta la idea del proyecto de Santiago e Ivo para "agrandar/acercar la pantalla led" a la visión del usuario. Estaba compuesto por un soporte desmontable, que permitía ubicar la lupa en la parte superior de la carcasa. Este visor fue descartado por la alta probabilidad de distorsión de la pantalla que podía provocar dependiendo del ángulo en que fuera visto, además de que pensamos que no era muy senzato con respecto al tiempo que teníamos que construirlo. Fue por eso que decidimos hacer una pieza de color negra que centrara, aislara y resaltara la luz de la Matriz LED (esta misma pieza fue la que le dimos al grupo de Moss y Sofi).
+
+**Pieza visor primer prototipo**
+![Pieza_visor_primer_prototipo](https://github.com/user-attachments/assets/7bde45f9-fbc8-4a63-99e0-d9af7ac2826c)
+
+**Pieza nueva aislante**
+```stl
+[]
+```
+
+
+**Materiales**
+- Botón arcade con led de 12v (compra por mercado libre)
+- Speaker de 4 ohm (se lo compramos a la Paula)
+  
+![Botón](https://github.com/user-attachments/assets/f715aa49-fc03-4bf9-86e1-6cd7b3c27d1f)
+![Speaker](https://github.com/user-attachments/assets/cbdf7ac3-661e-41b1-89c8-b4cc89b9a143)
+
+Definimos la formalidad final del prototipo y la ubicación de sus componentes
+
+![disposición_interna](https://github.com/user-attachments/assets/84af1df8-c4e1-4ca1-a6e8-18296ee6ae8e)
+
+**Carcasa de prototipo armada.**
 
 ![prototipo](https://github.com/user-attachments/assets/ceedf951-1fe8-44d8-8551-3bb5ac90e240)
 
-![prototipo](https://github.com/user-attachments/assets/49da7269-7bca-40e8-88b2-e41117f0b846)
+<https://github.com/user-attachments/assets/9c6cbb66-ea07-461d-8140-be1caa0b029b>
+
+Mediante ayuda del profesor, tutoriales y códigos de arduino, logramos descubrir los pines mas convenientes, donde conectar ambos componentes.
+
+![Conexión_componentes (1)](https://github.com/user-attachments/assets/84702961-b32f-4690-adf6-3bb1e5a6e194)
+
+Luego de descubrir donde van las conexiones negativas y positivas soldamos los cables a los componentes.
+
+
+Logramos hacer funcionar el speaker y el botón mediante códigos de arduino ;)
+
+https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
 
 ## Archivos 3D
