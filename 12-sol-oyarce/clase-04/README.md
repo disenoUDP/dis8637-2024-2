@@ -132,6 +132,7 @@ https://youtube.com/shorts/_zaioiT6iik  Parpadeo LED
 y si se queremos  queremos crear una variante en las velocidades se debemos volver a agregar los códigos  las veces que queramos y modificar el tiempo (con este parpadea 3 veces lento y 3 veces rápido)
 ![texto](./programacion4.png)
 
+
 ## INTENTOS PROGRAMACION 
 No nos funciono la biblioteca del sensor CapacitiveSensor.h
 1. Sensor tactil capacitivo por Rincon Ingenieril Youtube https://www.youtube.com/watch?v=V3l2Vj3lXZU
