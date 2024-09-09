@@ -1,6 +1,8 @@
-# clase-04
+# clase-04 
 
-# Proceso de modelado Heroe guitarra 1.3.0
+
+# modelado Heroe guitarra  ////// Decisiones de diseño.
+
 
 ![texto](./CUBICACION1.jpg).
 
@@ -18,3 +20,7 @@ En cualquier encaje es necesario dar tolerancias de al menos 2 mm o 3mm, para qu
 Para mejorar el tiempo de impresion, reducir fallos y ensamblar todo el sistema electronico
 
 ![texto](./PARTICIONEN4.jpg).
+
+# CONTENEDORES DEL ARDUINO
+Se pensaron estan paredes para limitar el movimiento del arduino dentro del sistema de izquierda a derecha pero aun se seguia moviendo en el eje z. funciono! y se incorporo
+![texto](./limitesparaarduino.jpg).
