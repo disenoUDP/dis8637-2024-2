@@ -78,6 +78,9 @@ https://github.com/user-attachments/assets/9075fb73-d20f-4405-bf96-9e03a68bdeac
 
 <https://github.com/user-attachments/assets/9c6cbb66-ea07-461d-8140-be1caa0b029b>
 
+https://github.com/user-attachments/assets/1f3a5074-9eed-4b16-b4d5-b453018efe68
+
+
 Después de la corrección, se decidió centrar la morsa para que el objeto fuera completamente simétrico, no quisimos cambiar el botón ya que el que sea un único botón y grande te tienta a apretarlo, por lo que definimos la formalidad final del prototipo y la ubicación de sus componentes
 
 ![disposición_interna](https://github.com/user-attachments/assets/84af1df8-c4e1-4ca1-a6e8-18296ee6ae8e)
