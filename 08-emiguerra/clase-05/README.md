@@ -57,5 +57,14 @@ primeros acercamientos del modelo 3d para impresión
 ![F822F74E-AC6A-43E7-B61F-71892113A5BA](https://github.com/user-attachments/assets/cc121aba-1e0f-4d3f-9467-a9d247f6a96a)
 
 
+el compartimiento diseñado inicialmente para el arduino 1 r4 se redireccionó para que la vista del usuario solo se enfocara en la pantalla led que contendrá las animaciones de: 
+1. pausa (modo espera)
+2. detección de usuario (vibración lumínica)
+3. cierre de caja (animación con lengua afuera)
+
+luego de entender la diagramación interna de todos los componentes utilizados (servo motor, sensor tof, arduino 1 r4) llegamos a:
+
+![50354EC4-8A74-4073-AB2E-516803784EF3](https://github.com/user-attachments/assets/5171b09b-f906-4988-b847-d8f5cb71f719)
+
 
 
