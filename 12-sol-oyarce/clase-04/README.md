@@ -66,15 +66,19 @@ estadoActual = Trabajando
 ![texto](./laberinto.JPG)
 
 ¿QUE ES?
+
 Es un juego de un laberinto donde se busca alcanzar completar un circuito en el minimo tiempo posible, donde se dipondra de un tiempo maximo para intentar lograr llegar a la meta, el jugador que logre llegar al final del juego antes de que finalice el tiepo designado (mostrado por los led del arduino) ganara el juego.
 
-Diagrama de flijo
+Diagrama de flujo
+
 tarea: quiero empezar a jugar 
+
 
 casos límites:
 que la pelotita no esté en el tablero.
 que el tiempo empiece a correr y no esté la pelotita.
 que el tiempo no corra.
+
 
  1. tomar el tablero con ambas manos, de manera horizontal.
  2. asegurarse de que la pelotita este en el tablero. Si la pelotita no está, buscarla dentro de la base.
