@@ -4,12 +4,11 @@
 
 ## Retroalimentación y ayuda entre pares
 
-Ayudamos al grupo de Morgan y Sofía, compartiendoles el archivo de nuestro visor, ayudándoles a adaptar la pieza a su objeto y finalmente pusimos su objeto a imprimir en la impresora 3d, mencionando también que hicimos una pequeña introducción a Morgan en Rhino.
+- Ayudamos al grupo de Morgan y Sofía, compartiendoles el archivo de nuestro visor, ayudándoles a adaptar la pieza a su objeto y finalmente pusimos su objeto a imprimir en la impresora 3d, mencionando también que hicimos una pequeña introducción a Morgan en Rhino.
 
 ![IMG_2650](https://github.com/user-attachments/assets/3c6372e4-7ca7-4cd1-a118-e5f344e84487)
 
 ![IMG_2657](https://github.com/user-attachments/assets/313a4652-a228-4987-bc4c-3733af3ddbec)
-
 
 Emilia intentó ayudarnos a solucionar un problema con el código del speaker pero no funcionó :(
 
@@ -33,51 +32,70 @@ MarcaMorsa es un objeto interactivo en donde las personas pueden aprender a escr
 
 ## Documentación audiovisual
 
-- Primer modelo realizado en clase, algunos elementos fueron cambiados, como el boton y el tamaño del speaker lo que nos llevo a variar en su forma.
+Primeros bocetos y lluvia de ideas que hicimos en un moodboard de nuestro Figjam colaborativo
+
+<img width="570" alt="Captura de pantalla 2024-09-08 a la(s) 21 31 59" src="https://github.com/user-attachments/assets/12577980-0607-450e-8abc-729be99b69f8">
+
+Después de la corrección comenzó la etapa de modelado 3D y prototipado, para ver posibles dimensiones, formas y disposición de los elementos.
+
 ![IMG_2696](https://github.com/user-attachments/assets/ca27ee2c-dec3-492a-98d9-13925ae4cffa)
+
+Este fue el primer modelo realizado en clase, algunos elementos fueron cambiados, como que en vez de modelar un botón que se adaptara a las dimensiones del pulsador disponible en sala decidimos comprar un pulsador de arcade, también el tamaño del speaker fue redefinido. Todo lo anterior nos llevó a variar su forma. Andrés nos sugirió que cambiáramos la forma de los agujeros para el speaker, por lo que se decidió que fuera con la forma de la mascota para incluirla de forma más natural en el diseño físico.
+
+**Imagen del primer modelo previo a los cambios mencionados anteriormente**
 ![Primer_acercamiento_formal](https://github.com/user-attachments/assets/43528323-b057-482c-9261-75206b473a61)
 
-- Medimos los elementos de los componentes, para poder ubicarlos dentro de la proporción del objeto y priorizar el buen funcionamiento y comodidad del usuario.
+Este primer modelo, contaba con un visor, cuyo principal elemento sería una lupa, esto tomando en cuenta la idea del proyecto de Santiago e Ivo para "agrandar/acercar la pantalla led" a la visión del usuario. Estaba compuesto por un soporte desmontable, que permitía ubicar la lupa en la parte superior de la carcasa. Este visor fue descartado por la alta probabilidad de distorsión de la pantalla que podía provocar dependiendo del ángulo en que fuera visto, además de que pensamos que no era muy sensato con respecto al tiempo que teníamos que construirlo. Fue por eso que decidimos hacer una pieza de color negra que centrara, aislara y resaltara la luz de la Matriz LED (esta misma pieza fue la que le dimos al grupo de Moss y Sofi).
 
-![Ubicación_componentes](https://github.com/user-attachments/assets/26c63777-e0a3-4f30-8c81-035a3050efca)
-
-- Este primer modelo, contaba con un visor, cuyo principal elemento sería una lupa, esto con el fin de acercar la pantalla led a la visión del usuario.
-Estaba compuesto por un soporte desmontable, que permitiera ubicar la lupa en la parte superior de la carcasa, este visor fue descartado por la alta probabilidad de distorsion de la pantalla que podía provocar dependiendo del ángulo en que fuera visto. 
-
+**Pieza visor primer prototipo**
 ![Pieza_visor_primer_prototipo](https://github.com/user-attachments/assets/7bde45f9-fbc8-4a63-99e0-d9af7ac2826c)
 
-- Definimos la formalidad final del prototipo y la ubicación de sus componentes
+**Pieza nueva aislante**
+```stl
+[]
+```
 
-- Carcasa de prototipo armada.
+También comenzamos a hacer experimentaciones con las animaciones de la LED en <https://ledmatrix-editor.arduino.cc/>
+
+**Materiales**
+- Botón arcade con led de 12v (compra por mercado libre)
+- Speaker de 4 ohm (se lo compramos a la Paula)
+
+**Partes del pulsador LED Arcade que armamos según el tutorial de youtube:**
+<https://m.youtube.com/watch?v=sRhLCAXLlMc>
+
+![Botón](https://github.com/user-attachments/assets/f715aa49-fc03-4bf9-86e1-6cd7b3c27d1f)
+![IMG_2698](https://github.com/user-attachments/assets/0f3bac0f-37b7-4554-bfd2-0f819a90a8c9)
+![Speaker](https://github.com/user-attachments/assets/cbdf7ac3-661e-41b1-89c8-b4cc89b9a143)
+
+**Carcasa de prototipo armada para la entrega del 3**
 
 ![prototipo](https://github.com/user-attachments/assets/ceedf951-1fe8-44d8-8551-3bb5ac90e240)
 
+<https://github.com/user-attachments/assets/9c6cbb66-ea07-461d-8140-be1caa0b029b>
 
-https://github.com/user-attachments/assets/9c6cbb66-ea07-461d-8140-be1caa0b029b
+Después de la corrección, se decidió centrar la morsa para que el objeto fuera completamente simétrico, no quisimos cambiar el botón ya que el que sea un único botón y grande te tienta a apretarlo, por lo que definimos la formalidad final del prototipo y la ubicación de sus componentes
 
+![disposición_interna](https://github.com/user-attachments/assets/84af1df8-c4e1-4ca1-a6e8-18296ee6ae8e)
 
-- Usamos un speaker de 4 ohm
+Hicimos pruebas para ver que nuestros componentes funcionaran, con ayuda del Arduino, del multímetro y Aaron.
 
-![Speaker](https://github.com/user-attachments/assets/cbdf7ac3-661e-41b1-89c8-b4cc89b9a143)
+<https://github.com/user-attachments/assets/926fe974-6d12-47e7-9c0a-9a0f67151f40>
 
-- Usamos un botón arcade con led de 12v
+Mediante ayuda del profesor, tutoriales y códigos de arduino, logramos descubrir los pines más convenientes, donde conectar ambos componentes.
 
-![Botón](https://github.com/user-attachments/assets/f715aa49-fc03-4bf9-86e1-6cd7b3c27d1f)
-
-- Mediante ayuda del profesor, tutoriales y códigos de arduino, logramos descubrir los pines mas convenientes, donde conectar ambos componentes.
-
-
+Fuentes:
+- <https://docs.arduino.cc/built-in-examples/digital/toneMelody/>
+- <https://gist.github.com/mikeputnam/2820675#file-pitches-h>
+- <https://docs.arduino.cc/built-in-examples/digital/Button/>
 
 ![Conexión_componentes (1)](https://github.com/user-attachments/assets/84702961-b32f-4690-adf6-3bb1e5a6e194)
 
-- Luego de descubrir donde van las conexiones negativas y positivas soldamos los cables a los componentes.
+Luego de descubrir y confirmar donde van las conexiones negativas y positivas, cortamos los cables y luego los soldamos a sus respectivos componentes.
 
-
-- Logramos hacer funcionar el speaker y el botón mediante codigos de arduino ;)
+Logramos hacer funcionar el speaker y el botón con los códigos de arduino mencionados arriba ;)
 
 https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
-
-
 
 
 
