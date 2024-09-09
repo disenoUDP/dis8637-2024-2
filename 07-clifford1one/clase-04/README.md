@@ -145,3 +145,65 @@ MÁS AVANCES
 
 https://roboticsbackend.com/arduino-control-led-brightness-with-a-potentiometer/
 
+https://www.youtube.com/watch?v=TURzbXTNaA0
+
+```ino
+/*
+  Single Frame
+  
+  Displays single frames using matrix.loadFrame
+  
+  See the full documentation here:
+  https://docs.arduino.cc/tutorials/uno-r4-wifi/led-matrix
+*/
+
+#include "Arduino_LED_Matrix.h"  // Include the LED_Matrix library
+#include "framesv2.h"              // Include a header file containing some custom icons
+int potPin = A0;
+ArduinoLEDMatrix matrix;  // Create an instance of the ArduinoLEDMatrix class
+int botonWeno = 2;
+int botonValue;
+
+void setup() {
+  Serial.begin(115200);  // Initialize serial communication at a baud rate of 115200
+  matrix.begin();        // Initialize the LED matrix
+  pinMode(botonWeno, INPUT);
+
+}
+
+void loop() {
+
+  int potValue = analogRead(potPin);
+  // Load and display the "chip" frame on the LED matrix
+
+  int carril = map(potValue, 0, 1023, 0, 2);
+
+  if (potValue > 140 && potValue < 401) {
+    matrix.loadFrame(ogIzq);
+
+  }
+
+  // Load and display the "danger" frame on the LED matrix
+  else if (potValue > 400 && potValue < 639) {
+    matrix.loadFrame(ogMed);
+  }
+
+  // Load and display the "happy" frame on the LED matrix
+  else if (potValue > 638 && potValue < 890) {
+    matrix.loadFrame(ogDer);
+
+  }
+
+int botonValue = digitalRead(botonWeno);
+
+ if(botonWeno == HIGH) {
+   matrix.loadFrame(finFase1);
+}
+
+}
+```
+En este còdigo, con el slider puedo sleccionar el carril. El paso siguiente es que al apretar el boton en el carril ocrrecto, se apague el led.
+ 
+
+
+
