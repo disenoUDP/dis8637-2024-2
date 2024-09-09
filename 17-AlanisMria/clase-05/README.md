@@ -35,24 +35,49 @@ MarcaMorsa es un objeto interactivo en donde las personas pueden aprender a escr
 
 ## Documentación audiovisual
 
-Medimos los elementos de los componentes, para poder ubicarlos dentro de la proporción del objeto y priorizar el buen funcionamiento y comodidad del usuario.
+- Medimos los elementos de los componentes, para poder ubicarlos dentro de la proporción del objeto y priorizar el buen funcionamiento y comodidad del usuario.
 
 ![Ubicación_componentes](https://github.com/user-attachments/assets/26c63777-e0a3-4f30-8c81-035a3050efca)
 
+- Primer modelo realizado en clase, algunos elementos fueron cambiados, como el boton y el tamaño del speaker lo que nos llevo a variar en su forma.
 
 ![Primer_acercamiento_formal](https://github.com/user-attachments/assets/43528323-b057-482c-9261-75206b473a61)
 
+- Este primer modelo, contaba con un visor, cuyo principal elemento sería una lupa, esto con el fin de acercar la pantalla led a la visión del usuario.
+Estaba compuesto por un soporte desmontable, que permitiera ubicar la lupa en la parte superior de la carcasa, este visor fue descartado por la alta probabilidad de distorsion de la pantalla que podía provocar dependiendo del ángulo en que fuera visto. 
+
+![Pieza_visor_primer_prototipo](https://github.com/user-attachments/assets/7bde45f9-fbc8-4a63-99e0-d9af7ac2826c)
+
+
+- Carcasa de prototipo armada.
+
 ![prototipo](https://github.com/user-attachments/assets/ceedf951-1fe8-44d8-8551-3bb5ac90e240)
 
-![prototipo](https://github.com/user-attachments/assets/49da7269-7bca-40e8-88b2-e41117f0b846)
+
+https://github.com/user-attachments/assets/9c6cbb66-ea07-461d-8140-be1caa0b029b
 
 
+- Usamos un speaker de 4 ohm
+
+![Speaker](https://github.com/user-attachments/assets/cbdf7ac3-661e-41b1-89c8-b4cc89b9a143)
+
+- Usamos un botón arcade con led de 12v
+
+![Botón](https://github.com/user-attachments/assets/f715aa49-fc03-4bf9-86e1-6cd7b3c27d1f)
+
+- Mediante ayuda del profesor, tutoriales y códigos de arduino, logramos descubrir los pines mas convenientes, donde conectar ambos componentes.
+
+![Conexión_componentes (1)](https://github.com/user-attachments/assets/84702961-b32f-4690-adf6-3bb1e5a6e194)
+
+- Luego de descubrir donde van las conexiones negativas y positivas soldamos los cables a los componentes.
+
+https://github.com/user-attachments/assets/037e6f25-e61f-41e3-8bbc-7dfc30f15b54
+
+- Logramos hacer funcionar el speaker y el botón mediante codigos de arduino ;)
+
+https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
 
-
-
-
- 
 
 
 
