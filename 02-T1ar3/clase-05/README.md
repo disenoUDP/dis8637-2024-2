@@ -4,8 +4,10 @@
 ## retroalimentación y apoyo a colegas
 
 @AlanisMria y @BelenVeAg nos compartieron su archivo .3dm para que ajustaramos la pieza que redirige la luz de la pantalla (diseñada por ellas)
+
 @nuestros compañeros de taller nos apoyamos mutuamente con diferentes partes de nuestros códigos, ayudándonos a resolver los problemas que surgían al momento de probarlos.
 
+![texto](./compañeros.jpg)
 
 ## explicación textual (qué es, cómo es) 
 ### nombre ideas: LOCK 
