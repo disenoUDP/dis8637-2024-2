@@ -8,7 +8,7 @@ Es un juguete en forma de casa inspirado en la casa de UP, hecho con madera terc
 
 ## Diseño
 
-![ver](planouu.pdf) 
+![ver](planouu.jpg) 
 
 [archivoai](cortelaser.ai)
 
@@ -28,6 +28,8 @@ Se agregó una luz led roja para indicar su uso y el sensor se dejó en la parte
 Para el espacio del sensor me equivoqué por tres milimetros y solo calza bien una parte :(, pero todo tiene solución!
 
 ![ver](pequeñoerror.jpg)
+
+
 
 ## Diagrama de flujo
 
