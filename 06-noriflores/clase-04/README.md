@@ -49,11 +49,11 @@ en esta primera instancia teníamos en sensor en el techo de la casa, pero graci
 
 ![problema1](./problema1.jpeg "problema1")
 
-[![video](./video.mp4 "casitavideo")](https://github.com/noriflores/dis8637-2024-2/blob/main/06-noriflores/clase-04/video.mp4)
+(https://github.com/noriflores/dis8637-2024-2/blob/main/06-noriflores/clase-04/video.mp4)
 
 ## casa actual
 
-![casaactual](./casaactual.jpg "casita")
+![casaactual](./casacatual.jpg "casita")
 
 ![casafrontal](./casafrontal.jpg "casafrontal")
 
