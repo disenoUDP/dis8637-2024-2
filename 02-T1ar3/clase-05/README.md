@@ -172,3 +172,6 @@ void loop() {
 
 ![sensor tof frente](https://github.com/user-attachments/assets/990ad5cb-5369-4c4d-a2e2-bbac652924f9)
 
+### iconos de pantalla led arduino
+
+
