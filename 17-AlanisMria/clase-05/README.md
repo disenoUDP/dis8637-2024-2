@@ -321,8 +321,6 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
 */
 
-
-
     #include "Arduino_LED_Matrix.h"   //Include the LED_Matrix library
 
     #include "animation.h"            //Include animation.h header file
@@ -468,6 +466,406 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
     }
 
     };
+
+## *Código Intento*
+
+#include "Arduino_LED_Matrix.h"
+#include "gallery.h"
+#include "PushButton.h"
+#include "Nivel4.h"
+
+// Código de referencia del repositorio de la Sofi Etchepare 
+// lenguaje de c++ para detectar posibles errores en el código y valores
+//por lo que lo usamos ahora para definir los estados de nuestro dispopsitivo
+enum State {
+  // estado de reposo
+  STANDBY,
+  // primer nivel introductorio
+  NIVEL_PUNTO,
+  //  segundo nivel introductorio
+  NIVEL_LINEA,
+  // en este nivel el usuario debera mantener presionado o clikear el boton, respectivamente para escribir una letra M en morse
+  NIVEL1,
+  // en este nivel el usuario debera mantener presionado o clikear el boton, respectivamente para escribir una letra O en morse
+  NIVEL2,
+  // en este nivel el usuario debera mantener presionado o clikear el boton, respectivamente para escribir una letra R en morse
+  NIVEL3,
+  // en este nivel el usuario debera mantener presionado o clikear el boton, respectivamente para escribir una letra s en morse
+  NIVEL4,
+  // en este nivel el usuario debera mantener presionado o clikear el boton, respectivamente para escribir una letra A en morse
+  NIVEL5,
+  // al lograr pasar todos los niveles, el usuario visualizara una pequeña morsa guiñando el ojo en felicitación
+  NIVEL_FINAL
+};
+
+
+// el pin es donde se conecta el botón al arduino, en este casi en la ranura número 2
+const int BOTON_ENTRADA = 2;
+
+
+//estado actual en espera
+State currentState = STANDBY;
+
+
+// comandos utilizados de edgar pon para usar botones en arduino con if-else https://edgarpons.com/botones-en-arduino-y-comandos-if-else/
+
+
+void setup() {
+  // configurar las entradas
+  pinMode(BOTON_ENTRADA, INPUT_PULLUP);
+  Serial.begin(9600);
+}
+// aqui se ponen todos los comandos que el ardino debe de ejecutar haciandolos que esten en continua funcionamiento, que pase mas de una vez
+void loop() {
+  //sirve para leer un valor (o poner en un estado) un pin digital.
+  switch (currentState) {
+    // en este estado esperamos la accion del usuario
+    // 'presionar cualquie boton para que empiece el juego' y asi cambie a un estado activo
+    case STANDBY:
+      {
+        Serial.println("En estado STANDBY");
+        int lecturaA = digitalRead(BOTON_ENTRADA);
+
+        // presiona cualquier boton para salir del estado standby y pasa a estado NIVEL4
+        if (!lecturaA) {
+          currentState = NIVEL4;
+        }
+        break;
+      }
+    case NIVEL4:
+      {
+        Serial.println("En estado NIVEL4");
+        //if (animacionA) aparece en la pantalla{
+         //se presiona lecturaA
+     //}
+        void update(); 
+        
+       bool (BOTON_ENTRADA.isClicked(3);)
+
+      //Código de referencia de Santiago Gaete.
+
+          matrix.loadFrame(Nivel4);
+      };
+
+
+## *PushButton.h*
+/*
+MIT License
+Copyright (c) 2018 Kristian Klein Jacobsen
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+#ifndef PUSHBUTTON_H
+#define PUSHBUTTON_H
+
+class PushButton
+{
+	public:
+		PushButton(int pin);
+		void update();
+		bool isActive();
+		bool isClicked();
+		bool isDoubleClicked();
+		bool isHeld();
+		bool isReleased();
+		void disableDoubleClick();
+		void enableDoubleClick();
+		void setDebounceTime(int ms);
+		void setHoldTime(int ms);
+		void setDoubleClickTime(int ms);
+		void setActiveLogic(int high_or_low);
+	private:
+		int state_;
+		long lastClickTime_;
+		long lastReleaseTime_;
+		int pin_;
+		bool doubleClickable_;
+		bool activeLogic_;
+		bool debounced_;
+		int debounceTime_;
+		int holdTime_;
+		int doubleClickTime_;
+};
+    #endif
+
+
+## *PlayAnimation*
+// Código usado desde los ejemplos de led matrix de arduino, este código, logra llamar a los códigos de animación realizados en led matrix editor, para proyectarlos en los leds.
+
+/*
+  Play Animation
+
+  Sketch shows animation defined in animation.h
+
+  See the full documentation here:
+  https://docs.arduino.cc/tutorials/uno-r4-wifi/led-matrix
+*/
+
+
+
+#include "Arduino_LED_Matrix.h"   //Include the LED_Matrix library
+#include "animation.h"            //Include animation.h header file
+
+// Create an instance of the ArduinoLEDMatrix class
+ArduinoLEDMatrix matrix;  
+
+void setup() {
+  Serial.begin(115200);
+  // you can also load frames at runtime, without stopping the refresh
+  matrix.loadSequence(animation);
+  matrix.begin();
+  // turn on autoscroll to avoid calling next() to show the next frame; the paramenter is in milliseconds
+  // matrix.autoscroll(300);
+  matrix.play(true);
+}
+
+void loop() {
+  delay(500);
+  Serial.println(millis());
+}
+
+
+## *StandBy*
+
+ // Punto de partida, Aminacion de un Hola en código morse y español, hecho en led matrix editor .
+
+ // https://ledmatrix-editor.arduino.cc/
+
+const uint32_t animation[][4] = {
+	{
+		0x30c30c30,
+		0xc3fc3fc3,
+		0xc30c30c,
+		600
+	},
+	{
+		0x3fc3fc30,
+		0xc30c30c3,
+		0xc3fc3fc,
+		600
+	},
+	{
+		0xc00c00c,
+		0xc00c00,
+		0xc00f80f8,
+		600
+	},
+	{
+		0x3fc3fc30,
+		0xc30c3fc3,
+		0xfc30c30c,
+		600
+	},
+	{
+		0x0,
+		0x1540,
+		0x0,
+		600
+	},
+	{
+		0x0,
+		0x36c0,
+		0x0,
+		600
+	},
+	{
+		0x0,
+		0x5a80,
+		0x0,
+		600
+	},
+	{
+		0x0,
+		0xb00,
+		0x0,
+		600
+	}
+};
+
+
+## *NivelPunto*
+
+ // Nivel introductorio, animación de un punto, hecho en led matrix editor.
+
+ // https://ledmatrix-editor.arduino.cc/
+
+const uint32_t animation[][4] = {
+	{
+		0x0,
+		0x400,
+		0x0,
+		250
+	}
+};
+
+
+## *NiveLinea*
+
+ // Nivel introductorio, animación de una linea, hecho en led matrix editor.
+
+ // https://ledmatrix-editor.arduino.cc/
+
+const uint32_t animation[][4] = {
+	{
+		0x0,
+		0x600,
+		0x0,
+		66
+	}
+};
+
+
+
+## *Nivel1*
+
+ // Animación letra M en español y código morse, hecha en Led matrix editor.
+
+ // https://ledmatrix-editor.arduino.cc/
+
+const uint32_t animation[][4] = {
+	{
+		0x39c3f,
+		0xc36c36c3,
+		0xc30c30c,
+		250
+	},
+	{
+		0x0,
+		0x1b00,
+		0x0,
+		250
+	}
+};
+
+
+## *Nivel2*
+
+ // Animación letra O en español y código morse, hecha en Led matrix editor.
+
+ // https://ledmatrix-editor.arduino.cc/
+
+const uint32_t animation[][4] = {
+	{
+		0x1f818,
+		0x81881f81,
+		0xb019818c,
+		250
+	},
+	{
+		0x0,
+		0x3580,
+		0x0,
+		250
+	}
+};
+
+
+## *Nivel3*
+
+ // Animación letra R en español y código morse, hecha en Led matrix editor.
+
+ // https://ledmatrix-editor.arduino.cc/
+
+const uint32_t animation[][4] = {
+	{
+		0x1f818,
+		0x1801f80,
+		0x180181f8,
+		250
+	},
+	{
+		0x0,
+		0x1500,
+		0x0,
+		250
+	}
+};
+
+
+
+## *Nivel4*
+
+ // Animación letra S en español y código morse, hecha en Led matrix editor.
+
+ // https://ledmatrix-editor.arduino.cc/
+
+const uint32_t animation[][4] = {
+	{
+		0x1f81f819,
+		0x81981f81,
+		0x98198198,
+		250
+	},
+	{
+		0x0,
+		0x1600,
+		0x0,
+		250
+	}
+};
+
+## *Nivel5*
+
+ // Animación letra A en español y código morse, hecha en Led matrix editor.
+
+ // https://ledmatrix-editor.arduino.cc/
+
+const uint32_t animation[][4] = {
+	{
+		0x1f81f819,
+		0x81981f81,
+		0x98198198,
+		250
+	},
+	{
+		0x0,
+		0x1600,
+		0x0,
+		250
+	}
+};
+
+
+## *NivelFinal*
+
+ // al lograr pasar todos los niveles, el usuario visualizara una pequeña morsa guiñando el ojo en felicitación
+
+ // https://ledmatrix-editor.arduino.cc/
+const uint32_t animation[][4] = {
+	{
+		0x31831811,
+		0x4e42483,
+		0xb8110110,
+		66
+	},
+	{
+		0x1839801,
+		0xe42483,
+		0xb8110110,
+		250
+	},
+	{
+		0x0,
+		0x0,
+		0x0,
+		250
+	}
+};
+
 
 
 **Links Visitados**
