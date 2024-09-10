@@ -2,6 +2,7 @@ Solemne 01
 *El objetivo del proyecto “Shh” es que la matriz LED reaccione a un nivel de sonido preestablecido, permitiendo que la criatura exprese su estado emocional a través de su ojo*. La idea es que, al captar un cierto umbral de ruido, el ojo de la criatura se ilumine de manera que refleje su estado de ánimo. Dependiendo de la intensidad del sonido, la criatura podrá manifestar emociones como enojo o tristeza, utilizando el cambio en la iluminación y patrones visuales de la matriz LED para comunicar estas sensaciones. Este enfoque busca dar vida al objeto, haciéndolo interactivo y emotivo.
 
 Imágenes del proceso
+
 // ![texto](./procesoshh.jpg.jpeg)
 
 // ![texto](./imagenseis.jpg.jpeg)
@@ -19,7 +20,6 @@ El problema del tamaño de los Led fue resuelto con una lupa, la cual fue puesta
 // ![texto](./imagendiez.jpg.jpeg)
 // ![texto](./imagenonce.jpg.jpeg)
 
-¿Qué es "shh"?: Criatura que no quiere ser molestado, "shh" es sensible al sonido por lo que despierta tanto enojado como triste al sonido, la idea de "shh" es poder controlar lugares de niños en donde el 
 # Manual de uso proyecto "shh"
 ### Paso 1: Encuentra un espacio adecuado
 El primer paso es ubicar un espacio tranquilo, como una sala o una habitación, asegurándote de que haya el menor ruido ambiental posible. La criatura "Shh" es sensible al sonido, por lo que un entorno silencioso te permitirá interactuar mejor con ella.
