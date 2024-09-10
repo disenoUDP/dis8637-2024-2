@@ -7,9 +7,7 @@
 
 Tomamos en cuenta el concejo de Santiago de diseñar una mascota para el juego y también de Aarón para que esta fuera una morsa, ya que suena parecido a la palabra “Morse”.
 
-En la clase del martes 3 la Alanis le mostró a la Tiare y al Santiago cómo hizo la ranura de nuestra impresión 3D. 
-
-Durante la clase del 3 le explicamos al Santiago y la Tiare como habíamos hecho la división de nuestra pieza 3D,  porque nos preguntaron con qué tolerancia habíamos hecho el encaje.
+Durante la clase del martes 3 la Alanis le mostró al Santiago y la Tiare como habíamos hecho la división/ranura de nuestra pieza 3D,  porque nos preguntaron con qué tolerancia habíamos hecho el encaje.
 
 El viernes ayudamos al grupo de Morgan y Sofía dándoles el stl de una de las partes de nuestro proyecto, pero adaptando las medidas al suyo, ya que nosotras teníamos conocimientos de modelado 3d en Rhino y luego lo pusimos a imprimir. También nos preguntaron qué código estábamos usando para el pulsador y les dimos lo que habíamos avanzado hasta el minuto. También le hicimos una mini introducción al Morgan de Rhino.
 
@@ -19,9 +17,15 @@ El viernes ayudamos al grupo de Morgan y Sofía dándoles el stl de una de las p
 
 La Emi nos intentó ayudar con un error de código, no resultó, pero se aprecia la ayuda.
 
-También le hicimos un tutorial a la Emi para que pudiera descargar el slicer UltiMaker Cura y cómo usarlo para hacer impresiones 3d y para que así también ella pudiera ayudar a la gente que iba a ir el sábado, ya que ella nos dijo que iba a ir ese día.
+También le hicimos un tutorial a la Emi para que pudiera descargar el slicer UltiMaker Cura y cómo usarlo para hacer impresiones 3d, para que así también ella pudiera ayudar a la gente que iba a ir el sábado, ya que nos dijo que iba a ir ese día.
 
 Por mi lado también mandé un manual pdf de la profesora Paula Corrales en el discord que explicaba un poco sobre impresión 3D, además de otros mini videos tutoriales.
+
+El lunes 9 de septiembre estuvimos hablando mucho con el grupo de la Sofi y el Moss y con el Santiago. Entre nosotros estuvimos respondiendo dudas sobre el código. Por un lado la Sofi nos mostró un código en donde lograba establecer un estado STANDBY y romperlo al apretar el pulsador. 
+
+Después Aarón enseñó cómo agregar archivos .h adjuntos a un código, a partir de eso surgieron más problemas al intentar "llamar" el archivo .h, lo cuál pudimos solucionar y comentamos la solución a nuestros compañeros en sala que no estaban avanzando en sus códigos por el mismo problema.
+
+También le enseñamos al Moss a soldar los cables al arduino.
 
 ## Explicación textual
 
@@ -29,12 +33,13 @@ Por mi lado también mandé un manual pdf de la profesora Paula Corrales en el d
 
 **MarcaMorsa** es un objeto interactivo en donde las personas pueden aprender a escribir de forma lúdica una palabra en código morse.
 
-En cuanto a su dimensión física, proyectamos que este objeto podría tener una forma más orgánica en la parte inferior, para lograr una mejor ergonomía con las manos y un agarre más cómodo. Su materialidad será de madera e impresión 3D. Tendrá a la vista un botón, una matriz led y unos orificios hacia su interior que permiten la salida del sonido. En el interior se encontrarán escondidos el arduino, un parlante y las demás conexiones. 
+En cuanto a su dimensión física, este objeto tiene una forma más orgánica en la parte inferior, para lograr una mejor ergonomía con las manos y un agarre más cómodo. Su materialidad es de madera terciado 3mm e impresión 3D con plástico PLA. Tendrá a la vista un gran botón, una matriz led y unos orificios hacia su interior que permiten la salida del sonido. En el interior se encontrarán escondidos el arduino, un parlante y las demás conexiones. 
 
 ### Lo que es
 
-**MarcaMorsa** es un objeto interactivo en donde las personas pueden aprender a escribir de forma lúdica una palabra en código morse.
+**MarcaMorsa** es un objeto en donde las personas pueden visualizar animaciones de 
 
+En cuanto a su dimensión física, proyectamos que este objeto podría tener una forma más orgánica en la parte inferior, para lograr una mejor ergonomía con las manos y un agarre más cómodo. Su materialidad será de madera e impresión 3D. Tendrá a la vista un botón, una matriz led y unos orificios hacia su interior que permiten la salida del sonido. En el interior se encontrarán escondidos el arduino, un parlante y las demás conexiones. 
 
 ## Documentación audiovisual
 
