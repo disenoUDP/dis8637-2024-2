@@ -1,5 +1,21 @@
 # clase-04 
 
+# ¿QUE ES HEROE GUITARRA?
+Heroe guitarra es un dispositivo electronico inspirado en el modo de uso mas comun de un instrumento: un acorde accionable y una pulsacion. 
+
+
+
+
+
+
+
+
+
+# REFERENTES
+![texto](./guitarhero.jpg).
+![texto](./pianotiles.jpg).
+![texto](./controlguitarhero1.jpg).
+
 
 # modelado Heroe guitarra  ////// Decisiones de diseño.
 
@@ -12,7 +28,7 @@ esta era una idea dada la condicion de que partieramos en 4 nuestro prototipo pa
 ![texto](./INTENTODEENCAJE.jpg).
 
 # DATO!!!  
-En cualquier encaje es necesario dar tolerancias de al menos 2 mm o 3mm, para que el factor impresion no provoque fallos en nuestro encaje.
+En cualquier encaje es necesario dar tolerancias de al menos 0,15 mm a 0,30mm, para que el factor impresion no provoque fallos en nuestro encaje.
 
 ![texto](./rectificandotolerancias.jpg).
 
