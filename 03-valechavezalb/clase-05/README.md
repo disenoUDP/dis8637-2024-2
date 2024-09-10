@@ -2,16 +2,16 @@
 
 ##### 9 de septiembre de 2024
 
-Entrega de proyecto: Laberinto
+**Entrega de proyecto: Laberinto**
 
-¿QUÉ ES?
+**¿QUÉ ES?**
 Un juego que busca alcanzar completar un circuito en un tiempo definido (tiempo mostrado por los led del arduino), donde el jugador que logre llegar al final del juego antes de que finalise el tiempo ganara el juego.
 
-¿CÓMO ES?
+**¿CÓMO ES?**
 Se alimenta de una batería externa para su funcionamiento.
 ![texto](./laberintoterminado.JPG)
 
-![texto](./conexioneslaberinto.JPG)
+![texto](./conexioneslaberinto.jpeg)
 
 
 ## DIAGRAMA DE FLUJO DEL LABERINTO
