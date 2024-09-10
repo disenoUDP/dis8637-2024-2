@@ -36,7 +36,7 @@ https://www.profetolocka.com.ar/2024/07/29/tutorial-usando-la-matriz-led-del-ard
 https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html
 https://docs.arduino.cc/tutorials/uno-r4-wifi/r4-wifi-getting-started/
 
-ademas de que use proyectos anteriores que hice el año pasado en tecnologias interactivas para acordarme de como usar el sensor y el led 
+ademas de que use proyectos anteriores que hice el año pasado en tecnologias interactivas para acordarme de como usar el sensor y el led, deje el archivo subido tambien 🥣 
 
 
 
