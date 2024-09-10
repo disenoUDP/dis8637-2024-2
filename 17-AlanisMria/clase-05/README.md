@@ -159,10 +159,8 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
 ## Orden del código
 
-```ino
-
 ### Código prueba pulsador
-
+```ino
   /*
   Button
 
@@ -237,10 +235,9 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
     }
 ````
-```ino
 
 ### Código prueba Speaker
-
+```ino
  /*
 
   Melody
@@ -324,10 +321,10 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
     }
 ```
-```ino
+
 
 ### Código animación hola morse y español
-
+```ino
 /*
 
   Play Animation
@@ -486,10 +483,10 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
     };
 ```
-```ino
+
 
 ### Código Intento
-
+```ino
 #include "Arduino_LED_Matrix.h"
 #include "gallery.h"
 #include "PushButton.h"
@@ -569,9 +566,10 @@ void loop() {
       };
 ```
 
-```ino
+
 
 ### PushButton.h
+```ino
 /*
 MIT License
 Copyright (c) 2018 Kristian Klein Jacobsen
@@ -625,9 +623,10 @@ class PushButton
 };
     #endif
 ```
-```ino
+
 
 ### PlayAnimation
+```ino
 // Código usado desde los ejemplos de led matrix de arduino, este código, logra llamar a los códigos de animación realizados en led matrix editor, para proyectarlos en los leds.
 
 /*
@@ -662,10 +661,10 @@ void loop() {
   Serial.println(millis());
 }
 ```
-```ino
+
 
 ### StandBy
-
+```ino
  // Punto de partida, Aminacion de un Hola en código morse y español, hecho en led matrix editor .
 
  // https://ledmatrix-editor.arduino.cc/
@@ -721,9 +720,9 @@ const uint32_t animation[][4] = {
 	}
 };
 ```
-```ino
-### NivelPunto
 
+### NivelPunto
+```ino
  // Nivel introductorio, animación de un punto, hecho en led matrix editor.
 
  // https://ledmatrix-editor.arduino.cc/
@@ -737,10 +736,10 @@ const uint32_t animation[][4] = {
 	}
 };
 ```
-```ino
+
 
 ### NiveLinea
-
+```ino
  // Nivel introductorio, animación de una linea, hecho en led matrix editor.
 
  // https://ledmatrix-editor.arduino.cc/
@@ -755,10 +754,10 @@ const uint32_t animation[][4] = {
 };
 
 ```
-```ino
+
 
 ### Nivel1
-
+```ino
  // Animación letra M en español y código morse, hecha en Led matrix editor.
 
  // https://ledmatrix-editor.arduino.cc/
@@ -778,9 +777,9 @@ const uint32_t animation[][4] = {
 	}
 };
 ```
-```ino
-## Nivel2
 
+## Nivel2
+```ino
  // Animación letra O en español y código morse, hecha en Led matrix editor.
 
  // https://ledmatrix-editor.arduino.cc/
@@ -800,10 +799,10 @@ const uint32_t animation[][4] = {
 	}
 };
 ```
-```ino
+
 
 ### Nivel3
-
+```ino
  // Animación letra R en español y código morse, hecha en Led matrix editor.
 
  // https://ledmatrix-editor.arduino.cc/
@@ -824,10 +823,10 @@ const uint32_t animation[][4] = {
 };
 
 ```
-```ino
+
 
 ### Nivel4
-
+```ino
  // Animación letra S en español y código morse, hecha en Led matrix editor.
 
  // https://ledmatrix-editor.arduino.cc/
@@ -848,10 +847,10 @@ const uint32_t animation[][4] = {
 };
 ```
 
-```ino
+
 
 ### Nivel5
-
+```ino
  // Animación letra A en español y código morse, hecha en Led matrix editor.
 
  // https://ledmatrix-editor.arduino.cc/
@@ -871,10 +870,10 @@ const uint32_t animation[][4] = {
 	}
 };
 ```
-```ino
+
 
 ### NivelFinal
-
+```ino
  // al lograr pasar todos los niveles, el usuario visualizara una pequeña morsa guiñando el ojo en felicitación
 
  // https://ledmatrix-editor.arduino.cc/
