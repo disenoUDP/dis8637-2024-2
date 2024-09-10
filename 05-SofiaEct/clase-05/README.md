@@ -1,7 +1,5 @@
 # clase-05
 
-(esto se borra despues, falta agregar referencias de arduino y corregir la ortografia + imagenes/videos de el juego listo"" la caja entera, por dentro y por todos los angulos posibles)
-
 ## VOCAL HUNT 
 
 Con [@Mosswhosmoss](https://github.com/Mosswhosmoss/dis8637-2024-2)  ideamos el proyecto __"VOCAL HUNT"__, juego interactivo, inspirado en "whack-a-mole" y "pop it", desafía al jugador a reaccionar rápidamente al presionar vocales dentro de un tiempo límite. El objetivo es mantener la calma mientras se enfrenta a secuencias de mayor dificultad, mientras mantiene sus vidas.
@@ -68,30 +66,29 @@ Al final no cabía ningún circuito en la caja así que se hizo una mas grande
 ![cajaLijadaArriba](./cajaLijadaArriba.jpeg)
 ![cajaLijada](./cajaLijada.jpeg)
 
-para hacerle los agujeros requerimos de la ayuda de mi padre nuevamente
+Para hacerle los agujeros requerimos de ayuda nuevamente
 
 ![hoyosBotones](./hoyosBotones.jpg)
 ![hoyosBotonesProblemas](./hoyosBotonesProblemas.jpg)
 
-el problema de hacer los agujeros era que el MDF se quemaba y se pegaba en la broca demorandonos más en hacer todos los agujeros
+El problema de hacer los agujeros era que el MDF se quemaba y se pegaba en la broca demorandonos más en hacer todos los agujeros
 
 https://github.com/user-attachments/assets/67e6b9ee-4b94-49aa-abf2-10c8dd6cbc03
 
-si bien al momentos de hacer los agujeros para los botones no quedaron muchas imperfecciones, cuando finalmente hicimos el agujero por donde entraria el cable usb-c para conectar con el arduino, al ser primera vez que trabajamos con mdf, no teniamos contemplado o mas bien, no sabiamos que por el lado interior se pelaria.
+Si bien al momento de hacer los agujeros para los botones no quedaron muchas imperfecciones, cuando finalmente hicimos el agujero por donde entraría el cable usb-c para conectar con el arduino, al ser primera vez que trabajamos con mdf, no teniamos contemplado o más bien, no sabiamos que por el lado interior se pelaría
 
-es algo importante a tener en cuenta al momento de perforar el mdf.
+Es algo importante a tener en cuenta al momento de perforar el mdf
 
 ![image](https://github.com/user-attachments/assets/bf35f052-28d1-4a57-a288-cb0476820df5)
 
 ## PRIMEROS ACERCAMIENTOS
 
-en la clase 4 junto a morgan no teniamos muy definido aun el rumbo de nuestro proyecto, por lo que no avanzamos mucho en proyectar fisicamente las dimensiones interiores y exteriores de la caja, aun asi exploramos bastante el area del circuito (aun que no funciono TT)
+En la clase 4 junto a morgan no teniamos muy definido aun el rumbo de nuestro proyecto, por lo que no avanzamos mucho en proyectar físicamente las dimensiones interiores y exteriores de la caja, aun así exploramos bastante el area del circuito (aun que no funciono TT)
 
-principalmente teniammos conteplados el uso de leds, resitores y hasta protoboards, lo que se simplifico y no fueron necesarios actualmente en nuestro trabajo.
+Principalmente teniammos contemplados el uso de leds, resistores y hasta protoboards, lo que se simplificó y no fueron necesarios actualmente en nuestro trabajo
 
 ![image](https://github.com/user-attachments/assets/8a2e804a-c755-4a36-877b-e2728d8f2931)
-
-aun que no todo es fallo, seguimos intentando poder usar el pulsador junto al led, y tuvimos pruebas exitosas!
+Aaun que no todo es fallo, seguimos intentando poder usar el pulsador junto al led, y tuvimos pruebas exitosas!
 
 ![image](https://github.com/user-attachments/assets/dd73a054-d855-4ac9-9896-20bc76502131)
 
@@ -99,7 +96,7 @@ aun que no todo es fallo, seguimos intentando poder usar el pulsador junto al le
 
 tarea: quiero jugar al juego de secuencia
 
-casos limites: que no este conectado, que el conector se eche a perder, no se que mas
+casos limites: que no este conectado, que el conector se eche a perder
 
 1. Conecta al juego a una fuente de energía a través de un cable usb-c
 2. El juego queda en un estado de espera hasta que el jugador aprete cualquier botón/"vocal" para iniciar
@@ -109,7 +106,7 @@ casos limites: que no este conectado, que el conector se eche a perder, no se qu
 
 ## CÓDIGO BASE DE SERGIO
 
-el codigo que nos dio sergio fue una ecelente base para trabajar, y no solo por hacer el codigo sino que me dio la nocion de que palabras, comandos, variables usaria en el codigo y poder definirlas para mi entendimiento!
+El código que nos dió Sergio fue una excelente base para trabajar, y no solo por hacer el código sino que me dió la noció de que palabras, comandos, variables usaría en el código y poder definirlas para mi entendimiento!
 
  ```c++
 enum State {
@@ -179,7 +176,7 @@ bool checkDistanceSensor(){}
 - ___true___: comunmente se define como 1, lo cual es correcto, pero true tiene una definicion mas amplia, cualquier entero que no es cero es true.
 - ___digitalRead___: sirve para leer un valor (o poner en un estado) un pin digital.
   
-## CODIGO PRINCIPAL CON ERRORES
+## CóDIGO PRINCIPAL CON ERRORES
 
  ```c++
 // lenguaje de c++ para detectar posibles errores en el código y valores, por lo que lo usamos ahora para definir los estados de nuestro dispopsitivo
@@ -221,10 +218,9 @@ void loop() {
   }
 }
  ```
+En base a este código hice unas pruebas con los pulsadores que teniamos, aun que este escrito a la "mala" fue un buen punto de partida para mí ya que desde ahí pude aclarar mejor el rumbo del código
 
-en base a este codigo hice unas pruebas con los pulsadores que teniamos, aun que este escrito a la "mala" fue un buen punto de partida para mi ya que desde ahi pude aclarar mejor el rumbo del codigo
-
-estas son unas de las cuantas reacciones que tuvo el arduino y el pulsador con el codigo anterior
+Estas son unas de las cuantas reacciones que tuvo el arduino y el pulsador con el código anterior
 
 https://github.com/user-attachments/assets/7f890011-af67-45cb-8d76-e40f6c789dff
 
@@ -233,9 +229,9 @@ https://github.com/user-attachments/assets/ea7ec7df-d4af-47a9-a52a-33e079bea672
 
 ## CÓDIGO ACTUAL
 
-primero para corregir el codigo anterior tuvimos una reunion con [@montoyamoraga](https://github.com/montoyamoraga?tab=repositories&q=&type=&language=&sort=) donde pudimos darnos cuenta de algunas cosas, algo importante fue lo siguiente:
+Primero para corregir el codigo anterior tuvimos una reunión con [@montoyamoraga](https://github.com/montoyamoraga?tab=repositories&q=&type=&language=&sort=) donde pudimos darnos cuenta de algunas cosas, algo importante fue lo siguiente:
 
-para que quien no tenga un pulsador o tenga problemas para conectarlo/hacerlo funcionar (siempre y cuando este trabajando con pinMode(INPUT_PULLUP)) pueden conectar uno de estos cablecitos corto a GND y al numero de pin que tengan en su codigo (en mi caso 2)
+Para que quien no tenga un pulsador o tenga problemas para conectarlo/hacerlo funcionar (siempre y cuando este trabajando con pinMode(INPUT_PULLUP)) pueden conectar uno de estos cablecitos corto a GND y al número de pin que tengan en su codigo (en mi caso 2) esto reemplazaria al pulsador
 
 ![image](https://github.com/user-attachments/assets/b4b9688c-c1cf-419b-8a3e-4f943cf69729)
 
@@ -312,21 +308,21 @@ void loop() {
 
 ## ANIMACIONES
 
-despues de haber resuelto la primera parte que era definir el estado standby, procedi a ver como era hacer animaciones en arduino (que dolor de cabeza), fue bastante complicado ya que no entendia ninguno de los metodos utilizados en las referencias de arduino, hasta que llegue a esta video [Probando el nuevo Arduino uno R4 Wifi de @MCI Electronics](https://www.youtube.com/watch?v=6A_xKy1qANw&t=196s) me salvo la vida!
+Después de haber resuelto la primera parte que era definir el estado standby, procedí a ver como era hacer animaciones en arduino (que dolor de cabeza), fue bastante complicado ya que no entendia ninguno de los metodos utilizados en las referencias de arduino, hasta que llegué a esta video [Probando el nuevo Arduino uno R4 Wifi de @MCI Electronics](https://www.youtube.com/watch?v=6A_xKy1qANw&t=196s) me salvo la vida!
 
 probe animaciones ya hecha tanto por el creador del video anterior o de arduino
 
 https://github.com/user-attachments/assets/67c3d389-0400-437b-af70-0d28a7c88996
 
-ya despues me aventure a crear mis propias animaciones
+Ya después me aventuré a crear mis propias animaciones
 
 https://github.com/user-attachments/assets/d404d697-cdfa-417c-ac7e-42698ebf0cb7
 
-estas animaciones se crean en un archivo aparte, como mencione anterioremente no es .ino sino que es .h ahi es donde se almacena el codigo de la animacion exportado del editor
+Estas animaciones se crean en un archivo aparte, como mencioné anterioremente no es .ino sino que es .h ahi es donde se almacena el código de la animación exportado del editor
 
 https://github.com/user-attachments/assets/1e989e2d-a3e6-4a93-88e4-6e1facd35d96
 
-el codigo que marque es el que llama al archivo .h lo lee y lo reproduce en la pantalla led del arduino
+El código que marque es el que llama al archivo .h lo lee y lo reproduce en la pantalla led del arduino
 
 ```c++
 /*
@@ -363,7 +359,7 @@ void loop() {
 
 ```
 
-y este es el codigo en la pestaña de _animation.h_ que contiene un codigo de animacion default de la biblioteca de arduino (editable)
+Y este es el código en la pestaña de _animation.h_ que contiene un código de animacion default de la biblioteca de arduino (editable)
 
 ```c++
 const uint32_t animation[][4] = {
@@ -441,8 +437,7 @@ const uint32_t animation[][4] = {
 	}
 };
 ```
-agregando todo lo anterior tenemos el codigo actual que estamos utilizando (editable)
-
+Agregando todo lo anterior tenemos el código actual que estamos utilizando 
 ```c++
 #include "Arduino_LED_Matrix.h"   //Include the LED_Matrix library
 #include "animation.h"            //Include animation.h header file
@@ -538,7 +533,7 @@ void setup() {
 
 ```
 
-codigo de la animacion
+Código de la animación
 
 ```c++
 const uint32_t uncorazon[][4] = {
@@ -828,10 +823,20 @@ const uint32_t U[][4] = {
 
 ```
 
+## PRODUCTO FINAL
 
+Al momento de la instalación hubieron problemas en los botones, donde no de unian las piezas, dificultando el poderpresionarlas
 
+https://github.com/user-attachments/assets/d025c5bc-33d6-4890-8f7c-b5f8733bbb07
 
-   
+No avanzamaos mas en el código por tiempo, la intención era hacer que funcionara totalmente pero el proceso que llevamos culmino en un resultado satisfactorio
 
+![image](https://github.com/user-attachments/assets/1490638a-35d6-49f6-a09f-13df4593e468)
 
+![image](https://github.com/user-attachments/assets/deb5ddc2-dd47-49db-b9f2-c086367c496a)
 
+![image](https://github.com/user-attachments/assets/3b68eb83-8b94-4d25-9b07-c1e8b14d83a6)
+
+![image](https://github.com/user-attachments/assets/b849331f-c5bc-4bf1-a4cd-43e5d9f42995)
+
+![image](https://github.com/user-attachments/assets/9ef91406-c7d2-4b9e-9621-8b86ecc84c16)
