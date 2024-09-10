@@ -4,9 +4,20 @@
 // tecnologia
 // etc
 
+// incluir biblioteca para pantalla de Arduino Uno R4 Wifi
 #include "Arduino_LED_Matrix.h"
-#include "gallery.h"
-#include "PushButton.h"
+
+// TODO que es esto
+// #include "gallery.h"
+
+// TODO de donde salio esta biblioteca?
+// no esta completa en el codigo, no la usaria
+// es suficiente con usar los metodos de debounce button
+// que estan explicados en la referencia de arduino
+// https://docs.arduino.cc/built-in-examples/digital/Debounce/
+// #include "PushButton.h"
+
+// TODO incluir todas las animaciones aqui?
 #include "Nivel4.h"
 
 // codigo de referencia del repositorio de la Sofia Etchepare
@@ -14,7 +25,7 @@
 // lenguaje de c++ para detectar posibles errores en el código y valores
 //por lo que lo usamos ahora para definir los estados de nuestro dispopsitivo
 enum State {
-  
+
   // estado de reposo
   REPOSO,
 
@@ -25,11 +36,13 @@ enum State {
   //  segundo nivel introductorio
   // para aprender como hacer una linea
   NIVEL_LINEA,
-  
 
-  // en los niveles numerados el usuario debe clickear o mantener presionado el boton
+
+  // en los niveles numerados
+  // el usuario debe clickear o mantener presionado el boton
   // para escribir las letras en morse
-  
+  // y ojo en computacion contamos desde 0, no desde 1
+
   // letra M
   NIVEL_1,
   // letra O
@@ -46,26 +59,33 @@ enum State {
   NIVEL_FINAL
 };
 
-
-// el pin es donde se conecta el botón al arduino, en este casi en la ranura número 2
+// boton conectado al pin 2 para lectura
 const int BOTON_ENTRADA = 2;
 
+// estado inicial en reposo
+State currentState = REPOSO;
 
-//estado actual en espera
-State currentState = STANDBY;
+// crear objeto matrix para controlar la pantalla
+ArduinoLEDMatrix matrix;
 
-
-// comandos utilizados de edgar pon para usar botones en arduino con if-else https://edgarpons.com/botones-en-arduino-y-comandos-if-else/
-
+// comandos utilizados de edgar pon
+// para usar botones en arduino con if-else
+// https://edgarpons.com/botones-en-arduino-y-comandos-if-else/
 
 void setup() {
   // configurar las entradas
   pinMode(BOTON_ENTRADA, INPUT_PULLUP);
+
+  // inicializar la pantalla
+  matrix.begin();
+
+  // abrir comunicacion serial
   Serial.begin(9600);
 }
-// aqui se ponen todos los comandos que el ardino debe de ejecutar haciandolos que esten en continua funcionamiento, que pase mas de una vez
+
 void loop() {
-  //sirve para leer un valor (o poner en un estado) un pin digital.
+
+
   switch (currentState) {
     // en este estado esperamos la accion del usuario
     // 'presionar cualquie boton para que empiece el juego' y asi cambie a un estado activo
@@ -80,23 +100,72 @@ void loop() {
         }
         break;
       }
-    case NIVEL4:
+
+    case NIVEL_PUNTO:
       {
-        Serial.println("En estado NIVEL4");
+        Serial.println("NIVEL_PUNTO");
+        break;
+      }
+
+    case NIVEL_LINEA:
+      {
+        Serial.println("NIVEL_LINEA");
+        break;
+      }
+
+    case NIVEL_1:
+      {
+        Serial.println("NIVEL_1");
+        break;
+      }
+
+    case NIVEL_2:
+      {
+        Serial.println("NIVEL_2");
+        break;
+      }
+
+    case NIVEL_3:
+      {
+        Serial.println("NIVEL_3");
+        break;
+      }
+
+    case NIVEL_4:
+      {
+        Serial.println("NIVEL_4");
+
+        // TODO no entiendo esto
         //if (animacionA) aparece en la pantalla{
-         //se presiona lecturaA
-     //}
-        BOTON_ENTRADA.update(2);
+        //se presiona lecturaA
+        //}
+        //}else{} (quizas) si no lo hace en el tiempo establecido pierde vida
 
-        if bool(BOTON_ENTRADA.isClicked(3);)
+        // TODO esta linea creo que es por la biblioteca pushbutton
+        // que quieren usar, pero recomiendo hacer con debounce no mas
+        // BOTON_ENTRADA.update(2);
+
+        // TODO lo mismo con esto
+        // if bool(BOTON_ENTRADA.isClicked(3);)
+
+        // TODO antes de inicializar la matrix, tienes que declararla
+        // ya lo hice arriba antes de setup()
+        // y luego la inicialize en setup()
+        matrix.loadFrame(Nivel4);
         
-          matrix.loadFrame(Nivel4);
-      };
-      //if (animacionA) aparece en la pantalla{
-      //se presiona lecturaA
-      //}
-      //}else{} (quizas) si no lo hace en el tiempo establecido pierde vida
-      break;
-  }
-};
+        break;
+      }
 
+    case NIVEL_5:
+      {
+        Serial.println("NIVEL_5");
+        break;
+      }
+
+    case NIVEL_FINAL:
+      {
+        Serial.println("NIVEL_FINAL");
+        break;
+      }
+  }
+}
