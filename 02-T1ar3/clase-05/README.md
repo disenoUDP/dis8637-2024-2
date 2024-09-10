@@ -40,6 +40,8 @@ Si el usuario se aleja demasiado rápido, la caja volvera a su estado inicial de
 
 Por ejemplo, si el Arduino recibe la señal, esto indica que el usuario se encuentra a  75 cm de distancia de la caja, lo que hace que la animación en la pantalla aumente su velocidad a medida que el usuario se aproxima. Una vez que la distancia se reduce a menos de 50 cm, el servomotor activa el cierre automático de la tapa
 
+![texto](./dibujo.jpg)
+
 ### documentación
 - diagramamos los componentes dentro de la caja principal para ubicar la carcasa acrílica que contendrá objetos de "valor"
 
