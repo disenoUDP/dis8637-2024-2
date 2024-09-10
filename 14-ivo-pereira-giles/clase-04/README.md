@@ -10,8 +10,10 @@ Cada nivel contiene una serie de acordes que conformarán la melodía. Toca los 
 
 # REFERENTES
 ![texto](./guitarhero.jpg).
+
 ![texto](./pianotiles.jpg).
-![texto](./controlguitarhero1.jpg).
+
+![texto](./controlguitarhero.jpg).
 
 
 # modelado Heroe guitarra  ////// Decisiones de diseño.
