@@ -1,8 +1,7 @@
 # clase-05
 ## Solemne 01
-### "SHH" Es una criatura que no quiere ser molestada, es una criatura sensible al sonido por lo que puede reaccionar tanto enojado como triste si lo detecta.
+### "SHH" Es una criatura que no quiere ser molestada, es sensible al sonido por lo que puede reaccionar tanto enojado como triste si lo detecta.
 *Shh explora la interacción con el entorno, permitiendo que una criatura aparentemente dormida despierte cuando detecta ruidos fuertes. La idea es que este objeto, que normalmente está inactivo, cobre vida en respuesta a estímulos sonoros. El objetivo es que la matriz LED reaccione al ruido por un parametro establecido, permitiendo que la criatura exprese su estado a través de su ojo. La idea es que, al captar un cierto umbral de ruido, el ojo de la criatura se ilumine de manera que refleje su estado de ánimo. Dependiendo de la intensidad del sonido, la criatura podrá manifestar emociones como enojo o tristeza, utilizando el cambio en la iluminación y patrones visuales de la matriz LED para comunicar estas sensaciones.*
-
 
 
 ### Imágenes del proceso
