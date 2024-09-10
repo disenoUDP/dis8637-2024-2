@@ -1,4 +1,7 @@
 # clase-05
+
+(esto se borra despues, faltavagregar referencias de arduino y corregir la ortografia + imagenes/videos de el juego listo"" la caja entera, por dentro y por todos los angulos posibles)
+
 ## VOCAL HUNT 
 
 Con [@Mosswhosmoss](https://github.com/Mosswhosmoss/dis8637-2024-2)  ideamos el proyecto __"VOCAL HUNT"__, juego interactivo, inspirado en "whack-a-mole" y "pop it", desafía al jugador a reaccionar rápidamente al presionar vocales dentro de un tiempo límite. El objetivo es mantener la calma mientras se enfrenta a secuencias de mayor dificultad, mientras mantiene sus vidas.
