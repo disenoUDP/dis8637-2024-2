@@ -1,8 +1,9 @@
 # clase-05
 ## Solemne 01
-*El proyecto “Shh” explora la interacción con el entorno, permitiendo que una criatura aparentemente dormida despierte cuando detecta ruidos fuertes. La idea es que este objeto, que normalmente está inactivo, cobre vida en respuesta a estímulos sonoros, este enfoque busca ser interactivo y lúdico*
+### "SHH" Es una criatura que no quiere ser molestada, es una criatura sensible al sonido por lo que puede reaccionar tanto enojado como triste si lo detecta.
+*Shh explora la interacción con el entorno, permitiendo que una criatura aparentemente dormida despierte cuando detecta ruidos fuertes. La idea es que este objeto, que normalmente está inactivo, cobre vida en respuesta a estímulos sonoros. El objetivo es que la matriz LED reaccione al ruido por un parametro establecido, permitiendo que la criatura exprese su estado a través de su ojo. La idea es que, al captar un cierto umbral de ruido, el ojo de la criatura se ilumine de manera que refleje su estado de ánimo. Dependiendo de la intensidad del sonido, la criatura podrá manifestar emociones como enojo o tristeza, utilizando el cambio en la iluminación y patrones visuales de la matriz LED para comunicar estas sensaciones.*
 
-*El objetivo es que la matriz LED reaccione al ruido por un parametro establecido, permitiendo que la criatura exprese su estado a través de su ojo. La idea es que, al captar un cierto umbral de ruido, el ojo de la criatura se ilumine de manera que refleje su estado de ánimo. Dependiendo de la intensidad del sonido, la criatura podrá manifestar emociones como enojo o tristeza, utilizando el cambio en la iluminación y patrones visuales de la matriz LED para comunicar estas sensaciones.*
+
 
 ### Imágenes del proceso
 ## Boceto
@@ -15,31 +16,34 @@
 ![texto](./inicial.jpg)
 
 
-## resultados y cambios post correcciones curso
+# resultados y cambios post correcciones curso
 * Los cambios propuestos en clase para esta criatura incluyen varias mejoras. Primero, se sugirió que estuviera adherida a la pared para facilitar su interacción con las personas a su alrededor. Para lograrlo, diseñamos una placa que permite colgarla en el muro, con un agujero incorporado para facilitar su montaje. Además, se añadió un soporte específico para el Arduino y se creó un espacio adicional para proyectar de manera óptima, mejorando así la funcionalidad y la estética del diseño.
-* El problema del tamaño de los Led fue resuelto con una lupa, la cual fue puesta en el ojo de la criatura, lo que permitió poder ampliar la luz y ver de mejor forma el ojo. 
+* El problema del tamaño de los Led fue resuelto con una lupa, la cual fue puesta en el ojo de la criatura, lo que permitió poder ampliar la luz y ver de mejor forma el ojo.
 
+## Avances 
+![texto](./tapa1.jpg)
+![texto](./tapa2.jpg)
 ![texto](./proces.jpg)
 
-¿Qué es "shh"?: Criatura que no quiere ser molestado, "shh" es sensible al sonido por lo que despierta tanto enojado como triste al sonido, la idea de "shh" es poder controlar lugares de niños en donde el 
+
 # Manual de uso proyecto "shh"
 ### Paso 1: Encuentra un espacio adecuado
 El primer paso es ubicar un espacio tranquilo, como una sala o una habitación, asegurándote de que haya el menor ruido ambiental posible. La criatura "Shh" es sensible al sonido, por lo que un entorno silencioso te permitirá interactuar mejor con ella.
 
 ### Paso 2: Colgar a "Shh" en la pared
-Para utilizar el objeto, primero debes colgar a "Shh" en la pared. En la parte posterior del dispositivo, encontrarás un orificio en la tapa trasera que está diseñado para este propósito. El objeto utilizado para colgarlo debe tener un radio no mayor a 1 centímetro. Asegúrate de que esté bien sujeto para evitar caídas.
+Para utilizar el objeto, primero debes colgar a "Shh" en la pared, en la parte posterior del objeto, encontrarás un orificio que está diseñado para este propósito. El objeto utilizado para colgarlo debe tener un radio no mayor a 1 centímetro. Asegúrate de que esté bien sujeto para evitar caídas.
 
 ### Paso 3: Conectar a la fuente de energía
 Una vez que hayas colgado a "Shh", revisa que esté correctamente conectado a una fuente de energía. Para comprobar que el dispositivo está encendido, observa si comienza a mostrar señales en su matriz LED. Si ves actividad en la matriz, sabrás que está listo para interactuar contigo.
 
 ### Paso 4: Despertar a la criatura
-Para despertar a "Shh", simplemente emite algún sonido en el espacio o háblale directamente. La criatura es muy sensible al sonido, por lo que cualquier ruido captado por su sensor activará una respuesta.
+Para despertar a "Shh", simplemente emite algún sonido en el espacio o háblale directamente. La criatura es muy sensible al sonido, por lo que cualquier ruido captado podr{ia activar una respuesta.
 
  ### Paso 5: Cambios en el estado de ánimo
 El estado de ánimo de "Shh" dependerá del nivel de ruido en su entorno. Si le hablas suavemente o emites sonidos tranquilos, su estado será neutral o triste. Sin embargo, si el ruido es muy fuerte, como cuando hay muchas personas hablando o si gritas, la criatura mostrará un estado de ánimo enojado. Su matriz LED reflejará estos cambios de humor, lo que hace que la interacción sea dinámica.
 
 ### Paso 6: Poner a "Shh" en reposo
-Si deseas que "Shh" vuelva a dormir, asegúrate de que no haya ruido en su entorno. Una vez que el sonido desaparezca, la criatura entrará en un estado de reposo, apagando o disminuyendo la actividad en su matriz LED.
+Si deseas que "Shh" vuelva a dormir, asegúrate de que no haya ruido en su entorno. Una vez que el sonido desaparezca, la criatura entrará en su estado calmado mostrando su ojo cerrado en la matriz LED.
 
 ## Prohibiciones 
 1. Asegurate que "shh" no sufra caídas, ni golpes.
