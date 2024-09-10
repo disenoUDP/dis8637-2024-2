@@ -3,7 +3,7 @@
 
 ¿QUE ES?
 
-Un juego que busca alcanzar completar un circuito en un tiempo definido (tiempo mostrado por los led del arduino), donde  el jugador que logre llegar al final del juego antes de que finalise el tiempo ganara el juego
+Un juego que busca alcanzar completar un circuito en un tiempo definido (tiempo mostrado por los led del arduino), donde  el jugador que logre llegar al final del juego antes de que finalice el tiempo ganara el juego
 
 ¿COMO ES?
 
