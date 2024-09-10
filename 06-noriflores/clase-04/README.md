@@ -49,6 +49,8 @@ en esta primera instancia teníamos en sensor en el techo de la casa, pero graci
 
 ![problema1](./problema1.jpeg "problema1")
 
+![video](./video.mp4 "casitavideo")
+
 ## casa actual
 
 ![casaactual](./casaactual.jpg "casita")
