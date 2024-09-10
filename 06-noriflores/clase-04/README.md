@@ -21,6 +21,12 @@ caso limite: caso extremo que puede atentar con el funcionamiento que uno espera
 
 incorporaremos el sensor en la base de la casa, junto con un led de color rojo para indicar al usuario a interacturar por ahi, además agregaremos globos en la parte superior para darle mas similitud a la casa original de up :)
 
+update:
+
+añadimos un led rojo por debajo junto con el sensor, y el led se mantiene prendido cuando no detecta proximidad, junto con esto la matriz muestra la animacion de un globo flotando en modo de espera. Cuando el sensor detecta proximidad se apaga el led y comienza la animacion de la casita subiendo y bajando.
+
+Tambien pintamos la casita para que se viera aun mas parecida a la origial
+
 ## codigo 
 
 deje subido el archivo que usamos con el codigo de arduino :D 
