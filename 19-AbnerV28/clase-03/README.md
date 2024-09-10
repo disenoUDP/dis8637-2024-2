@@ -11,4 +11,6 @@ Encargo
    3. Deslizante; Se activa o desactiva deslizando el boton en una direccion; se usa para ajustar configuraciones o encender y/o apagar dispositivos
    4. Interruptor; Tpo de boton que simula un interruptor fisico, se utiliza a menudo para interfaces graficas para encender o apagar funiones
       
-   #Buscar referentes que utilicen led
+   # Buscar referentes que utilicen led
+### Crear una criatura que reaccione al ruido
+"shh" es una criatura la cual le gusta dormir y no ser molestado, es por ello que sebe hablar lo más bajo posible para que "shh" no despierte y se enoje. 
