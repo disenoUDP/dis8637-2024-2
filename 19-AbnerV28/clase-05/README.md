@@ -4,14 +4,18 @@
 Shh explora la interacción con el entorno, permitiendo que una criatura aparentemente dormida despierte cuando detecta ruidos fuertes. La idea es que este objeto, que normalmente está inactivo, cobre vida en respuesta a estímulos sonoros. El objetivo es que la matriz LED reaccione al ruido por un parametro establecido, permitiendo que la criatura exprese su estado a través de su ojo. La idea es que, al captar un cierto umbral de ruido, el ojo de la criatura se ilumine de manera que refleje su estado de ánimo. Dependiendo de la intensidad del sonido, la criatura podrá manifestar emociones como enojo o tristeza, utilizando el cambio en la iluminación y patrones visuales de la matriz LED para comunicar estas sensaciones.
 
 Imágenes del proceso
+// ![texto](./imagenseis.jpg.jpeg)
 // ![texto](./procesoshh.jpg.jpeg)
-
+// ![texto](./imagendos.jpg.jpeg)
+// ![texto](./imagensiete.jpg.jpeg)
+// ![texto](./imagentres.jpg.jpeg)
 
 
 # resultados y cambios post correcciones curso
 * Los cambios propuestos en clase para esta criatura incluyen varias mejoras. Primero, se sugirió que estuviera adherida a la pared para facilitar su interacción con las personas a su alrededor. Para lograrlo, diseñamos una placa que permite colgarla en el muro, con un agujero incorporado para facilitar su montaje. Además, se añadió un soporte específico para el Arduino y se creó un espacio adicional para proyectar de manera óptima, mejorando así la funcionalidad y la estética del diseño.
 * El problema del tamaño de los Led fue resuelto con una lupa, la cual fue puesta en el ojo de la criatura, lo que permitió poder ampliar la luz y ver de mejor forma el ojo.
-
+// ![texto](./imagendiez.jpg.jpeg)
+// ![texto](./imageonce.jpg.jpeg)
 
 
 # Manual de uso proyecto "shh"
