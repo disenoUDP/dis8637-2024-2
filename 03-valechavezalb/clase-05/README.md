@@ -13,7 +13,7 @@ Se alimenta de una batería externa para su funcionamiento.
 
 ![texto](./conexioneslaberinto.jpeg)
 
-**Corte de piezas en láser, en madera MDF**
+**Corte de piezas en láser, en madera MDF de 15 x 20 x 3 cm**
 ![texto](./cortelaser.png)
 
 
