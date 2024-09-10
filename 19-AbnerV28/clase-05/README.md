@@ -20,7 +20,9 @@ Imágenes del proceso
 
 
 // ![texto](./imagenueve.jpg.jpeg)
+
 // ![texto](./imagendiez.jpg.jpeg)
+
 // ![texto](./imagenonce.jpg.jpeg)
 
 # Manual de uso proyecto "shh"
