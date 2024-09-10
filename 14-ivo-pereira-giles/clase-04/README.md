@@ -15,8 +15,6 @@ Cada nivel contiene una serie de acordes que conformarán la melodía. Toca los 
 
 ![texto](./controlguitarhero.jpg).
 
-![texto](./controlguitarhero.jpg).
-
 ![texto](./GAMEBOY.jpg).
 
 # modelado Heroe guitarra  ////// Decisiones de diseño.
