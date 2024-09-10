@@ -18,7 +18,7 @@
 
 - durante el mismo día (6 de septiembre) Emilia intentó ayudarnos a solucionar un problema con el código del speaker pero no funcionó :(
 
-- También ayudamos a Emi haciéndole una breve intro al slicer Ultimaker cura, para que ella pudiera ayudar a las personas que irían al laboratorio el día sábado. 
+- También ayudamos a Emi haciéndole una breve introducción al slicer Ultimaker cura, para que ella pudiera ayudar a las personas que irían al laboratorio el día sábado. 
 
 - Hicimos pequeñas "cápsulas" tutoriales que fuimos grabando a lo largo de nuestro proceso y las compartimos.
  
@@ -97,7 +97,7 @@ Hicimos pruebas para ver que nuestros componentes funcionaran, con ayuda del Ard
 
 <https://github.com/user-attachments/assets/926fe974-6d12-47e7-9c0a-9a0f67151f40>
 
-Mediante ayuda del profesor, tutoriales y códigos de arduino, logramos descubrir los pines más convenientes, donde conectar ambos componentes. El puerto positivo del speaker se conectó al pin 8 digital y su puerto negativo se conectó a GND (ground) y con respecto al pulsador, el puerto positivo su led se conectó al pin de 5V y el negativo a un GND, finalmente el puerto positivo del pulsador se conectó al pin 12 digital y a un GND.
+Mediante ayuda del profesor, tutoriales y códigos de arduino, logramos descubrir los pines más convenientes, donde conectar ambos componentes. El puerto positivo del speaker se conectó al pin 8 digital y su puerto negativo se conecta a GND (ground) y con respecto al pulsador, el puerto positivo su led se conecta al pin de 5V y el negativo a un GND, finalmente el puerto positivo del pulsador se conecta al pin 12 digital y a un GND.
 
 Fuentes:
 - <https://docs.arduino.cc/built-in-examples/digital/toneMelody/>
@@ -106,7 +106,7 @@ Fuentes:
 
 ![Conexión_componentes (1)](https://github.com/user-attachments/assets/84702961-b32f-4690-adf6-3bb1e5a6e194)
 
-Cuando descubrimos donde van las conexiones negativas y positivas, cortamos los cables y luego los soldamos a sus respectivos componentes.
+Cuando descubrimos dónde van las conexiones negativas y positivas, cortamos los cables y luego los soldamos a sus respectivos componentes.
 
 <https://github.com/user-attachments/assets/6ba302c7-f9ce-47a3-a28b-e3b3d07060a4>
 
@@ -134,7 +134,7 @@ También aprendimos a sacar soldadura usando el cautín y el "Solder Sucker".
 
 ### Problemas de código
 
-Primero, a pesar de que logramos que el parlante pudiera hacer sonar diferentes notas musicales de la biblioteca que descargamos, sonaban 2 notas o la nota sonaba dos veces, probamos muchas cosas e incluso le pedimos ayuda a la Emi, pero no logramos solucionarlo. Finalmente decdidimos probar la parte de los pulsadores.
+Primero, a pesar de que logramos que el parlante pudiera hacer sonar diferentes notas musicales de la biblioteca que descargamos, sonaban 2 notas o la nota sonaba dos veces, probamos muchas cosas e incluso le pedimos ayuda a la Emi, pero no logramos solucionarlo. Finalmente, decidimos probar la parte de los pulsadores.
 
 <https://github.com/user-attachments/assets/adfaf161-2e5a-4e76-badc-ffefb40fe282>
 
@@ -692,7 +692,7 @@ void loop() {
 
 ### StandBy
 ```ino
- // Punto de partida, Aminacion de un Hola en código morse y español, hecho en led matrix editor .
+ // Punto de partida, Animación de un Hola en código morse y español, hecho en led matrix editor .
 
  // https://ledmatrix-editor.arduino.cc/
 
@@ -899,7 +899,7 @@ const uint32_t animation[][4] = {
 ```
 
 
-### NivelFinal
+### Nivel Final
 ```ino
  // al lograr pasar todos los niveles, el usuario visualizara una pequeña morsa guiñando el ojo en felicitación
 
