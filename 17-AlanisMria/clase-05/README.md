@@ -4,31 +4,46 @@
 
 ## Retroalimentación y ayuda entre pares
 
-- Ayudamos al grupo de Morgan y Sofía, compartiendoles el archivo de nuestro visor, ayudándoles a adaptar la pieza a su objeto y finalmente pusimos su objeto a imprimir en la impresora 3d, mencionando también que hicimos una pequeña introducción a Morgan en Rhino.
+- El Martes 27 Tomamos en cuenta el concejo de Santiago de diseñar una mascota para el juego y también de Aarón para que esta fuera una morsa, ya que suena parecido a la palabra “Morse”.
+  
+-  El Martes 3 de septiembre explicamos a Santiago y Tiare como habíamos hecho la división de nuestra pieza 3D, porque nos preguntaron en qué tolerancia habíamos hecho el encaje.
+
+![consejo_tiare_stgo](https://github.com/user-attachments/assets/3b80b1fb-43d7-4918-a4bf-79dffaeab209) 
+
+- El Viernes 30 y el viernes 06 Ayudamos al grupo de Morgan y Sofía, compartiendoles el archivo de nuestro visor, ayudándoles a adaptar la pieza a su objeto y finalmente pusimos su objeto a imprimir en la impresora 3d, mencionando también que hicimos una pequeña introducción a Morgan en Rhino.
 
 ![IMG_2650](https://github.com/user-attachments/assets/3c6372e4-7ca7-4cd1-a118-e5f344e84487)
 
 ![IMG_2657](https://github.com/user-attachments/assets/313a4652-a228-4987-bc4c-3733af3ddbec)
 
-- Emilia intentó ayudarnos a solucionar un problema con el código del speaker pero no funcionó :(
+- durante el mismo día (6 de septiembre) Emilia intentó ayudarnos a solucionar un problema con el código del speaker pero no funcionó :(
 
 - También ayudamos a Emi haciéndole una breve intro al slicer Ultimaker cura, para que ella pudiera ayudar a las personas que irían al laboratorio el día sábado. 
 
 - Hicimos pequeñas "cápsulas" tutoriales que fuimos grabando a lo largo de nuestro proceso y las compartimos.
+ 
+- El lunes 9 de septiembre estuvimos hablando mucho con el grupo de la Sofi y el Moss y con el Santiago. Entre nosotros estuvimos respondiendo dudas sobre el 
+  código. Por un lado la Sofi nos mostró un código en donde lograba establecer un estado STANDBY y romperlo al apretar el pulsador. 
 
-- Explicamos a Santiago y Tiare como habiamos hecho la division de nuestra pieza 3D, porque nos preguntaron en que tolerancia habiamos hecho el encaje.
+- Después Aarón enseñó cómo agregar archivos .h adjuntos a un código, a partir de eso surgieron más problemas al intentar "llamar" el archivo .h, lo cuál pudimos 
+ solucionar y comentamos la solución a nuestros compañeros en sala que no estaban avanzando en sus códigos por el mismo problema.
 
-![consejo_tiare_stgo](https://github.com/user-attachments/assets/3b80b1fb-43d7-4918-a4bf-79dffaeab209) 
+- También le enseñamos a Moss a soldar los cables al arduino.
+
 
 ## Explicación textual
 
-Lo que queremos que sea
-MarcaMorsa es un objeto interactivo en donde las personas pueden aprender a escribir de forma lúdica una palabra en código morse.
+**MarcaMorsa** es un objeto interactivo en donde las personas pueden aprender a escribir de forma lúdica una palabra en código morse.
 
-En cuanto a su dimensión física, proyectamos que este objeto podría tener una forma más orgánica en la parte inferior, para lograr una mejor ergonomía con las manos y un agarre más cómodo. Su materialidad será de madera e impresión 3D. Tendrá a la vista un botón, una matriz led y unos orificios hacia su interior que permiten la salida del sonido. En el interior se encontrarán escondidos el arduino, un parlante y las demás conexiones. 
+En cuanto a su dimensión física, este objeto tiene una forma más orgánica en la parte inferior, para lograr una mejor ergonomía con las manos y un agarre más cómodo. Su materialidad es de madera terciado 3mm e impresión 3D con plástico PLA (rojo para el exterior y negro para algunas partes de fijación interna). Tendrá a la vista un gran botón rojo (que combina con el PLA rojo), una matriz led y unos orificios hacia su interior con la forma de la mascota del juego, que permitirán la salida del sonido. En el interior se encontrarán escondidos el arduino, un parlante y las demás conexiones. 
 
-Lo que es
-MarcaMorsa es un objeto interactivo en donde las personas pueden aprender a escribir de forma lúdica una palabra en código morse.
+### Lo que es
+
+**MarcaMorsa** es un objeto en donde las personas pueden visualizar una animación de un HOLA en español, seguido de un HOLA en clave morse.
+
+En cuanto a su dimensión física, este objeto tiene una forma más orgánica en la parte inferior, para lograr una mejor ergonomía con las manos y un agarre más cómodo. Su materialidad es de madera terciado 3mm e impresión 3D con plástico PLA (rojo para el exterior y negro para algunas partes de fijación interna). Tendrá a la vista un gran botón rojo (que combina con el PLA rojo), una matriz led y unos orificios hacia su interior con la forma de la mascota del juego, que permitirán la salida del sonido. En el interior se encontrarán escondidos el arduino, un parlante y las demás conexiones. 
+
+
 
 ## Documentación audiovisual
 
@@ -476,7 +491,7 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
 // Código de referencia del repositorio de la Sofi Etchepare 
 // lenguaje de c++ para detectar posibles errores en el código y valores
-//por lo que lo usamos ahora para definir los estados de nuestro dispopsitivo
+//por lo que lo usamos ahora para definir los estados de nuestro dispositivo
 enum State {
   // estado de reposo
   STANDBY,
@@ -484,15 +499,15 @@ enum State {
   NIVEL_PUNTO,
   //  segundo nivel introductorio
   NIVEL_LINEA,
-  // en este nivel el usuario debera mantener presionado o clikear el boton, respectivamente para escribir una letra M en morse
+  // en este nivel el usuario deberá mantener presionado o clikear el boton, respectivamente para escribir una letra M en morse
   NIVEL1,
-  // en este nivel el usuario debera mantener presionado o clikear el boton, respectivamente para escribir una letra O en morse
+  // en este nivel el usuario deberá mantener presionado o clikear el boton, respectivamente para escribir una letra O en morse
   NIVEL2,
-  // en este nivel el usuario debera mantener presionado o clikear el boton, respectivamente para escribir una letra R en morse
+  // en este nivel el usuario deberá mantener presionado o clikear el boton, respectivamente para escribir una letra R en morse
   NIVEL3,
-  // en este nivel el usuario debera mantener presionado o clikear el boton, respectivamente para escribir una letra s en morse
+  // en este nivel el usuario deberá mantener presionado o clikear el boton, respectivamente para escribir una letra s en morse
   NIVEL4,
-  // en este nivel el usuario debera mantener presionado o clikear el boton, respectivamente para escribir una letra A en morse
+  // en este nivel el usuario deberá mantener presionado o clikear el boton, respectivamente para escribir una letra A en morse
   NIVEL5,
   // al lograr pasar todos los niveles, el usuario visualizara una pequeña morsa guiñando el ojo en felicitación
   NIVEL_FINAL
@@ -515,12 +530,12 @@ void setup() {
   pinMode(BOTON_ENTRADA, INPUT_PULLUP);
   Serial.begin(9600);
 }
-// aqui se ponen todos los comandos que el ardino debe de ejecutar haciandolos que esten en continua funcionamiento, que pase mas de una vez
+// aquí se ponen todos los comandos que el arduino debe de ejecutar haciéndolos que están en continua funcionamiento, que pase más de una vez
 void loop() {
   //sirve para leer un valor (o poner en un estado) un pin digital.
   switch (currentState) {
-    // en este estado esperamos la accion del usuario
-    // 'presionar cualquie boton para que empiece el juego' y asi cambie a un estado activo
+    // en este estado esperamos la acción del usuario
+    // 'presionar cualquier botón para que empiece el juego' y asi cambie a un estado activo
     case STANDBY:
       {
         Serial.println("En estado STANDBY");
@@ -884,7 +899,7 @@ Al realizar el código, muchas veces surgieron problemas respecto a bibliotecas 
 
 (Acabamos de descubrir que discord funciona con lenguaje markdown y documentos de Google igual :o)
 
-Por alguna razón al utilizar el codigo de prueba del pulsador, sucedio que al acercar nustra mano o un objeto, la luz del arduino reaccionaba como si estuvieramos pulsando el botón, no sabemos si el imán del speaker interfirió o si es algo relacionado a la conexión.
+Por alguna razón al utilizar el código de prueba del pulsador, sucedió que al acercar nuestra mano o un objeto, la luz del arduino reaccionaba como si estuviéramos pulsando el botón, no sabemos si el imán del speaker interfirió o si es algo relacionado a la conexión.
 
 
 https://github.com/user-attachments/assets/d36848d5-d107-4345-9b57-94f9a4a42a05
