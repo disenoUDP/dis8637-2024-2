@@ -22,7 +22,7 @@ caso límite: caso extrémo que puede atentar con el funcionamiento que uno espe
 
 incorporaremos el sensor en la base de la casa, junto con un led de color rojo para indicar al usuario a interacturar por ahí, además agregaremos globos en la parte superior para darle mas similitud a la casa original de up :)
 
-### update:
+## update:
 
 añadimos un led rojo por debajo junto con el sensor, y el led se mantiene prendido cuando no detecta proximidad, junto con esto la matriz muestra la animación de un globo flotando en modo de espera. Cuando el sensor detecta proximidad se apaga el led y comienza la animación de la casita subiendo y bajando.
 
@@ -49,7 +49,8 @@ en esta primera instancia teníamos en sensor en el techo de la casa, pero graci
 
 ![problema1](./problema1.jpeg "problema1")
 
-(https://github.com/noriflores/dis8637-2024-2/blob/main/06-noriflores/clase-04/video.mp4)
+https://github.com/user-attachments/assets/05678526-1e07-491c-b7fb-a0f040e43631
+
 
 ## casa actual
 
@@ -72,18 +73,6 @@ tarea: Hacer funcionar la pantalla en la puerta de la casa.
 3. Una vez se apague la luz led en la base de la casa, la pantalla empezará a mostrar la animación de una casa que sube y baja.
 4. Dependiendo de la distancia de tu mano con la base de la casa, la animación de la casa se muestra (si está a menos de 20cm) o la animación del globo junto con el led (si está a más de 20cm)
 
-
-## codigo 
-
-deje subido el archivo que usamos con el codigo de arduino :D 
-adjunto links que nos ayudaron a entender que hacer 
-
-https://www.profetolocka.com.ar/2024/07/29/tutorial-usando-la-matriz-led-del-arduino-uno-r4-parte-2/#google_vignette
-https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html
-https://docs.arduino.cc/tutorials/uno-r4-wifi/r4-wifi-getting-started/
-
-ademas de que use proyectos anteriores que hice el año pasado en tecnologias interactivas para acordarme de como usar el sensor y el led, deje el archivo subido tambien 🥣 
-Me ayudó mucho que la Paula haya subido el link del código de su trabajo, además del link que compartió Aaron sobre como instalar las librerías y los comentarios de Belén y Karen. 
 
 ## codigo 
 
