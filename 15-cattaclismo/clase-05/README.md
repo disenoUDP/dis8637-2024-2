@@ -1,5 +1,7 @@
 # clase-05
 
+![ver](PixarUP.jpg)
+
 ## avance
 
 De acuerdo a las correcciones hechas por el equipo en general, decidí agregarle color a la fachada de la casa paea que fuera más apegada a la casa original (de la película). 
