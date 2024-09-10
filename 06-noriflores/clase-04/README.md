@@ -22,7 +22,7 @@ caso límite: caso extrémo que puede atentar con el funcionamiento que uno espe
 
 incorporaremos el sensor en la base de la casa, junto con un led de color rojo para indicar al usuario a interacturar por ahí, además agregaremos globos en la parte superior para darle mas similitud a la casa original de up :)
 
-### update:
+## update:
 
 añadimos un led rojo por debajo junto con el sensor, y el led se mantiene prendido cuando no detecta proximidad, junto con esto la matriz muestra la animación de un globo flotando en modo de espera. Cuando el sensor detecta proximidad se apaga el led y comienza la animación de la casita subiendo y bajando.
 
@@ -49,7 +49,8 @@ en esta primera instancia teníamos en sensor en el techo de la casa, pero graci
 
 ![problema1](./problema1.jpeg "problema1")
 
-(https://github.com/noriflores/dis8637-2024-2/blob/main/06-noriflores/clase-04/video.mp4)
+https://github.com/user-attachments/assets/05678526-1e07-491c-b7fb-a0f040e43631
+
 
 ## casa actual
 
