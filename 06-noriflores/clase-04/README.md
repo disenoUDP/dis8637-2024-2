@@ -39,6 +39,27 @@ es un juguete en forma de casa inspirado en la casa de UP, hecho con madera mdf 
 
 en esta primera instancia teníamos en sensor en el techo de la casa, pero gracias a los feedback decidimos mover el sensor hacia abajo de la casa, pensando que esta estaría pegada en la pared, y junto con el led este invita al usuario a interactuar con la parte de abajo de la casa
 
+## proceso 
+
+![proceso1](./proceso1.jpeg "proceso1")
+
+![proceso2](./proceso2.jpeg "proceso2")
+
+![proceso3](./proceso3.jpeg "proceso3")
+
+![problema1](./problema1.jpeg "problema1")
+
+## casa actual
+
+![casaactual](./casaactual.jpg "casita")
+
+![casafrontal](./casafrontal.jpg "casafrontal")
+
+![fototerminada](./fototerminada.jpeg "fototerminada")
+
+
+
+
 ## diagrama de flujo 
 
 tarea: Hacer funcionar la pantalla en la puerta de la casa. 
