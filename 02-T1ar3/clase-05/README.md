@@ -68,7 +68,7 @@ luego de entender la diagramación interna de todos los componentes utilizados (
 
 ![50354EC4-8A74-4073-AB2E-516803784EF3](https://github.com/user-attachments/assets/5171b09b-f906-4988-b847-d8f5cb71f719)
 ![texto](./piezas.jpg)
-![texto](./piezas1.jpg)
+
 
 luego comenzamos a prototipar conecciones, comenzamos con código de prueba para el servomotor:
 
