@@ -1,3 +1,4 @@
+
 # clase-05
 
 10 de septiembre de 2024
@@ -160,29 +161,31 @@ Como dijimos antes, tuvimos problemas para adaptar nuestro código con el de la 
 
 1. Conectar el objeto interactivo "MarcaMorsa" a una fuente de alimentación para encenderlo.
 
-2. La pantalla te va a recibir con un “Hola” escrito en español seguido de un hola en clave morse (escrito y sonoro).
+2. La pantalla te va a recibir en un estado "STANDBY" en donde aparecerá escrita en la Matriz Led la palabra "HOLA” escrito en español seguido de un "HOLA" en clave morse (escrito y sonoro).
 
-3. La pantalla mostrará un punto con su respectivo sonido (**C1**) para que el usuario lo recree presionando el botón, al hacer el click sonará el sonido 1 también. 
+3. Para que el usuario pueda salir del estado "STANDBY" y comenzar el juego, debe apretar el botón mínimo una vez.
 
-4. Si lo consigue, aparecerá una animación de logro con el sonido **C1** y pasará a la siguiente fase, sino, aparecerá una animación de una cruz (X) con un sonido **C4** y deberá repetirlo.
+4. Después la pantalla mostrará un punto con su respectivo sonido (**C1**) para que el usuario lo recree presionando el botón, al hacer el click sonará el sonido **C1** también. 
 
-5. En la siguiente fase la pantalla mostrará una línea con su respectivo sonido (**C2**) y para que el usuario lo recree manteniendo presionado el botón, al hacer el hold sonará el sonido 2.
+5. Si lo consigue, aparecerá una animación de logro con el sonido **C1** y pasará a la siguiente fase, sino, aparecerá una animación de una cruz (X) con un sonido **C4** y deberá repetirlo.
 
-6. Si lo consigue, aparecerá una animación de logro con el sonido **C2** y pasará a la siguiente fase, sino, aparecerá la animación de la cruz y deberá repetirlo.
+6. En la siguiente fase la pantalla mostrará una línea con su respectivo sonido (**C2**) y para que el usuario lo recree manteniendo presionado el botón, al hacer el hold sonará el sonido **C2**.
 
-7. En la siguiente fase se reproducirá un sonido en clave morse de la letra M ( - - ), para que el usuario lo recree. Si lo logra, aparecerá la letra M en la pantalla, escrita estándar y en morse. Si no lo logra, aparecerá la animación de cruz y su sonido de fallo.
+7. Si lo consigue, aparecerá una animación de logro con el sonido **C2** y pasará a la siguiente fase, sino, aparecerá la animación de la cruz y deberá repetirlo.
 
-8.  En la siguiente fase se reproducirá otro sonido en clave morse de la letra O ( - - - ), para que el usuario lo recree. Si lo logra aparecerá la letra O en la pantalla, escrita estándar y en morse. Si no lo logra, aparecerá la animación de cruz y su sonido de fallo.
+8. En la siguiente fase se reproducirá un sonido en clave morse de la letra M ( - - ) con el sonido (**C2 C2**), para que el usuario lo recree. Si lo logra, aparecerá la letra M en la pantalla, escrita estándar y en morse. Si no lo logra, aparecerá la animación de fallo estándar con su cruz y su sonido de fallo.
+
+9. En la siguiente fase se reproducirá otro sonido en clave morse de la letra O ( - - - ) con el sonido (**C2 C2 C2**), para que el usuario lo recree. Si lo logra aparecerá la letra O en la pantalla, escrita estándar y en morse. Si no lo logra, aparecerá la animación de cruz y su sonido de fallo.
   
-9.   En la siguiente fase se reproducirá otro sonido en clave morse, la letra R (. - .), para que el usuario lo recree. Si lo logra aparecerá la letra R en la pantalla, escrita estándar y en morse. Si no lo logra, aparecerá la animación y sonido de fallo.
+10. En la siguiente fase se reproducirá otro sonido en clave morse, la letra R (. - .) con el sonido (**C1 C2 C1**), para que el usuario lo recree. Si lo logra aparecerá la letra R en la pantalla, escrita estándar y en morse. Si no lo logra, aparecerá la animación y sonido de fallo.
 
-10. En la siguiente fase se reproducirá otro sonido en clave morse, la letra S (. . .), para que el usuario lo recree. Si lo logra aparecerá la letra S en la pantalla, escrita estándar y en morse. Si no lo logra, aparecerá la animación y un sonido de fallo.
+11. En la siguiente fase se reproducirá otro sonido en clave morse, la letra S (. . .) con el sonido (**C1 C1 C1**), para que el usuario lo recree. Si lo logra aparecerá la letra S en la pantalla, escrita estándar y en morse. Si no lo logra, aparecerá la animación y un sonido de fallo.
 
-11. En la siguiente fase se reproducirá otro sonido en clave morse, la letra A (. -), para que el usuario lo recree. Si lo logra aparecerá la letra A en la pantalla, escrita estándar y en morse. Si no lo logra, aparecerá la animación y sonido de fallo.
+12. En la siguiente fase se reproducirá otro sonido en clave morse, la letra A (. -) con el sonido (**C1 C2**), para que el usuario lo recree. Si lo logra aparecerá la letra A en la pantalla, escrita estándar y en morse. Si no lo logra, aparecerá la animación y sonido de fallo.
 
-12. Al lograr superar todos los niveles mencionados anteriormente, aparecerá una animación de la mascota del juego, una morsa que te guiñará el ojo en señal de felicitación por escribir su nombre.
+13. Al lograr superar todos los niveles mencionados anteriormente, aparecerá una animación de la mascota del juego, una morsa que te guiñará el ojo en señal de felicitación por saber escribir su nombre.
 
-13. Finalmente el juego se reiniciará.
+14. Finalmente el juego se reiniciará.
 
 ## Orden del código
 
@@ -963,4 +966,3 @@ Por alguna razón al utilizar el código de prueba del pulsador, sucedió que al
 <https://github.com/user-attachments/assets/2b67bed5-d17c-456f-a424-9ba466fdab67>
 
 <https://github.com/user-attachments/assets/e19130f4-d286-47d3-a05c-7821752b7b1f>
-
