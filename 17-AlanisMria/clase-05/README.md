@@ -191,8 +191,6 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button
 
  */
-```
-'''ino 
     // constants won't change. They're used here to set pin numbers:
 
     const int buttonPin = 2;  // the number of the pushbutton pin
@@ -570,6 +568,7 @@ void loop() {
           matrix.loadFrame(Nivel4);
       };
 ```
+
 ```ino
 
 ### PushButton.h
@@ -721,9 +720,8 @@ const uint32_t animation[][4] = {
 		600
 	}
 };
-
-```ino
 ```
+```ino
 ### NivelPunto
 
  // Nivel introductorio, animación de un punto, hecho en led matrix editor.
@@ -756,9 +754,9 @@ const uint32_t animation[][4] = {
 	}
 };
 
-
-```ino
 ```
+```ino
+
 ### Nivel1
 
  // Animación letra M en español y código morse, hecha en Led matrix editor.
@@ -779,9 +777,8 @@ const uint32_t animation[][4] = {
 		250
 	}
 };
-
-```ino
 ```
+```ino
 ## Nivel2
 
  // Animación letra O en español y código morse, hecha en Led matrix editor.
