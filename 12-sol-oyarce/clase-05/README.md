@@ -123,7 +123,6 @@ long smooth() { /* function smooth */
 
 ## CODIGO UTILIZADO 
 
-
 #include "Arduino_LED_Matrix.h"   //Include the LED_Matrix library
 #include "animation.h"            //Include animation.h header file
 
@@ -133,13 +132,15 @@ ArduinoLEDMatrix matrix;
 void setup() {
   pinMode(2, INPUT);
   pinMode(3, OUTPUT);
+  matrix.loadSequence(animation);
+    matrix.begin();
+    matrix.play(true);
 }
 
 void loop() {
   if (digitalRead(2) == HIGH) {
     digitalWrite(3, HIGH);
     matrix.loadSequence(animation);
-    matrix.begin();
     matrix.play(true);
     delay(10000);
   }
@@ -150,15 +151,7 @@ void loop() {
   }
 }
 
-ANIMACION 
 
-const uint32_t animation[][4] = {
-	{
-		0x30c20,
-    0x43fc3fc2,
-    0x430c000,
-		50
-    },
 
     {
     0x36c29,
