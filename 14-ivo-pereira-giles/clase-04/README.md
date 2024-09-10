@@ -1,5 +1,21 @@
 # clase-04 
 
+# ¿QUE ES HEROE GUITARRA?
+Heroe guitarra es un dispositivo electronico inspirado en el modo de uso mas comun de un instrumento: un acorde accionable y una pulsacion. 
+
+
+
+
+
+
+
+
+
+# REFERENTES
+![texto](./guitarhero.jpg).
+![texto](./pianotiles.jpg).
+![texto](./controlguitarhero1.jpg).
+
 
 # modelado Heroe guitarra  ////// Decisiones de diseño.
 
