@@ -23,7 +23,8 @@ Imágenes del proceso
 
 // ![texto](./imagendiez.jpg.jpeg)
 
-// ![texto](./imagenonce.jpg.jpeg)
+// ![texto](./imagenonce.jpg)
+
 
 # Manual de uso proyecto "shh"
 ### Paso 1: Encuentra un espacio adecuado
