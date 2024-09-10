@@ -18,7 +18,7 @@
 
 - durante el mismo día (6 de septiembre) Emilia intentó ayudarnos a solucionar un problema con el código del speaker pero no funcionó :(
 
-- También ayudamos a Emi haciéndole una breve intro al slicer Ultimaker cura, para que ella pudiera ayudar a las personas que irían al laboratorio el día sábado. 
+- También ayudamos a Emi haciéndole una breve introducción al slicer Ultimaker cura, para que ella pudiera ayudar a las personas que irían al laboratorio el día sábado. 
 
 - Hicimos pequeñas "cápsulas" tutoriales que fuimos grabando a lo largo de nuestro proceso y las compartimos.
  
@@ -29,7 +29,6 @@
  solucionar y comentamos la solución a nuestros compañeros en sala que no estaban avanzando en sus códigos por el mismo problema.
 
 - También le enseñamos a Moss a soldar los cables al arduino.
-
 
 ## Explicación textual
 
@@ -42,8 +41,6 @@ En cuanto a su dimensión física, este objeto tiene una forma más orgánica en
 **MarcaMorsa** es un objeto en donde las personas pueden visualizar una animación de un HOLA en español, seguido de un HOLA en clave morse.
 
  En cuanto a su dimensión física, logramos nuestro cometido descrito anteriormente
-
-
 
 ## Documentación audiovisual
 
@@ -69,12 +66,9 @@ Este primer modelo, contaba con un visor, cuyo principal elemento sería una lup
 ![Captura de pantalla 2024-09-09 104057](https://github.com/user-attachments/assets/d7229d48-ca1b-4502-8052-b57ad357efbd)
 ![Captura de pantalla 2024-09-09 104154](https://github.com/user-attachments/assets/0a311c72-58c0-4baa-9b67-9bd7d05fa91c)
 
-
 También comenzamos a hacer experimentaciones con las animaciones de la LED en <https://ledmatrix-editor.arduino.cc/>
 
-
 https://github.com/user-attachments/assets/9075fb73-d20f-4405-bf96-9e03a68bdeac
-
 
 **Materiales**
 - Botón arcade con led de 12v (compra por mercado libre)
@@ -95,7 +89,6 @@ https://github.com/user-attachments/assets/9075fb73-d20f-4405-bf96-9e03a68bdeac
 
 <https://github.com/user-attachments/assets/1f3a5074-9eed-4b16-b4d5-b453018efe68>
 
-
 Después de la corrección, se decidió centrar la morsa para que el objeto fuera completamente simétrico, no quisimos cambiar el botón ya que el que sea un único botón y grande te tienta a apretarlo, por lo que definimos la formalidad final del prototipo y la ubicación de sus componentes
 
 ![disposición_interna](https://github.com/user-attachments/assets/84af1df8-c4e1-4ca1-a6e8-18296ee6ae8e)
@@ -104,7 +97,7 @@ Hicimos pruebas para ver que nuestros componentes funcionaran, con ayuda del Ard
 
 <https://github.com/user-attachments/assets/926fe974-6d12-47e7-9c0a-9a0f67151f40>
 
-Mediante ayuda del profesor, tutoriales y códigos de arduino, logramos descubrir los pines más convenientes, donde conectar ambos componentes. El puerto positivo del speaker se conectó al pin 8 digital y su puerto negativo se conectó a GND (ground), el puerto positivo del led del botón se conectó al pin de 5V, el negativo a un GND y finalmente el puerto positivo del pulsador se conectó al pin 12 digital y a un GND.
+Mediante ayuda del profesor, tutoriales y códigos de arduino, logramos descubrir los pines más convenientes, donde conectar ambos componentes. El puerto positivo del speaker se conectó al pin 8 digital y su puerto negativo se conecta a GND (ground) y con respecto al pulsador, el puerto positivo su led se conecta al pin de 5V y el negativo a un GND, finalmente el puerto positivo del pulsador se conecta al pin 12 digital y a un GND.
 
 Fuentes:
 - <https://docs.arduino.cc/built-in-examples/digital/toneMelody/>
@@ -113,23 +106,24 @@ Fuentes:
 
 ![Conexión_componentes (1)](https://github.com/user-attachments/assets/84702961-b32f-4690-adf6-3bb1e5a6e194)
 
-Luego de descubrir y confirmar donde van las conexiones negativas y positivas, cortamos los cables y luego los soldamos a sus respectivos componentes.
+Cuando descubrimos dónde van las conexiones negativas y positivas, cortamos los cables y luego los soldamos a sus respectivos componentes.
 
 <https://github.com/user-attachments/assets/6ba302c7-f9ce-47a3-a28b-e3b3d07060a4>
+
 ![soldandoo](https://github.com/user-attachments/assets/d13386ef-7704-4a90-ada1-dcc255533d56)
 
 Logramos hacer funcionar el speaker y el botón con los códigos de arduino mencionados arriba ;)
 
 https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
-Tuvimos pequeños errores de impresión y corte láser, ya que uno de los agujeros quedó muy chico y la tapa superior quedó un poco grande. Para corregir esos errores tuvimos que lijar el plástico con una lima y la madera con lija. Pero gracias a eso la tapa quedó muy al margen de las luces led. 
+Tuvimos pequeños errores de impresión y corte láser, ya que uno de los agujeros quedó muy chico y la tapa superior quedó un poco grande. Para corregir esos errores tuvimos que lijar el plástico con una lima y la madera con lija. Pero gracias a eso la tapa dejó una línea led muy al margen del visor. 
 
 **Limando y lijando**
 ![IMG_2661](https://github.com/user-attachments/assets/9015450a-8709-49d5-8712-0774df189402)
 
 ![IMG_2709](https://github.com/user-attachments/assets/16b79b66-34f5-489b-8460-06201e01bbef)
 
-**linea led muy al margen del visor :(**
+**Animaciones muy al margen :(**
 ![IMG_2710](https://github.com/user-attachments/assets/2d828ae2-7590-4101-9457-4589e84efb2c)
 
 Para fijar internamente el Arduino y el parlante se hicieron pequeñas impresiones 3d a su medida para que quedaran encajadas. 
@@ -140,11 +134,15 @@ También aprendimos a sacar soldadura usando el cautín y el "Solder Sucker".
 
 ### Problemas de código
 
-Dentro de los problemas que tuvimos, uno fue que una de las dos no podía agregar la biblioteca de "Led_Matrix" ya que no podía descargarla como carpeta zip ni la encontraba dentro de la biblioteca, pero después aprendimos cómo hacerlo de otra manera que sí funcionaba.
+Primero, a pesar de que logramos que el parlante pudiera hacer sonar diferentes notas musicales de la biblioteca que descargamos, sonaban 2 notas o la nota sonaba dos veces, probamos muchas cosas e incluso le pedimos ayuda a la Emi, pero no logramos solucionarlo. Finalmente, decidimos probar la parte de los pulsadores.
+
+<https://github.com/user-attachments/assets/adfaf161-2e5a-4e76-badc-ffefb40fe282>
+
+Otro de los problemas que tuvimos, fue que a una de las dos no podía agregar la biblioteca de "Led_Matrix", ya que no podía descargarla como carpeta zip ni la encontraba dentro de la biblioteca, pero después aprendimos cómo hacerlo de otra manera que sí funcionaba.
 
 <https://github.com/user-attachments/assets/375cdfef-48b0-4d82-8a78-d4ac9a09118e>
 
-Después entendimos cómo poner la función de presentar una animación, pegar una animación hecha por nosotras en el archivo headline (.h). Descubrimos que a veces tira error cuando el #include "____.h", el ___ no coincide con el nombre del documento .h. Mucha gente le arrojaba error por esto, cuando vimos que ese era el problema, todos pudimos seguir avanzando en lo nuestro.
+Después entendimos cómo poner la función de presentar una animación, pegar una animación hecha por nosotras en el archivo headline (.h). Descubrimos que a veces tira error cuando el #include "____.h", el ___ no coincide con el nombre del documento .h. Mucha gente le arrojaba error por esto, cuando vimos que ese era el problema, todos pudimos seguir avanzando en lo suyo.
 
 <https://github.com/user-attachments/assets/10622ea5-fe27-47b3-b934-a4ebd92164ba>
 
@@ -155,8 +153,6 @@ Después entendimos cómo poner la función de presentar una animación, pegar u
 Como dijimos antes, tuvimos problemas para adaptar nuestro código con el de la Sofi. Logramos agregar exitosamente las bibliotecas de "PushButton", pero no pudimos incluir sus comandos como constantes, lo que nos arrojaba error. La biblioteca explorada fue: <https://github.com/caiofrota/cf-arduino-lib-pushbutton>
 
 <img width="956" alt="Captura de pantalla 2024-09-09 a la(s) 19 53 09" src="https://github.com/user-attachments/assets/17aec284-9323-44eb-a6c5-5a85e10935bd">
-
-
 
 ## Manual de uso textual
 
@@ -187,8 +183,6 @@ Como dijimos antes, tuvimos problemas para adaptar nuestro código con el de la 
 12. Al lograr superar todos los niveles mencionados anteriormente, aparecerá una animación de la mascota del juego, una morsa que te guiñará el ojo en señal de felicitación por escribir su nombre.
 
 13. Finalmente el juego se reiniciará.
-
-
 
 ## Orden del código
 
@@ -698,7 +692,7 @@ void loop() {
 
 ### StandBy
 ```ino
- // Punto de partida, Aminacion de un Hola en código morse y español, hecho en led matrix editor .
+ // Punto de partida, Animación de un Hola en código morse y español, hecho en led matrix editor .
 
  // https://ledmatrix-editor.arduino.cc/
 
@@ -905,7 +899,7 @@ const uint32_t animation[][4] = {
 ```
 
 
-### NivelFinal
+### Nivel Final
 ```ino
  // al lograr pasar todos los niveles, el usuario visualizara una pequeña morsa guiñando el ojo en felicitación
 
@@ -943,23 +937,30 @@ const uint32_t animation[][4] = {
 
 -  <https://www.profetolocka.com.ar/2024/07/22/tutorial-usando-la-matriz-led-del-arduino-uno-r4-parte-1/>
 
--  <https://www.profetolocka.com.ar/2024/07/22/tutorial-usando-la-matriz-led-del-arduino-uno-r4-parte-1/> 
+-  <https://www.profetolocka.com.ar/2024/07/22/tutorial-usando-la-matriz-led-del-arduino-uno-r4-parte-1/>
+
+-  <https://www.youtube.com/watch?v=SaXSGxSVkdk>
 
 Al realizar el código, muchas veces surgieron problemas respecto a bibliotecas que eran necesarias para los códigos que debíamos usar, ya que estas se encontraban disponibles, pero no en todas las ocasiones se encontraban comprimidas como archivo zip y al comprimirlo costaba que arduino pudiese abrirla.
 
 (Acabamos de descubrir que discord funciona con lenguaje markdown y documentos de Google igual :o)
 
-Por alguna razón al utilizar el código de prueba del pulsador, sucedió que al acercar nuestra mano o un objeto, la luz del arduino reaccionaba como si estuviéramos pulsando el botón, no sabemos si el imán del speaker interfirió o si es algo relacionado a la conexión.
-
+Por alguna razón al utilizar el código de prueba del pulsador, sucedió que al acercar nuestra mano o un objeto, la luz del arduino reaccionaba como si estuviéramos pulsando el botón, no sabemos si el imán del speaker interfirió o si es algo relacionado a la conexión.hg  
 
 <https://github.com/user-attachments/assets/d36848d5-d107-4345-9b57-94f9a4a42a05> 
 
 
-
-
 ## Resultado Final
 
+![IMG_2719](https://github.com/user-attachments/assets/15e34407-72e5-47c5-b088-29210826d7aa)
 
+![IMG_2727](https://github.com/user-attachments/assets/92630660-9bdd-4cf7-8867-c84d06f87ef6)
 
+![IMG_2729 2](https://github.com/user-attachments/assets/1ecee413-df40-467c-8927-87f8372257e0)
 
+### Grabaciones curiosas del celular de las animaciones cuando hay mucha luz de fondo
+
+<https://github.com/user-attachments/assets/2b67bed5-d17c-456f-a424-9ba466fdab67>
+
+<https://github.com/user-attachments/assets/e19130f4-d286-47d3-a05c-7821752b7b1f>
 
