@@ -175,6 +175,9 @@ Guitarra Héroe consiste en un juego de un jugaro que se juega con ambas manos. 
 #CÓDIGO
 Fue un proceso bastante complicado, el cual se compuso por varias fases, en las que iba aprendiendo distintas cosas del funcionamiento general, tanto de los botones como del arduino, y sus actuadores y sensores.
 
+¿Cómo se usa?
+Se utiliza con ambas manos, con una mano debes utilizar el potenciómetro para seleccionar el carril donde quieres ejecutar la acción, mientras que simultáneamente, con el dedo índice de la otra mano debes utilizar el gatillo para ejecutar la acción misma. Debes ir ejecutando acciones en el carril correspondiente de abajo a arriba, de modo que los LEDs se apagen, hasta haber completado la pantalla. 
+
 ![image](https://github.com/user-attachments/assets/eb5e87e3-c12c-4d7f-89bf-3ad0f98fe9fb)
 
 
@@ -363,6 +366,31 @@ int botonValue = digitalRead(botonWeno);
 }
 ```
 En este còdigo, con el slider puedo seleccionar el carril. El paso siguiente es que al apretar el boton en el carril ocrrecto, se apague el led.
+
+ ```ino
+ int pulsadorPin = 4; // Variable que guarda el número del pin al que conectamos el pulsador.
+int valorPulsador = 0; // Variable donde almacenaremos la lectura del estado del pulsador.
+ 
+void setup() {
+  Serial.begin(9600); // Inicializamos el puerto serie.
+  pinMode(pulsadorPin, INPUT_PULLUP); // Declaramos la variable inputPin como entrada y activamos su resistencia interna Pullup.
+}
+ 
+void loop(){
+  valorPulsador = digitalRead(pulsadorPin);  // Lectura digital de pulsadorPin
+ 
+  if (valorPulsador == HIGH) {
+      Serial.println("Pulsado"); // Si detecta que pulsamos el pulsador imprime por el monitor serie "pulsado".
+  }
+  else {
+      Serial.println("No pulsado"); // En caso contrario imprime por el monitor serie "No pulsado".
+  }
+  delay(1000); // Espera un segundo al final del bucle
+}	
+
+```
+Como no lograba hacer funcionar el pulsador, utilicé este código aislado, que utiliza el serial.println para avisar qué se está detectando del botón. Al  hacer esto pude comprobar que el botón no funcionaba como debería, por lo que decidimos descartar su uso en el código final 
+![image](https://github.com/user-attachments/assets/94380704-9bfb-4b87-86e1-af71cbcae946)
 
 
  ##CÓDIGO FINAL
