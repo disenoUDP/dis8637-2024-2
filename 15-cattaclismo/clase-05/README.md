@@ -33,5 +33,12 @@ digitalWrite(pinred, LOW);
 delay(1000);
 }
 ```
+He estado estudiando un poco más ya que no entendía nada, ahora, gracias a las recomandaciones de mis compañeros en el ds me he podido enchufar jeje. 
+![ver](bitacora05.jpg)
+![ver](bitacora051.jpg) 
+
+Configuración de espacio dentro de la casa (la cinta de papel es solo para la foto, no va a quedar como soporte) 
+![ver](espacio.jpg)
+![ver](objeto.jpg)
 
 
