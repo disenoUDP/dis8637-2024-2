@@ -1,6 +1,6 @@
 # clase-05
 
-(esto se borra despues, faltavagregar referencias de arduino y corregir la ortografia + imagenes/videos de el juego listo"" la caja entera, por dentro y por todos los angulos posibles)
+(esto se borra despues, falta agregar referencias de arduino y corregir la ortografia + imagenes/videos de el juego listo"" la caja entera, por dentro y por todos los angulos posibles)
 
 ## VOCAL HUNT 
 
