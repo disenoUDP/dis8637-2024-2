@@ -8,7 +8,9 @@ Es un juguete en forma de casa inspirado en la casa de UP, hecho con madera terc
 
 ## Diseño
 
-![ver](cortelaser.ai)
+![ver](planouu.pdf) 
+
+[archivoai](cortelaser.ai)
 
 Primera casa: En esta primera instancia teníamos en sensor en el techo de la casa, pero gracias a los feedback decidimos mover el sensor hacia abajo de la casa, pensando que esta estaría pegada en la pared, y junto con el led este invita al usuario a interactuar con la parte de abajo de la casa
 
