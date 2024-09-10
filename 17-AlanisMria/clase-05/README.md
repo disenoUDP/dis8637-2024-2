@@ -93,7 +93,7 @@ https://github.com/user-attachments/assets/9075fb73-d20f-4405-bf96-9e03a68bdeac
 
 <https://github.com/user-attachments/assets/9c6cbb66-ea07-461d-8140-be1caa0b029b>
 
-https://github.com/user-attachments/assets/1f3a5074-9eed-4b16-b4d5-b453018efe68
+<https://github.com/user-attachments/assets/1f3a5074-9eed-4b16-b4d5-b453018efe68>
 
 
 Después de la corrección, se decidió centrar la morsa para que el objeto fuera completamente simétrico, no quisimos cambiar el botón ya que el que sea un único botón y grande te tienta a apretarlo, por lo que definimos la formalidad final del prototipo y la ubicación de sus componentes
@@ -115,13 +115,46 @@ Fuentes:
 
 Luego de descubrir y confirmar donde van las conexiones negativas y positivas, cortamos los cables y luego los soldamos a sus respectivos componentes.
 
-https://github.com/user-attachments/assets/6ba302c7-f9ce-47a3-a28b-e3b3d07060a4
+<https://github.com/user-attachments/assets/6ba302c7-f9ce-47a3-a28b-e3b3d07060a4>
 ![soldandoo](https://github.com/user-attachments/assets/d13386ef-7704-4a90-ada1-dcc255533d56)
 
 Logramos hacer funcionar el speaker y el botón con los códigos de arduino mencionados arriba ;)
 
 https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
+Tuvimos pequeños errores de impresión y corte láser, ya que uno de los agujeros quedó muy chico y la tapa superior quedó un poco grande. Para corregir esos errores tuvimos que lijar el plástico con una lima y la madera con lija. Pero gracias a eso la tapa quedó muy al margen de las luces led. 
+
+**Limando y lijando**
+![IMG_2661](https://github.com/user-attachments/assets/9015450a-8709-49d5-8712-0774df189402)
+
+![IMG_2709](https://github.com/user-attachments/assets/16b79b66-34f5-489b-8460-06201e01bbef)
+
+**linea led muy al margen del visor :(**
+![IMG_2710](https://github.com/user-attachments/assets/2d828ae2-7590-4101-9457-4589e84efb2c)
+
+Para fijar internamente el Arduino y el parlante se hicieron pequeñas impresiones 3d a su medida para que quedaran encajadas. 
+
+También aprendimos a sacar soldadura usando el cautín y el "Solder Sucker".
+
+![IMG_2711](https://github.com/user-attachments/assets/dcd864b0-47f2-4a61-afa7-148e96f43bd5)
+
+### Problemas de código
+
+Dentro de los problemas que tuvimos, uno fue que una de las dos no podía agregar la biblioteca de "Led_Matrix" ya que no podía descargarla como carpeta zip ni la encontraba dentro de la biblioteca, pero después aprendimos cómo hacerlo de otra manera que sí funcionaba.
+
+<https://github.com/user-attachments/assets/375cdfef-48b0-4d82-8a78-d4ac9a09118e>
+
+Después entendimos cómo poner la función de presentar una animación, pegar una animación hecha por nosotras en el archivo headline (.h). Descubrimos que a veces tira error cuando el #include "____.h", el ___ no coincide con el nombre del documento .h. Mucha gente le arrojaba error por esto, cuando vimos que ese era el problema, todos pudimos seguir avanzando en lo nuestro.
+
+<https://github.com/user-attachments/assets/10622ea5-fe27-47b3-b934-a4ebd92164ba>
+
+**Aquí se ve el error antes de ser solucionado.**
+
+<img width="950" alt="Captura de pantalla 2024-09-09 a la(s) 13 41 03" src="https://github.com/user-attachments/assets/95a45dad-ae19-4174-a08d-46e7676cac8c">
+
+Como dijimos antes, tuvimos problemas para adaptar nuestro código con el de la Sofi. Logramos agregar exitosamente las bibliotecas de "PushButton", pero no pudimos incluir sus comandos como constantes, lo que nos arrojaba error. La biblioteca explorada fue: <https://github.com/caiofrota/cf-arduino-lib-pushbutton>
+
+<img width="956" alt="Captura de pantalla 2024-09-09 a la(s) 19 53 09" src="https://github.com/user-attachments/assets/17aec284-9323-44eb-a6c5-5a85e10935bd">
 
 
 
@@ -902,15 +935,15 @@ const uint32_t animation[][4] = {
 
 **Links Visitados**
 
--  https:​​/​/docs​.arduino​.cc​/built​-in​-examples​/digital​/toneMelody​/
+-  <https:​​/​/docs​.arduino​.cc​/built​-in​-examples​/digital​/toneMelody​/>
   
--  pitches.h. GitHub Gist: instantly share code, notes, and snippets. gist.github.com
+-  <https://gist.github.com/mikeputnam/2820675#file-pitches-h>
 
--  https:​​/​/docs​.arduino​.cc​/built​-in​-examples​/digital​/Button​/
+-  <https:​​/​/docs​.arduino​.cc​/built​-in​-examples​/digital​/Button​/>
 
--  programar un pulsador en Arduino para animación LED - Search Videos Videos bing.com
+-  <https://www.profetolocka.com.ar/2024/07/22/tutorial-usando-la-matriz-led-del-arduino-uno-r4-parte-1/>
 
--  https://www.profetolocka.com.ar/2024/07/22/tutorial-usando-la-matriz-led-del-arduino-uno-r4-parte-1/ 
+-  <https://www.profetolocka.com.ar/2024/07/22/tutorial-usando-la-matriz-led-del-arduino-uno-r4-parte-1/> 
 
 Al realizar el código, muchas veces surgieron problemas respecto a bibliotecas que eran necesarias para los códigos que debíamos usar, ya que estas se encontraban disponibles, pero no en todas las ocasiones se encontraban comprimidas como archivo zip y al comprimirlo costaba que arduino pudiese abrirla.
 
@@ -919,12 +952,14 @@ Al realizar el código, muchas veces surgieron problemas respecto a bibliotecas 
 Por alguna razón al utilizar el código de prueba del pulsador, sucedió que al acercar nuestra mano o un objeto, la luz del arduino reaccionaba como si estuviéramos pulsando el botón, no sabemos si el imán del speaker interfirió o si es algo relacionado a la conexión.
 
 
-https://github.com/user-attachments/assets/d36848d5-d107-4345-9b57-94f9a4a42a05
+<https://github.com/user-attachments/assets/d36848d5-d107-4345-9b57-94f9a4a42a05> 
 
 
 
 
 ## Resultado Final
+
+
 
 
 
