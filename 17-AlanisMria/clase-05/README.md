@@ -41,7 +41,7 @@ En cuanto a su dimensión física, este objeto tiene una forma más orgánica en
 
 **MarcaMorsa** es un objeto en donde las personas pueden visualizar una animación de un HOLA en español, seguido de un HOLA en clave morse.
 
-En cuanto a su dimensión física, este objeto tiene una forma más orgánica en la parte inferior, para lograr una mejor ergonomía con las manos y un agarre más cómodo. Su materialidad es de madera terciado 3mm e impresión 3D con plástico PLA (rojo para el exterior y negro para algunas partes de fijación interna). Tendrá a la vista un gran botón rojo (que combina con el PLA rojo), una matriz led y unos orificios hacia su interior con la forma de la mascota del juego, que permitirán la salida del sonido. En el interior se encontrarán escondidos el arduino, un parlante y las demás conexiones. 
+ En cuanto a su dimensión física, logramos nuestro cometido descrito anteriormente
 
 
 
@@ -104,7 +104,7 @@ Hicimos pruebas para ver que nuestros componentes funcionaran, con ayuda del Ard
 
 <https://github.com/user-attachments/assets/926fe974-6d12-47e7-9c0a-9a0f67151f40>
 
-Mediante ayuda del profesor, tutoriales y códigos de arduino, logramos descubrir los pines más convenientes, donde conectar ambos componentes.
+Mediante ayuda del profesor, tutoriales y códigos de arduino, logramos descubrir los pines más convenientes, donde conectar ambos componentes. El puerto positivo del speaker se conectó al pin 8 digital y su puerto negativo se conectó a GND (ground), el puerto positivo del led del botón se conectó al pin de 5V, el negativo a un GND y finalmente el puerto positivo del pulsador se conectó al pin 12 digital y a un GND.
 
 Fuentes:
 - <https://docs.arduino.cc/built-in-examples/digital/toneMelody/>
