@@ -1,9 +1,9 @@
 # clase-05
 ## VOCAL HUNT 
 
-Con [@SofiaEct](https://github.com/SofiaEct/dis8637-2024-2)  ideamos el proyecto __"VOCAL HUNT"__ que trata de un juego interactivo que combina el tiempo de reacción y reflejos del jugador, inspirado por el juego _“whack-a-mole”_. El objetivo del juego es poner nervioso al jugador, ya que tiene un tiempo límite para presionar cada vocal como lo sería el juego_”pop it”_ y además funciona con vidas. A medida que los jugadores avanzan las secuencias, estos aumentan en dificultad. 
+Con [@Mosswhosmoss](https://github.com/Mosswhosmoss/dis8637-2024-2)  ideamos el proyecto __"VOCAL HUNT"__, juego interactivo, inspirado en "whack-a-mole" y "pop it", desafía al jugador a reaccionar rápidamente al presionar vocales dentro de un tiempo límite. El objetivo es mantener la calma mientras se enfrenta a secuencias de mayor dificultad, mientras mantiene sus vidas.
 
-El propósito principal de "VOCAL HUNT" es desarrollar y mantener las habilidades motoras finas y reflejos, especialmente en grupos etarios que pueden encontrar desafíos particulares en estas áreas, como niños en desarrollo y adultos mayores. Al enfocarse en la velocidad de reacción y la coordinación ojo-mano, el juego ofrece un entrenamiento cognitivo y físico divertido y accesible.
+"VOCAL HUNT" tiene como objetivo mejorar las habilidades motoras finas y reflejos, especialmente en niños y adultos mayores. A través de ejercicios de velocidad de reacción y coordinación ojo-mano, el juego proporciona un entrenamiento cognitivo y físico divertido y accesible.
 
 ## REFERENTES
 
@@ -15,7 +15,7 @@ El propósito principal de "VOCAL HUNT" es desarrollar y mantener las habilidade
 
 https://github.com/user-attachments/assets/cc712618-53b4-4c0d-a535-d1b04aa49962
 
-***Ejemplo de virtual sports play dance mat***
+***Ejemplo de virtual sports play dance mat, referente brindado por [@clifford1one](https://github.com/clifford1one/dis8637-2024-2)***
 
 ![***Ejemplo virtual sports mat*** ](./virtual_sport_mat.png)
 
@@ -68,7 +68,13 @@ para hacerle los agujeros requerimos de la ayuda de mi padre nuevamente
 
 ![hoyosBotones](./hoyosBotones.jpg)
 ![hoyosBotonesProblemas](./hoyosBotonesProblemas.jpg)
-El problema de hacer los ahgujeros era que el MDF se quemaba y se pegaba en la broca demorandonos más en hacer todos los agujeros
+el problema de hacer los agujeros era que el MDF se quemaba y se pegaba en la broca demorandonos más en hacer todos los agujeros
+
+si bien al momentos de hacer los agujeros para los botones no quedaron muchas imperfecciones, cuando finalmente hicimos el agujero por donde entraria el cable usb-c para conectar con el arduino, al ser primera vez que trabajamos con mdf, no teniamos contemplado o mas bien, no sabiamos que por el lado interior se pelaria.
+
+es algo importante a tener en cuenta al momento de perforar el mdf.
+
+![image](https://github.com/user-attachments/assets/bf35f052-28d1-4a57-a288-cb0476820df5)
 
 https://github.com/user-attachments/assets/67e6b9ee-4b94-49aa-abf2-10c8dd6cbc03
 
@@ -76,13 +82,14 @@ https://github.com/user-attachments/assets/67e6b9ee-4b94-49aa-abf2-10c8dd6cbc03
 
 tarea: quiero jugar al juego de secuencia
 
-casos limites:
+casos limites: que no este conectado, que el conector se eche a perder, no se que mas
 
-1. Conecta al juego a una fuente de energía a través de un cable usb
-2. El juego queda en un estado de espera hasta que el jugador inicie el juego apretando cualquier tecla/botón
+1. Conecta al juego a una fuente de energía a través de un cable usb-c
+2. El juego queda en un estado de espera hasta que el jugador aprete cualquier botón/"vocal" para iniciar
 3. Las letras que aparecerán en el arduino corresponderá a la vocales, debes de apretar el botón con la letra que se muestra en la pantalla
-gradualmente aumenta la complejidad de este juego, disminuyendo los intervalos en los que se muestra la vocal y agregado a eso a animaciones que indiquen que se acaba el tiempo de reacción, hay un margen de error de 2 intentos, al equivocarse una tercera vez el juego vuelve al modo de espera, y para volver a empezar hay que presionar cualquier botón
-4. Una vez acabadas las 2 vidas el juego volverá a un modo de espera o después de un tiempo considerable de no interacción
+4. gradualmente aumenta la complejidad de este juego, disminuyendo los intervalos en los que se muestra la vocal y agregado a eso a animaciones que indiquen que se acaba el tiempo de reacción, hay un margen de error de 2 intentos, al equivocarse una tercera vez el juego vuelve al modo de espera, y para volver a empezar hay que presionar cualquier botón
+5. Una vez acabadas las 2 vidas el juego volverá a un modo de espera o después de un tiempo considerable de no interacción
+   
 ## CÓDIGO (DEFINICIONES Y OTRAS COSAS) :b
 
 **definiciones de los códigos que utilizamossacadas de google + clases**
@@ -101,14 +108,6 @@ gradualmente aumenta la complejidad de este juego, disminuyendo los intervalos e
 - ___false___: se define como 0 (cero), hay que tener en cuenta que las constantes true y false se escriben en minúsculas, a diferencia de HIGH, LOW, INPUT y OUTPUT.
 - ___true___: comunmente se define como 1, lo cual es correcto, pero true tiene una definicion mas amplia, cualquier entero que no es cero es true.
 - ___digitalRead___: sirve para leer un valor (o poner en un estado) un pin digital.
-
-## DIAGRAMA DE FLUJO: ¡VOCAL HUNT!
-
-1. conecta al juego a una fuente de energía a través de un cable usb
-2. el juego queda en un estado de espera hasta que el jugador inicie el juego apretando cualquier tecla/botón
-3. las letras que apareceran en el arduino corresponderan a la vocales, debes de apretar el botón con la letra que se muestra en la pantalla
-4. gradualmente aumenta la complejidad de este juego, disminuyendo los intervalos en los que se muestra la vocal y agregado a eso a animaciones que indiquen que se acaba el tiempo de reacción, hay un margen de error de 2 intentos, al equivocarse una tercera vez el juego vuelve al modo de espera, y para volver a empezar hay que presionar cualquier botón
-5. una vez acabadas las 2 vidas el juego volvera  a un modo de espera o despues de un tiempo considerable de no interaccion
   
 ## CODIGO PRINCIPAL CON ERRORES
 
@@ -152,6 +151,15 @@ void loop() {
   }
 }
  ```
+
+en base a este codigo hice unas pruebas para probar los pulsadores que teniamos, aun que este escrito a la "mala" fue un buen punto de partida para mi ya que desde ahi pude aclarar mejor el rumbo del codigo
+
+estas son unas de las cuantas reacciones que tuvo el arduino y el pulsador con el codigo anterior
+
+https://github.com/user-attachments/assets/7f890011-af67-45cb-8d76-e40f6c789dff
+
+https://github.com/user-attachments/assets/ea7ec7df-d4af-47a9-a52a-33e079bea672
+
 ## CÓDIGO ACTUAL
 
 primero para corregir el codigo anterior tuvimos una reunion con [@montoyamoraga](https://github.com/montoyamoraga?tab=repositories&q=&type=&language=&sort=) donde pudimos darnos cuenta de algunas cosas, algo importante fue lo siguiente:
