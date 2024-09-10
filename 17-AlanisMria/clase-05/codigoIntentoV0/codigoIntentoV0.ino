@@ -89,14 +89,14 @@ void loop() {
   switch (currentState) {
     // en este estado esperamos la accion del usuario
     // 'presionar cualquie boton para que empiece el juego' y asi cambie a un estado activo
-    case STANDBY:
+    case REPOSO:
       {
         Serial.println("En estado STANDBY");
         int lecturaA = digitalRead(BOTON_ENTRADA);
 
-        // presiona cualquier boton para salir del estado standby y pasa a estado NIVEL4
+        // presiona cualquier boton para salir del estado standby y pasa a estado NIVEL_4
         if (!lecturaA) {
-          currentState = NIVEL4;
+          currentState = NIVEL_4;
         }
         break;
       }
@@ -151,7 +151,9 @@ void loop() {
         // TODO antes de inicializar la matrix, tienes que declararla
         // ya lo hice arriba antes de setup()
         // y luego la inicialize en setup()
-        matrix.loadFrame(Nivel4);
+        // ojo con https://docs.arduino.cc/tutorials/uno-r4-wifi/led-matrix/
+        // ahi dice como crear tus frames, use uno que viene en la biblioteca
+        matrix.loadFrame(LEDMATRIX_EMOJI_BASIC);
         
         break;
       }
