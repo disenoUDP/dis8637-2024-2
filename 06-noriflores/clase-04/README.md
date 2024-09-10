@@ -86,18 +86,6 @@ https://docs.arduino.cc/tutorials/uno-r4-wifi/r4-wifi-getting-started/
 ademas de que use proyectos anteriores que hice el año pasado en tecnologias interactivas para acordarme de como usar el sensor y el led, deje el archivo subido tambien 🥣 
 Me ayudó mucho que la Paula haya subido el link del código de su trabajo, además del link que compartió Aaron sobre como instalar las librerías y los comentarios de Belén y Karen. 
 
-## codigo 
-
-deje subido el archivo que usamos con el codigo de arduino :D 
-adjunto links que nos ayudaron a entender que hacer 
-
-https://www.profetolocka.com.ar/2024/07/29/tutorial-usando-la-matriz-led-del-arduino-uno-r4-parte-2/#google_vignette
-https://naylampmechatronics.com/blog/10_tutorial-de-arduino-y-sensor-ultrasonico-hc-sr04.html
-https://docs.arduino.cc/tutorials/uno-r4-wifi/r4-wifi-getting-started/
-
-ademas de que use proyectos anteriores que hice el año pasado en tecnologias interactivas para acordarme de como usar el sensor y el led, deje el archivo subido tambien 🥣 
-Me ayudó mucho que la Paula haya subido el link del código de su trabajo, además del link que compartió Aaron sobre como instalar las librerías y los comentarios de Belén y Karen. 
-
 ```c++
 
 #include "Arduino_LED_Matrix.h"
