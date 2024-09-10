@@ -30,9 +30,311 @@ Carcasa Externa: Fabricada en filamento 3D, esta carcasa fue elegida por su vers
 
 Cuando el usuario se acerca a la caja, esta responde de la siguiente manera:
 1. Estado inicial: La caja está abierta ,la pantalla de Arduino mostrando una animación o ícono parpadeante que invita al usuario a acercarse.
-2. Detección de proximidad: Si el usuario se acerca a una distancia de entre medio metro y un metro, la animación en la pantalla LED aumenta de velocidad conforme el usuario se aproxima.
-3. Cierre de la caja: Al llegar a una distancia menor o igual a medio metro, la tapa se cierra automáticamente mediante un servomotor, y la pantalla LED muestra una animación de una mueca burlesca.
-4. Retroceso: no está muy claro 
+   ![D76B6287-9107-4401-8317-90172452C4AE](https://github.com/user-attachments/assets/d5dc52eb-666e-447e-81cf-dfc800b4fefb)
+
+```ino
+#include "Arduino_LED_Matrix.h"
+ArduinoLEDMatrix matrix;
+
+
+byte espera_data[4][96] = {
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+}
+};
+
+
+byte frame[8][12] = {
+  { 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0 },
+  { 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0 },
+  { 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0 },
+  { 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0 },
+  { 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+};
+
+
+  int frame_current = 0;
+  int frame_max = 4;
+
+
+
+
+void setup() {
+ 
+  matrix.begin();
+}
+
+
+
+
+void loop()
+{
+``` 
+
+3. Detección de proximidad: Si el usuario se acerca a una distancia de entre medio metro y un metro, la animación en la pantalla LED aumenta de velocidad conforme el usuario se aproxima.
+
+ ![IMG_5421](https://github.com/user-attachments/assets/90c86e4c-e628-4800-a9bf-c8949eecf040)
+ 
+5. Cierre de la caja: Al llegar a una distancia menor o igual a medio metro, la tapa se cierra automáticamente mediante un servomotor, y la pantalla LED muestra una animación de una mueca burlesca.
+```ino
+#include "Arduino_LED_Matrix.h"
+ArduinoLEDMatrix matrix;
+
+
+byte new_piskel_data[15][96] = {
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0,
+0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0,
+0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0,
+0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0,
+0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0,
+0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0,
+0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0,
+0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0,
+0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0,
+0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
+0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
+0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
+0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
+0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
+0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
+0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
+0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
+0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
+0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
+0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
+0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0
+},
+{
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0,
+0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0,
+0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0
+}
+};
+
+
+
+
+byte frame[8][12] = {
+  { 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0 },
+  { 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0 },
+  { 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0 },
+  { 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0 },
+  { 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+};
+
+
+  int frame_current = 0;
+  int frame_max = 15;
+
+
+
+
+
+
+void setup() {
+  // put your setup code here, to run once:
+  matrix.begin();
+}
+
+
+void loop() {
+
+
+  frame_current++;
+  if (frame_current >= frame_max) {
+    frame_current = 0;
+}
+
+
+ for (int x=0; x<12; x++) {
+  for (int y=0; y<8; y++) {
+     frame[y][x] = new_piskel_data[frame_current][(7 - y) *12 + x];
+   
+    }
+  }
+  // put your main code here, to run repeatedly:
+  matrix.renderBitmap(frame, 8, 12);
+  delay(500/20);
+}
+```
+![5E0194BA-DE58-4427-84EE-2B11C7E013CA](https://github.com/user-attachments/assets/80b40db0-fce5-44dc-80df-52d9d9ea5301)
+
+tuvimos que invertir la visualizacón de la pantalla led y descubrimos que mediante este cambio, era posile
+
+```ino
+for (int x=0; x<12; x++) {
+  for (int y=0; y<8; y++) {
+     frame[y][x] = new_piskel_data[frame_current][(7 - y) *12 + x];
+```
+
+7. Retroceso: vuelve al estado inicial de "espera"
+   
 #### Casos Límite:
 1. El usuario no se acerca: Si el usuario no se aproxima a la caja, esta puede permanecer en estado de espera por un máximo de un minuto. Después de este tiempo, la caja podría cambiar la animación en la pantalla para intentar atraer más la atención del usuario, o podría apagarse temporalmente hasta que se detecte un nuevo movimiento
 2. El usuario se aleja inmediatamente:
@@ -172,6 +474,77 @@ void loop() {
 
 ![sensor tof frente](https://github.com/user-attachments/assets/990ad5cb-5369-4c4d-a2e2-bbac652924f9)
 
-### iconos de pantalla led arduino
+### intentamos la redacción del código de manera integral:
+
+```ino
+// Partes de código 
+
+  las constantes :
+#define Servo_pin      // Pin del servomotor
+#define Led_pin        // Pin del LED
+#define Distancia_pin  // Pin del sensor de proximidad
+  Funciones auxiliares : encenderLuzInterior()
+  : Enciende la luz LED interna.apagarLuzInterior()
+  : Apaga la luz LED interna.mostrarAnimacionInicial()
+  : mostrarAnimacionProximidad()
+  : mostrarAnimacionFinal()
+  : cerrarTapa()
+  : Mueve el servomotor para cerrar la tapa.abrirTapa()
+  : Mueve el servomotor para abrir la tapa.
+
+    Funciones para Manejar Estados(el ejemplo del profesor)
+
+      void loop() {
+  distancia = medirDistancia();  // Medir la distancia del usuario
+
+  switch (estadoActual) {
+        case STANDBY
+            if (distancia >= 100) { // Si el usuario está a un metro o más
+                estadoActual = ACTIVO;  // Cambia al estado ACTIVO
+                abrirTapa();  // Abre la tapa
+                encenderLuzInterior();  // Enciende la luz interior
+                mostrarAnimacionInicial();  // Muestra la animación inicial
+            }
+            break;
+
+        case ACTIVO
+       if (distancia > 50 && distancia < 100) { // Si el usuario está entre medio metro y un metro
+                estadoActual = TRABAJANDO;  // Cambia al estado TRABAJANDO
+                mostrarAnimacionProximidad();  // Muestra la animación de proximidad
+            }
+            break;
+
+        case TRABAJANDO
+            if (distancia <= 50) { // Si el usuario está a medio metro o menos
+                cerrarTapa();  // Cierra la tapa
+                apagarLuzInterior();  // Apaga la luz interior
+                mostrarAnimacionFinal();  // Muestra la animación final
+                estadoActual = STANDBY;  // Regresa a STANDBY
+            }
+            break;
+    }
+}//
+
+```
+
+### referentes utilizados:
+
+1. [Arduino UNO R4 WIFI Led Matrix Display Animations](https://github.com/upiiir/arduino_uno_r4_led_display)
+2. [Tutoriales de Arduino - Luis Llamas](https://github.com/luisllamasbinaburo/tutoriales-arduino-luisllamas_es) (tiene tutorial de casi todo, hay código del servo/sensor)
+3. [Smart Door Using PIR Motion Sensor | Arduino | Prototype | Tutorial](https://www.youtube.com/watch?v=ZWh6nWciMSE)
+4. [Interesante video - UNO R4 / UNO R4 WiFi - Arduino Forum](https://www.arduino.cc/forum) (idea para la pantalla LED)
+5. [Medir distancia con precisión con Arduino y sensor láser VL53L0X y VL6180X](https://luisllamas.es)
+
+
+[1] https://www.youtube.com/watch?v=ZWh6nWciMSE
+
+[2] https://www.youtube.com/watch?v=OIQFV_xN-XQ
+
+[3] https://www.youtube.com/watch?v=lGKA-MCldig
+
+[4] https://www.youtube.com/watch?v=coJxJWO86_g
+
+[5] https://www.youtube.com/watch?v=ZNkq81ZZ5nM
+
 
 
