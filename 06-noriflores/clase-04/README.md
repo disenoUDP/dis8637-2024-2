@@ -1,6 +1,6 @@
 # clase-04
 
-## plano casita
+## primer plano casita
 
 ![encargo04](./planocasita.jpg "encargo4pixarup")
 
