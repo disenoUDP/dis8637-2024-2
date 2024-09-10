@@ -144,8 +144,159 @@ Imagen explicativa de donde iria el arduino, y la pantalla.
 MÁS AVANCES
 
 https://roboticsbackend.com/arduino-control-led-brightness-with-a-potentiometer/
+Con ayuda de este ejemplo, aprendí como se usa el potenciómetro.
 
+https://roboticsbackend.com/arduino-potentiometer-with-multiple-leds-tutorial/#:~:text=To%20select%20the%20LED%2C%20you,2%2C%20and%20then%20all%20LEDs.
+Con ayuda de este ejemplo, aprendí cómo, con el potenciómetro, seleccionar diferentes LEDs dependiendo del valor del pot.
+
+
+Estos links me ayudaron a entender como relaciona la pantalla con los componentes, y cómo hacer que una animación sea interactuable
+https://www.instructables.com/Arduino-LCD-Game/
 https://www.youtube.com/watch?v=TURzbXTNaA0
+https://www.youtube.com/shorts/ssNbqmXvPnQ
+
+Este documento me ayudó a entender la relación entre los pixeles y el lenguaje binario.
+https://docs.arduino.cc/tutorials/uno-r4-wifi/led-matrix/
+
+Utilicé este editor para hacer los frames.
+https://ledmatrix-editor.arduino.cc
+
+Estos links me ayudaron a entender la sintaxis del código.
+https://www.arduino.cc/reference/es/language/functions/digital-io/pinmode/
+https://www.w3schools.com/js/js_if_else.asp
+
+
+#CÓDIGO
+Fue un proceso bastante complicado, el cual se compuso por varias fases, en las que iba aprendiendo distintas cosas del funcionamiento general, tanto de los botones como del arduino, y sus actuadores y sensores.
+
+```ino 
+int ledPin = 11;
+int potPin = A1;
+
+void setup() {
+  // put your setup code here, to run once:
+pinMode (ledPin, OUTPUT);
+}
+/*Aquí definí que el LED está en modo "recibo info", el potenciómetro no lo defino, porque automáticamente viene en modo "doi info" */
+
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+int potValue = analogRead(potPin);
+/* Aquí, entiendo que significa que: defino una nueva variable, llamada potValue, y esta variable va a leer al potenciómetro(potPin), y "acordarse" de el valor que lea*/
+
+int brillo   = map(potValue, 0, 1023, 0, 255);
+/*El potenciómetro funciona con valores de 10 bits(0-1023), pero al usar la variable "Analog.Write, ésta lee valores de 1 byte(0-255). La variablec"map" me permite transformar estos valores proporcionalmente. Aquí le estoy diciendo que una varibale "brillo" almacenará valores , y que la variable map los escala.*/
+
+analogWrite(ledPin, brillo);
+}
+```
+En el código anterior aprendí cómo usar un potenciómetro, y como cambiar el brillo de los pines con él.
+
+
+
+``` ino
+#define LED_1_PIN 11
+#define LED_2_PIN 10
+#define LED_3_PIN 9
+#define POTENTIOMETER_PIN A0
+
+#define LED_NUMBER 3
+
+void setup()
+{
+  pinMode(LED_1_PIN, OUTPUT);
+  pinMode(LED_2_PIN, OUTPUT);
+  pinMode(LED_3_PIN, OUTPUT);
+}
+
+void loop()
+{
+  int potentiometerValue = analogRead(POTENTIOMETER_PIN);
+  int ledChoice = potentiometerValue / (1024 / LED_NUMBER);
+  
+  if (ledChoice > LED_NUMBER - 1) {
+    ledChoice = LED_NUMBER - 1;
+  }
+  
+  if (ledChoice == 0) {
+    digitalWrite(LED_1_PIN, HIGH);
+    digitalWrite(LED_2_PIN, LOW);
+    digitalWrite(LED_3_PIN, LOW);
+  }
+  else if (ledChoice == 1) {
+    digitalWrite(LED_1_PIN, LOW);
+    digitalWrite(LED_2_PIN, HIGH);
+    digitalWrite(LED_3_PIN, LOW);
+  }
+  else {
+    digitalWrite(LED_1_PIN, LOW);
+    digitalWrite(LED_2_PIN, LOW);
+    digitalWrite(LED_3_PIN, HIGH);
+  }
+}
+```
+En el código anterior seguí con el proceso de entender cómo funcion un potenciómetro, esta vez, lo utilicé para alternar entre qué LEDs están encendidos.
+
+
+```ino
+/*
+  Play Animation
+
+  Sketch shows animation defined in animation.h
+
+  See the full documentation here:
+  https://docs.arduino.cc/tutorials/uno-r4-wifi/led-matrix
+*/
+
+
+
+#include "Arduino_LED_Matrix.h"   //Include the LED_Matrix library
+#include "animation.h"            //Include animation.h header file
+
+
+
+// Create an instance of the ArduinoLEDMatrix class
+ArduinoLEDMatrix matrix;  
+
+void setup() {
+  Serial.begin(115200);
+  // you can also load frames at runtime, without stopping the refresh
+  matrix.loadSequence(KKK);
+  matrix.begin();
+  // turn on autoscroll to avoid calling next() to show the next frame; the paramenter is in milliseconds
+  // matrix.autoscroll(300);
+  matrix.play(true);
+}
+
+void loop() {
+  delay(500);
+  Serial.println(millis());
+}
+const uint32_t KKK[][4] = {
+	{
+		0x8108100,
+		0x122b22b0,
+		0x1801801,
+		66
+	},
+	{
+		0x8308300,
+		0x12292290,
+		0x1801801,
+		66
+	},
+	{
+		0x8108100,
+		0x12292290,
+		0x1803803,
+		66
+	}
+};
+```
+En el código anterior se presenta el primer avance importante respecto al uso del display de la plca Arduino UNO r4 Wifi. En este caso, se ejecuta una animación, la cual corre en loop.  
+
 
 ```ino
 /*
@@ -202,7 +353,9 @@ int botonValue = digitalRead(botonWeno);
 
 }
 ```
-En este còdigo, con el slider puedo sleccionar el carril. El paso siguiente es que al apretar el boton en el carril ocrrecto, se apague el led.
+En este còdigo, con el slider puedo seleccionar el carril. El paso siguiente es que al apretar el boton en el carril ocrrecto, se apague el led.
+
+
  
 
 
