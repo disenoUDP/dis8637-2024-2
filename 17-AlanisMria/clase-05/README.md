@@ -4,7 +4,7 @@
 
 ## Retroalimentación y ayuda entre pares
 
-- El Martes 27 Tomamos en cuenta el concejo de Santiago de diseñar una mascota para el juego y también de Aarón para que esta fuera una morsa, ya que suena parecido a la palabra “Morse”.
+- El Martes 27 Tomamos en cuenta el consejo de Santiago de diseñar una mascota para el juego y también de Aarón para que esta fuera una morsa, ya que suena parecido a la palabra “Morse”.
   
 -  El Martes 3 de septiembre explicamos a Santiago y Tiare como habíamos hecho la división de nuestra pieza 3D, porque nos preguntaron en qué tolerancia habíamos hecho el encaje.
 
