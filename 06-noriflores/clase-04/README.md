@@ -1,8 +1,9 @@
-![primercasa](https://github.com/user-attachments/assets/8f18c814-2ffc-454e-a249-f9210ba7e256)# clase-04
+# clase-04
 
 ## primer plano casita
 
 ![encargo04](./planocasita.jpg "encargo4pixarup")
+![primercasa](https://github.com/user-attachments/assets/8f18c814-2ffc-454e-a249-f9210ba7e256)
 
 
 ### Apuntes para mejorar 
