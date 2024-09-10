@@ -4,6 +4,7 @@
 ## retroalimentación y apoyo a colegas
 
 @AlanisMria y @BelenVeAg nos compartieron su archivo .3dm para que ajustaramos la pieza que redirige la luz de la pantalla (diseñada por ellas)
+@santiago Los videos que nos compartió en Discord fueron de gran ayuda para comprender mejor los códigos
 
 @nuestros compañeros de taller nos apoyamos mutuamente con diferentes partes de nuestros códigos, ayudándonos a resolver los problemas que surgían al momento de probarlos.
 
@@ -115,6 +116,8 @@ https://github.com/user-attachments/assets/7b2b6193-91a1-4793-acc0-7ca88b015aad"
 definimos el ángulo necesario de recorrido para que la tapa abra y cierre en 20°, creando la pieza necesaria:
 
 ![Captura de pantalla 2024-09-08 222525](https://github.com/user-attachments/assets/1cb0badb-6946-4d7e-9f90-5de33489ce17)
+![texto](./piezasdelservo.jpg)
+
 
 Respecto al Sensor Laser de Distancia VL53L0X, hicimos las siguientes pruebas y conecciones, no hemos logrado que lea las distancias como debería, ya que la primera vez que cargamos el código al arduino corrió bien pero al aproximar otro objeto no lo distingió
 
