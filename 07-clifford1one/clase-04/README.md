@@ -498,3 +498,13 @@ if(fase2Seen == true) {
 
  ```
 En este código se optó por un camino alternativo, debido a que la idea original no se pudo implementar de la manera en que se pensó. La opción del botón se reemplazó por seleccionar el carril con el potenciómetro, y una vez se selecciona el carril correcto se pasa a la siguiente etapa.
+
+
+##COLABORACIÓN
+
+Agradecemos feacientemente los comentarios de todes del curso que nos escribieron feedback, especialmente a aquellos que nos recomendaron referentes. 
+
+Queremos volver a mencionar las oportunas ideas y feedback que nos brindaron Paula y Juan, cuyos comentarios nos ayudaron a guiar el proyecto por buen camino.
+
+Mención honrrosa al grupo de trabajo que formamos el día lunes 9 de septiembre. El cual consistió en una colaboración constante y conversaciones enriquecedoras: 
+Alanis, Belén, Emilia, Morgan, Sofía, Tiare.
