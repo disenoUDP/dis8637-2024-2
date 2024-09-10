@@ -97,7 +97,7 @@ https://docs.arduino.cc/tutorials/uno-r4-wifi/r4-wifi-getting-started/
 ademas de que use proyectos anteriores que hice el año pasado en tecnologias interactivas para acordarme de como usar el sensor y el led, deje el archivo subido tambien 🥣 
 Me ayudó mucho que la Paula haya subido el link del código de su trabajo, además del link que compartió Aaron sobre como instalar las librerías y los comentarios de Belén y Karen. 
 
-´´´cpp
+```c++
 
 #include "Arduino_LED_Matrix.h"
 #include "globito.h"
@@ -176,7 +176,9 @@ void readDistance() {
   long duration = pulseIn(pin_echo, HIGH);
   distance = duration * 0.034 / 2;  // Convertir a cm
 }
-´´´
+
+```
+
 
 
 
