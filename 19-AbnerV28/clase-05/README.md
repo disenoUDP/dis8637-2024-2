@@ -16,7 +16,7 @@ Imágenes del proceso
 * El problema del tamaño de los Led fue resuelto con una lupa, la cual fue puesta en el ojo de la criatura, lo que permitió poder ampliar la luz y ver de mejor forma el ojo.
 // ![texto](./imagendiez.jpg.jpeg)
 // ![texto](./imageonce.jpg.jpeg)
-
+// ![texto](./Imagenresultadofinal.jpg)
 
 # Manual de uso proyecto "shh"
 ### Paso 1: Encuentra un espacio adecuado
