@@ -12,7 +12,7 @@ esta era una idea dada la condicion de que partieramos en 4 nuestro prototipo pa
 ![texto](./INTENTODEENCAJE.jpg).
 
 # DATO!!!  
-En cualquier encaje es necesario dar tolerancias de al menos 2 mm o 3mm, para que el factor impresion no provoque fallos en nuestro encaje.
+En cualquier encaje es necesario dar tolerancias de al menos 0,15 mm a 0,30mm, para que el factor impresion no provoque fallos en nuestro encaje.
 
 ![texto](./rectificandotolerancias.jpg).
 
