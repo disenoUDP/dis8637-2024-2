@@ -1,24 +1,25 @@
 # clase-05
 ## Solemne 01
-*El objetivo del proyecto “Shh” es que la matriz LED reaccione a un nivel de sonido preestablecido, permitiendo que la criatura exprese su estado emocional a través de su ojo*. La idea es que, al captar un cierto umbral de ruido, el ojo de la criatura se ilumine de manera que refleje su estado de ánimo. Dependiendo de la intensidad del sonido, la criatura podrá manifestar emociones como enojo o tristeza, utilizando el cambio en la iluminación y patrones visuales de la matriz LED para comunicar estas sensaciones. Este enfoque busca dar vida al objeto, haciéndolo interactivo y emotivo.
+*El proyecto “Shh” explora la interacción con el entorno, permitiendo que una criatura aparentemente dormida despierte cuando detecta ruidos fuertes. La idea es que este objeto, que normalmente está inactivo, cobre vida en respuesta a estímulos sonoros, este enfoque busca ser interactivo y lúdico*
 
-Imágenes del proceso
-// ![texto](./procesoshh.jpg.jpeg)
+*El objetivo es que la matriz LED reaccione al ruido por un parametro establecido, permitiendo que la criatura exprese su estado a través de su ojo. La idea es que, al captar un cierto umbral de ruido, el ojo de la criatura se ilumine de manera que refleje su estado de ánimo. Dependiendo de la intensidad del sonido, la criatura podrá manifestar emociones como enojo o tristeza, utilizando el cambio en la iluminación y patrones visuales de la matriz LED para comunicar estas sensaciones.*
 
-// ![texto](./imagenseis.jpg.jpeg)
+### Imágenes del proceso
+## Boceto
+![texto](./imagen.jpg)
+## Construcción
+![Cpnstrucció](./imagen1.jpg)
 
-// ![texto](./imagendos.jpg.jpeg)
+![texto](./imagen2.jpg)
+## Resultado inicial
+![texto](./inicial.jpg)
 
-// ![texto](./imagensiete.jpg.jpeg)
 
+## resultados y cambios post correcciones curso
+* Los cambios propuestos en clase para esta criatura incluyen varias mejoras. Primero, se sugirió que estuviera adherida a la pared para facilitar su interacción con las personas a su alrededor. Para lograrlo, diseñamos una placa que permite colgarla en el muro, con un agujero incorporado para facilitar su montaje. Además, se añadió un soporte específico para el Arduino y se creó un espacio adicional para proyectar de manera óptima, mejorando así la funcionalidad y la estética del diseño.
+* El problema del tamaño de los Led fue resuelto con una lupa, la cual fue puesta en el ojo de la criatura, lo que permitió poder ampliar la luz y ver de mejor forma el ojo. 
 
-*Cambios*  
-Los cambios propuestos en clase para esta criatura incluyen varias mejoras. Primero, se sugirió que estuviera adherida a la pared para facilitar su interacción con las personas a su alrededor. Para lograrlo, diseñamos una placa que permite colgarla en el muro, con un agujero incorporado para facilitar su montaje. Además, se añadió un soporte específico para el Arduino y se creó un espacio adicional para proyectar de manera óptima, mejorando así la funcionalidad y la estética del diseño.
-El problema del tamaño de los Led fue resuelto con una lupa, la cual fue puesta en el ojo de la criatura, lo que permitió poder ampliar la luz y ver de mejor forma el ojo. 
-
-// ![texto](./imagenueve.jpg.jpeg)
-// ![texto](./imagendiez.jpg.jpeg)
-// ![texto](./imagenonce.jpg.jpeg)
+![texto](./proces.jpg)
 
 ¿Qué es "shh"?: Criatura que no quiere ser molestado, "shh" es sensible al sonido por lo que despierta tanto enojado como triste al sonido, la idea de "shh" es poder controlar lugares de niños en donde el 
 # Manual de uso proyecto "shh"
