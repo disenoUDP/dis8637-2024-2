@@ -44,9 +44,10 @@ El jugador se enfrenta a un panel con 5 botones, cada uno representando una voca
 
 El jugador cuenta con 2 vidas, y perderá una cada vez que cometa un error o no presione el botón a tiempo. A medida que el juego avanza, las secuencias se vuelven más rápidas y complicadas, aumentando la presión. El reto consiste en mantener la calma y reaccionar con precisión, pues cuando las 2 vidas se agoten, el juego terminará.
 
-## Construcción del objeto
+## CONSTRUCCIÓN DEL OBJETO
 
 Al principio intentamos hacer una estructura transportable, es decir pequeña. Primero lo intentamos hacer con impresión 3d donde [@AlanisMria](https://github.com/AlanisMria/dis8637-2024-2) me ayudo a modelar, con un tiempo de espera de 12 hrs y que terminó fallando
+
 ![Modelado_3D](./Modelado_3D.jpg).
 ![Fallo_modelado_3D](./Fallo_modelado_3D.jpg)
 Descubrimos que falló porque confundimos un filamento ABS por uno PLA
@@ -68,7 +69,10 @@ para hacerle los agujeros requerimos de la ayuda de mi padre nuevamente
 
 ![hoyosBotones](./hoyosBotones.jpg)
 ![hoyosBotonesProblemas](./hoyosBotonesProblemas.jpg)
+
 el problema de hacer los agujeros era que el MDF se quemaba y se pegaba en la broca demorandonos más en hacer todos los agujeros
+
+https://github.com/user-attachments/assets/67e6b9ee-4b94-49aa-abf2-10c8dd6cbc03
 
 si bien al momentos de hacer los agujeros para los botones no quedaron muchas imperfecciones, cuando finalmente hicimos el agujero por donde entraria el cable usb-c para conectar con el arduino, al ser primera vez que trabajamos con mdf, no teniamos contemplado o mas bien, no sabiamos que por el lado interior se pelaria.
 
@@ -76,7 +80,17 @@ es algo importante a tener en cuenta al momento de perforar el mdf.
 
 ![image](https://github.com/user-attachments/assets/bf35f052-28d1-4a57-a288-cb0476820df5)
 
-https://github.com/user-attachments/assets/67e6b9ee-4b94-49aa-abf2-10c8dd6cbc03
+## PRIMEROS ACERCAMIENTOS
+
+en la clase 4 junto a morgan no teniamos muy definido aun el rumbo de nuestro proyecto, por lo que no avanzamos mucho en proyectar fisicamente las dimensiones interiores y exteriores de la caja, aun asi exploramos bastante el area del circuito (aun que no funciono TT)
+
+principalmente teniammos conteplados el uso de leds, resitores y hasta protoboards, lo que se simplifico y no fueron necesarios actualmente en nuestro trabajo.
+
+![image](https://github.com/user-attachments/assets/8a2e804a-c755-4a36-877b-e2728d8f2931)
+
+aun que no todo es fallo, seguimos intentando poder usar el pulsador junto al led, y tuvimos pruebas exitosas!
+
+![image](https://github.com/user-attachments/assets/dd73a054-d855-4ac9-9896-20bc76502131)
 
 ## DIAGRAMA DE FLUJO
 
@@ -89,7 +103,60 @@ casos limites: que no este conectado, que el conector se eche a perder, no se qu
 3. Las letras que aparecerán en el arduino corresponderá a la vocales, debes de apretar el botón con la letra que se muestra en la pantalla
 4. gradualmente aumenta la complejidad de este juego, disminuyendo los intervalos en los que se muestra la vocal y agregado a eso a animaciones que indiquen que se acaba el tiempo de reacción, hay un margen de error de 2 intentos, al equivocarse una tercera vez el juego vuelve al modo de espera, y para volver a empezar hay que presionar cualquier botón
 5. Una vez acabadas las 2 vidas el juego volverá a un modo de espera o después de un tiempo considerable de no interacción
-   
+
+## CÓDIGO BASE DE SERGIO
+
+el codigo que nos dio sergio fue una ecelente base para trabajar, y no solo por hacer el codigo sino que me dio la nocion de que palabras, comandos, variables usaria en el codigo y poder definirlas para mi entendimiento!
+
+ ```c++
+enum State {
+  STANDBY,
+  ACTIVO,
+  TRABAJANDO
+};
+
+const int BUTTON_PIN = 2;
+
+State currentState = STANDBY;
+
+void setup() {
+  pinMode(BUTTON_PIN, INPUT_PULLUP);
+  Serial.begin(115200);
+}
+
+void loop() {
+  switch (currentState) {
+    case STANDBY:
+      Serial.println("En estado STANDBY");
+      if (checkButtonPress()) {
+        currentState = ACTIVO;
+      }
+      break;
+
+    case ACTIVO:
+      // En ACTIVO podemos hacer la intro, o las instrucciones
+      Serial.println("En estado ACTIVO");
+
+      // acá entramos a jugarshh
+      if (checkDistanceSensor()) {
+        currentState = TRABAJANDO;
+      }
+      break;
+
+    case TRABAJANDO:
+      Serial.println("En estado TRABAJANDO");
+
+      // Cuando terminamos, volvemos a standby
+      currentState = STANDBY;
+      break;
+  }
+
+}
+
+bool checkButtonPress(){}
+bool checkDistanceSensor(){}
+```
+
 ## CÓDIGO (DEFINICIONES Y OTRAS COSAS) :b
 
 **definiciones de los códigos que utilizamossacadas de google + clases**
@@ -152,7 +219,7 @@ void loop() {
 }
  ```
 
-en base a este codigo hice unas pruebas para probar los pulsadores que teniamos, aun que este escrito a la "mala" fue un buen punto de partida para mi ya que desde ahi pude aclarar mejor el rumbo del codigo
+en base a este codigo hice unas pruebas con los pulsadores que teniamos, aun que este escrito a la "mala" fue un buen punto de partida para mi ya que desde ahi pude aclarar mejor el rumbo del codigo
 
 estas son unas de las cuantas reacciones que tuvo el arduino y el pulsador con el codigo anterior
 
@@ -160,15 +227,16 @@ https://github.com/user-attachments/assets/7f890011-af67-45cb-8d76-e40f6c789dff
 
 https://github.com/user-attachments/assets/ea7ec7df-d4af-47a9-a52a-33e079bea672
 
+
 ## CÓDIGO ACTUAL
 
 primero para corregir el codigo anterior tuvimos una reunion con [@montoyamoraga](https://github.com/montoyamoraga?tab=repositories&q=&type=&language=&sort=) donde pudimos darnos cuenta de algunas cosas, algo importante fue lo siguiente:
 
-para que quien no tenga un pulsador o tenga problemas para conectarlo/hacerlo funcionar )siempre y cuando este trabajando con pinMode(INPUT_PULLUP)) pueden conectar uno de estos cablecitos corto a GND y al numero de pin que tengan en su codigo (en mi caso 2)
+para que quien no tenga un pulsador o tenga problemas para conectarlo/hacerlo funcionar (siempre y cuando este trabajando con pinMode(INPUT_PULLUP)) pueden conectar uno de estos cablecitos corto a GND y al numero de pin que tengan en su codigo (en mi caso 2)
 
 ![image](https://github.com/user-attachments/assets/b4b9688c-c1cf-419b-8a3e-4f943cf69729)
 
-## CÓDIGO
+# CÓDIGO
 ```c++
 #include "Arduino_LED_Matrix.h"
 
@@ -238,3 +306,529 @@ void loop() {
   }
 }
 ```
+
+## ANIMACIONES
+
+despues de haber resuelto la primera parte que era definir el estado standby, procedi a ver como era hacer animaciones en arduino (que dolor de cabeza), fue bastante complicado ya que no entendia ninguno de los metodos utilizados en las referencias de arduino, hasta que llegue a esta video [Probando el nuevo Arduino uno R4 Wifi de @MCI Electronics](https://www.youtube.com/watch?v=6A_xKy1qANw&t=196s) me salvo la vida!
+
+probe animaciones ya hecha tanto por el creador del video anterior o de arduino
+
+https://github.com/user-attachments/assets/67c3d389-0400-437b-af70-0d28a7c88996
+
+ya despues me aventure a crear mis propias animaciones
+
+https://github.com/user-attachments/assets/d404d697-cdfa-417c-ac7e-42698ebf0cb7
+
+estas animaciones se crean en un archivo aparte, como mencione anterioremente no es .ino sino que es .h ahi es donde se almacena el codigo de la animacion exportado del editor
+
+https://github.com/user-attachments/assets/1e989e2d-a3e6-4a93-88e4-6e1facd35d96
+
+el codigo que marque es el que llama al archivo .h lo lee y lo reproduce en la pantalla led del arduino
+
+```c++
+/*
+  Play Animation
+
+  Sketch shows animation defined in animation.h
+
+  See the full documentation here:
+  https://docs.arduino.cc/tutorials/uno-r4-wifi/led-matrix
+*/
+
+
+// este es el código solo directo desde archivo>ejemplos>LED_Matrix>PlayAnimation
+#include "Arduino_LED_Matrix.h"   //Include the LED_Matrix library
+#include "animation.h"            //Include animation.h header file
+
+// Create an instance of the ArduinoLEDMatrix class
+ArduinoLEDMatrix matrix;  
+
+void setup() {
+  Serial.begin(115200);
+  // you can also load frames at runtime, without stopping the refresh
+  matrix.loadSequence(animation);
+  matrix.begin();
+  // turn on autoscroll to avoid calling next() to show the next frame; the paramenter is in milliseconds
+  // matrix.autoscroll(300);
+  matrix.play(true);
+}
+
+void loop() {
+  delay(500);
+  Serial.println(millis());
+}
+
+```
+
+y este es el codigo en la pestaña de _animation.h_ que contiene un codigo de animacion default de la biblioteca de arduino (editable)
+
+```c++
+const uint32_t animation[][4] = {
+	{
+		0x30c20,
+		0x43fc3fc2,
+		0x430c000,
+		66
+	},
+	{
+		0x30c29,
+		0x436c36c2,
+		0x9430c000,
+		66
+	},
+	{
+		0x30c2f,
+		0x430c30c2,
+		0xf430c000,
+		66
+	},
+	{
+		0x36c29,
+		0x41081082,
+		0x9436c000,
+		66
+	},
+	{
+		0x3fc30,
+		0xc1081083,
+		0xc3fc000,
+		66
+	},
+	{
+		0x3fc20,
+		0x42042042,
+		0x43fc000,
+		66
+	},
+	{
+		0x3f,
+		0xc2042043,
+		0xfc000000,
+		66
+	},
+	{
+		0x0,
+		0x3fc3fc0,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0x1f81f80,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0xf00f00,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0x600600,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0x0,
+		0x0,
+		66
+	}
+};
+```
+agregando todo lo anterior tenemos el codigo actual que estamos utilizando (editable)
+
+```c++
+#include "Arduino_LED_Matrix.h"   //Include the LED_Matrix library
+#include "animation.h"            //Include animation.h header file
+#include <LedControl.h>
+
+// lenguaje de c++ para detectar posibles errores en el código y valores
+//por lo que lo usamos ahora para definir los estados de nuestro dispopsitivo
+enum State {
+  // en espera
+  STANDBY,
+  // mientras el usuario juega con con 'vocal hunt' (mientras que este dentro del rango de vidas)
+  TRABAJANDO
+};
+
+// el pin es donde se conecta el botón al arduino, en este casi en la ranura número 2
+const int BOTON_ENTRADA_A = 2;
+const int BOTON_ENTRADA_E = 3;
+const int BOTON_ENTRADA_I = 4;
+const int BOTON_ENTRADA_O = 5;
+const int BOTON_ENTRADA_U = 6;
+
+// variable globales
+//estado actual en espera
+State currentState = STANDBY;
+// Create an instance of the ArduinoLEDMatrix class
+ArduinoLEDMatrix matrix;
+
+// comandos utilizados de edgar pon para usar botones en arduino con if-else https://edgarpons.com/botones-en-arduino-y-comandos-if-else/
+
+void setup() {
+  // configurar las entradas
+  pinMode(BOTON_ENTRADA_A, INPUT_PULLUP);
+  pinMode(BOTON_ENTRADA_E, INPUT_PULLUP);
+  pinMode(BOTON_ENTRADA_I, INPUT_PULLUP);
+  pinMode(BOTON_ENTRADA_O, INPUT_PULLUP);
+  pinMode(BOTON_ENTRADA_U, INPUT_PULLUP);
+
+  Serial.begin(115200);
+  // you can also load frames at runtime, without stopping the refresh
+  matrix.loadSequence(uncorazon);
+  matrix.loadSequence(doscorazones);
+  matrix.loadSequence(A);
+  matrix.loadSequence(E);
+  matrix.loadSequence(I);
+  matrix.loadSequence(O);
+  matrix.loadSequence(U);
+
+ 
+
+  matrix.begin();
+  // turn on autoscroll to avoid calling next() to show the next frame; the paramenter is in milliseconds
+  // matrix.autoscroll(300);
+  matrix.play(true);
+
+}
+
+  // aqui se ponen todos los comandos que el ardino debe de ejecutar haciandolos que esten en continua funcionamiento, que pase mas de una vez
+  void loop() {
+    //sirve para leer un valor (o poner en un estado) un pin digital.
+    switch (currentState) {
+      // en este estado esperamos la accion del usuario
+      // 'presionar cualquie boton para que empiece el juego' y asi cambie a un estado activo
+      case STANDBY:
+        {
+          Serial.println("En estado STANDBY");
+          int lecturaA = digitalRead(BOTON_ENTRADA_A);
+          int lecturaE = digitalRead(BOTON_ENTRADA_E);
+          int lecturaI = digitalRead(BOTON_ENTRADA_I);
+          int lecturaO = digitalRead(BOTON_ENTRADA_O);
+          int lecturaU = digitalRead(BOTON_ENTRADA_U);
+
+          // presiona cualquier boton para salir del estado standby y pasa a estado trabajando
+          if (!lecturaA || !lecturaE || !lecturaI || !lecturaO || !lecturaU) {
+            currentState = TRABAJANDO;
+          }
+          break;
+        }
+      case TRABAJANDO:
+        {
+          Serial.println("En estado TRABAJANDO");
+          
+
+          
+
+            
+          //se presiona lecturaA
+          //}
+          //}else{} (quizas) si no lo hace en el tiempo establecido pierde vida
+          break;
+        }
+    }
+  }
+
+```
+
+codigo de la animacion
+
+```c++
+const uint32_t uncorazon[][4] = {
+	{
+		0x0,
+		0xa01f00e0,
+		0x4000000,
+		66
+	},
+	{
+		0x0,
+		0xa01f00e0,
+		0x4000000,
+		66
+	},
+	{
+		0x0,
+		0xa0040,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0xa0040,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0x40,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0x40,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0x0,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0x0,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0xa0040,
+		0xa000000,
+		66
+	},
+	{
+		0x0,
+		0xa0040,
+		0xa000000,
+		66
+	},
+	{
+		0x1,
+		0x100a0000,
+		0xa011000,
+		66
+	},
+	{
+		0x1,
+		0x100a0000,
+		0xa011000,
+		66
+	},
+	{
+		0x2001,
+		0x10000000,
+		0x11020,
+		66
+	},
+	{
+		0x2001,
+		0x10000000,
+		0x11020,
+		66
+	},
+	{
+		0x4002000,
+		0x0,
+		0x20,
+		66
+	},
+	{
+		0x4002000,
+		0x0,
+		0x20,
+		66
+	},
+	{
+		0x4000000,
+		0x0,
+		0x0,
+		66
+	},
+	{
+		0x4000000,
+		0x0,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0x0,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0x0,
+		0x0,
+		66
+	},
+	{
+		0x0,
+		0x0,
+		0x0,
+		66
+	}
+};
+
+const uint32_t doscorazones[][4] = {
+	{
+		0x50,
+		0xaf9f70e2,
+		0x4000000,
+		66
+	},
+	{
+		0x50,
+		0xaf9f70e2,
+		0x4000000,
+		66
+	},
+	{
+		0x0,
+		0xa71f20e0,
+		0x4000000,
+		66
+	},
+	{
+		0x0,
+		0xa71f20e0,
+		0x4000000,
+		66
+	},
+	{
+		0x0,
+		0xa21f00e0,
+		0x4000000,
+		66
+	},
+	{
+		0x0,
+		0xa21f00e0,
+		0x4000000,
+		66
+	},
+	{
+		0x0,
+		0xa01f00e0,
+		0x4000000,
+		66
+	},
+	{
+		0x0,
+		0xa01f00e0,
+		0x4000000,
+		66
+	},
+	{
+		0x48,
+		0xa31f30e4,
+		0x84000000,
+		66
+	},
+	{
+		0x48,
+		0xa31f30e4,
+		0x84000000,
+		66
+	},
+	{
+		0x84048,
+		0xa01f00e4,
+		0x84840000,
+		66
+	},
+	{
+		0x84048,
+		0xa01f00e4,
+		0x84840000,
+		66
+	},
+	{
+		0x2084000,
+		0xa01f00e0,
+		0x4840020,
+		66
+	},
+	{
+		0x2084000,
+		0xa01f00e0,
+		0x4840020,
+		66
+	},
+	{
+		0x2000000,
+		0xa01f00e0,
+		0x4000020,
+		66
+	},
+	{
+		0x2000000,
+		0xa01f00e0,
+		0x4000020,
+		66
+	},
+	{
+		0x0,
+		0xa01f00e0,
+		0x4000000,
+		66
+	}
+};
+
+//animacion letra 'A'
+const uint32_t A[][4] = {
+	{
+		0x6009010,
+		0x81081081,
+		0xf8108108,
+		66
+	}
+};
+
+//animacion letra 'E'
+const uint32_t E[][4] = {
+	{
+		0x1f810010,
+		0x1f01001,
+		0x1001f8,
+		66
+	}
+};
+
+//animacion letra 'I'
+const uint32_t I[][4] = {
+	{
+		0x1f806006,
+		0x600600,
+		0x600601f8,
+		66
+	}
+};
+
+//animacion letra 'O'
+const uint32_t O[][4] = {
+	{
+		0x1f810810,
+		0x81081081,
+		0x81081f8,
+		66
+	}
+};
+
+//animacion letra 'U'
+const uint32_t U[][4] = {
+	{
+		0x10810810,
+		0x81081081,
+		0x81081f8,
+		66
+	}
+};
+
+
+```
+
+
+
+
+   
+
+
+
