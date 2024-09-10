@@ -6,7 +6,7 @@
 Un juego que busca alcanzar completar un circuito en un tiempo definido (tiempo mostrado por los led del arduino), donde  el jugador que logre llegar al final del juego antes de que finalice el tiempo ganara el juego
 
 ¿COMO ES?
-
+dimensiones 15x20x3 cm / Madera MDF
 Archivo de corte de la base de madera 
 CorteLaserlaberinto.ai  (archivo en la carpeta)
 ![texto](./cortelaser.png)
