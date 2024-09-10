@@ -50,7 +50,6 @@ Si deseas que "Shh" vuelva a dormir, asegúrate de que no haya ruido en su entor
 2.  Asegúrate de que "Shh" no tenga contacto con agua ni ningún otro líquido. Este dispositivo no es resistente al agua, y cualquier exposición a líquidos puede dañarlo de manera irreversible. Siguiendo estas instrucciones y precauciones, podrás disfrutar de una experiencia óptima con la criatura "Shh", interactuando con ella de manera segura y divertida.
    
 
-// ![texto](./aquivaelnombre.jpg)
 
 ``` cpp
 #include "Arduino_LED_Matrix.h"   //Include the LED_Matrix library
@@ -119,35 +118,33 @@ void loop() {
 ```
 
 ``` cpp
-//Codigo para matriz led ojo enojado
-const uint32_t animationenojado[][4] = {
-	{
+//Codigo para matriz led ojo calmado
+const uint32_t calmado[] = {
+
 		0x1f816,
 		0x81681083,
 		0xfc70ee07,
 		66
-	}
-};
+};	
 
-
-//Codigo para matriz led ojo calmado
-const uint32_t animationcalmado [][4] = {
-	{
+//Codigo para matriz led ojo triste
+const uint32_t triste [] = {
+	
 		0x0,
 		0x7fe8010,
 		0x0,
 		66
-	}
+	
 };
 
-//Codigo para matriz led ojo triste 
-const uint32_t animationtriste [][4] = {
-	{
+//Codigo para matriz led ojo enojado 
+const uint32_t enojado [] = {
+	
 		0x2001f816,
 		0x81689097,
 		0xfe000000,
 		66
-	}
+	
 };
 
 ```
