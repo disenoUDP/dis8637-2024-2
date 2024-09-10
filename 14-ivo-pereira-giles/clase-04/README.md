@@ -15,11 +15,12 @@ Cada nivel contiene una serie de acordes que conformarán la melodía. Toca los 
 
 ![texto](./controlguitarhero.jpg).
 
+![texto](./controlguitarhero.jpg).
+
+![texto](./GAMEBOY1.jpg).
 
 # modelado Heroe guitarra  ////// Decisiones de diseño.
 
-
-![texto](./CUBICACION1.jpg).
 
 # IDEA PARA PEGAR PIEZAS
 Ésta era una idea dada la condiciÓn de que partieramos en 4 nuestro prototipo para luego pegarlo sin problema y que no se mueva.
