@@ -1,7 +1,5 @@
 # clase-05
 
-(esto se borra despues, falta agregar referencias de arduino y corregir la ortografia + imagenes/videos de el juego listo"" la caja entera, por dentro y por todos los angulos posibles)
-
 ## VOCAL HUNT 
 
 Con [@Mosswhosmoss](https://github.com/Mosswhosmoss/dis8637-2024-2)  ideamos el proyecto __"VOCAL HUNT"__, juego interactivo, inspirado en "whack-a-mole" y "pop it", desafía al jugador a reaccionar rápidamente al presionar vocales dentro de un tiempo límite. El objetivo es mantener la calma mientras se enfrenta a secuencias de mayor dificultad, mientras mantiene sus vidas.
@@ -828,10 +826,20 @@ const uint32_t U[][4] = {
 
 ```
 
+## PRODUCTO FINAL
 
+al momento de la instalacion hubieron problemas en los botones, donde no de unian las piezas, dificultando el poderpresionarlas
 
+https://github.com/user-attachments/assets/d025c5bc-33d6-4890-8f7c-b5f8733bbb07
 
-   
+No avanzamaos mas en el codigo por tiempo, la intencion era hacer que funcionara totalmente pero el proceso que llevamos culmino en un resultado satisfactorio
 
+![image](https://github.com/user-attachments/assets/1490638a-35d6-49f6-a09f-13df4593e468)
 
+![image](https://github.com/user-attachments/assets/deb5ddc2-dd47-49db-b9f2-c086367c496a)
 
+![image](https://github.com/user-attachments/assets/3b68eb83-8b94-4d25-9b07-c1e8b14d83a6)
+
+![image](https://github.com/user-attachments/assets/b849331f-c5bc-4bf1-a4cd-43e5d9f42995)
+
+![image](https://github.com/user-attachments/assets/9ef91406-c7d2-4b9e-9621-8b86ecc84c16)
