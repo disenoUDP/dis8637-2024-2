@@ -101,6 +101,15 @@ XIV. juan pareschi.
 4. Juegos de arcade de ritmo (buscar Pop'n'Music, Taiko no Tatsujin o japanese rhythm games arcade en google) o controles de juego en general, pensar sobre todo como el usuario toma e interactúa con el objeto
 
 
+
+
+
+# ¿QUÉ ES HEROE GUITARRA?
+Heroe Guitarra es un dispositivo electrónico inspirado en el modo de uso mas común de un instrumento: un acorde accionable y una pulsación. HEROE GUITARRA tiene 3 carriles en donde están posicionados los acordes que deberemos accionar, éstos acordes estarán repartidos aleatoriamente.
+
+
+
+
 ![texto](./procesoHG-v2.png).
 
 El modelo avanzó hacia una morfología más ergonómica, la cual permite un mejor agarre gracias a su tamaño disminuido respecto a la versión anterior.
