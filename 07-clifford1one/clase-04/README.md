@@ -119,8 +119,13 @@ Imprimí este prototpo de la forma para comprobar su comodidad y tamaño. Poster
 El objeto final se compondrá de:
 -Carcasa impresa en 3D
 -Arduino UNO r4 wifi
+
+https://github.com/user-attachments/assets/3c2b996b-d719-445b-8d6c-a8064b78f642
+
+
 -Pushbutton(x2)
 -Potenciómetro deslizante
+
 
 Los cambios realizados responden a la nueva mecánica del juego. La versión actual del juego (v1.1.0) consiste en una mecánica de coordinación entre ambas manos. (como en el guitar hero original) Además, con la nueva morfología de heroeGuitarra se ahorra es materiales, costos, y tiempo de fabricación.
 
@@ -498,3 +503,20 @@ if(fase2Seen == true) {
 
  ```
 En este código se optó por un camino alternativo, debido a que la idea original no se pudo implementar de la manera en que se pensó. La opción del botón se reemplazó por seleccionar el carril con el potenciómetro, y una vez se selecciona el carril correcto se pasa a la siguiente etapa.
+
+
+
+
+
+https://github.com/user-attachments/assets/9a323fd2-9ae7-4eef-9f57-42030352ce57
+
+
+
+##COLABORACIÓN
+
+Agradecemos feacientemente los comentarios de todes del curso que nos escribieron feedback, especialmente a aquellos que nos recomendaron referentes. 
+
+Queremos volver a mencionar las oportunas ideas y feedback que nos brindaron Paula y Juan, cuyos comentarios nos ayudaron a guiar el proyecto por buen camino.
+
+Mención honrrosa al grupo de trabajo que formamos el día lunes 9 de septiembre. El cual consistió en una colaboración constante y conversaciones enriquecedoras: 
+Alanis, Belén, Emilia, Morgan, Sofía, Tiare.
