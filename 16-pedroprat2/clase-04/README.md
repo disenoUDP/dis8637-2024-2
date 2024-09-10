@@ -1,5 +1,5 @@
 # clase-04
-El objeto consiste en una caja que se instala en la pared, fabricada en corte laser la cual tiene la figura de un gato con un ojo perforado, por donde el usuario puede mirar hacia adentro de la caja y ver la silueta de un gato el cual al cabo de unos segundos de ser obvservado muere. esta caja esta inspirada en el dicho la curiosidad mato al gato.
+Cat in Black consiste en una caja que se instala en la pared, fabricada en corte laser la cual tiene la figura de un gato con un ojo perforado, por donde el usuario puede mirar hacia adentro de la caja y ver la silueta de un gato el cual al cabo de unos segundos de ser obvservado muere. esta caja esta inspirada en el dicho la curiosidad mato al gato.
 
 El objeto consta de un arduino uno r4 wifi (entrega animacion gato vivo., gato muerto )mas tres cables conectados a un sesor de distancia marca sharp (si la señal es positiva empieza a gastar tiempo de vida del gato, si es negativa se pausa el tiempo), ademas de un portapilas (da energia al arduino)
 
@@ -22,60 +22,48 @@ El objeto consta de un arduino uno r4 wifi (entrega animacion gato vivo., gato m
 ![IMG_3898](https://github.com/user-attachments/assets/67be4966-2c4d-4679-9b9e-7f6fb93ce5ab)
 ![IMG_3899](https://github.com/user-attachments/assets/c377c126-1d87-445c-985e-bd1646d08cdc)
 ![IMG_3900](https://github.com/user-attachments/assets/73ff92cf-594b-426e-a99d-0e3ee36a72ea)
-Claro, aquí tienes una versión más humanizada del manual de uso:
 
----
+Cat in Black, es un objeto interactivo diseñado para ofrecer una experiencia que refleja el dicho popular. Al mirar a través del ojo perforado en la caja, verás una animación en la pantalla LED que representa un gato cuya "vida" se agota tras unos segundos de observación. Este objeto está pensada para hacerte reflexionar sobre cómo la curiosidad puede llevar a situaciones imprevistas.
 
-La Curiosidad Mató al Gato
+Componentes
+Caja: Hecha con precisión en corte láser, con la figura de un gato y un ojo perforado para la observación.
+Arduino Uno R4 WiFi: El cerebro del sistema, encargado de manejar las animaciones del gato.
+Sensor de Distancia Sharp: Detecta cuándo te acercas y activa la animación.
+Portapilas: Proporciona energía al Arduino.
+Pantalla LED: Muestra las animaciones que dan vida al gato.
+Instalación
+Montaje en la Pared:
 
-## Introducción
+Fija la caja a la pared utilizando adhesivo, asegurándote de que quede bien sujeta y a una altura cómoda para la observación.
+Conexión de Componentes:
 
-Bienvenido a **La Curiosidad Mató al Gato**, un objeto interactivo diseñado para ofrecer una experiencia que refleja el dicho popular. Al mirar a través del ojo perforado en la caja, verás una animación en la pantalla LED que representa un gato cuya "vida" se agota tras unos segundos de observación. Este objeto está pensada para hacerte reflexionar sobre cómo la curiosidad puede llevar a situaciones imprevistas.
+Sensor de Proximidad:
+Conecta el pin VCC del sensor al pin 5V del Arduino.
+Conecta el pin GND del sensor al pin de GND del Arduino.
+Conecta el pin SIG del sensor al pin A0 del Arduino.
+Portapilas: Conéctalo al Arduino para alimentar el sistema.
+Conexión de Energía:
 
-## Componentes
+Inserta las baterías en el portapilas y conéctalo al Arduino. ¡Y listo! Tu caja estará lista para funcionar.
+Funcionamiento
+Observación:
 
-- **Caja**: Hecha con precisión en corte láser, con la figura de un gato y un ojo perforado para la observación.
-- **Arduino Uno R4 WiFi**: El cerebro del sistema, encargado de manejar las animaciones del gato.
-- **Sensor de Distancia Sharp**: Detecta cuándo te acercas y activa la animación.
-- **Portapilas**: Proporciona energía al Arduino.
-- **Pantalla LED**: Muestra las animaciones que dan vida al gato.
+Al acercarte y mirar a través del ojo perforado, el sensor detectará tu presencia y comenzará a contar el tiempo de vida del gato en la pantalla.
+Animación del Gato Vivo:
 
-## Instalación
+Mientras estás cerca, verás cómo el gato en la pantalla LED está animado y activo, representando la vida del gato.
+Muerte del Gato:
 
-1. **Montaje en la Pared**:
-   - Fija la caja a la pared utilizando adhesivo, asegurándote de que quede bien sujeta y a una altura cómoda para la observación.
+Si mantienes la proximidad durante más de 20 segundos, la animación cambiará para mostrar la "muerte" del gato. Verás una animación que dura 4 segundos, representando simbólicamente la muerte del gato (RIP).
+Reinicio:
 
-2. **Conexión de Componentes**:
-   - **Sensor de Proximidad**:
-     - Conecta el pin **VCC** del sensor al pin **5V** del Arduino.
-     - Conecta el pin **GND** del sensor al pin de **GND** del Arduino.
-     - Conecta el pin **SIG** del sensor al pin **A0** del Arduino.
-   - **Portapilas**: Conéctalo al Arduino para alimentar el sistema.
+Después de que el gato "muere", el sistema se reinicia y el gato revive. Este ciclo se repite, recordándonos la naturaleza cíclica de la curiosidad.
+Interacción
+Acercarse a la Caja: La caja está diseñada para captar tu curiosidad. Al acercarte y mirar a través del ojo perforado, el sensor detecta tu presencia y activa la animación del gato.
 
-3. **Conexión de Energía**:
-   - Inserta las baterías en el portapilas y conéctalo al Arduino. ¡Y listo! Tu caja estará lista para funcionar.
+Mirar a Través del Ojo Perforado: Al observar la animación, experimentas cómo la curiosidad puede tener consecuencias. La animación del gato te invita a reflexionar nuestras acciones porque pueden afectar a la vida de otros.
 
-## Funcionamiento
-
-1. **Observación**:
-   - Al acercarte y mirar a través del ojo perforado, el sensor detectará tu presencia y comenzará a contar el tiempo de vida del gato en la pantalla.
-
-2. **Animación del Gato Vivo**:
-   - Mientras estás cerca, verás cómo el gato en la pantalla LED está animado y activo, representando la vida del gato.
-
-3. **Muerte del Gato**:
-   - Si mantienes la proximidad durante más de 20 segundos, la animación cambiará para mostrar la "muerte" del gato. Verás una animación que dura 4 segundos, representando simbólicamente la muerte del gato (RIP).
-
-4. **Reinicio**:
-   - Después de que el gato "muere", el sistema se reinicia y el gato revive. Este ciclo se repite, recordándonos la naturaleza cíclica de la curiosidad.
-
-## Interacción
-
-- **Acercarse a la Caja**: La caja está diseñada para captar tu curiosidad. Al acercarte y mirar a través del ojo perforado, el sensor detecta tu presencia y activa la animación del gato.
-
-- **Mirar a Través del Ojo Perforado**: Al observar la animación, experimentas cómo la curiosidad puede tener consecuencias. La animación del gato te invita a reflexionar nuestras acciones porque pueden afectar a la vida de otros.
-
-- **La Curiosidad**: Este objeto no solo es una experiencia visual, sino también una invitación a pensar sobre cómo la curiosidad puede llevarte a situaciones inesperadas y cómo cada ciclo de observación trae consigo un nuevo comienzo.
+La Curiosidad: Este objeto no solo es una experiencia visual, sino también una invitación a pensar sobre cómo la curiosidad puede llevarte a situaciones inesperadas y cómo cada ciclo de observación trae consigo un nuevo comienzo.
 
 
 
