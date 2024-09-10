@@ -7,9 +7,10 @@ Un juego que busca alcanzar completar un circuito en un tiempo definido (tiempo 
 
 ¿COMO ES?
 
-![texto](./laberinto.JPG)
 Archivo de corte de la base de madera 
 CorteLaserlaberinto.ai  (archivo en la carpeta)
+![texto](./cortelaser.png)
+![texto](./laberinto.JPG)
 ![texto](./ConexionesLaberinto.jpeg)
 
 ## Diagrama de flujo laberinto
