@@ -159,8 +159,10 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
 
 ## Orden del código
 
-## *Código prueba pulsador* 
 ```ino
+
+### Código prueba pulsador
+
   /*
   Button
 
@@ -189,6 +191,7 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button
 
  */
+```
 '''ino 
     // constants won't change. They're used here to set pin numbers:
 
@@ -235,9 +238,10 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
     }
 
     }
+````
+```ino
 
-
-## *Código prueba Speaker*
+### Código prueba Speaker
 
  /*
 
@@ -321,8 +325,10 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
     // no need to repeat the melody.
 
     }
+```
+```ino
 
-## *Código animación hola morse y español*
+### Código animación hola morse y español
 
 /*
 
@@ -481,8 +487,10 @@ https://github.com/user-attachments/assets/2fdbcc98-151c-4b4e-977c-5c91b9a841e2
     }
 
     };
+```
+```ino
 
-## *Código Intento*
+### Código Intento
 
 #include "Arduino_LED_Matrix.h"
 #include "gallery.h"
@@ -561,9 +569,10 @@ void loop() {
 
           matrix.loadFrame(Nivel4);
       };
+```
+```ino
 
-
-## *PushButton.h*
+### PushButton.h
 /*
 MIT License
 Copyright (c) 2018 Kristian Klein Jacobsen
@@ -616,9 +625,10 @@ class PushButton
 		int doubleClickTime_;
 };
     #endif
+```
+```ino
 
-
-## *PlayAnimation*
+### PlayAnimation
 // Código usado desde los ejemplos de led matrix de arduino, este código, logra llamar a los códigos de animación realizados en led matrix editor, para proyectarlos en los leds.
 
 /*
@@ -652,9 +662,10 @@ void loop() {
   delay(500);
   Serial.println(millis());
 }
+```
+```ino
 
-
-## *StandBy*
+### StandBy
 
  // Punto de partida, Aminacion de un Hola en código morse y español, hecho en led matrix editor .
 
@@ -711,8 +722,9 @@ const uint32_t animation[][4] = {
 	}
 };
 
-
-## *NivelPunto*
+```ino
+```
+### NivelPunto
 
  // Nivel introductorio, animación de un punto, hecho en led matrix editor.
 
@@ -726,9 +738,10 @@ const uint32_t animation[][4] = {
 		250
 	}
 };
+```
+```ino
 
-
-## *NiveLinea*
+### NiveLinea
 
  // Nivel introductorio, animación de una linea, hecho en led matrix editor.
 
@@ -744,8 +757,9 @@ const uint32_t animation[][4] = {
 };
 
 
-
-## *Nivel1*
+```ino
+```
+### Nivel1
 
  // Animación letra M en español y código morse, hecha en Led matrix editor.
 
@@ -766,8 +780,9 @@ const uint32_t animation[][4] = {
 	}
 };
 
-
-## *Nivel2*
+```ino
+```
+## Nivel2
 
  // Animación letra O en español y código morse, hecha en Led matrix editor.
 
@@ -787,9 +802,10 @@ const uint32_t animation[][4] = {
 		250
 	}
 };
+```
+```ino
 
-
-## *Nivel3*
+### Nivel3
 
  // Animación letra R en español y código morse, hecha en Led matrix editor.
 
@@ -810,9 +826,10 @@ const uint32_t animation[][4] = {
 	}
 };
 
+```
+```ino
 
-
-## *Nivel4*
+### Nivel4
 
  // Animación letra S en español y código morse, hecha en Led matrix editor.
 
@@ -832,8 +849,11 @@ const uint32_t animation[][4] = {
 		250
 	}
 };
+```
 
-## *Nivel5*
+```ino
+
+### Nivel5
 
  // Animación letra A en español y código morse, hecha en Led matrix editor.
 
@@ -853,9 +873,10 @@ const uint32_t animation[][4] = {
 		250
 	}
 };
+```
+```ino
 
-
-## *NivelFinal*
+### NivelFinal
 
  // al lograr pasar todos los niveles, el usuario visualizara una pequeña morsa guiñando el ojo en felicitación
 
@@ -880,7 +901,7 @@ const uint32_t animation[][4] = {
 		250
 	}
 };
-
+```
 
 
 **Links Visitados**
