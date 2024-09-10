@@ -40,31 +40,31 @@ No nos funciono la biblioteca del sensor CapacitiveSensor.h
    https://www.rinconingenieril.es/sensor-capacitivo/
    codigo :
 
-   //Sensor Tactil capacitivo por Rincon Ingenieril
-//Uso de la libreria CapacitiveSensor.h de Paul Stroffregen
-
-#include <CapacitiveSensor.h>
-
-CapacitiveSensor sensor = CapacitiveSensor(4,3);
-
-void setup() 
-{
-  // put your setup code here, to run once:
-pinMode(12,OUTPUT);
-}
-
-void loop() 
-{
-  // put your main code here, to run repeatedly:
-long lectura = sensor.capacitiveSensor(30);
-
-if(lectura>1)
-digitalWrite(12,HIGH);
-else
-digitalWrite(12,LOW);
-
-delay(10);
-}
+          //Sensor Tactil capacitivo por Rincon Ingenieril
+       //Uso de la libreria CapacitiveSensor.h de Paul Stroffregen
+       
+       #include <CapacitiveSensor.h>
+       
+       CapacitiveSensor sensor = CapacitiveSensor(4,3);
+       
+       void setup() 
+       {
+         // put your setup code here, to run once:
+       pinMode(12,OUTPUT);
+       }
+       
+       void loop() 
+       {
+         // put your main code here, to run repeatedly:
+       long lectura = sensor.capacitiveSensor(30);
+       
+       if(lectura>1)
+       digitalWrite(12,HIGH);
+       else
+       digitalWrite(12,LOW);
+       
+       delay(10);
+       }
 
 
 CONEXION DEL ARDUINO
