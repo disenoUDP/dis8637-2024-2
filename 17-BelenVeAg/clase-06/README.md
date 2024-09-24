@@ -63,4 +63,45 @@ Instalar Arduino UNO R4 Boards.
 
 1 byte (b) son 8 bits (b). Ojo con mb < Mb < MB.
 
+<img width="815" alt="Captura de pantalla 2024-09-24 a la(s) 12 38 25" src="https://github.com/user-attachments/assets/df910157-994e-4aa2-aa5c-d268a3b7c4b3">
 
+# Ejemplo Web client Arduino
+
+El ejemplo anterior era solo para ver que redes habían disponibles, pero no me conecté a ninguna. Ahora vamos a ver cómo se hace eso.
+
+Servidores web: son los buscadores, como google chrome, opera, etc. 
+
+Clientes web: quienes piden info al servidor.
+
+Te voy a dar el nombre de la red a la que te vas a conectar, la contraseña,
+
+!: antepone a una acción para decir que esa acción NO está pasando. 
+
+Direcciones IP: son el identificador que permite el envío de información entre dispositivos en una red. Internet necesita una forma de diferenciar entre distintas computadoras, enrutadores y sitios web.
+
+Cada servidor tiene la posibilidad de responder en la misma dirección ip a múltiples solicitudes simultaneamente.  
+
+Router: recive una señal de internet a través de un cable red/fibra óptica, a veces solo, a veces con una caja.
+
+<img width="781" alt="Captura de pantalla 2024-09-24 a la(s) 15 59 29" src="https://github.com/user-attachments/assets/0cff7611-bc1d-4f50-91f1-e414cd18b85f">
+
+Protocolo de red
+
+Arduino-> documentation-> HARDWARE-> 
+
+hipertexto: texto con la capacidad de vincular a otro lugar, link.
+
+http, udp, mqtt
+
+Protocolo udp: streaming: para que una gran cantidad de datos ...
+
+El streaming permite errores. 
+
+Arduino no es bueno para streaming
+
+mqtt: protocolo de regla de comunicación.
+
+Por lo que el arduino:
+1. Verificó que tenía un chip wifi
+2. Verificó que estaba actualizado
+3. Recibió una dirección online
