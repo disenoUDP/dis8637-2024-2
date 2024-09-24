@@ -6,4 +6,10 @@
 - patrones de diseño de interaccion: desde la perspectiva del usuario
 - hay estados intermedios
 - ux e iu no tienen fronteras
+- wifi no es interet, es un medio de conexion entre dispositivo
+  
+## programar el arduino
+
+- hay que entrar a l abiblioteca de [arduino r4 minima](https://docs.arduino.cc/hardware/uno-r4-wifi/)
+- como transmmitir info de una arduino al otro
 - 
