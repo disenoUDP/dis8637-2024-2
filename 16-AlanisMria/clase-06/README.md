@@ -83,5 +83,18 @@ Protocolo http debe estar completo para que no hayan colapsos
 
 Protocolo mqtt programo un dispositivo para que escuche un canal y solo reacciona cuando hay información
 
+Hacer que el arduino sea un servidor para poder hacerle preguntas atraves de wifi.
+
+*AP_SimpleWebServer*
+
+    ```int led =  LED_BUILTIN; // conectado al pin 13```
+
+El wifi será ofrecido y manejado por arduino (el chip de arduino brinda wifia a lo que lo rodea, pero no internet)
+
+cada vez que se conecte algo externo al arduino debemos definir si es una entrada o una salida
+
+El arduino funciona como routter y servidor (no maneja multiples conexiones a menos que se programe para hacerlo)
+
+
 
 
