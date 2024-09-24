@@ -2,6 +2,7 @@
 
 Analizando podemos creas experiencias y proyectos de diseño de interaccion, que influyen en las personas 
 de forma positiva sensorialmente
+![texto](./nube.jpg).
 
 -------Dieter Rams diseñador alemnan-------
 
