@@ -114,6 +114,23 @@ udp: hartos datos, no para
 
 mqtt: bajo costo procesamiento, seguro, filtra informacion, protocolo de red 
 
+AP_ SimpleWebServer.ino 
+
+arduino funciona como router, entrega dirección IP, aun no puede manejar multiples clientes.
+hasta que se programe.
+funcion como servidor.
+
+el arduino manda de vuelta información en html 
+
+GET / POST / PUT / DELETE :idioma html 
+
+
+
+
+
+
+
+
 ### osi model 
 intercambio de red que funciona en las 7 capas 
 
@@ -121,8 +138,5 @@ intercambio de red que funciona en las 7 capas
 2. Capa frames información se resive en conjuntos
 3. Capa packets
 4. 
-
-
-
 
 
