@@ -51,3 +51,31 @@ Respuesta a un fenomeno del siglo XX, Intención de hacer algo en vez de como lo
 La música empezó a mutar, esta exposición celebra esto.
 Visita el 15 de oct. 
 
+## Apuntes 
+continuación 
+
+### API
+API manera de counicarse entre máquinas, automatizar, condicionar ante algún suceso. 
+API es una interfaz de programación de aplicaciones, regla de comunicación que hay entre nosotros y un sistema. 
+Rapidapid app 
+pregunatar datos 
+hay que tner control de acceso una llave "key"
+
+## Arduino 
+Wifi 
+file - Examples - WifiS3 - ScanNetworks
+setup
+While: está pasando hasta que no y ahí sigue con el código
+
+loop 
+bit puede ser 0 o 1
+byte
+b minuscula bits
+B mayuscula 
+funcion te devuelve a un -1 que indica error o que no obtuvo conexión 
+Wifi.SSDI: se le puede modificar e indicar otra acción que uno condicione. 
+
+serial print In da indicador al usuario que está pasando algo 
+ListNetworks (): nombre fantasía, darle un nombre a una función, ecnontrar red de wifi 
+
+
