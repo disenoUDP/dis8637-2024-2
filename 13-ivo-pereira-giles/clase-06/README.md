@@ -8,3 +8,5 @@ de forma positiva sensorialmente.
 -------Dieter Rams diseñador alemnan-------
 DISEÑAR PARA EL COMPORTAMIENTO Y MENOS POR LA FUNCIONABILIDAD
 ¿O TAL VEZ VA UNIDOS>?
+
+![texto](./ixd.jpg).
