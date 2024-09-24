@@ -10,6 +10,7 @@
   
 ## programar el arduino
 
-- hay que entrar a l abiblioteca de [arduino r4 minima](https://docs.arduino.cc/hardware/uno-r4-wifi/)
+- hay que entrar a l abiblioteca de [arduino r4 wifi](https://docs.arduino.cc/hardware/uno-r4-wifi/)
 - como transmmitir info de una arduino al otro
+- conceptos importantes:. http, udp y mqtt
 - 
