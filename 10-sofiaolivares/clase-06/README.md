@@ -30,6 +30,24 @@ Tener en cuenta para quienes estamos diseñando. Cuál es público objetivo.
 
 No solo como las cosas se ven, sino también como se coportan, la funcion, la forma, el comportamiento, tienen que conversar. 
 
+Como diseñamos cuando los objetos están conectados a otra dispositivo 
+ej: reloj conectado al celular.
+Endomotica, objeto que a través de interfaces digitales que nos permite cotrolar o ver los estados. 
+refrigeradores con pantalla. 
 
+sacar prejuicios a la hora de diseñar, hay un usuario para todo. 
+ Como hacer que no todo pase en pantalla, mirar que pasa más allá de una pantalla. 
+ Ej: Cámara que me diga que está pasando, dispositivo que suene para tomar medicamento. 
 
+Diseño de interacción no está limitado a la interfaz del dispositivo.
+Pensar lo que la gente quiere, más alla de lo que la tecnología puede solucionar. 
+
+ Diseño es político. 
  
+# Exposición partituras inesperadas 
+Felipe B 
+Explora relación entre el arte y la música.
+Respuesta a un fenomeno del siglo XX, Intención de hacer algo en vez de como lo hago. 
+La música empezó a mutar, esta exposición celebra esto.
+Visita el 15 de oct. 
+
