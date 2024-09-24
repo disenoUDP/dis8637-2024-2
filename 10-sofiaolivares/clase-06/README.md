@@ -2,7 +2,7 @@
 
 24 de septiembre 
 
-## Diseño de interacción 
+# Diseño de interacción 
 
 no se necesita tecnologia para realizar una buena experencia de usario.
 uilizando distintos estados, momento en el tiempo en que una cosa existe una cosa de otra. se pueden conservar o cambiar los estados.
@@ -14,7 +14,7 @@ uilizando distintos estados, momento en el tiempo en que una cosa existe una cos
 no seguir el cocepto de usuario promedio, porque no existe, todas las personas tienen distintas caracterísicas. El usuario común. 
 no diseñar para la funcionalidad y no para el comportamiento del usuario. 
 
-# Patrones de diseño 
+## Patrones de diseño 
 
 No causa duda el funcionamiento de algún disposiivo, por ejemplo, el botón de la ventana del auto, como subir y bajar, nadie se cuesiona su funcionamiento. Manera auomática, el usuario de adapta, cuando esto funciona se cumple el patrón de diseño.
 Convención social, consenso social.
@@ -44,7 +44,7 @@ Pensar lo que la gente quiere, más alla de lo que la tecnología puede solucion
 
  Diseño es político. 
  
-# Exposición partituras inesperadas 
+## Exposición partituras inesperadas 
 Felipe B 
 Explora relación entre el arte y la música.
 Respuesta a un fenomeno del siglo XX, Intención de hacer algo en vez de como lo hago. 
