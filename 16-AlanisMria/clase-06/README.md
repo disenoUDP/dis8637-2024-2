@@ -37,3 +37,51 @@ Prenderá el puerto serial que permite que el arduino reciba señal
 *¿Cómo transmitir mensajes desde un arduino a otro?*
 
 ESP32 uso wifi y bluetooth antes de arduino
+
+## Glosarios terminos de Arduino 
+
+- https://practicas-arduino-palafox.blogspot.com/2017/10/glosario-de-terminos-de-arduino.html
+- https://www.arduino.cc/reference/es/
+  
+*wifiwebclient*
+
+while = mientras no esta conectado se tratará de coonectar 
+
+El estatus dice el estado de la red y asigna una direccion ip a cada arduino
+
+Cada servidor puede responder en la misma direccion ip a multiples solicitudes simultaneamente
+
+Un anexo puede ser el cambio en un codigo en base a subconjuntos de codigos
+
+80 es la definicion estandar de un servidor web
+
+get es decir escribe la dirección en la barra de busqueda y preciona enter.
+
+read_response
+
+! indica un no
+
+Osi model https://anamul-haque.medium.com/what-is-the-osi-model-66758c44c896
+
+Sirve a los programadores para trabajar en diversas capas que aseguran el correcto funcionamiento de las demás
+
+1. *Bits/Physical* digitaliza las señales del cableado y sus velocidades
+2. *Frames/data links* conjuntos de información
+3. *packets/Network* 
+4. *Segments/Transport*
+5. *Data/Session*
+6. *Data/Presentation*
+7. *Data/Aplication*
+
+Cada vez que conectamos algo a internet el dispositivo debe tener un protocolo de red
+
+existen multiples protocolos para poder conectar dispositivos electronicos 
+
+Nosotros usamos en el ejemplo http, el cual se diseño para incluir ipertextos 
+
+Protocolo http debe estar completo para que no hayan colapsos
+
+Protocolo mqtt programo un dispositivo para que escuche un canal y solo reacciona cuando hay información
+
+
+
