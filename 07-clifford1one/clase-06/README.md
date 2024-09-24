@@ -21,6 +21,8 @@ Hoydia comenzamo a entender la conexión inalámbrica del arduino a través del 
 14. https://rapidapi.com/hub
 15. IOT Internet de las Cosas
 16. OSI model
+17. Arduino Cloud https://app.arduino.cc
+
 
 Conceptos: 
 
