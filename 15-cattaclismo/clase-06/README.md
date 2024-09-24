@@ -20,4 +20,7 @@ Modelo OSI: Cuando se envían datos a través de una red, cada capa de este mode
 
 Rol de cliente: Inicia la conexión, realiza solicitud de respuestas, es quien pide cosas.
 Rol de servidor: Espera a que alguien se conecte, responde a las solicitudes del cliente, está disponible siempre.
-   
+
+## Encargo 08
+
+hacer un dimmer con un LED con Arduino Cloud y subir video a discord.
