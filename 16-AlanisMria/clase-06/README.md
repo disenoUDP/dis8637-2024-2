@@ -87,7 +87,7 @@ Hacer que el arduino sea un servidor para poder hacerle preguntas atraves de wif
 
 *AP_SimpleWebServer*
 
-    ```int led =  LED_BUILTIN; // conectado al pin 13```
+    ``` int led =  LED_BUILTIN; // conectado al pin 13 ```
 
 El wifi será ofrecido y manejado por arduino (el chip de arduino brinda wifia a lo que lo rodea, pero no internet)
 
