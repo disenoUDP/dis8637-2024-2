@@ -18,12 +18,16 @@ no diseñar para la funcionalidad y no para el comportamiento del usuario.
 
 No causa duda el funcionamiento de algún disposiivo, por ejemplo, el botón de la ventana del auto, como subir y bajar, nadie se cuesiona su funcionamiento. Manera auomática, el usuario de adapta, cuando esto funciona se cumple el patrón de diseño.
 Convención social, consenso social.
+
 Qué pasa si falla, hay que hacerse cargo de el diseño de fallas. 
 Responde a estados. 
+
 Cuales son los patrones para cambiar de un estado a otro. Regla de comportamiento, a través de situaciones limitrófes 
 No todos los elementos diseñados tienen que generar una interacción.
+
 En el ámbito tecnológico no hay un límie físico, hay que diseñar comportamiento. 
 Tener en cuenta para quienes estamos diseñando. Cuál es público objetivo. 
+
 No solo como las cosas se ven, sino también como se coportan, la funcion, la forma, el comportamiento, tienen que conversar. 
 
 
