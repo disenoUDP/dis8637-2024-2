@@ -10,3 +10,7 @@ DISEÑAR PARA EL COMPORTAMIENTO Y MENOS POR LA FUNCIONABILIDAD
 ¿O TAL VEZ VA UNIDOS>?
 
 ![texto](./ixd.jpg).
+
+# Como programar el wifi del arduino
+Asignar plca arduino uno r4wifi
+examples - wifis3 - scan networks.
