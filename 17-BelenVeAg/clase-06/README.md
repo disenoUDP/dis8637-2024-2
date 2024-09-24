@@ -65,7 +65,7 @@ Instalar Arduino UNO R4 Boards.
 
 <img width="815" alt="Captura de pantalla 2024-09-24 a la(s) 12 38 25" src="https://github.com/user-attachments/assets/df910157-994e-4aa2-aa5c-d268a3b7c4b3">
 
-# Ejemplo Web client Arduino
+## Ejemplo Web client Arduino
 
 El ejemplo anterior era solo para ver que redes habían disponibles, pero no me conecté a ninguna. Ahora vamos a ver cómo se hace eso.
 
@@ -105,3 +105,40 @@ Por lo que el arduino:
 1. Verificó que tenía un chip wifi
 2. Verificó que estaba actualizado
 3. Recibió una dirección online
+
+También podemos hacer que el arduino sea un servidor para que un cliente pueda preguntarle cosas. 
+
+## Ejemplo AP_simple web server
+Acces-point: punto de acceso. 
+
+Servidor
+
+El arduino así nomas no puede tener más de una persona conectada
+
+**Pero qué es en sí el cliente y el servidor?**
+
+Para el dispositivo que se conecta hay que poner el IP adress
+
+Soy access point, serbido y arduino.
+
+## Arduino cloud
+
+Los proyectos están linkeados a una cuenta. Por lo que puedes acceder a las configuraciones a traves de cualquier dispositivo, tu dispositivo no tiene que estar conectado a un wifi específico, el arduino así.
+
+Para conectar tu placa sin problemas, la placa debe estar actualizadas. La conección puede fallar varias veces, pero eventualmente se conectará. 
+
+El navegador con el que mejor funciona es chrome.
+
+- Devices/conectar arduino/
+- Things: es para tus proyectos. Add/selecciono el arduino y mi wifi
+- Sketch
+- Dashboards: nos deja agregar controladores./Slider
+
+PWM: es una técnica para modular una señal/impulso.
+
+Recomendación
+- Escribir código
+- ver que la placa esté bien conectada
+- No compilar muchas veces
+
+### Pregunta pendiente a futuro: ¿Cómo lograr interacciones geniales con esta tecnología?
