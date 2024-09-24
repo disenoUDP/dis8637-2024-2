@@ -48,6 +48,19 @@ Efectos en los sentidos post covid-> aumento de nuevos tipos de usuarios(?)
 
 A veces pueden ser pocos los usuarios que necesiten un producto, pero como el impacto puede ser tannimportante/mortal para el usuario, está más que justificado.
 
+---
+
 Wifi: no tiene que ver con internet, no necesita internet, basta que haya un medio tranmisor. Es una red inalambrica. 
+
+**códigos arduino útiles** http://docs.arduino.cc/hardware/uno-r4-min 
+    - Ese arduino tiene bluetooth, no wifi.
+
+Arduino Cloud: con un arduino wifi, el wifi es una nube y puede interactuar con otros servidores. El intermediario sería arduino cloud. 
+
+API: Interfaz de programación de aplicaciones.
+
+Instalar Arduino UNO R4 Boards. 
+
+1 byte (b) son 8 bits (b). Ojo con mb < Mb < MB.
 
 
