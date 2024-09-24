@@ -3,7 +3,9 @@
 Analizando podemos creas experiencias y proyectos de diseño de interaccion, que influyen en las personas 
 de forma positiva sensorialmente
 
--------Dieter rams diseñador alemnan-------
+-------Dieter Rams diseñador alemnan-------
 
-Form follows ¿functión or form or interactión? 
-DISEÑAR PARA EL COMPORTAMIENTO Y MENOS POR LA FUNCIONABILIDAD, ¿O TAL VEZ VA UNIDOS>?
+# Form follows ¿functión or form or interactión? 
+
+DISEÑAR PARA EL COMPORTAMIENTO Y MENOS POR LA FUNCIONABILIDAD
+¿O TAL VEZ VA UNIDOS>?
