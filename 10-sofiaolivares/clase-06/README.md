@@ -57,7 +57,7 @@ continuación
 ### API
 API manera de counicarse entre máquinas, automatizar, condicionar ante algún suceso. 
 API es una interfaz de programación de aplicaciones, regla de comunicación que hay entre nosotros y un sistema. 
-Rapidapid app 
+Rapidapid app: 
 pregunatar datos 
 hay que tner control de acceso una llave "key"
 
@@ -76,10 +76,14 @@ funcion te devuelve a un -1 que indica error o que no obtuvo conexión
 Wifi.SSDI: se le puede modificar e indicar otra acción que uno condicione. 
 
 Serial: se imprime en el puerto serial, icono lupa que se encuentra en el lado superior de arduino IDE
+
 serial print In da indicador al usuario que está pasando algo 
 ListNetworks (): nombre fantasía, darle un nombre a una función, encontrar red de wifi 
+
 serial.print: buscar detro del archivo
+
 serial.println: salto de línea
+
 \t : alinear información hacia abajo, ordenar
 
 file - Examples - WifiS3 - WifiWebClient.ino
@@ -90,18 +94,24 @@ arduino_secret.h
 WifiWebClient.ino
 setup
 char server =   DNS ayuda a buscar la dirección IP de manera más automática, dando el servidor
+
 IPAddres ip : Wifi.localIP el pc actua como router y le da una dirección IP al arduino 
 puerto 80 es lo estándar de un servidor web
+
 GET: 
+
 void read_response 
 interpreta, lo que le mandamos al arduino 
 ordenar lo que va a salir en el puerto serial 
+
 void loop 
 !cliente.connected(): no conectado 
 cliente: el que guía : arduino 
 
 protocolo web: http://. fue creado para diseñar hiper texto, mandar paquetes completos, manera más lenta y pausada, para en caso de que falle  
+
 udp: hartos datos, no para
+
 mqtt: bajo costo procesamiento, seguro, filtra informacion, protocolo de red 
 
 ### osi model 
