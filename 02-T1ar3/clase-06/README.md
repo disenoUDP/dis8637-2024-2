@@ -29,7 +29,7 @@
 ## Ejemplos de código
 
 ### Estructura básica de un código Arduino:
-```cpp
+
 while (!Serial) {
     ; // Espera a que el puerto serial se conecte. Necesario para puertos USB nativos.
 }
