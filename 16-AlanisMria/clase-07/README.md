@@ -3,9 +3,9 @@
 
 ## ¿Como crearse una cuenta en arduino cloud?
 
-1. Abrir en el navegador https://cloud.arduino.cc/
+1. Abrir en el navegador https://cloud.arduino.cc/.
 2. Descargar la app movil en tu telefono y convertirlo en un dashboard para que pueda aparecer online en arduino cloud.
-3. Presionar la opción Get started de la esquina superior derecha
+3. Presionar la opción Get started for free.
 4. Luego te pedirá registrarte con github, Google, Facebook o Apple.
 5. luego de iniciar sesión podras comenzar a conectar tu arduino, que debes conectar al puerto USB.
 6. Luego deberas ir a Devices, luego presionar Add devices, donde comenzará la conección.
