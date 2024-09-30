@@ -77,7 +77,7 @@ a la variable **ledBrillo** que creamos previamente, luego bajar donde se encuen
 ![dashhh](https://github.com/user-attachments/assets/0f556818-bc02-463c-ac06-2b3249cd1d77)
 
 Una vez listo este paso volveremos a nuestra **THING** iremos a la ventana **SKETCH** y subiremos el codigo a la placa presionando **UPLOAD**, si el codigo se
-sube a la placa y luego al ir a los dashboards y mover nuestro slider **NO** funciona, lo mas probable es que la red wifi sea inestable, probar otra, al hacer 
+sube a la placa y luego al ir a los dashboards y mover nuestro slider, si **NO** funciona, lo mas probable es que la red wifi sea inestable, probar otra, al hacer 
 **upload** nuestra placa debe aparecer como **ONLINE** si no es asi reconectar la placa a la red o probar con otra red wifi.
 
 Espero haya sido de su ayuda :) si tienen problemas, dudas de cualquier tipo haganmelo saber 
