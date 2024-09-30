@@ -357,7 +357,11 @@ Por ejemplo, si el Arduino recibe la señal, esto indica que el usuario se encue
 primeros acercamientos del modelo 3d para impresión
 
 ![17AC0345-5986-4378-B971-08FE142C0EC8](https://github.com/user-attachments/assets/6a2eee82-4926-49fe-866a-7bd5fee819f9)
-### Video impresora v.1.0
+
+
+
+https://github.com/user-attachments/assets/11f36d92-a37b-46ca-bdef-d281ef8637c7
+
 
 ![Uploading Screenshot 2024-09-07 at 5.02.45 PM.png…]()
 
@@ -416,7 +420,10 @@ void loop() {
 
 ![9827FCEB-913E-4524-9204-43E3DF971118](https://github.com/user-attachments/assets/37c1ef08-ca4b-48ea-80ad-f1834e925692)
 
-### Video servoMotor 1.0
+
+
+https://github.com/user-attachments/assets/3dd21ba8-27bf-4ac6-a6ca-cd939e5927ab
+
 
 <video width="640" height="360" controls>
   <source src="
@@ -573,3 +580,4 @@ void loop() {
 
 [8] https://www.youtube.com/live/ugoTxEWYh0g
 
+[9] https://pages.github.coecis.cornell.edu/rc627/ECE-4960/lab3.html
