@@ -178,3 +178,21 @@ Sistema de votación remoto
 Lucid dreams: empresa que ofrece experiencias de realidad virtual en un  espacio 
 
 https://www.theguardian.com/artanddesign/2016/nov/08/r-luke-dubois-exhibition-voting-machines-us-election 
+
+   
+1. Implementar un espacio “cerrado” por cortinas negras donde se usará un sensor de calor que permita saber si una persona enciende un encendedor ( lo cual puede significar que fuman) y si detecta el calor activará una máquina de humo, si no detecta el calor activará un ventilador simulando el aire fresco. 
+
+2. Preguntar si eres más de actuar o de esperar, utilizando un sensor de velocidad que capte los tipos de movimiento que se generarán, siendo los movimientos más rápidos la respuesta a ser más de actuar y movimiento lentos o nulos para ser más de esperar.
+
+3. ¿Quisieras poder sentarte en tu propia facultad?
+El usuario para responder deberá sentarse o no en la silla, esto se documentará mediante un sensor de proximidad, Para generar conciencia sobre la concurrencia de personas en las facultades.
+
+4. Poner una imagen o algo bizarro y preguntar si esto les incomoda y que mediante una cámara se analicen los gestos para responder si o no
+
+5. Hacer conciencia respecto a lo que consumimos en nuestra cotidianidad, preguntando si consumimos productos de marcas que financian o se relacionan con guerras, si la persona lo hace se le mostraran nombres de personas fallecidas por estos conflictos.
+
+Partir la investigación para la extensión del proyecto, con conceptos, mecanismos, herramientas
+
+Marco conceptual y de referentes
+
+
