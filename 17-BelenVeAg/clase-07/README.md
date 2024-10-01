@@ -1,6 +1,33 @@
 # clase-07
 
-- Para conseguir cosas, siempre preguntar. Muchas veces puedes conseguir beneficios o descuentos.
+## Trabajo Viernes 27
+
+Después de 1 hora logré vincular mi arduino. Cuando funcionó, lo que hice fue cerrar la aplicación yb abrirla de nuevo.
+
+## Cómo conectar Arduino
+- Usar Chrome
+- No tener la placa conectada a ningún componente.
+
+## Observaciones
+- Para mandar información de forma remota, 
+
+<img width="1306" alt="Captura de pantalla 2024-09-27 a la(s) 12 39 25" src="https://github.com/user-attachments/assets/2011a3ee-3337-4dd3-bcea-d0f65a7de765">
+
+Variables: se hace solo, lo mete a tu código. Pero si compilas el código
+
+![image](https://github.com/user-attachments/assets/35539ade-ccc5-4aa0-bb5f-8f2910bdd7b5)
+
+Cómo conectar el led
+
+![IMG_2894](https://github.com/user-attachments/assets/6bf581d8-433c-4844-9884-256d4d452459)
+
+Conceptos:
+- INCLUIR: define librerías.
+- DEFINIR: define un pin.
+
+---
+# Clase 1 de Octubre
+- Paraconseguir cosas, siempre preguntar. Muchas veces puedes conseguir beneficios o descuentos.
 - Just Javascript: <https://justjavascript.com> para aprender javavascript.
 - Chromium: navegador web, navegadores que también utilizan chromium: Microsoft Edge, Brave, Opera.
 - Safari no es un navegador. No sirve para desarrolladores.
@@ -32,9 +59,11 @@
 - Nosotros tenemos que diseñar el proceso para que un otro tenga la experiencia que nosotros tuvimos.
 - Herramienta: diagrama de flujo fundamental para hacer esto. De aquí pueden salir diagramas de estado.
 - Si podemos establacer nuestra idea de interacción en la forma de un mapa de flujo, las tareas de programar van a ser mucho más sencillas.
-- [Ejemplo](https://www.researchgate.net/figure/The-elements-in-an-ADSR-envelope_fig22_270819567)
 
-Ataque: inicio repentino, o mas bien no gradual de un instrumento.
+Ejemplo:
+<https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FThe-elements-in-an-ADSR-envelope_fig22_270819567&psig=AOvVaw1kWIZ9jAWkZXeB6gPx7eWx&ust=1727883543306000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjfovjB7YgDFQAAAAAdAAAAABAE![image](https://github.com/user-attachments/assets/18ef85f3-3a4e-424e-a2c5-bd2da7a93e75)>
+
+Ataque:
 
 *Animator controller unity character-> como programar para animar los estados de los personajes. (Ver ese tipo de interacciones no solo sirve para aprender el software en sí, sino que también para entender lenguaje computacional.
 
@@ -44,3 +73,56 @@ Próximo proyecto tendrá:
 1. Sensores
 2. procesamiento de datos
 3. Acción wue reponda a la información de los datos.
+
+## Proyecto título Andrés
+- Proyecto de educación-> Astronimía en Física en primero medio. ¿Por qué? Alto grado de repetición, importancia en el área a nivel país.
+- Otros problemas: falta de motivación y vsión a futuro de los estudiantes con respecto a la materia.
+- Mucha investigación en papers, educación, que le importa al ministerio/sociedad, muchos referentes de juegos sobre astronomía.
+- Concepto contruccionismo: aprender con las manos. Por lo tanto, se decidió que es importante que hayan elementos físicos para el proyecto y mejor su proceso de aprendisaje.
+- Primero pensó en que los niños puedan constuir sus planetas. 2da (la que se está desarrolllando) que con una nave pueda recorrer los planetas y ver cómo funciona esto.
+- Concepto gaming: forma de juego, puede generar incentivos.
+- Tipos de jugadores/perfil de jugadores:
+- > Killers
+  > Sociales
+  > Exploradores (investigar el mundo)
+  > Creadores
+- Pensó este proyecto para que pueda ser usado/funcionar en una sola clase:
+
+Inicio------------------------->Climax--------------> Fin
+
+.           Explorar/Crear    Ganar/Cooperar       Social/Cooperar
+
+- Este proyecto tiene: parte gráfica, material, plt muy completo.
+- El proyecto lo está haciendo en unity, el proyecto incluso podría terminar ahora (su tesis).
+
+Lo que vamos a mostrar en el exámen es lo proyectual, no lo técnico. 
+
+## Proyecto 2
+- Para octubre vamos a dejar la planificación conceptual un proyecto.
+- 3 clases para desarrollar el proyecto.
+- El exámen es un sistema de manifestación de opinion del soberano.
+- Experiencia interactiva entretenida, coolaborativo, remota y presencicial.
+- Ahora vamos a desarrollar algo que nos permita preguntarle a la gente algo--> capturar información.
+- Hay que encontrar oportunidades o desición que nos permita xxx de forma remota.
+- Arduino ofrece sensores. Muy libre y pensar formas creativas en donde implementar estos elementos.
+- El desafío es encontrar una oportunidad dentro de diseño abierto en donde la gente pueda manifestar su opinión y que cumpla el criterio antes dicho.
+- ¿Cómo vamos a representar esa opinión? Va a brillar algo? Va a subir algo?
+- Por lo que esta semana vamos a investigar formas de cómo hacerlo, de diseño y conceptualización. Despúes vendrá noviembre con la construcción.
+- Probablemente el exámen sea una performance, con horarios de apertura.
+
+Santiago, Lucid Dreams: generan realidad virtual para personas en el espacio. Por lo tanto puedes avanzar 
+
+Cuando uno trabaja con nuecas tecnologías, incluso en proyectos grandes, no siempre funciona bien.
+
+Proyecto de Yihan Chen:
+- ¿Cómo ser una buena ama de casa?
+- Hizo máquinas para hacer las acciones de las amas de casa de forma automatizada.
+- 2018
+
+Gabriel Barcia Colombo
+
+Las 3 reglas del arte cuando no sepan qué hacer.
+- Hacerlo grande
+- Hacer muchas
+- Hacerlo rojo
+
