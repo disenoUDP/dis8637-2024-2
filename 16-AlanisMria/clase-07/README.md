@@ -176,3 +176,5 @@ Diseñaremos algo para pedir una opinión
 Sistema de votación remoto 
 
 Lucid dreams: empresa que ofrece experiencias de realidad virtual en un  espacio 
+
+https://www.theguardian.com/artanddesign/2016/nov/08/r-luke-dubois-exhibition-voting-machines-us-election 
