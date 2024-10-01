@@ -78,9 +78,15 @@ Generación y Capturación de Datos.
 
 - Sistema de votación para hidratarse. En cada opción hay recipiente con agua y la gente debe beberse el agua  para dar  conocer su opinión y ejercer su votación.
 
-- Sistema de votación basado en mantener un botón presionado la mayor cantidad de tiempo posible.
+- Sistema de votación basado en mantener un botón presionado la mayor cantidad de tiempo posible. Mantenerlo apretado por 1 minuto(60 segundos) equivale a 1 voto. Cada vez que pase 1 minuto de corrido(sin haberlo soltado) el voto se duplica.
 
 - Sistema de votación basado en ejercicio: ejemplo, cada sentadilla que una persona haga es 1 voto, cada persona puede votar la cantidad de veces que quiera.
 
-- 
+- Sistema de votación basado en que una persona tiene que jugar un juego de celular(ejemplo, Geometry Dash) y dependiendo de qué tan lejos llega en el nivel, ejerce una cantidad determinada de votos.
+
+- Sistema de votación basado en que los otres participantes voten por ti. Cada usuario debe dejar una propuesta, y puede votar una o más veces por opciones que no sean las propias.
+
+- Votación basada en encestar en un aro con una pelota de basketball. Existen 2 distancias establecidas: Simple(2 pts) y Triple(4pts). Si la pelota toca el tablero se multiplica *0.5; si la pelota toca el aro se multiplica *1; si la pelota encesta se multiplica *2.
+
+
 
