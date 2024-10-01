@@ -9,7 +9,7 @@
 
  ### notas sobre la tarea
 
- funciona mejor en google chrome, en safari no me funcionó, no se si fue por otra cosa o por el servidor.
+ funciona mejor en google chrome, en safari no me funcionó, no se si fue por otra cosa o por el navegador. No me conectaba la placa :)
 
  quizás el error tambien fue haber usado la wifi que compartía desde mi teléfono, así que terminé usando la de la sala.
 
