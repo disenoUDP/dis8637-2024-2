@@ -37,7 +37,12 @@ Este proyecto tiene como objetivo crear un dimmer para controlar la intensidad d
 19. En value range ir de 0 a 255 y seleccionar done 
 20. Ve a la pestaña **Sketch** para asegurarte de que tu Arduino esté correctamente vinculado y listo para subir el código.
 
-> **Nota**: Si ocurre algún error, asegúrate de que el cable de conexión esté funcionando correctamente o intenta cambiar el navegador web.
+> **Nota**: Si ocurre algún error
+> asegúrate de que el cable de conexión sea de cable 
+> cambiar el navegador web preferentemente sea google chrome
+> Que el arduino no este conectado ningun componente al momento de vincular el arduino al computador
+> Reinicar la pagina de arduino cloud
+> 
 
 ## Tutoriales recomendados
 
@@ -66,3 +71,10 @@ tener conectado unos comonente antes de vincular arduino
 bootlother 
 watt:unidad de potencias 
 
+proyecto de paula :
+servoEasing.h (para que realize mas delicado la funcion )
+delay estorpese la funcion del servo motor 
+servo motor azule engranaje de plastico se atraba menos fuerza , engranaje metalico mejor 
+diagrama de flujo es impornate realizar (es paso a paso) diagrma de estado (abierto y cerrado ) con condiciones al medio activa una transicion (nada es intataneo )
+ejmeplo: aumenta la luz o la rampa del casco 
+![texto](./diagrama.jpg)
