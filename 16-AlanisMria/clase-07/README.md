@@ -110,7 +110,7 @@ Para conectar a un led que será controlado con un dimmer debemos conectarlo a u
 - Para que el arduino aparezca online  debe tener cargado un código funcional.
 - Tratar de cambiar lo menos posible las configuraciones predeterminadas.
 
-## Github campus program
+ *Github campus program*
 Nos puede dar acceso a más recursos de github si ingresamos como estudiantes
 
 *¿Cómo llegar a controlar un proyecto con la nube?*
