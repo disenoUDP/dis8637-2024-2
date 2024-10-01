@@ -51,6 +51,8 @@ Libro de gamificación. Taxonomía de jugadores.
 
 17. https://www.theguardian.com/artanddesign/2016/nov/08/r-luke-dubois-exhibition-voting-machines-us-election
 
+18. https://www.colinnarver.com/thevoodoobear
+
 ## Gran Proyecto Octubre
 
 Sistema de manifestación de la opinión del soberano. Elección popular.
