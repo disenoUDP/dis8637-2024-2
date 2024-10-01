@@ -42,7 +42,6 @@ Este proyecto tiene como objetivo crear un dimmer para controlar la intensidad d
 > cambiar el navegador web preferentemente sea google chrome
 > Que el arduino no este conectado ningun componente al momento de vincular el arduino al computador
 > Reinicar la pagina de arduino cloud
-> 
 
 ## Tutoriales recomendados
 
@@ -57,7 +56,7 @@ Gracias a la ayuda de **@paula**, quien revisó y modificó el código, lo compa
 En mi caso, al principio tuve un problema con mi cuenta de Arduino Cloud, pero tras crear una nueva cuenta con otro correo, el proyecto funcionó sin problemas. Agradezco a **@paula** por su colaboración en este proceso.
 
 
-clase :
+##clase :
 github.compus 
 mitx circuito edx.org  (curso de circuito)
 justjavascript.com 
@@ -71,10 +70,19 @@ tener conectado unos comonente antes de vincular arduino
 bootlother 
 watt:unidad de potencias 
 
-proyecto de paula :
+##proyecto de paula :
 servoEasing.h (para que realize mas delicado la funcion )
 delay estorpese la funcion del servo motor 
 servo motor azule engranaje de plastico se atraba menos fuerza , engranaje metalico mejor 
 diagrama de flujo es impornate realizar (es paso a paso) diagrma de estado (abierto y cerrado ) con condiciones al medio activa una transicion (nada es intataneo )
 ejmeplo: aumenta la luz o la rampa del casco 
 ![texto](./diagrama.jpg)
+estados plumon:
+inicio cuando empiza a importa el plumon (abierto o encuntra el plumon)
+final( cerrado o soltar el plumon)
+condicion es la accion (sacar la tapa ) sigueinte estado es escribir 
+
+video : unity 1 animator controller beginner tutorial 
+any state (cualquier estado )
+si es cualquier estado puede pasar de close a 
+ver: animator controller unity character (personajes con estados)
