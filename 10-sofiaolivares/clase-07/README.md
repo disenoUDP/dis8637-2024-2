@@ -31,3 +31,15 @@ ocupar termocontraibles para mantener orden de los cables cuando hay muchos.
 servo azules engranajes de plastico, negros tienen engranajes metalicos 
 
 pin problemáticos 1 y 0 
+
+diagrama de estados, condici+on a trnsicion, genera una transición 
+
+la transición es muy importante, tener en cuenta en lo digital
+
+adsn evelope puede explicar la transición de un estado a otro
+
+hacerse cargo de todos los estados posibles 
+
+Unity: codigo + animación 
+
+animator controller unity character, buscar
