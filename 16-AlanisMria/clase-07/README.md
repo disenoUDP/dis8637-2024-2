@@ -161,7 +161,20 @@ Comunicar al usuario o a la aplicación que piezas se ensamblan
 
  placa pcb
 
+## Diseñaremos un producto
 
+Tematica de los proyectos Elección popular (sistema de manifestación del soberano).
 
+Desde la etapa previa del diseño.
 
+Presentación de proyecto.
 
+La semana de diseño abierto podremos brindar una instancia entretenida.
+
+Diseñaremos algo para pedir una opinión
+
+Sistema de votación remoto 
+
+Lucid dreams: empresa que ofrece experiencias de realidad virtual en un  espacio 
+
+https://www.theguardian.com/artanddesign/2016/nov/08/r-luke-dubois-exhibition-voting-machines-us-election 
