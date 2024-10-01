@@ -1,9 +1,0 @@
- # clase-02
-
- github para bitacoras: luego de escribir presonar commit changes o no se guarda!
-
- coded bias: buscar documental (netflix), hacer resumen de lo que me parecio
-
- natural lenguaje processing (npl): lenguaje utilizado por interfaces como alexa
-
- recordar descargar arduino ide 2.3.2
