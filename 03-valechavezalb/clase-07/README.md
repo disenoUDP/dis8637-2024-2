@@ -26,6 +26,10 @@ Se implementa el diseño integral, abarcando áreas como:
 - aplicación móvil.
 
 INICIO: "explorar Luna"
+
 DESARROLLO: "creación"
+
 CLIMAX: "ganar/ lograr"
+
 FIN: social
+
