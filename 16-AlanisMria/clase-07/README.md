@@ -195,4 +195,8 @@ Partir la investigación para la extensión del proyecto, con conceptos, mecanis
 
 Marco conceptual y de referentes
 
+5 personas
 
+5 obras distintas 
+
+no filtrar nuestras ideas
