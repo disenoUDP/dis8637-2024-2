@@ -63,8 +63,24 @@ Existen 2 maneras de recolectar datos: activa y pasiva.
 
 Entrega 29/10
 
-# Generación y Capturación de Datos.
+Generación y Capturación de Datos.
 
 
+# Brainstorming
 
+- Sistema de votación según que tán lejos lanzas un objeto pesado. Se usa el sistema de qué tan de acuerdo estás con algo. Ejemplo: De acuerdo - Muy de Acuerdo - Fuertemente de Acuerdo - Totalmente de acuerdo
+
+- Sistema de votación basado en: Hay una balanza y, según el peso que ésta registre, se ve qúe tan de acuerdo estás con algo. Entonces las personas tienen que "desprenderse" de sus pertenencias para ejercer su voto.
+
+- Sistema de votación basado en cuanto tiempoperteneces en un lugar determinado. Con un espacio diagramado en el piso, las personas determinan qué tan de acuerdo están con algo según la cantidad de segundos que pasan en el área determinada.
+
+- Sistema de votación en el cual hay varias opciones terribles y las personas deben decidir cuál es la menos terrible(dilema ético). Entonces por ejemplo, cada opción tiene una balanza(mide el peso sobre ella) con un objeto encima, y las personas pueden moverla hacia la opción menos terrible. Podría ser con opciones de qué prefieres eliminar del mundo, o cual prefieres no eliminar del mundo. EJemplo, el racismo, el machismo, la homofobia, xenofobia, etc.
+
+- Sistema de votación para hidratarse. En cada opción hay recipiente con agua y la gente debe beberse el agua  para dar  conocer su opinión y ejercer su votación.
+
+- Sistema de votación basado en mantener un botón presionado la mayor cantidad de tiempo posible.
+
+- Sistema de votación basado en ejercicio: ejemplo, cada sentadilla que una persona haga es 1 voto, cada persona puede votar la cantidad de veces que quiera.
+
+- 
 
