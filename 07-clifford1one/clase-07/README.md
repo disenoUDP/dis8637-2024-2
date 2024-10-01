@@ -30,3 +30,10 @@ Chromium Navegador. La mayoría de navegadores usan chromium(Edge, DuckDuckGo, B
 9. https://github.com/pixelitaa/dis8637-2024-2/tree/main/10-pixelitaa/clase-08
 
 Proyecto Paula Mark 3
+
+10. https://es.wikipedia.org/wiki/Construccionismo
+
+11. https://www.kerbalspaceprogram.com
+    
+Juego que sirve para aprender ingeniería astronómica.
+
