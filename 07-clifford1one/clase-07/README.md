@@ -27,3 +27,6 @@ Chromium Navegador. La mayoría de navegadores usan chromium(Edge, DuckDuckGo, B
 
 8. https://docs.arduino.cc/retired/hacking/software/Bootloader/
 
+9. https://github.com/pixelitaa/dis8637-2024-2/tree/main/10-pixelitaa/clase-08
+
+Proyecto Paula Mark 3
