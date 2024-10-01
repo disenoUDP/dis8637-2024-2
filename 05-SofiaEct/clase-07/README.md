@@ -12,8 +12,7 @@
 - Herramienta: diagrama de flujo fundamental para hacer esto. De aquí pueden salir diagramas de estado.
 - Si podemos establacer nuestra idea de interacción en la forma de un mapa de flujo, las tareas de programar van a ser mucho más sencillas.
 
-## Presentación Paula
-- Máscara de Iron Man WOOOO
+## Mascara de Paula
 - Ella utilizó otro Arduino porque los códigos que encontró para hacer el proyecto no eran compatibles con el R4Wifi (era una librería muy antigua).
 - Para hacerlo: Quiero hacer el casco, busco un tutorial de cómo hacer físicamente el caso, luego preguntarse "Qué quiero que haga el casco.
 - > Que se abra y cierre el casco, que tenga luces en los ojos. 2 led y 2 servomotores.
@@ -46,3 +45,4 @@ Próximo proyecto tendrá:
 2. procesamiento de datos
 3. Acción wue reponda a la información de los datos.
 
+##
