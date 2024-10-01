@@ -67,3 +67,6 @@ Próximo proyecto tendrá:
 - hacer muchas
 - hacerlo grande
 - hacerlo rojo
+
+### Colin Narver
+- proyectos
