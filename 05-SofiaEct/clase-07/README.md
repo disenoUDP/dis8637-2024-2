@@ -54,10 +54,16 @@ Próximo proyecto tendrá:
 ### 2da parte del proyecto
 - como representamos ese diseño? debe tener sentido? debe ser parte de una unidad? deben estar separados?
 
-## Proyecto de Yihan Chen, 2018
+## Referentes
+### Proyecto de Yihan Chen, 2018
 - como ser una buena ama de casa?
 - desarrollo maquinas para las actividades de ama de casa
 
-## xxx.tiri
+### xxx.tiri
 - trabaja desde la performance y sonido
 - deep talking: el no entendimiento de las palabras por su acento
+
+### 3 reglas del arte
+- hacer muchas
+- hacerlo grande
+- hacerlo rojo
