@@ -16,3 +16,14 @@ Curso de circuitos. Es posible conseguir un dcto si se pide
 Te enseñan el modelo de javascript. Tiene 50% dcto para Chile.
 
 4. https://lisajamhoury.com
+
+5. https://stackoverflow.com
+
+6. https://es.wikipedia.org/wiki/Chromium_(navegador)
+
+Chromium Navegador. La mayoría de navegadores usan chromium(Edge, DuckDuckGo, Brave, Opera, etc).
+
+7. https://www.jedwardsguitars.com/store/p/fractalfretpress
+
+8. https://docs.arduino.cc/retired/hacking/software/Bootloader/
+
