@@ -86,6 +86,19 @@ Espero haya sido de su ayuda :) si tienen problemas, dudas de cualquier tipo hag
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## **MARK 3: Iteración con IOT Arduino**
 
 Proyecto Mark 3 nace de la idea de poder mostrarles un proyecto mas didactico y terminado para motivar y aprender haciendo sobre la Arduino Cloud
@@ -108,6 +121,8 @@ elijo este, que tiene todo lo que me interesa:
 - Detalla paso a paso el armado de los componentes.
 - Detalla paso a paso el enamble del casco.
 - Reviso su pagina de thingiverse y cuenta con varios makes y buenas reviews.
+
+  [Tutorial](https://youtu.be/9uIXtODioGM?si=D6TZqk6rJ-r9uaVb)
 
 Luego veo **TODO** el tutorial y **LEO** el PDF para comprender encima de que estoy trabajando sobre todo el codigo y me pregunto:
 
@@ -343,6 +358,8 @@ void onServoPositionChange() {
 ```
 
 Una vez tengo revisado el codigo y los componentes funcionan en protoboard, comienzo a ensamblar tanto componentes como casco:
+
+
 
 
 
