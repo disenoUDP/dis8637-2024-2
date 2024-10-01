@@ -7,6 +7,10 @@
 - Safari no es un navegador. No sirve para desarrolladores.
 - Existen cables de carga y cables de datos. Los de datos te permiten mandar/recibir datos y cargar el artículo.
 - Los cargadores cuando te señalan los W (watts) te está respondiendo qué tanta potencia puede pasar.
+- Es diseño decir cómo hacer proyectos como ese.
+- Nosotros tenemos que diseñar el proceso para que un otro tenga la experiencia que nosotros tuvimos.
+- Herramienta: diagrama de flujo fundamental para hacer esto. De aquí pueden salir diagramas de estado.
+- Si podemos establacer nuestra idea de interacción en la forma de un mapa de flujo, las tareas de programar van a ser mucho más sencillas.
 
 ## Presentación Paula
 - Máscara de Iron Man WOOOO
@@ -27,17 +31,11 @@
 - Hacer una lista de prioridades de lo que se debe hacer.-> Saber qué qué quuiero hacer, qué tengo qué hacer, cuándo y cómo.
 - Los venden a 500 dolares.
 - El estado de "inicio" estaba marcado con el ángulo en que se cuentras los servos.
+  
+![image](https://github.com/user-attachments/assets/d3ed3548-8d8f-4259-a7fe-955ab28fc102)
 
-**Reflexiones de los profes**
-- Es diseño decir cómo hacer proyectos como ese.
-- Nosotros tenemos que diseñar el proceso para que un otro tenga la experiencia que nosotros tuvimos.
-- Herramienta: diagrama de flujo fundamental para hacer esto. De aquí pueden salir diagramas de estado.
-- Si podemos establacer nuestra idea de interacción en la forma de un mapa de flujo, las tareas de programar van a ser mucho más sencillas.
-
-Ejemplo:
-<https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FThe-elements-in-an-ADSR-envelope_fig22_270819567&psig=AOvVaw1kWIZ9jAWkZXeB6gPx7eWx&ust=1727883543306000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjfovjB7YgDFQAAAAAdAAAAABAE![image](https://github.com/user-attachments/assets/18ef85f3-3a4e-424e-a2c5-bd2da7a93e75)>
-
-Ataque:
+Ataque: inicio repentino, no es gradual
+Decay: subida del tono del sonido gradualmente.
 
 *Animator controller unity character-> como programar para animar los estados de los personajes. (Ver ese tipo de interacciones no solo sirve para aprender el software en sí, sino que también para entender lenguaje computacional.
 
@@ -47,3 +45,4 @@ Próximo proyecto tendrá:
 1. Sensores
 2. procesamiento de datos
 3. Acción wue reponda a la información de los datos.
+
