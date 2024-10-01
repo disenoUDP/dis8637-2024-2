@@ -1,33 +1,6 @@
 # clase-07
 
-## Trabajo Viernes 27
-
-Después de 1 hora logré vincular mi arduino. Cuando funcionó, lo que hice fue cerrar la aplicación yb abrirla de nuevo.
-
-## Cómo conectar Arduino
-- Usar Chrome
-- No tener la placa conectada a ningún componente.
-
-## Observaciones
-- Para mandar información de forma remota, 
-
-<img width="1306" alt="Captura de pantalla 2024-09-27 a la(s) 12 39 25" src="https://github.com/user-attachments/assets/2011a3ee-3337-4dd3-bcea-d0f65a7de765">
-
-Variables: se hace solo, lo mete a tu código. Pero si compilas el código
-
-![image](https://github.com/user-attachments/assets/35539ade-ccc5-4aa0-bb5f-8f2910bdd7b5)
-
-Cómo conectar el led
-
-![IMG_2894](https://github.com/user-attachments/assets/6bf581d8-433c-4844-9884-256d4d452459)
-
-Conceptos:
-- INCLUIR: define librerías.
-- DEFINIR: define un pin.
-
----
-# Clase 1 de Octubre
-- Paraconseguir cosas, siempre preguntar. Muchas veces puedes conseguir beneficios o descuentos.
+- Para conseguir cosas, siempre preguntar. Muchas veces puedes conseguir beneficios o descuentos.
 - Just Javascript: <https://justjavascript.com> para aprender javavascript.
 - Chromium: navegador web, navegadores que también utilizan chromium: Microsoft Edge, Brave, Opera.
 - Safari no es un navegador. No sirve para desarrolladores.
@@ -59,11 +32,9 @@ Conceptos:
 - Nosotros tenemos que diseñar el proceso para que un otro tenga la experiencia que nosotros tuvimos.
 - Herramienta: diagrama de flujo fundamental para hacer esto. De aquí pueden salir diagramas de estado.
 - Si podemos establacer nuestra idea de interacción en la forma de un mapa de flujo, las tareas de programar van a ser mucho más sencillas.
+- [Ejemplo](https://www.researchgate.net/figure/The-elements-in-an-ADSR-envelope_fig22_270819567)
 
-Ejemplo:
-<https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FThe-elements-in-an-ADSR-envelope_fig22_270819567&psig=AOvVaw1kWIZ9jAWkZXeB6gPx7eWx&ust=1727883543306000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjfovjB7YgDFQAAAAAdAAAAABAE![image](https://github.com/user-attachments/assets/18ef85f3-3a4e-424e-a2c5-bd2da7a93e75)>
-
-Ataque:
+Ataque: inicio repentino, o mas bien no gradual de un instrumento.
 
 *Animator controller unity character-> como programar para animar los estados de los personajes. (Ver ese tipo de interacciones no solo sirve para aprender el software en sí, sino que también para entender lenguaje computacional.
 
