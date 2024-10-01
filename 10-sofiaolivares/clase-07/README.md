@@ -44,5 +44,21 @@ leds blink otra opcion para ocupar leds, blinking, millis
 
 - animator controller unity character, buscar
   
-- chip sp32 tiene wifi y bt para conectar dispositivos 
+- chip sp32 tiene wifi y bt para conectar dispositivos
 
+  ### octubre
+
+  diseñar proyecto, estados, conceptual, interacción
+  examen sistema de manifestación del soberano. elecciones.
+
+  experiencia interactiva, preguntar al usuario algo, sistema de votación remoto
+  
+  encontrar oportunidad de elección creativa, tiene que tener sentido, parte de una unidad, fisicamente separados
+  investigar sistemas, sensores
+
+  proyecto que genera o capturando datos, a través de acciones divertidas
+
+  referente: Yihan Chen, xxx.tiri.xxx, gabe bc
+
+
+  
