@@ -45,4 +45,28 @@ Próximo proyecto tendrá:
 2. procesamiento de datos
 3. Acción wue reponda a la información de los datos.
 
-##
+### Proyecto Octubre
+- diseñaremos un proecto en todo octubre que nos permite preguntar a la gente algo, pedir una opinion
+- "sistema de manisfestacion del soberano (el pueblo es el sobreano)"
+- experiencia interctiva divertida, remota y presencial, por eso los minico controlaodores
+- oportunidades de encuesta que nos permitan desarrollar un sistema de desiciones remota
+  
+### 2da parte del proyecto
+- como representamos ese diseño? debe tener sentido? debe ser parte de una unidad? deben estar separados?
+
+## Referentes
+### Proyecto de Yihan Chen, 2018
+- como ser una buena ama de casa?
+- desarrollo maquinas para las actividades de ama de casa
+
+### xxx.tiri
+- trabaja desde la performance y sonido
+- deep talking: el no entendimiento de las palabras por su acento
+
+### 3 reglas del arte
+- hacer muchas
+- hacerlo grande
+- hacerlo rojo
+
+### Colin Narver
+- proyectos
