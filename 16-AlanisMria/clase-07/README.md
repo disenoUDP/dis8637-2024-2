@@ -125,8 +125,56 @@ Nos puede dar acceso a más recursos de github si ingresamos como estudiantes
 - Animator controller unity Character.
 - ¿Funciona o no funciona?
 
+## Proyecto de titulo Andres
 
+Construccionismo: Paradigma de la educación que plantea el aprender haciendo.
 
+. Toma de decisiones
 
+. Aprender como funcionan las cosas
 
+. Interactuar con el entorno
 
+. Manipular el entorno
+
+. Aprender con las manos
+
+desarrollo de un sistema planetario físico en un sistema digital
+
+naves que permitan recorrer el universo
+
+Gamificación: Formas de incentivar, no necesariamente de manera material
+
+Tipos de jugadores: Killers, Sociales, Exploradores y Creadores.
+
+¿Cómo quería que se sintiera la actividad?
+
+*Distintas etapas*
+
+1 explorar -> 2 crear -> 3 ganar -> 4 social coop
+
+que tecnologías sirven?
+
+Comunicar al usuario o a la aplicación que piezas se ensamblan
+
+ parte importante del proceso es diseñar partes aparte, que no estan definidas desde un principio.
+
+ placa pcb
+
+## Diseñaremos un producto
+
+Tematica de los proyectos Elección popular (sistema de manifestación del soberano).
+
+Desde la etapa previa del diseño.
+
+Presentación de proyecto.
+
+La semana de diseño abierto podremos brindar una instancia entretenida.
+
+Diseñaremos algo para pedir una opinión
+
+Sistema de votación remoto 
+
+Lucid dreams: empresa que ofrece experiencias de realidad virtual en un  espacio 
+
+https://www.theguardian.com/artanddesign/2016/nov/08/r-luke-dubois-exhibition-voting-machines-us-election 

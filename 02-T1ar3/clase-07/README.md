@@ -86,3 +86,49 @@ video : unity 1 animator controller beginner tutorial
 any state (cualquier estado )
 si es cualquier estado puede pasar de close a 
 ver: animator controller unity character (personajes con estados)
+
+##proyecto de andres:
+Material didactico(astronomia): Planetas y s.solar 
+construccionismo (paradigma forma de aprender es aprender con las  manos y modificar el entorno )
+gamificacion(ganar puntos ,sentivar a las personas a participar ) no material mas como personal 
+###naves para recorrer el sistema solar (uno de los proyecto)
+tipos de jugadores 
+killers:
+sociales:relacionarse con otras personas
+exploradores : aporximarse a nuevas cosas 
+creadores : expresarse su vicion y explasamarla 
+
+inicio : exploracion 
+(creacion)
+desarrollo
+(climax): ganar ,lograr 
+final social coop
+
+material ,creacion de misiones, rellenar una guia (coperativa con el profesor) vitacora de viaje expeerimentacion con el material, ganar ensignia , general en conjunto se unen en grupos comparte naves y conocimiento crea una guia en la vitacora 
+
+produccion : que tecnologia me puede servir 
+chip sp32 (pes muy bueno)
+importante de su proceso: no sabe cuanto es la dimencion para conectar  entonces lo fabrica aparte   
+
+###clase
+octube para diseñar un proyecto (conceptual , interacion planificaicon de estados componente y la presentacion 
+3 sesiones ) preguntar a la gente algo , pedir una opion que
+octubre 6 proyectos 
+el examnen es un sistema de manifestacion opinion del soberano 
+interaccion rapida 
+representarla (led, un sonido,una bandera, un casco que abre o cierra)
+general y capturar(con o sin piña ) 
+pagina luciddreams (ofrese experiencia de vida virtual)
+chen-yihan.com 
+xxx.tiri.xxx
+que sea un artefacto 
+referentes de proyecto que queremos hacer 
+como votar
+the guardian.com (
+gabe barcia colombo
+ready made  
+hacerlo grande / hacer muchas / hagalo rojo (llama la atencion)
+
+
+  
+
