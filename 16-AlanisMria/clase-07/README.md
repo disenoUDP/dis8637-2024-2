@@ -118,6 +118,7 @@ Nos puede dar acceso a más recursos de github si ingresamos como estudiantes
 - Buscar las variables que nos pueden servir dentro de los códigos y agregarlas en la nube.
 - Fijarse en que pines conecta cada cosa.
 - Nombrar cada cosa para organizarse
+- Tomar primero las decisiones
 
 
 
