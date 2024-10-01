@@ -18,15 +18,24 @@ Este proyecto tiene como objetivo crear un dimmer para controlar la intensidad d
 
 ### Pasos:
 1. Inicia sesión en [Arduino Cloud](https://cloud.arduino.cc/).
-2. Conecta tu Arduino al puerto USB de tu computadora.
 3. En el menú de Arduino Cloud, selecciona **Devices** y presiona **Add Device** para comenzar la conexión.
-4. Aparecerá la opción **Setup Device** donde deberás seleccionar tu placa Arduino.
-5. Espera a que finalice la configuración de la conexión.
-6. Una vez conectada la placa, ve a **Things** en el menú lateral izquierdo.
-7. Presiona **Create Thing** para crear un nuevo "Thing" asociado a tu Arduino.
-8. En **Associated Device**, selecciona tu dispositivo vinculado.
-9. Agrega una nueva variable presionando **Add**, en este caso, agrega la variable `Light` para controlar el encendido y apagado del LED.
-10. Ve a la pestaña **Sketch** para asegurarte de que tu Arduino esté correctamente vinculado y listo para subir el código.
+4. seleccionar arduino board
+5. instalar el agente de arduino
+6. tiene que estar funcionando en segundo plano
+7.  Conectar con cable de datos  tu Arduino al puerto USB de tu computadora
+8. Aparecerá la opción **Setup Device** donde deberás seleccionar tu placa Arduino.
+9. Espera a que finalice la configuración de la conexión.
+10. Una vez conectada la placa, ve a **Things** en el menú lateral izquierdo.
+11. Presiona **Create Thing** para crear un nuevo "Thing" asociado a tu Arduino.
+12. En **Associated Device**, selecciona tu dispositivo vinculado.
+13. vincular el arduino con Network (colocar el nombre del wifi y la clave correspondiente )
+14. Agrega una nueva variable presionando **Add**, en este caso, agrega la variable `Light` para controlar el encendido y apagado del LED.
+15. ir a la opcion de dashboard preseionando mas deashboard
+16. seleccionar add y elegir en la opcion widgets un slider (para manejar la intensidad del led )
+17. presionar link variable y selccionar la variable utilizada
+18. presionar link variable
+19. En value range ir de 0 a 255 y seleccionar done 
+20. Ve a la pestaña **Sketch** para asegurarte de que tu Arduino esté correctamente vinculado y listo para subir el código.
 
 > **Nota**: Si ocurre algún error, asegúrate de que el cable de conexión esté funcionando correctamente o intenta cambiar el navegador web.
 
@@ -43,4 +52,17 @@ Gracias a la ayuda de **@paula**, quien revisó y modificó el código, lo compa
 En mi caso, al principio tuve un problema con mi cuenta de Arduino Cloud, pero tras crear una nueva cuenta con otro correo, el proyecto funcionó sin problemas. Agradezco a **@paula** por su colaboración en este proceso.
 
 
+clase :
+github.compus 
+mitx circuito edx.org  (curso de circuito)
+justjavascript.com 
+chromium navegador 
+safari: desarrollador no es muy bueno como usario si 
+todo lo que puede pasar que no funcione el arduino:
+navegador 
+cable ( hay cables que solo es para cargar y no para datos)
+reiniciar la pagina de arduino 
+tener conectado unos comonente antes de vincular arduino 
+bootlother 
+watt:unidad de potencias 
 
