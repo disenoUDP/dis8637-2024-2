@@ -129,6 +129,43 @@ gabe barcia colombo
 ready made  
 hacerlo grande / hacer muchas / hagalo rojo (llama la atencion)
 
+tarea: cual es dilema quieres plantear 
+leyes -prioridad
+etica-discriminacion
+emociones - marcas (cual emocion ,incomodo,frutacion )
+consumo-sentido
+ambiente-resitencia
+intensidad-autopercepcion
+incomodo-paparazi (
+##inmput
+pesa: celda de carga
+lanzar 
+distancia: ultra sonido tof laser 
+usar o ponerse 
+aro azar 
+tegistro personal
+calor t°
+tiempo haciendo 
+##output
+robot 
+reloj gigante 
 
-  
+Votación con Proyección de Sombras: Un proyector crea dos círculos de luz en el suelo, uno para "Sí" y otro para "No". Los usuarios votan poniéndose de pie en uno de los círculos 
+La tecnología nos acerca o nos aleja de los demás?
+si más personas votan "Sí", el círculo de "Sí" se vuelve más brillante o cambia a un color específico.
 
+Votación de Jalar la Cuerda: Dos cuerdas conectadas a un mecanismo que registra el voto cuando se tira de una de ellas. Una cuerda está etiquetada como "Sí" y la otra como "No", y los usuarios tiran de la cuerda de su preferencia para votar 
+ejemplo:cuantas horas pasas en el telefono(un reloj mecanizado )cuanto tiempo has perdido en tu vida 
+
+colinnaver.com 
+interaccion que ocurre en un lado 
+dejar publicar redes sociales  
+recolector de secreto (indireccionar ) requisito tecnologico 
+barreras conseciencia 
+aprocimar una cuerda con tinta a una polera blanca (pregunta :haz comprado en shein) cual sera una ve
+
+alfredo jaar es usted feliz 
+buscar cosas que nos importa 
+simbiotica de paparazi ,proyecto de arte de paparazi 
+marco referencial 
+rube goldberg 
