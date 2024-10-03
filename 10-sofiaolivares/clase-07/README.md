@@ -55,10 +55,18 @@ leds blink otra opcion para ocupar leds, blinking, millis
   
   encontrar oportunidad de elección creativa, tiene que tener sentido, parte de una unidad, fisicamente separados
   investigar sistemas, sensores
+  referente: Yihan Chen, xxx.tiri.xxx, gabe bc, rube goldberg machine
 
-  proyecto que genera o capturando datos, a través de acciones divertidas
+  proyecto
 
-  referente: Yihan Chen, xxx.tiri.xxx, gabe bc
+un basurero cuente con un sensor cada vez que se vote una bolita de papel cuenta como un boto, puede haber más de uno para poder tener opciones. Estos votos se ve reflejados en una pantalla muestra la acción contraria a la que botaste, queriendo decir que al final tu voto no será valido y se hará lo contrario, no respetando el voto y generando sorpresa, confusión frustración en el usuario. porque tiraste tu voto a la basura.
 
+hacer una pregunta relacionada con amor de cualquier tipo, en caso de que la respuesta sea si iluminar un led que estará ubicado en una base llena de leds rojos que formar un corazón en conjunto, cada vez que un usuario responada si se van a ir prendiendo de a una hasta completar la iluminación del corazón, y si se responde que no, se apaga un led y se mantiene apagado, si el corazón se completa suena un latido de corazón y si el corazón se apaga suena el piiip de que ya no funciona más. De que sirve vivir sino vas a amar 
+
+  
+
+preguntas controversiales que genere emoción
+
+generar emocion específica 
 
   
