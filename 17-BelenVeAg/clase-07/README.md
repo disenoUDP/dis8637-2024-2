@@ -60,11 +60,6 @@ Conceptos:
 - Herramienta: diagrama de flujo fundamental para hacer esto. De aquí pueden salir diagramas de estado.
 - Si podemos establacer nuestra idea de interacción en la forma de un mapa de flujo, las tareas de programar van a ser mucho más sencillas.
 
-Ejemplo:
-<https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FThe-elements-in-an-ADSR-envelope_fig22_270819567&psig=AOvVaw1kWIZ9jAWkZXeB6gPx7eWx&ust=1727883543306000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjfovjB7YgDFQAAAAAdAAAAABAE![image](https://github.com/user-attachments/assets/18ef85f3-3a4e-424e-a2c5-bd2da7a93e75)>
-
-Ataque:
-
 *Animator controller unity character-> como programar para animar los estados de los personajes. (Ver ese tipo de interacciones no solo sirve para aprender el software en sí, sino que también para entender lenguaje computacional.
 
 Entender el Lenguaje Computacional es el núcleo de este taller. 
@@ -125,4 +120,21 @@ Las 3 reglas del arte cuando no sepan qué hacer.
 - Hacerlo grande
 - Hacer muchas
 - Hacerlo rojo
+
+En otras palabras:
+- Tener en cuenta que tiene que suceder de forma remota.
+- Pensar en un acto que puede tener una concecuencia colectiva.
+- Queremos preguntas intensas, relacionadas a situaciones intensas.
+
+Que cuando una persona entre por la sala
+
+
+- No buscar solo mi concepto, sino con apellido. Ej: arte paparazzi, comedia paparazz, etc.
+- Establecer tiempos acotados de búsqueda y con una finalidad.
+- Buscar más de una forma de expresar lo que busco. 5.
+- Ver más de un referente.
+
+  Rube goldberg machine
+  
+  ![image](https://github.com/user-attachments/assets/15e9ef0e-d19e-471c-82e0-233707b2be3a)
 
