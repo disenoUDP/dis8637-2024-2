@@ -53,6 +53,11 @@ Libro de gamificación. Taxonomía de jugadores.
 
 18. https://www.colinnarver.com/thevoodoobear
 
+19. https://www.mnba.gob.cl/noticias/el-lado-oscuro-de-la-luna
+
+20. https://en.wikipedia.org/wiki/Rube_Goldberg_machine - https://www.youtube.com/watch?v=qybUFnY7Y8w
+
+    
 ## Gran Proyecto Octubre
 
 Sistema de manifestación de la opinión del soberano. Elección popular.
@@ -90,5 +95,19 @@ Generación y Capturación de Datos.
 
 - Votación basada en encestar en un aro con una pelota de basketball. Existen 2 distancias establecidas: Simple(2 pts) y Triple(4pts). Si la pelota toca el tablero se multiplica *0.5; si la pelota toca el aro se multiplica *1; si la pelota encesta se multiplica *2.
 
+Opciones de sensores: 
+- Celda de Carga
+- Sensor TOF
+- Sensor Laser
+- Sensor Ultrasónico
 
+  
+"Separar el feedback de la acción"
 
+Otra idea: que cuando votes un objeto se deje caer sobre un objeto sobre un balanza de equilibrio. 
+
+Esta es un oportunidad de hacer a la gente decir lo que la gente le da verguenza decir en público, o que se sepa.
+
+Idea que dio Aarón, hacer una colecta de plata pa pagarle a los pacos pa q dejen de ser pacos. "Despaquizador"
+
+Desarrollar un método 
