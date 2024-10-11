@@ -1,7 +1,7 @@
 # Proyecto Final:<br>Dispositivo remoto e interactivo de Elección Popular 
 
 ## Objetivo
-Diseñar y construir una experiencia interactiva basa en sistema de captura y feedback de información (como ejemplo, pero no estrictamente algo para una votación) que será expuesta y utilizada durante exposición final de trabajos de todos los talleres de la carrera de diseño.
+Diseñar y construir una experiencia interactiva basada en sistema de captura y feedback de información (como ejemplo, pero no estrictamente algo para una votación) que será expuesta y utilizada durante exposición final de trabajos de todos los talleres de la carrera de diseño.
 
 El sistema constará de dos partes que se comunican inalámbricamente: una unidad de votación y una unidad de visualización de resultados.
 
