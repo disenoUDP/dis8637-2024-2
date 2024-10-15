@@ -11,7 +11,6 @@ Para esto investigaremos que empresas se encuentran involucradas y su influencia
 
 Consideraremos las instituciones propuestas por la BDS, organización que lucha por la libertad de los palestinos buscando, como dicen sus siglas Boicotear, Desinvertir y sabotear instituciones que beneficien al ejrcito israelí y por lo tanto a la ocupación de territorios, el genocidio y el desplazamiento.
 
-
 información: 
 
 - https://bdsmovement.net/es/news/act%C3%BAa-ya-contra-estas-empresas-que-se-benefician-del-genocidio-del-pueblo-palestino  
@@ -20,3 +19,9 @@ información:
 - https://www.bbc.com/mundo/articles/cd178m5pd3ko#:~:text=La%20guerra%20estall%C3%B3%20tras%20un,tomadas%20como%20rehenes%20253%20personas.
 - 
 - 
+
+Implementar al menos 5 areas de interacción que representen a las marcas involucradas más utilizadas en nuestro pais, en las cuales se implementarán sensores de proximidad, que logren captar cuando una persona de un paso en el area delimitada, este paso afirma el consumo de las marcas por parte usuario
+
+
+
+
