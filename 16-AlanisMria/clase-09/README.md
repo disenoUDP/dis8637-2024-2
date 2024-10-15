@@ -25,6 +25,10 @@ El contenido audiovisual recopilará diversos datos relacionados a la ocupacion 
 
 https://merida.anahuac.mx/noticias/conflicto-entre-israel-y-palestina#:~:text=El%20conflicto%20entre%20Israel%20y%20Palestina%20se%20remonta%20a%201917,formaba%20parte%20del%20Imperio%20Otomano). 
 
+referente audiovisual, no apto para personas sensibles a la violencia animal:
+
+https://www.youtube.com/watch?v=yOvt1LE0hk0 
+
 
 
 
