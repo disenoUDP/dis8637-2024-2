@@ -5,7 +5,7 @@
 
 El proyecto se centrará en generar conciencia respecto a lo que consumimos, especificamente en marcas globales de consumo cotidiano que financian o influyen de alguna manera en el desarrollo de la guerra y la muerte y desplazamiento de miles de personas.
 
-Se busca generar conciencia apelando a los sentimientos de los usuarios, mediante empatia shock, a partir de material audiovisual relacionado a las victimas de la guerra y lo que esta genera en el mundo.
+Se busca generar conciencia apelando a los sentimientos de los usuarios, mediante empatia y shock, a partir de material audiovisual relacionado a las victimas de la guerra y lo que esta genera en el mundo.
 
 Para esto investigaremos que empresas se encuentran involucradas y su influencia en el desarrollo del conflicto, para definir que marcas serán presentadas a los usuarios. 
 
