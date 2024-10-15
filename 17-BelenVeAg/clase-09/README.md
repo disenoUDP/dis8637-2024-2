@@ -21,4 +21,15 @@ El profe tiene un excel con una representación de los pines de su arduino, dond
 
 ## Datos curiosos
 - Las IAs se alimentan con cantidad de información, no con calidad, porque no existe un filtro eficiente a la hora de crear prompts o responder ciertas preguntas. Ej: Cuando se hacen preguntas de algebra, no salen buenas respuestas.
-- 
+
+**Stakeholder:s** Traducción: “grupos de interés” o “grupos interesados”. En otras palabras, los stakeholders son todas aquellas personas y colectivos que están interesados, de un modo u otro, en nuestra empresa.
+
+**Consideraciones**
+- Punching up: se puede hacer.Punching down: no se puede hacer
+- Cuando alguien tiene más poder que tú, no hay problema en criticarlo.
+- Preguntarnos quienes somos en este contexto, nuestros pares y en dónde estamos.
+- Estudiar licencias en software.
+- "Dumb Starbucks", ver video. Una forma de llevar una idea al límite.
+- Evitar discursos de odio, funa, re-victimización, TW.
+- Diferencias diagrama de flujo v/s pseudo-código (instrucciones claras de lo que va a pasar).
+- Sol Lewitt: instrucciones para hacer arte conceptual, no ejecutaba, solo daba instrucciones. 
