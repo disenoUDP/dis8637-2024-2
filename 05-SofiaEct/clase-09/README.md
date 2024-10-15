@@ -13,4 +13,3 @@ ideamos quizas de 1 a 3 preguntas que recopilen los datos de eleccion para gener
 ## referente
 
 
-__tengo q subiro del compu__
