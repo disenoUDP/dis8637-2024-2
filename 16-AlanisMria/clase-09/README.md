@@ -17,10 +17,15 @@ información:
 - https://es.ara.cat/economia/alimentacion/boicot-marcas-occidentales-guerra-gaza-nota_1_5108522.html 
 - https://www.elsaltodiario.com/industria-armamentistica/bbva-santander-asi-dinero-puede-acabar-financiando-genocidio-israel-gaza 
 - https://www.bbc.com/mundo/articles/cd178m5pd3ko#:~:text=La%20guerra%20estall%C3%B3%20tras%20un,tomadas%20como%20rehenes%20253%20personas.
-- 
-- 
 
-Implementar al menos 5 areas de interacción que representen a las marcas involucradas más utilizadas en nuestro pais, en las cuales se implementarán sensores de proximidad, que logren captar cuando una persona de un paso en el area delimitada, este paso afirma el consumo de las marcas por parte usuario
+
+Implementar al menos 5 areas de interacción que representen a las marcas involucradas más utilizadas en nuestro pais, en las cuales se implementarán sensores de proximidad, que logren captar cuando una persona de un paso en el area delimitada, este paso afirma el consumo de las marcas por parte usuario.
+
+El contenido audiovisual recopilará diversos datos relacionados a la ocupacion y genocidio en contra del pueblo palestino, tales como datos de personas fallecidas, cantidades de masacres, territorios ocupados o fechas importantes, considerando que esto esta pasando desde 1917.
+
+
+
+
 
 
 
