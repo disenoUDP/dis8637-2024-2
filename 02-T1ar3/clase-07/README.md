@@ -86,3 +86,86 @@ video : unity 1 animator controller beginner tutorial
 any state (cualquier estado )
 si es cualquier estado puede pasar de close a 
 ver: animator controller unity character (personajes con estados)
+
+##proyecto de andres:
+Material didactico(astronomia): Planetas y s.solar 
+construccionismo (paradigma forma de aprender es aprender con las  manos y modificar el entorno )
+gamificacion(ganar puntos ,sentivar a las personas a participar ) no material mas como personal 
+###naves para recorrer el sistema solar (uno de los proyecto)
+tipos de jugadores 
+killers:
+sociales:relacionarse con otras personas
+exploradores : aporximarse a nuevas cosas 
+creadores : expresarse su vicion y explasamarla 
+
+inicio : exploracion 
+(creacion)
+desarrollo
+(climax): ganar ,lograr 
+final social coop
+
+material ,creacion de misiones, rellenar una guia (coperativa con el profesor) vitacora de viaje expeerimentacion con el material, ganar ensignia , general en conjunto se unen en grupos comparte naves y conocimiento crea una guia en la vitacora 
+
+produccion : que tecnologia me puede servir 
+chip sp32 (pes muy bueno)
+importante de su proceso: no sabe cuanto es la dimencion para conectar  entonces lo fabrica aparte   
+
+###clase
+octube para diseñar un proyecto (conceptual , interacion planificaicon de estados componente y la presentacion 
+3 sesiones ) preguntar a la gente algo , pedir una opion que
+octubre 6 proyectos 
+el examnen es un sistema de manifestacion opinion del soberano 
+interaccion rapida 
+representarla (led, un sonido,una bandera, un casco que abre o cierra)
+general y capturar(con o sin piña ) 
+pagina luciddreams (ofrese experiencia de vida virtual)
+chen-yihan.com 
+xxx.tiri.xxx
+que sea un artefacto 
+referentes de proyecto que queremos hacer 
+como votar
+the guardian.com (
+gabe barcia colombo
+ready made  
+hacerlo grande / hacer muchas / hagalo rojo (llama la atencion)
+
+tarea: cual es dilema quieres plantear 
+leyes -prioridad
+etica-discriminacion
+emociones - marcas (cual emocion ,incomodo,frutacion )
+consumo-sentido
+ambiente-resitencia
+intensidad-autopercepcion
+incomodo-paparazi (
+##inmput
+pesa: celda de carga
+lanzar 
+distancia: ultra sonido tof laser 
+usar o ponerse 
+aro azar 
+tegistro personal
+calor t°
+tiempo haciendo 
+##output
+robot 
+reloj gigante 
+
+Votación con Proyección de Sombras: Un proyector crea dos círculos de luz en el suelo, uno para "Sí" y otro para "No". Los usuarios votan poniéndose de pie en uno de los círculos 
+La tecnología nos acerca o nos aleja de los demás?
+si más personas votan "Sí", el círculo de "Sí" se vuelve más brillante o cambia a un color específico.
+
+Votación de Jalar la Cuerda: Dos cuerdas conectadas a un mecanismo que registra el voto cuando se tira de una de ellas. Una cuerda está etiquetada como "Sí" y la otra como "No", y los usuarios tiran de la cuerda de su preferencia para votar 
+ejemplo:cuantas horas pasas en el telefono(un reloj mecanizado )cuanto tiempo has perdido en tu vida 
+
+colinnaver.com 
+interaccion que ocurre en un lado 
+dejar publicar redes sociales  
+recolector de secreto (indireccionar ) requisito tecnologico 
+barreras conseciencia 
+aprocimar una cuerda con tinta a una polera blanca (pregunta :haz comprado en shein) cual sera una ve
+
+alfredo jaar es usted feliz 
+buscar cosas que nos importa 
+simbiotica de paparazi ,proyecto de arte de paparazi 
+marco referencial 
+rube goldberg 

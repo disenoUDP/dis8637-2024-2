@@ -43,8 +43,8 @@ equipo docente:
 | [clase-05](clases/clase-05/) | 2024-09-10 martes       | entrega proyecto-01 objeto interactivo       |
 | semana receso                | 2024-09-16 / 2024-09-20 | sin clases, sin evaluaciones                 |
 | [clase-06](clases/clase-06/) | 2024-09-24 martes       | TODO                                         |
-| [clase-07](clases/clase-07/) | 2024-10-01 martes       | TODO                                         |
-| [clase-08](clases/clase-08/) | 2024-10-08 martes       | TODO                                         |
+| [clase-07](clases/clase-07/) | 2024-10-01 martes       | clase sobre interacción inalámbrica          |
+| [clase-08](clases/clase-08/) | 2024-10-08 martes       | salida a terreno - lucid dreams              |
 | [clase-09](clases/clase-09/) | 2024-10-15 martes       | salida a terreno tentativa                   |
 | [clase-10](clases/clase-10/) | 2024-10-22 martes       | TODO                                         |
 | [clase-11](clases/clase-11/) | 2024-10-29 martes       | TODO                                         |
