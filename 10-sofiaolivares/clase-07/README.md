@@ -17,29 +17,56 @@ conectar el arduino al arduino cc, para reconocer de manera más rápida y efica
 https://www.figma.com/board/gSnJPtrtCm8H7a7fJzLdTm/Conexi%C3%B3n-arduino-cc?node-id=0-1&t=xxVz8Ky9d7ZV38sr-1
 
 apuntes 
-ler y ver todo antes de crear.
-poner nombre a todo para organizacion 
+- leer y ver todo antes de crear.
+  
+-poner nombre a todo para organizacion 
 
-bool: estados acotados 
-rangos 
-
-el delay puede entorpeser el trabajo de los servo motores. 
+- bool: estados acotados
+  
+- el delay puede entorpeser el trabajo de los servo motores. 
 leds blink otra opcion para ocupar leds, blinking, millis 
 
-ocupar termocontraibles para mantener orden de los cables cuando hay muchos. 
+- ocupar termocontraibles para mantener orden de los cables cuando hay muchos. 
 
-servo azules engranajes de plastico, negros tienen engranajes metalicos 
+- servo azules engranajes de plastico, negros tienen engranajes metalicos 
 
-pin problemáticos 1 y 0 
+- pin problemáticos 1 y 0 
 
-diagrama de estados, condici+on a trnsicion, genera una transición 
+- diagrama de estados, condici+on a trnsicion, genera una transición 
 
-la transición es muy importante, tener en cuenta en lo digital
+- la transición es muy importante, tener en cuenta en lo digital
 
-adsn evelope puede explicar la transición de un estado a otro
+- adsn evelope puede explicar la transición de un estado a otro
 
-hacerse cargo de todos los estados posibles 
+- hacerse cargo de todos los estados posibles 
 
-Unity: codigo + animación 
+- Unity: codigo + animación 
 
-animator controller unity character, buscar
+- animator controller unity character, buscar
+  
+- chip sp32 tiene wifi y bt para conectar dispositivos
+
+  ### octubre
+
+  diseñar proyecto, estados, conceptual, interacción
+  examen sistema de manifestación del soberano. elecciones.
+
+  experiencia interactiva, preguntar al usuario algo, sistema de votación remoto
+  
+  encontrar oportunidad de elección creativa, tiene que tener sentido, parte de una unidad, fisicamente separados
+  investigar sistemas, sensores
+  referente: Yihan Chen, xxx.tiri.xxx, gabe bc, rube goldberg machine
+
+  proyecto
+
+un basurero cuente con un sensor cada vez que se vote una bolita de papel cuenta como un boto, puede haber más de uno para poder tener opciones. Estos votos se ve reflejados en una pantalla muestra la acción contraria a la que botaste, queriendo decir que al final tu voto no será valido y se hará lo contrario, no respetando el voto y generando sorpresa, confusión frustración en el usuario. porque tiraste tu voto a la basura.
+
+hacer una pregunta relacionada con amor de cualquier tipo, en caso de que la respuesta sea si iluminar un led que estará ubicado en una base llena de leds rojos que formar un corazón en conjunto, cada vez que un usuario responada si se van a ir prendiendo de a una hasta completar la iluminación del corazón, y si se responde que no, se apaga un led y se mantiene apagado, si el corazón se completa suena un latido de corazón y si el corazón se apaga suena el piiip de que ya no funciona más. De que sirve vivir sino vas a amar 
+
+  
+
+preguntas controversiales que genere emoción
+
+generar emocion específica 
+
+  
