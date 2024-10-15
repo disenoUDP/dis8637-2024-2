@@ -46,34 +46,23 @@ Las preguntas son al azar y son predeterminadas
 
 -	Si el usuario selecciona una opción "ética" (prioriza la justicia y la sostenibilidad), las pantallas mostrarán el mensaje: "Solo te estábamos poniendo a prueba. ¡Qué bueno que eres una persona respetable!". Este mensaje estará acompañado por sonidos de aplausos y ovaciones, creando una sensación de reconocimiento y validación por haber tomado una decisión moralmente correcta.
 
+## Continuación de la clase: 
+Apuntes
+Regla comedia
 
-# TU ELECCIÓN FAVORITA 
+punching up : bien
+punching down : mal 
 
-La propuesta consiste en captar y visualizar información en tiempo real, que genere emociones fuertes en el usuario principalmente culpa, la temática es sobre las marcas que ayudan a financiar la guerra de palestina que muchos consumen de manera inconsciente sin saber a como afectan sus decisiones de consumo sobre otros. 
+ser consciente a quien molestar y quien no, pensar donde estoy ubicada en la sociedad. 
+tener responsabilidad a la hora de buscar temáticas
+revisar ideo "dumb starbucks"
+investigar license, marco legal 
 
+ver como solucionar las problemáticas de los temas, solucionar sin tener problemas a futuro. 
 
-El proyecto utiliza una votación interactiva para reflejar cómo las marcas que usamos diariamente pueden estar vinculadas a la perpetuación de conflictos bélicos.
+Realiar diagrma de flujo en forma de diagrama, con todas la variaciones posibles 
 
-## El sistema tiene dos partes: 
-•	La primera es la interacción del usuario con una interfaz en donde puede seleccionar a través de apretar botones para poder seleccionar marcas o productos de consumo regular, sin mayor contexto previo. 
-
-•	La segunda parte es la visualización en tiempo real, en donde muestra a los usuarios las marcas que seleccionaron están ligadas a la financiación de la guerra en Palestina, esto va de la mano de un componente emocional que genera culpabilidad al usuario 
-
-## Pasos de la propuesta
-1.  Los usuarios serán presentados con un panel de opciones (botones) que presenta marcas populares o de consumo (puede ser de cualquier tipo). En la pantalla no habrá nada que de indicios de lo que se trata la exposición, iniciando con una interacción básica, que diga “Selecciona las marcas que consumes de manera habitual” o “el día a día” o “tu marca favorita”
-
-2. A medida que los usuarios seleccionan distintas marcas, el sistema las vinculará con datos reales sobre su participación en conflictos, como el de Palestina. Al hacer una elección, se activará un rociador que salpicará líquido rojo, simulando la sangre metafórica que el usuario tiene en sus manos. Alternativamente, se podría llenar un recipiente de forma gradual, acompañado del mensaje: "Toda esta sangre está en tus manos".
-## Los mensajes que aparecerán para acompañar la experiencia podrían ser:
-
-•	"Esta marca ha invertido millones en empresas que suministran armas a las fuerzas ocupantes en la guerra de Palestina."
-•	"¿Sabías que al consumir esta marca estás ayudando a financiar la destrucción de hogares de miles de personas en Gaza?"
-•	"Esta marca invierte en la industria armamentística. ¿Cuántas vidas ha destruido tu última compra?"
-Esta combinación de efectos visuales y mensajes busca intensificar el impacto emocional, generando una sensación de responsabilidad directa por las consecuencias de sus decisiones de consumo.
-
-
-Se podrían utilizar gráficos mostrando datos duros e imágenes de la situación que vinculen directamente el consumo cotidiano con la tragedia de la guerra.
-
-3. Cierre Impactante: Al final de la experiencia, la pantalla puede mostrar el mensaje:
-"¿Sabías que cada compra cuenta? Tú decides: contribuir a la paz o a la guerra." 
-
-Al finalizar se podría mostrar datos de alguna fundación que ayude a personas afectadas por este conflicto bélico
+explicar todo, los materiales y porqué, la lista completa de los implementos a utilizar
+ref: Sol LeWitt, estudiarlo para poder entender la estructura del desarrollo de un proyecto.
+Solo daba instrucciones, no ejecutaba, daba indicaciones. describir todo perfectamente
+Poder expicar las ideas perfectamente
