@@ -4,7 +4,7 @@
 
 la idea de este proyecto nacio en base al movimiento #blackslivesmatter que fue iniciado por la injusta muerte de george floyd
 
-principalmente esta idea trataria de un sistema de votacion mediante un boton de si o no, la preguntas/acciones que generaran las decisiones aun no estan definidas, la estrella de este proyecto es tener un "chaleco" que pueda transmitir los datos de eleccion y ademas poder generar sensaciones fisicas, idealmente dolor
+principalmente esta idea trataria de un sistema de votacion mediante un boton/pantalla tactil que de las opciones de si o no, la preguntas/acciones que generaran las decisiones aun no estan definidas, la estrella de este proyecto es tener un "chaleco" que pueda transmitir los datos de eleccion y ademas poder generar sensaciones fisicas, idealmente dolor
 
 ## ejemplo
 
@@ -12,3 +12,5 @@ ideamos quizas de 1 a 3 preguntas que recopilen los datos de eleccion para gener
 
 ## referente
 
+
+__tengo q subiro del compu__
