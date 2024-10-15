@@ -25,7 +25,9 @@ Bibliografía
 
 11. https://artes.uchile.cl/postgrados/43490/artes-mediales
 
-12. https://www.youtube.com/watch?v=RGqX6kDjNI8
+12. https://www.ryojiikeda.com -> https://www.youtube.com/watch?v=RGqX6kDjNI8
+
+13. https://musiki.org.ar/Golan_Levin
 
 #Presentación
 
