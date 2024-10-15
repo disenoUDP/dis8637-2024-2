@@ -23,8 +23,7 @@ Implementar al menos 5 areas de interacción que representen a las marcas involu
 
 El contenido audiovisual recopilará diversos datos relacionados a la ocupacion y genocidio en contra del pueblo palestino, tales como datos de personas fallecidas, cantidades de masacres, territorios ocupados o fechas importantes, considerando que esto esta pasando desde 1917.
 
-
-
+https://merida.anahuac.mx/noticias/conflicto-entre-israel-y-palestina#:~:text=El%20conflicto%20entre%20Israel%20y%20Palestina%20se%20remonta%20a%201917,formaba%20parte%20del%20Imperio%20Otomano). 
 
 
 
