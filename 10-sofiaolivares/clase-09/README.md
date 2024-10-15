@@ -6,7 +6,7 @@ Ref: Matías Serrano Acevedo, en sus proyectos utiliza bom = bill of materials
 # clase-09
 # MAQUINA DE LOS RENCORES
 
-Nace desde las dinámicas tóxicas que se implementan en distintos ambientes, en este caso son el ambiente laboral y universitario (pueden ser desde los cahuines, la competencia entre estudiantes, las funas e incluso las agresiones verbales). Todo esto se va a mostrar a través de una instalación que contiene piezas físicas y digitales, de las cuales, la parte física tiene tres maneras de interacción, todas interacciones tienen el fin e demostrar su frustración hacia actitudes de este tipo.
+Nace desde las dinámicas que surgen por el estrés académico universitario ante situaciones espécificas. Todo esto se va a mostrar a través de una instalación que contiene piezas físicas y digitales, de las cuales, la parte física tiene tres maneras de interacción, todas interacciones tienen el fin e demostrar su frustración hacia actitudes de este tipo.
 
 ## Todo consta de cuatro espacios: 
 
