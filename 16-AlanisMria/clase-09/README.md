@@ -11,21 +11,13 @@ Para esto investigaremos qué empresas se encuentran involucradas y su influenci
 
 Consideraremos las instituciones propuestas por la BDS, organización que lucha por la libertad de los palestinos buscando, como dicen sus siglas Boicotear, Desinvertir y sabotear instituciones que beneficien al ejrcito israelí y por lo tanto a la ocupación de territorios, el genocidio y el desplazamiento.
 
-información: 
-
-- https://bdsmovement.net/es/news/act%C3%BAa-ya-contra-estas-empresas-que-se-benefician-del-genocidio-del-pueblo-palestino  
-- https://es.ara.cat/economia/alimentacion/boicot-marcas-occidentales-guerra-gaza-nota_1_5108522.html 
-- https://www.elsaltodiario.com/industria-armamentistica/bbva-santander-asi-dinero-puede-acabar-financiando-genocidio-israel-gaza 
-- https://www.bbc.com/mundo/articles/cd178m5pd3ko#:~:text=La%20guerra%20estall%C3%B3%20tras%20un,tomadas%20como%20rehenes%20253%20personas.
-
-
 Implementar al menos 5 áreas de interacción que representen a las marcas involucradas más utilizadas en nuestro país, en las cuales se implementarán sensores de proximidad, que logren captar cuando una persona de un paso en el área delimitada, este paso afirma el consumo de las marcas por parte usuario.
 
 El contenido audiovisual recopilará diversos datos relacionados a la ocupacion y genocidio en contra del pueblo palestino, tales como datos de personas fallecidas, cantidades de masacres, territorios ocupados o fechas importantes, considerando que esto esta pasando desde 1917.
 
 https://merida.anahuac.mx/noticias/conflicto-entre-israel-y-palestina#:~:text=El%20conflicto%20entre%20Israel%20y%20Palestina%20se%20remonta%20a%201917,formaba%20parte%20del%20Imperio%20Otomano). 
 
-Referente Audiovisual
+## Referente Audiovisual
 No apto para personas sensibles a la violencia animal.
 
 La Hora de los Hornos (1968): Neocolonialismo y Violencia - "Subdesarrollo":
@@ -59,4 +51,15 @@ La idea es tomar el montaje del documental como referente audiovisual para mostr
 11. Si el usuario da un paso  a la estación (Estación 3) el sensor numero cuatro lo reconocerá y activará la tercera proyección audiovisual relacionada al conflicto, ligada a mensajes. Y si no avanza aparecerá (no consume esta marca) se proyectara un mensaje que indicara que el usuario se salte esta estación.
 
 12. Si el usuario declaro que consume una o mas marcas se proyectara un mensaje reflexivo sobre la situacion que se esta viviendo y como su consumo es una contribucion u apoyo a esta. Si el usuario declaro no consumir ninguna de estas marcas se proyectara un mensaje de agradecimiento al apoyo en contra del conflicto.
+
+## información: 
+
+- https://bdsmovement.net/es/news/act%C3%BAa-ya-contra-estas-empresas-que-se-benefician-del-genocidio-del-pueblo-palestino  
+- https://es.ara.cat/economia/alimentacion/boicot-marcas-occidentales-guerra-gaza-nota_1_5108522.html 
+- https://www.elsaltodiario.com/industria-armamentistica/bbva-santander-asi-dinero-puede-acabar-financiando-genocidio-israel-gaza 
+- https://www.bbc.com/mundo/articles/cd178m5pd3ko#:~:text=La%20guerra%20estall%C3%B3%20tras%20un,tomadas%20como%20rehenes%20253%20personas.
+
+- Haremmos un calendario de actividades
+- Bill of materials (BOM)
+- Docuentación con representación esquematica de cada componente
  
