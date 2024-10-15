@@ -31,4 +31,9 @@ Para el chaleco, pensamos en un simulador de "dolores menstruales" que se ha hec
 
 
 
+## Apuntes clase
+
+- El uso de BOM (Bill of Materials) es una lista de materiales para generar un inventario y posteriormente hacer proyectos de hardware por ejemplo. Se puede usar la página Octopus para crear estos BOMs.
+
+
 
