@@ -1,6 +1,6 @@
 # clase-09
 
-## proyecto de votacion sobre el abuso de poder ejercido en personas de raza negra con @Mosswhossmoss
+## proyecto de votacion sobre el abuso de poder ejercido en personas de raza negra con @Mosswhossmoss @valechavezalb
 
 la idea de este proyecto nacio en base al movimiento #blackslivesmatter que fue iniciado por la injusta muerte de george floyd
 
