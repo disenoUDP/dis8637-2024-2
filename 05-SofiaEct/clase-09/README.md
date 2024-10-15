@@ -12,4 +12,16 @@ ideamos quizas de 1 a 3 preguntas que recopilen los datos de eleccion para gener
 
 ## referente
 
+gingasvr muestra la inmersion en el juego minecraft con realidad virtual, logrando que todas las sensaciones fisicas )en su mayoria dolor) sean transmitidas a su cuerpo 
 
+[video referente](https://www.instagram.com/reel/DAfBsDUsmot/?utm_source=ig_web_copy_link)
+
+## boccetos y mecanismo
+
+como mencionamos anteriormente el proceso de votacioin sera a traves de botones (fisicos o digitales, aqun que p0or el momento nos inclinamos mas a los botones en la pantalla digital) y seran de alternativas si o no
+
+foto tablet
+
+en el chaleco pensamos en un simulador de "dolores menstruales" que se ha hecho bastante "viral" aqui un [ejemplo](https://youtu.be/noxclfeoxtM?si=08v8BhXhYdbF32gS&t=93) que a traves de parches conectados a energia provocan dolor segun el nivel de la maquina
+
+![image](https://github.com/user-attachments/assets/fc00d5d4-097c-49c3-b2fc-a27b620a6e51)
