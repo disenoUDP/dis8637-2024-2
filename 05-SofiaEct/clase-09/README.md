@@ -18,9 +18,11 @@ gingasvr muestra la inmersion en el juego minecraft con realidad virtual, logran
 
 ## boccetos y mecanismo
 
-como mencionamos anteriormente el proceso de votacioin sera a traves de botones (fisicos o digitales, aqun que p0or el momento nos inclinamos mas a los botones en la pantalla digital) y seran de alternativas si o no
+como mencionamos anteriormente el proceso de votacioin sera a traves de botones (fisicos o digitales, aqun que p0or el momento nos inclinamos mas a los botones en la pantalla digital) y seran de alternativas si o no, para el sistema de votacion nos basamos en este video "meme"
 
-foto tablet
+https://github.com/user-attachments/assets/357fc680-b399-4136-aadb-057fdda5ffae
+
+![image](https://github.com/user-attachments/assets/ec8eb9dd-8cb8-41f9-be30-e4c3ad2e8a3b)
 
 en el chaleco pensamos en un simulador de "dolores menstruales" que se ha hecho bastante "viral" aqui un [ejemplo](https://youtu.be/noxclfeoxtM?si=08v8BhXhYdbF32gS&t=93) que a traves de parches conectados a energia provocan dolor segun el nivel de la maquina
 
