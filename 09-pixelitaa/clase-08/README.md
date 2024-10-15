@@ -17,7 +17,8 @@ Fuente: https://www.cio.com/article/2139059/la-ia-no-autorizada-se-esta-comiendo
 
 ## IA Y SU IMPACTO EN EL MEDIO AMBIENTE
 
-![Traduccioninfografia](https://github.com/user-attachments/assets/ad76ca11-c665-4e18-8c72-11b513a2fbaf)
+![Traduccioninfografia](https://github.com/user-attachments/assets/4f973bea-c635-4bbc-8315-e560e37dfaa4)
+
 
 fuente: https://www.aiforeducation.io/ai-resources/ais-impact-on-the-environment
 
