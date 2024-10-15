@@ -1,7 +1,7 @@
 # clase-09
 *Martes 15 de octubre de 2024*
 
-## Conflicto Israel vs Palestina :(
+## Conflicto Israel Palestina :(
 
 El proyecto se centrará en generar conciencia respecto a lo que consumimos, especificamente en marcas globales de consumo cotidiano que financian o influyen de alguna manera en el desarrollo de la guerra y la muerte y desplazamiento de miles de personas.
 
