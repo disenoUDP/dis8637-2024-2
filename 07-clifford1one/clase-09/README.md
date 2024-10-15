@@ -29,6 +29,8 @@ Bibliografía
 
 13. https://musiki.org.ar/Golan_Levin
 
+14. https://www.erpag.com/bill-of-materials-software
+
 #Presentación
 
 https://www.figma.com/board/d2VNm2trjLyDlpML9uOzW5/Democracia?node-id=0-1&node-type=canvas&t=551rW3cJa8vbfGDm-0
