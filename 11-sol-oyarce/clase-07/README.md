@@ -2,19 +2,28 @@
 ## Conexión Arduino Cloud
 
 - Intentos conexion-codigo fallidos  (tutoriales youtube)
+  
 https://www.youtube.com/watch?v=qJfKHCKDpLk
+
 https://www.youtube.com/watch?v=wl-UI_ZSAB0&t=259s
+
 https://youtu.be/FNYvxArghLw?si=Qz8cHOeqwCZkGIj0
 
+
 - Intento de conexion (tutorial web)
+  
 https://docs.arduino.cc/built-in-examples/communication/Dimmer/
 
-- Codigo solo permitio encender el led 
+
+- Codigo solo permitio encender el led
+  
  https://create.arduino.cc/cloud/things/4b378ecd-a7d9-4a8a-9e22-0f3f95b06b5f
+ 
 
 - Tutorial que funciona la creacio de un dimmer con un LED con Arduino Cloud 09-pixelitaa
   
-- Diagrama de flujo 
+- Diagrama de flujo
+  
 Diagrama de flujo distinto al de estado
 (Diagrama de estado)
 
@@ -58,6 +67,7 @@ Diagrama de flujo distinto al de estado
 - Gabe bc artista
 - Hacerlo grande- Muchas - Rojo : ARTE
 - ideas para el proyecto encuesta :
+  
     1. Encuesta de satisfacción con x política controversial actual donde las personas manifiesten su satisfacción con esta. Donde mediante la voz una de las 2 opciones SI o NO se proyecten imágenes o sonidos de las personas diciendo SI o NO.
     2. Medir la capacidad de los usuarios de seguir instrucciones cortas . Donde esto se manifestara mediante un sensor de acercamiento y un botón rojo.
     3. Saber como se sienten las personas a nivel de contacto físico mediante el tiempo de interacción con un objeto (apretar o abrazar algo)
