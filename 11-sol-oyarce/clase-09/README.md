@@ -1,11 +1,11 @@
 # clase-09
 ## Conflicto Israel- Palestina
 
-Nestro proyecto busca crear conciencia en base a lo que se consume en nuestro dia a dia a nivel de marcas globales las cuales financian/ contribyen de alguna forma el desarrollo de la guerra, la cual a generado miles de muertes y desplazamientos de personas.
+Nuestro proyecto busca crear conciencia en base a lo que se consume en nuestro dia a dia a nivel de marcas globales las cuales financian/ contribyen de alguna forma el desarrollo de la guerra, la cual a generado miles de muertes y desplazamientos de personas.
 
-Buscamos generar conciencia apelando al aspecto emocional de los consumidores por medio de la empatia y situaciones de shockpor medio de material audiovisialen relacion a la guerra- mundo y como lo estan viviendo sus victimas.
+Buscamos generar conciencia apelando al aspecto emocional de los consumidores por medio de la empatia y situaciones de shock por medio de material audiovisialen relacion a la guerra- mundo y como lo estan viviendo sus victimas.
 
-Segun la BDS (Boicotear, Desinvertir y sabotear) organizacion enfocada en la lucha de la libertad por palestina, donde buscan ir contra las actividades de guerras iraeli (ejercito, ocpacion territorial, genocidios, etc).
+Segun la BDS (Boicotear, Desinvertir y sabotear) organizacion enfocada en la lucha de la libertad por palestina, donde buscan ir contra las actividades de guerras israeli (ejercito, ocupacion territorial, genocidios, etc).
 
 informacion: 
 
@@ -14,9 +14,9 @@ https://es.ara.cat/economia/alimentacion/boicot-marcas-occidentales-guerra-gaza-
 https://www.elsaltodiario.com/industria-armamentistica/bbva-santander-asi-dinero-puede-acabar-financiando-genocidio-israel-gaza
 https://www.bbc.com/mundo/articles/cd178m5pd3ko#:~:text=La%20guerra%20estall%C3%B3%20tras%20un,tomadas%20como%20rehenes%20253%20personas.
 
-El proyecto contara con cuatro estaciones de interaccion donde estacion 0 representa el punto neutro de la interaccion y las estaciones 1,2 y 3 que representaran las marcas asociadas al conflicto, implememntaremos sensores de proximidad que capten cuando las personas se acerque a la estacion delimitada, donde se afirmara el consmo de x marca por el usuario.
+El proyecto contara con cuatro estaciones de interaccion donde estacion 0 representa el punto neutro de la interaccion y las estaciones 1,2 y 3 que representaran las marcas asociadas al conflicto, implementaremos sensores de proximidad que capten cuando las personas se acerque a la estacion delimitada, donde se afirmara el consumo de x marca por el usuario.
 
-En lo audiovisual se utilizaran diversos datos en relacion al conflicto belico en palestina (Datos como: personas fallecidas,nuemero de masacres, invaciones territoriales, fechas relevantes) hay que conciderar que esto esta pasando desde 1971.
+En lo audiovisual se utilizaran diversos datos en relacion al conflicto belico en palestina (Datos como: personas fallecidas, numero de masacres, invaciones territoriales, fechas relevantes) hay que conciderar que esto esta pasando desde 1971.
 
 https://merida.anahuac.mx/noticias/conflicto-entre-israel-y-palestina#:~:text=El%20conflicto%20entre%20Israel%20y%20Palestina%20se%20remonta%20a%201917,formaba%20parte%20del%20Imperio%20Otomano).
 
