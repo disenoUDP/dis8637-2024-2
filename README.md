@@ -45,9 +45,9 @@ equipo docente:
 | [clase-06](clases/clase-06/) | 2024-09-24 martes       | TODO                                         |
 | [clase-07](clases/clase-07/) | 2024-10-01 martes       | clase sobre interacción inalámbrica          |
 | [clase-08](clases/clase-08/) | 2024-10-08 martes       | salida a terreno - lucid dreams              |
-| [clase-09](clases/clase-09/) | 2024-10-15 martes       | salida a terreno tentativa                   |
-| [clase-10](clases/clase-10/) | 2024-10-22 martes       | semana solemnes 2 - no hay evaluación taller |
-| [clase-11](clases/clase-11/) | 2024-10-29 martes       | producción                                   |
+| [clase-09](clases/clase-09/) | 2024-10-15 martes       | planificación y conceptualización de pre-examen                 |
+| [clase-10](clases/clase-10/) | 2024-10-22 martes       | salida a terreno tentativa  semana solemnes 2 - no hay evaluación taller |
+| [clase-11](clases/clase-11/) | 2024-10-29 martes       | evaluación proyecto 2                                   |
 | [clase-12](clases/clase-12/) | 2024-11-05 martes       | producción                                   |
 | [clase-13](clases/clase-13/) | 2024-11-12 martes       | producción                                   |
 | [clase-14](clases/clase-14/) | 2024-11-19 martes       | producción                                   |
