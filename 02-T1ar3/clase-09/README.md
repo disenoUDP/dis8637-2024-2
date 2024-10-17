@@ -1,13 +1,13 @@
 
 # Clase-09: Preparación para Examen
-_ Durante la salida de terreno, fue fascinante sumergirnos en diferentes entornos gracia a los visor. En particular, la experiencia en los juegos resultó emocionante. Sin embargo, estar físicamente en un lugar mientras visualmente te encuentras en otro dificulta confiar en tu entorno. En cuanto al uso de los implementos, fue menos complicado de lo que esperaba; los pasos a seguir fueron pocos y claros. Inicialmente pensé que habría muchos dispositivos involucrados, pero me sorprendió lo reducido y eficiente que resultó todo. Es admirable el esfuerzo invertido en simplificar la experiencia para hacerla más cómoda, logrando que solo se requieran los elementos esenciales: visión y sonido.
+_ Durante la salida de terreno, fue fascinante sumergirnos en diferentes entornos gracia lo visor VR . En particular, la experiencia en los juegos resultó emocionante. Sin embargo, estar físicamente en un lugar mientras visualmente te encuentras en otro dificulta confiar en tu entorno. En cuanto al uso de los implementos, fue menos complicado de lo que esperaba; los pasos a seguir fueron pocos y claros. Inicialmente pensé que habría muchos dispositivos involucrados, pero me sorprendió lo reducido y eficiente que resultó todo. Es admirable el esfuerzo invertido en simplificar la experiencia para hacerla más cómoda, logrando que solo se requieran los elementos esenciales: visión y sonido.
 
 ![texto](./experiencia1.jpg)
 ![texto](./experiencia2.jpg)
 
 ## Descripción.
 
-En esta sesión trabajaremos en dos documentos clave para el examen
+En esta sesión trabajaremos en dos documentos clave para el examen 
 
 - **Calendario de Actividades**: Un cronograma detallado con fechas y pasos importantes para el desarrollo de los proyectos.
 - **Bill of Materials (16n Faderbank)**: Lista detallada de los componentes necesarios para el proyecto del *faderbank*.
@@ -43,7 +43,7 @@ Nuestra documentación debe ser esquemática, clara y enfocarse en la estructura
 ###
 propuesta de nuestro grupo es:
 ideas:
--**candidatos falsos 
--**sistema de toboganes 
--**De vez en cuando, el sistema podría generar un evento sorpresa donde una canica cambia de dirección en el último momento, o  rampas  invisibles que se activan al azar, desviando la canica de su trayecto normal creando una experiencia de juego. 
-**
+**candidatos falsos 
+**sistema de toboganes 
+*De vez en cuando, el sistema podría generar un evento sorpresa donde una canica cambia de dirección en el último momento, o  rampas  invisibles que se activan al azar, desviando la canica de su trayecto normal creando una experiencia de juego. 
+
