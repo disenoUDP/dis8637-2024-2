@@ -5,7 +5,7 @@ _ Durante la salida de terreno, fue fascinante sumergirnos en diferentes entorno
 ![texto](./experiencia1.jpg)
 ![texto](./experiencia2.jpg)
 
-## Descripción
+## Descripción.
 
 En esta sesión trabajaremos en dos documentos clave para el examen
 
