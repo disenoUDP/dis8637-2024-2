@@ -63,3 +63,8 @@ La idea es tomar el montaje del documental como referente audiovisual para mostr
 - Bill of materials (BOM)
 - Docuentación con representación esquematica de cada componente
  
+Las marcas que utilizaremos serán Coca cola, Starbucks y McDonalds.  ya que estas se encuentran especificamente en nuestro entorno universitario de manera diaria y cotidiana.
+
+Investigar las licencias de los programas.
+
+ver dumb starbucks
