@@ -12,10 +12,11 @@ Consideraremos las instituciones propuestas por la BDS, organización que lucha 
 
 información:
 
-https://bdsmovement.net/es/news/act%C3%BAa-ya-contra-estas-empresas-que-se-benefician-del-genocidio-del-pueblo-palestino
-https://es.ara.cat/economia/alimentacion/boicot-marcas-occidentales-guerra-gaza-nota_1_5108522.html
-https://www.elsaltodiario.com/industria-armamentistica/bbva-santander-asi-dinero-puede-acabar-financiando-genocidio-israel-gaza
-https://www.bbc.com/mundo/articles/cd178m5pd3ko#:~:text=La%20guerra%20estall%C3%B3%20tras%20un,tomadas%20como%20rehenes%20253%20personas.
+- https://bdsmovement.net/es/news/act%C3%BAa-ya-contra-estas-empresas-que-se-benefician-del-genocidio-del-pueblo-palestino
+- https://es.ara.cat/economia/alimentacion/boicot-marcas-occidentales-guerra-gaza-nota_1_5108522.html
+- https://www.elsaltodiario.com/industria-armamentistica/bbva-santander-asi-dinero-puede-acabar-financiando-genocidio-israel-gaza
+- https://www.bbc.com/mundo/articles/cd178m5pd3ko#:~:text=La%20guerra%20estall%C3%B3%20tras%20un,tomadas%20como%20rehenes%20253%20personas.
+
 Implementar al menos 4 áreas de interacción que representen a las marcas involucradas más utilizadas en nuestro pais, en las cuales se implementarán sensores de proximidad, que logren captar cuando una persona de un paso en el area delimitada, este paso afirma el consumo de las marcas por parte usuario.
 
 ![IMG_3119](https://github.com/user-attachments/assets/1445ffab-daa6-4ba9-9602-62420e7ee6a0)
@@ -35,7 +36,9 @@ La Hora de los Hornos (1968): Neocolonialismo y Violencia - "Subdesarrollo":
 
 La idea es tomar el montaje del documental como referente audiovisual para mostrar el lado "bonito" de las marcas y luego contrastarlo con la cruda realidad que está ocurriendo el Palestina junto a frases cortas de datos.
 
+## Referentes de protestas a nivel nacional y cuestionamientos
 
+En la marcha simbólicamente se retratan mucho la muerte de los niños, tmb pasó que dispararon al cielo con fuegos artificiales y uno piensa: este ruido lo escuchan peor todos los días.
 
 ## Mapa de Flujo
 
