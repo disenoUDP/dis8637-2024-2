@@ -75,3 +75,4 @@ Al finalizar se podría mostrar datos de alguna fundación que ayude a personas 
 # CLASE 09
 
 Páginas útiles: 16n federbank - octopart
+Pensar de manera mas clara el objetivo, componentes y acciones del proyecto
