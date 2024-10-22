@@ -24,7 +24,7 @@ Puede haber máximo 1 canica recorriendo el circuito a la vez
 
 
 
-Feedback: Que se amas potente el cuestionamiento que se hace el votante. Refrente magia de corta ditancias, juegos de color de "rojo" escrito en azul, etc.
+Feedback: Que sea más potente el cuestionamiento que se hace el votante. Refrente: magia de corta ditancias; juegos de: color de "rojo" escrito en azul, etc.
 
 # Cambio proyecto 2.0
 Queremos que, con ayuda de una interfaz de usuario planificada, sea muy dificil votar por la opción que quieres, y que la misma interfaz te incite a votar por cierto candidato.
@@ -59,3 +59,4 @@ Referentes:
 
 -https://www.youtube.com/watch?v=gXy-LazGf8Y
 
+c
