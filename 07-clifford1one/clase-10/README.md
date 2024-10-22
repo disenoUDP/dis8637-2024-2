@@ -2,7 +2,7 @@
 
 ¿Qué quiero lograr?
 
-Quiero lograr que la gente se cuestione su visión sobre el sistema de votación.
+Quiero lograr que los visitantes de diseño abierto se cuestionen su visión sobre el sistema de votación.(Queremos que tengan una visión crítica del sistema de sufragio)
 
 ¿Qué hago?
 
