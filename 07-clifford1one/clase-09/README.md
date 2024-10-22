@@ -49,7 +49,7 @@ Diseñar y construir una experiencia interactiva basa en sistema de captura y fe
 
 Queremos que nuestro proyecto tenga que ver con decisiones de moral y ética, los cuales pondrán a los usuarios en un estado de "jaque". Inicialmente seleccionamos el dilema del tranvía como referente conceptual
 
-image
+![image](https://github.com/user-attachments/assets/955eff68-32f2-4883-9fa9-c04e49220fef)
 
 Como dilema moral:
 
@@ -57,7 +57,8 @@ https://www.youtube.com/watch?v=_GjFPBpNh3s
 
 luego de esto pudimos encontrar otras referencias que se asimilaban a nuestro objetivo de proyecto final:
 
-image
+![image](https://github.com/user-attachments/assets/6b147c1b-a147-4626-9c6f-5c873c8236c4)
+
 
 Para sustentar nuestro módulo de votación, seleccionamos diferentes tópicos para experimentar con usuarios
 Violencia policial
@@ -109,8 +110,11 @@ Este proyecto busca analizar cómo el voto desinformado afecta la democracia en 
 
 Para llevar a cabo nuestro módulo expositivo nos basaremos en los siguientes referentes morfológicos
 
-image
+![image](https://github.com/user-attachments/assets/5fbce1f2-b798-43cc-af48-05bdbb8936fd)
 
-image
 
-image
+![image](https://github.com/user-attachments/assets/b75b37de-e4e8-410c-b85f-695c78f6ad12)
+
+
+![image](https://github.com/user-attachments/assets/567ad6e9-f401-4092-8bed-10f6374c810e)
+
