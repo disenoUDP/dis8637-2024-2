@@ -59,4 +59,7 @@ Referentes:
 
 -https://www.youtube.com/watch?v=gXy-LazGf8Y
 
-c
+
+Próximo martes: Presentar el proyecto. 
+
+-Referentes, documentación, inicio de hoja de ruta
