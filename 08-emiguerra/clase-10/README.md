@@ -88,6 +88,8 @@ Para llevar a cabo nuestro módulo expositivo nos basaremos en los siguientes re
 
 ![image](https://github.com/user-attachments/assets/82fc4bab-33d4-4961-99eb-b5b929e9fa71)
 
+### diagrama de flujo
 
+<img width="810" alt="Screenshot 2024-10-22 at 3 58 00 PM" src="https://github.com/user-attachments/assets/2a05de33-d39b-479f-95f4-176f76df558e">
 
   
