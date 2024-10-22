@@ -27,3 +27,14 @@ https://github.com/user-attachments/assets/357fc680-b399-4136-aadb-057fdda5ffae
 en el chaleco pensamos en un simulador de "dolores menstruales" que se ha hecho bastante "viral" aquí un [ejemplo](https://youtu.be/noxclfeoxtM?si=08v8BhXhYdbF32gS&t=93) que, a través de parches conectados a energía, provocan dolor según el nivel de la máquina.
 
 ![image](https://github.com/user-attachments/assets/fc00d5d4-097c-49c3-b2fc-a27b620a6e51)
+
+
+## clase 09_15 de octubre
+
+- __bom__: lista de materiales o estructura de productos
+- para cada componente de nuestro proyecto definir que es y donde encontrarlo
+
+#### referentes
+
+- matias serrano, artista
+
