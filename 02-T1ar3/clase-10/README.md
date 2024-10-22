@@ -81,3 +81,27 @@ prejuicios de imagenes (descripcion del candidato )
 Este proyecto busca analizar cómo el voto desinformado afecta la democracia en América Latina. Permitiendo que candidatos se beneficien  la falta de información objetiva entre los votantes. A través de una metáfora de los problemas que presenta, y que permite el sistema de votación en Chile. El objetivo del proyecto es transparentar éstos problemas de manera lúdica y simple.
 
 Para llevar a cabo nuestro módulo expositivo nos basaremos en los siguientes referentes morfológicos
+
+veremos lo que debemos entregar la proxima semana es la planificacion.
+que estamos haciendo 
+como funciona , como lo hago ,
+cuales son los limites fisicos y conseptuales 
+separar con lo que podemos manejar con el resultado 
+no lo veamos por la tecnologia del objeto , si no a la mirar global de que todo lo que debemo hacer (objetivo, del flujo ,listado de materiales.
+ hipotesis de nuestro proyecto se cuestionen la 
+ donde nos dice la creabilidad ,no es solo el mecanismo de la votacion.
+ ##correcciones : 
+ Mas dificil  sea la forma de votar (talvez multiples toboganes)
+ magia de corta de distancia te distrage con lo que tengo 
+ cuestionar que si yo vote por eso 
+ la bolita de muy pasivo fuera mas confuso es mejor recomendado 
+ sociaciones dele cerebro , un color con una palabra mas con la interface 
+ que el usuario haga mas en el proceso , y que el proyecto como  acumulamos votos y que no se quede sin realizar algo
+ nombres parecidos para que se confunda 
+
+
+grupo de morgan ,para sentir dolor una arnes : buscar bien la justificacion de porque electrocutarno(pude ser mas ludico)
+grupo de paula refleciones sobre el impacto de el medio ambiente 
+responde en una ia: puede ser una llamada de atencion , una forma incomoda o obligar a la personas de llenar agua en una jarra 
+###importante como sera el montaje
+grupo de catalina un espacio seguro de desahogo: el estres de la comunidad, dar conciencia 
