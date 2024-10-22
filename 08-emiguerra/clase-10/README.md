@@ -92,4 +92,8 @@ Para llevar a cabo nuestro módulo expositivo nos basaremos en los siguientes re
 
 <img width="810" alt="Screenshot 2024-10-22 at 3 58 00 PM" src="https://github.com/user-attachments/assets/2a05de33-d39b-479f-95f4-176f76df558e">
 
-  
+
+hacer feedback
+- hacer que el usuario se confunda, trucar el cerebro del usuario, que hago como lo hago
+- que el usuario haga mas cosas
+- nombres similares entre candidatos
