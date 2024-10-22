@@ -4,7 +4,8 @@ Bibliografía:
 
 1. https://lauren-mccarthy.com -> https://lauren-mccarthy.com/Saliva
 
-#Preguntas pa responder sobre nuestro proyecto
+# Preguntas pa responder sobre nuestro proyecto
+
 ¿Qué quiero lograr?
 
 Quiero lograr que los visitantes de diseño abierto se cuestionen su visión sobre el sistema de votación.(Queremos que tengan una visión crítica del sistema de sufragio)
