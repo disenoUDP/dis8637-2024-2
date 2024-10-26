@@ -12,6 +12,10 @@ qué hago: La experiencia tiene una pantalla que va actualizando el monto de din
 
 cómo lo hago: mediante una encuesta que recopile datos acerca de los gastos economicos y desechos producidos por diseño abierto
 
+## update de nuestro proyecto
+
+Ahora nuestra intencion es que la gente tome consiencia sobre el gran consumo y desecho de materiales y de toda la plata que se gasta haciendo los trabajos de diseño abierto. 
+
 ### qué hacer para la próxima clase
 
 1. mejorar el discurso
