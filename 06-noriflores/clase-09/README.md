@@ -1,23 +1,15 @@
 # clase-09
 
-### fecha: 22 de octubre
+## fecha: 15 de Octubre
 
-## visita al centro cultural de España
+no fui 
 
-Fuimos al CCE, un espacio abierto para todxs de forma gratuita, muy lindo. Fuimos a ver una exposición que relacionaba obras visuales y auditivas por medio de la interactividad con el sensor de proximidad del arduino. Muuy muy bacan, me gustó mucho. Las conexiones que se lograban entre ambas obras era increible y que aumentase el sonido con la distancia que tuvieses con el sensor lo hacía aún mejor. Rescato las sensasiones que te producía ser participe de esta obra, creo que lo más difícil de hacer un proyecto con el que la gente va a interactuar es pensar como reaccionarán y que les va a producir la interacción con la obra (la experiencia de usuario) porque al final es muy subjetivo y para todxs son experiencias distintas. También la forma en la que usaron el sensor de una manera tan "simple" y delicada pero que encajaba todo perfectamente. 
+![pipipi](./pipipi.jpg "pipipi")
 
-## apuntes
 
-qué quiero lograr: que los estudiantes que participen en diseño abierto tomen conciencia y se impacten con la cantidad de dinero que gastan y todo el material que compran y desechan para diseño abierto
+bueno pero lo que me contaron que hicieron mi ekipo fue presentar nuestra idea para el proyecto de diseño abierto. Cómo aspectos a mejorar: nuestro discurso. Cómo es una idea que estaba muy en nuestra cabeza y que aún no teníamos muy claro como hacerlo nos enredamos un poquito, pero de a poco vamos mejorando eso.
 
-qué hago: La experiencia tiene una pantalla que va actualizando el monto de dinero que se ha gastado entre las personas que respondan la encuesta, durante su proyecto de diseño abierto
+## nuestro proyecto
 
-cómo lo hago: mediante una encuesta que recopile datos acerca de los gastos economicos y desechos producidos por diseño abierto
+Partimos con la idea de querer crear consciencia sobre como nuestros hábitos influyen al medio aambiente. Así que con eso decidimos investigar sobre la huella de carbono. Queríamos hacer una encuesta con preguntas que no sean tan explícitas, para que el usuario no sepa que esperarse y cambie sus respuestas. Al finalizar la encuesta mostraríamos los resultados en un espacio en realidad virtual, donde el usuario pudiese ver el gran impacto que tienen sus hábitos a largo plazo, y además mostrarle un espacio hecho con la recopilación de todas las respuestas.
 
-### qué hacer para la próxima clase
-
-1. mejorar el discurso
-2. ver bien como hacer la experiencia de usuario
-3. ver como incluir el arduino
-
-   yyyy no se que más, vamo ekipo 
