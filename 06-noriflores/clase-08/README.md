@@ -1,14 +1,11 @@
 # clase-08
 
-## fecha: 15 de Octubre
+## fecha: 8 de Octubre
 
-no fui 
+## visita Lucid Dreams
 
-![pipipi](./pipipi.jpg "pipipi")
+Fuimos a visitar una tienda en el Parque Arauco, donde tenían juegos con realidad virtual, uno que se jugaba en parejas y era de disparar. A este jugué sin lentes porque pensé que no se podía así que se vió un poco raro, pero mi ekipo ganó. Después jugué uno de carreritas, a este si con lentes. Estaba muy bacan porque además se movían los asientos junto con el auto en la pantalla, entonces si chocabas se movía todo. Y al final uno que era como de "exploración" donde además de los lentes vr te ponían unos sensores en los tobillos y en las muñecas, para que así pudieses ver tus manos y pies. Era sobre subir un cerro y escalar, la idea de este era darte vertigo porque se veía muy alto, daba julepe un poco. 
 
+En general estuvo muy bacan, nunca había usado vr. Los que estaban a cargo y trabajando en el lugar fueron muy amables y nos explicaron muy bien como funcionaba todo.
 
-bueno pero lo que me contaron que hicieron mi ekipo fue presentar nuestra idea para el proyecto de diseño abierto. Cómo aspectos a mejorar: nuestro discurso. Cómo es una idea que estaba muy en nuestra cabeza y que aún no teníamos muy claro como hacerlo nos enredamos un poquito, pero de a poco vamos mejorando eso.
-
-## nuestro proyecto
-
-Partimos con la idea de querer crear consciencia sobre como nuestros hábitos influyen al medio aambiente. Así que con eso decidimos investigar sobre la huella de carbono. Queríamos hacer una encuesta con preguntas que no sean tan explícitas, para que el usuario no sepa que esperarse y cambie sus respuestas. Al finalizar la encuesta mostraríamos los resultados en un espacio en realidad virtual, donde el usuario pudiese ver el gran impacto que tienen sus hábitos a largo plazo, y además mostrarle un espacio hecho con la recopilación de todas las respuestas.
+Esto nos sirvió como ekipo para ver a donde llevar nuestro proyecto de diseño abierto, y quizás incoporar el vr para poder hacer al usuario aún más participe.
