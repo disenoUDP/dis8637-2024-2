@@ -106,8 +106,8 @@ La hipótesis principal de nuestro proyecto es que, cuanto más difícil y cuest
 
 ## Correcciones de nuestro grupo
 
-- **Dificultad en el voto:** Cuanto más complicado sea el proceso (como el uso de múltiples toboganes), más reflexiva será la experiencia.
-- **Distracción:** La magia de acortar distancias o distraer al usuario con otros elementos puede generar confusión o evitar que se cuestionen sus decisiones.
+- **Dificultad en el voto:** Cuanto más complicado sea el proceso , más reflexiva será la experiencia.
+- **Distracción:** distraer al usuario con otros elementos puede generar confusión o evitar que se cuestionen sus decisiones.
 - **Participación activa:** El usuario debe hacer más en el proceso, para que el acto de votar no sea pasivo.
 - **Interfaz y asociaciones:** La interfaz debe asociar colores, palabras o acciones con la votación para fomentar una mayor interacción cognitiva.
 - **Acumulación de votos:** El sistema debe asegurar que los votos no se pierdan y que se dé un seguimiento claro de lo acumulado.
