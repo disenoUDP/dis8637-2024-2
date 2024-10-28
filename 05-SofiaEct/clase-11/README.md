@@ -28,4 +28,13 @@ __¿Por qué? (Objetivos y justificación del proyecto)__
 
 ## REFERENTES
 
-https://youtu.be/djU7rduvo6s?si=njpzflTRPxmsTaH2&t=29
+  Jubille: referente de esperiencia, respuesta y conversacion entre pares
+- [Do All Suicide Survivors Think The Same? | Spectrum](https://youtu.be/djU7rduvo6s?si=njpzflTRPxmsTaH2&t=29)
+  Aaron Koblin - "Flight patterns": referente para visualizacion de datos
+- ![image](https://github.com/user-attachments/assets/8b4e0c48-3582-4e37-96ce-2ddb8f4f1c7d)
+
+## Experiencia de usuario
+
+- 
+  
+
