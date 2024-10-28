@@ -74,6 +74,7 @@ __Lista de componentes (BOM - Bill of Materials)__
 - parlante
 
 __Especificaciones tecnicas de los componentes__
+
 __cables dupont:__
 
  - Material: Cobre / Plástico ABS.
