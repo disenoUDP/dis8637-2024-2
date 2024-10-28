@@ -63,3 +63,9 @@ Referentes:
 Próximo martes: Presentar el proyecto. 
 
 -Referentes, documentación, inicio de hoja de ruta
+
+
+
+
+Referencias PT 2
+goulartnogueira.github.io -> Que un candidato tenga un apellido super largo
