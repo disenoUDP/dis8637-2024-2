@@ -75,6 +75,7 @@ __Lista de componentes (BOM - Bill of Materials)__
 
 __Especificaciones tecnicas de los componentes__
 __cables dupont:__
+
  - Material: Cobre / Plástico ABS.
  - Longitud: 10 centímetros.Cantidad: 40 Piezas por paquete.
  - Colores variados en el arnés.
@@ -82,7 +83,9 @@ __cables dupont:__
  - Espaciado estándar 0.1″ (10 milésimas de pulgada) entre conexiones)
  - Cable flexible.
  - Calibre 26 AWG.
+   
 __computador con web cam (asus zenbook 14 $10.000.000):__
+
  - PANTALLA	LED de 14 pulgadas NanoEdge FullHD (1.080 x 1.920 px)
  - PROCESADOR	Intel Core i7-1165G7
  - Intel Core i5-1135G7
@@ -95,8 +98,10 @@ __computador con web cam (asus zenbook 14 $10.000.000):__
  - CONECTIVIDAD	2 x Thunderbolt 4 USB-C, 1 x USB 3.2 Gen 1 de tipo A, 1 x HDMI 2.0 y 1 x micro-SD
  - CONECTIVIDAD INALÁMBRICA	Wi-Fi 6 y Bluetooth 5.0
  - AUTONOMÍA	67 Wh, polímeros de litio, hasta 21 h de autonomía
- - DIMENSIONES Y PESO	319 x 208 x 13,9 mm 1,13 kg 
+ - DIMENSIONES Y PESO	319 x 208 x 13,9 mm 1,13 kg
+   
 __masking tape (para marcar suelo quizas)__
+
  - Color: Crema
  - Adhesivo: Caucho.
  - Espesor: 130 micras ± 10 micras.
@@ -105,7 +110,9 @@ __masking tape (para marcar suelo quizas)__
  - Resistencia a la tracción: 60 N/in.
  - Máxima resistencia x 30 min: 60ºC.
  - Elongación: 6% - 12%
+   
 __arduino r4 wifi__
+
  -Tabla
   - Nombre	Arduino® UNO R4 WiFi
   - SKU	ABX00087
@@ -136,7 +143,8 @@ __arduino r4 wifi__
  - Dimensiones
   -  Ancho	68,85 mm
  - Largo
-  - 53,34 mm 
+  - 53,34 mm
+    
 __Diagrama del sistema__
 
   
