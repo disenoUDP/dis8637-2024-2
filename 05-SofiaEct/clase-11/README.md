@@ -36,6 +36,31 @@ __¿Por qué? (Objetivos y justificación del proyecto)__
 
 ## Experiencia de usuario
 
-- 
+__Punto de inicio de la experiencia__
+- se solicitará un foro de 4 personas que se posicionan frente a las cuatro camaras para iniciar la experiencia
+
+__Punto final de la experiencia__
+- se muestran los datos de todos los participantes en la pantalla segun la respuesta  sera el color  representado en la grafica, llendo de amarillo que es leve hasta rojo que es grave
+
+__Touchpoints clave__
+- la visualizacion final de datos
+
+## BOCETOS, WIREFRAMES Y PROTOTIPOS
+
+## ASPECTOS PHYGICAL
+
+__Elementos fisicos__
+- camara
+- parlantes
+- pantalla
+
+__Elementos digitales involucrados__
+- arduino
+- processing
+- p5.js
+- figma (wireframes)
+
+__Integracion entre lo fisico y digital__
+- la visualizacioin de datos en base a la posiciones de los usuarios
   
 
