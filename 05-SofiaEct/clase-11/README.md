@@ -70,7 +70,6 @@ __Lista de componentes (BOM - Bill of Materials)__
 - computador con web cam (asus zenbook 14 $10.000.000)
 - masking tape (para marcar suelo quizas)
 - arduino r4 wifi
-- wifi
 
 __Especificaciones tecnicas de los componentes__
 
