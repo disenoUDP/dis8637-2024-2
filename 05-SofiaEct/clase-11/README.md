@@ -114,7 +114,7 @@ __masking tape (para marcar suelo quizas)__
    
 __arduino r4 wifi__
 
- -Tabla
+ - Tabla
   - Nombre	Arduino® UNO R4 WiFi
   - SKU	ABX00087
  - Microcontrolador
