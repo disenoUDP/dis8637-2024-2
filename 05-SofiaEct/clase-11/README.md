@@ -71,7 +71,6 @@ __Lista de componentes (BOM - Bill of Materials)__
 - masking tape (para marcar suelo quizas)
 - arduino r4 wifi
 - wifi
-- parlante
 
 __Especificaciones tecnicas de los componentes__
 
