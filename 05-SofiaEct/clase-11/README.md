@@ -4,7 +4,7 @@
 
 proyecto con @Mosswhosmoss y @valechavezalb
 
-## 01_PREGUNTAS FUNDAMENTALES
+## 01 - PREGUNTAS FUNDAMENTALES
 
 __¿Qué? (Descripción del proyecto)__
 - proyecto de recopilacion y visualizacion de datos sobre la salud mentalen los estudiantes y docentes de la udp
@@ -28,25 +28,23 @@ __¿Cómo? (Metodología y herramientas)__
 __¿Por qué? (Objetivos y justificación del proyecto)__
 - Según UNICEF “la salud mental es un estado de bienestar mental que permite a las personas hacer frente a los momentos de estrés de la vida, desarrollar todas sus habilidades, poder aprender y trabajar adecuadamente y contribuir a la mejora de su comunidad.” Nosotros como grupo queremos generar un momento de conversación libre de prejuicios y estigma para ver si como facultad se logra ese estado; según el paper “Understanding and Addressing Mental Health Stigma Across Cultures for Improving Psychiatric Care: A Narrative Review” habla de cómo estas instancias de conversación en un espacio seguro, pueden influir en un individuo a recibir la ayuda que necesita.
 
-## 1.1_REFERENTES
+## 1.1 - REFERENTES
 
-  Jubille: referente de esperiencia, respuesta y conversacion entre pares
+  Jubille: referente de experiencia y comunicacion con el cuerpo
 - [Do All Suicide Survivors Think The Same? | Spectrum](https://youtu.be/djU7rduvo6s?si=njpzflTRPxmsTaH2&t=29)
 - ![image](https://github.com/user-attachments/assets/769b8421-a660-4a88-98eb-f136a2176917)
 - ![image](https://github.com/user-attachments/assets/84bd8dee-2910-4e30-8758-2f770fcc817d)
 
-
-
-  Aaron Koblin - "Flight patterns": referente para visualizacion de datos
+  Aaron Koblin - "Flight patterns": referente para visualizacion de datos y un decaedro de competencias
 - ![Flight patterns](https://github.com/user-attachments/assets/8b4e0c48-3582-4e37-96ce-2ddb8f4f1c7d)
-  
-  The coding train - ml5.js: Pose Classification with PoseNet and ml5.neuralNetwork()
+- ![Decaedro de competencias](https://github.com/user-attachments/assets/8b82ddfd-ab0b-4e25-bc5a-4f90e4920463)
+
+  The coding train - ml5.js: Pose Classification with PoseNet and ml5.neuralNetwork(): referente para codigo de reconocimiento de gestos
 - [ml5.js: Pose Classification with PoseNet and ml5.neuralNetwork()](https://youtu.be/FYgYyq-xqAw?si=LONKUtLMa7sUuCbb)
   
 - ![image](https://github.com/user-attachments/assets/a04bc344-a9b2-499d-a678-682e25f56ee9)
-
-
-## 02_EXPERIENCIA DE USUARIO
+  
+## 02 - EXPERIENCIA DE USUARIO
 
 __Punto de inicio de la experiencia__
 - se solicitará un foro de 4 personas que se posicionan frente a las cuatro camaras para iniciar la experiencia
@@ -73,7 +71,7 @@ __Elementos digitales involucrados__
 __Integracion entre lo fisico y digital__
 - la visualizacioin de datos en base a la posiciones de los usuarios
 
-## 04_COMPONENTES
+## 04 - COMPONENTES
 
 __Lista de componentes (BOM - Bill of Materials)__
 - cables dupont
@@ -157,7 +155,7 @@ __arduino r4 wifi__
 __Diagrama del sistema__
 
   
-## 05_DISEÑO DE INTERACCION
+## 05 - DISEÑO DE INTERACCION
 
 __Wireframes y prototipos__
 - ![BOCETO_01](https://github.com/user-attachments/assets/6f963e4a-3213-474b-8c51-3108a4bc6ba4)
@@ -168,6 +166,6 @@ __Flujos de interaccion__
 __Feedback y respuestas de sistema__
 
 
-## 06_PLANIFICACION Y GESTION DEL PROYECTO
+## 06 - PLANIFICACION Y GESTION DEL PROYECTO
 
 gracias por su atencion :D
