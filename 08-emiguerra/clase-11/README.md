@@ -24,7 +24,7 @@ Se le presenta al usuario una lista de candidatos, pero la interfaz está diseñ
 
 ## Listado de candidatos:
  se divide en:
- - altamente capacitada
+ ## altamente capacitada
  1. Sofía Guzmán (La Mejor Opción)
 
 Edad: 38 años
@@ -39,7 +39,7 @@ Profesión: Economista con maestría en Desarrollo Sustentable.
 
 Biografía: Sofía ha liderado programas innovadores de economía verde, logrando disminuir la huella de carbono en varias ciudades y fomentar la inclusión laboral en sectores desfavorecidos. Fue reconocida por la ONU por su enfoque sostenible en políticas locales. Sus logros incluyen el desarrollo de un sistema de reciclaje urbano y una red de apoyo para emprendedores verdes.
 
- - medianamente capacitada
+## medianamente capacitada
 
  2. Fernando Morales (Opción Intermedia)
 
@@ -54,7 +54,8 @@ Preferencia política: Liberal moderado.
 Profesión: Profesor de Historia en una universidad local.
 
 Biografía: Fernando ha trabajado durante años en educación y ha publicado varios libros sobre historia nacional. Aunque sin experiencia en el sector público, es conocido en la comunidad educativa por organizar charlas de historia para jóvenes. Uno de sus logros más destacados es haber sido galardonado por su trabajo de investigación histórica.
- - bajamente capacitado
+ 
+## bajamente capacitado
 
  3. Carla Espinoza (Opción Intermedia)
 
@@ -69,7 +70,8 @@ Preferencia política: Conservadora moderada.
 Profesión: Administradora de empresas y dueña de un restaurante.
 
 Biografía: Carla es una empresaria dedicada que ha fundado un restaurante con enfoque local. Aunque no tiene experiencia en política, es popular por sus proyectos de capacitación a emprendedores locales. Su mayor logro ha sido lograr un acuerdo con agricultores locales para abastecer su restaurante, contribuyendo al comercio justo en la región.
- - no capacitado
+
+## no capacitado
 
  Ricardo Soto (El Menos Apto)
 
