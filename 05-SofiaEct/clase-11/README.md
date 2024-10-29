@@ -160,6 +160,4 @@ __Feedback y respuestas de sistema__
 
 ## 06_PLANIFICACION Y GESTION DEL PROYECTO
 
-## 07_DOCUMENTACION
-
-
+gracias por su atencion :D
