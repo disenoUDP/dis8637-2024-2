@@ -13,13 +13,15 @@ A través de una recopilación de datos interactiva basada en un sistema de vota
 Al iniciar la interacción, se mostrará una pantalla con la Gráfica de Ikeda, que no solo captará la atención del usuario, sino que ofrecerá una representación simbólica de los efectos del estrés en el cerebro humano. La gráfica se utilizará para ilustrar cómo el estrés académico, la ansiedad y la tensión afectan a los estudiantes, resaltando visualmente el peso de estas presiones. 
 
 ![](ikeda.png)
+
+![](ikeda2.png)
  
 Por qué ocupar la gráfica de ikeda 
-
-Uso de datos para crear experiencias inmersivas
-El público se convierte parte de la obra
-Estética minimalista - visualización de datos como arte
-Busca hacer una excavación profunda en la creación de sonidos mediante algoritmos. 
+- Uso de datos para crear experiencias inmersivas.
+- El público se convierte parte de la obra.
+- Estética minimalista.
+- visualización de datos como arte.
+- Busca hacer una excavación profunda en la creación de sonidos mediante algoritmos. 
 
 Su gráfica hace uso de datos en tiempo real, la utilización de su gráfica nos ayudará a llamar la atención de una manera más innovadora y que las personas hagan consciencia de su estrés de una manera distinta.
 
@@ -28,11 +30,11 @@ Luego se mostrará en pantalla un saludo y una breve introducción para contextu
 # GRAFICA BIENVENNIDA 
 ![](etapa1.png)
 
-Para luego seguir con las preguntas de este cuestionario que están diseñadas para reflejar distintas dimensiones del estrés académico, tales como:
+Para luego seguir con las preguntas de este cuestionario que están diseñadas para reflejar distintas dimensiones del estrés que provoca la carga académica, tales como:
 - Dificultad para gestionar el tiempo.
 - Conflictos entre los estudios y la vida personal.
 - Presión por alcanzar metas y expectativas personales.
-- Falta de empatía de los académicos respecto a la carga de trabajo.
+- Falta de empatía de los académicos respecto a la misma carga de trabajo.
   
 Las preguntas utilizadas serán 5 y se relacionan estrictamente con indicadores de estrés elevados, ya que todas estás situaciones que presentamos ayudan a establecer una conexión directa que genera el estrés académico, ya que son situaciones que genera síntomas emocionales que son parte del estrés, como ansiedad, frustración, cansancio, insomnio. procrastinación, etc.
 ejemplo concreto de preguntas: 
@@ -42,7 +44,9 @@ ejemplo concreto de preguntas:
 - ¿Has sentido alguna vez que no puedes alcanzar tus propias expectativas en los Exámenes, solemnes etc?
 - ¿Has notado que te sientes más cansado/a de lo normal después de preparar solemnes para D.A?
 
-Las preguntas se presentarán en una pantalla de forma simple y clara, y se responderán con un control que tendrá solo dos botones: “Sí” y “No”. Los estudiantes deben presionar el botón que mejor refleje su situación, permitiéndonos recopilar datos anónimos de manera directa y accesible. 
+Situaciones que genera estrés a les estudiantes por la gran carga académica.
+
+Las preguntas se presentarán en una pantalla de forma simple y clara, y se responderán con un control que tendrá solo dos botones: “Sí” y “No”. Les estudiantes deben presionar el botón que mejor refleje su situación, permitiéndonos recopilar datos anónimos de manera directa y accesible. 
 
 ![](etapa2.png)
 
@@ -54,7 +58,7 @@ Dibujo técnico de panel con dos botones de arcade tamaño jumbo
 
 Pantalla ubicada en la exposición
 
-Cada vez que un estudiante responda “Sí” a una pregunta, el nivel de estrés acumulado en la gráfica aumentará progresivamente. Si al final de las preguntas un estudiante ha respondido “Sí” a todas, el sistema enviará automáticamente una notificación a las autoridades de la carrera (director y secretaría de estudios) indicando que un estudiante ha alcanzado un nivel crítico de estrés. 
+Cada vez que un estudiante responda “Sí” a una pregunta, el nivel de estrés acumulado en la gráfica aumentará progresivamente (en la parte visual y en la parte cuantitativa). Si al final de las preguntas un estudiante ha respondido “Sí” a todas, el sistema enviará automáticamente una notificación a las autoridades de la carrera (director y secretaría de estudios) indicando que un estudiante ha alcanzado un nivel crítico de estrés. 
 
 ![](etapa3.png)
 
@@ -69,23 +73,24 @@ Para ampliar el impacto de esta iniciativa, colocaremos una segunda pantalla en 
 
 ### Reporte de resultados
 Al finalizar Diseño Abierto, se enviará un reporte a los profesores de taller, la secretaría y el director de la escuela, que incluirá los datos recopilados sobre el estrés relacionado con la carga académica. Este reporte destacará la magnitud de la problemática al término del periodo académico, proporcionando datos concretos para apoyar la implementación de posibles cambios en la gestión académica y el bienestar estudiantil.
-Queremos poder crear un en la percepción y gestión del estrés académico. Mediante la visibilización pública y la presentación de datos a las autoridades, para poder fomentar una mayor empatía y sensibilidad hacia la salud mental de les estudiantes, para que los docentes y las autoridades consideren la carga académica desde una perspectiva más humana y puedan ver el impacto que genera en la vida de les estudiantes 
+
+Queremos poder cambiar la gestión del estrés académico. Mediante la visibilización pública y la presentación de datos a las autoridades, para poder fomentar una mayor empatía y sensibilidad hacia la salud mental de les estudiantes, para que los docentes y las autoridades consideren la carga académica desde una perspectiva más humana y puedan ver el impacto que genera en la vida de les estudiantes 
 
 ## Interacción del usuario: 
-1. Acercarse al área de la pantalla y tomar el control de botones. Asegurarse de que la pantalla cambie del estado de espera al saludo inicial al momento de tomar el control.
+
+1. Acercarse al área de la pantalla. Asegurarse de que la pantalla cambie del estado de espera al saludo inicial al momento de acercarse.
   
-2. Leer la introducción de la encuesta. Mantener el control en mano mientras aparece el mensaje de bienvenida e introducción a la encuesta en la pantalla.
+2. Leer la introducción de la encuesta. 
    
-3. Responder cada pregunta de la encuesta usando los botones de “Sí” o “No”. Asegurarse de que cada respuesta se registre antes de avanzar a la siguiente pregunta. Si aparece un mensaje de error, verificar que solo uno de los botones está presionado.
+3. Responder cada pregunta de la encuesta usando los botones de “Sí” o “No” que se encuentra en el panel de botones. Asegurarse de que cada respuesta se registre antes de avanzar a la siguiente pregunta. Si aparece un mensaje de error, verificar que solo uno de los botones está presionado.
    
 4. Finalizar la encuesta. Cuando completes todas las preguntas, observa los resultados mostrados en la pantalla, incluyendo el gráfico de respuestas.
    
-5. Dejar el control en su lugar designado. Colocar el control en el sitio indicado para que el sistema se reinicie automáticamente y vuelva al estado de espera en la pantalla.
-   
-6. Verificar que el sistema vuelva al estado de espera. Confirma que, al dejar el control, la pantalla retome su imagen inicial, esperando a un nuevo usuario.
+5. El sistema volverá a su incio después de 15 segundos del termino de la interacción. Volviendo al estado de espera, esperando a un nuevo usuario
 
+   
  ### Diagrama de flujo
- ![](UX.jpg)
+ ![](UX1.jpg)
  https://miro.com/app/board/uXjVLNU6cXI=/
 
 ### Casos límite
@@ -97,7 +102,7 @@ Queremos poder crear un en la percepción y gestión del estrés académico. Med
 - Que la pantalla se ponga negra.
 - Que el usuario se equivoque en una respuesta.
 
-### Lista de componentes
+### Lista de componentes y materiales
 Arduinos:
 - Arduino Uno: Manejar entradas de botones y el sensor de proximidad
 - Arduino R4 WiFi: Controlar la comunicación con la pantalla y mostrar la encuesta y resultados.
@@ -112,15 +117,22 @@ Sensor de Proximidad:
 - Televisor: Smart TV con conexión a internet o un televisor normal con un adaptador HDMI.
 
 Botones:
-- Cantidad: 2 botones (para "Sí" y "No").
+- Cantidad: 2 botones de arcade jumbo (para "Sí" y "No").
 
- esistencias:
+Resistencias:
 - Valor: 10kΩ (dependiendo del tipo de botones y la configuración).
 
 Protoboard y Cables
 
 Fuente de Alimentación (opcional, se puede usar usb C)
 - Tipo: Fuente de 5V (puede ser USB o adaptador).
+
+Pantallas
+- dos pantallas o monitores
+
+Soporte de piso movil para pantallas: 2
+
+Plinto de mdf + panel de botones de mdf
 
 ### Interacción entre componentes
 
