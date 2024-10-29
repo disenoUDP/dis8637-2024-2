@@ -45,6 +45,13 @@ __¿Por qué? (Objetivos y justificación del proyecto)__
   
 ## 02 - EXPERIENCIA DE USUARIO
 
+__Recorrido del usuario__
+- Entra a la sala.
+- Se posiciona frente al proyecto, alza la mano con el gesto indicado en la pantalla y empezarán las instrucciones de la encuesta.
+-  Después de las instrucciones, el usuario empezará a ver las respectivas preguntas (que son siete) y deberá responder con el gesto indicado.
+- Luego de responder cada pregunta, habrá un periodo de tiempo de un minuto y medio donde, de forma aleatoria, se elegía un número de fila y la persona que se encuentre ahí debe opinar respecto a su respuesta.
+- Al finalizar la encuesta, se recopilarán las respuestas y se mostrarán en la pantalla en una visualización de datos los resultados de cada grupo que ha participado.
+  
 __Punto de inicio de la experiencia__
 - Se solicitará que 4 usuarios se posicionen frente a la webcam y que accionen el siguiente gesto ✋ para que la experiencia empiece con las instrucciones y subsiguientes.
 
@@ -77,7 +84,7 @@ __Preguntas planteada en la experiencia__
 7. ¿Te sientes igual que al principio después de la experiencia?
   - Si - Tal vez - No - No sé
     
-## 03 - ASPECTOS PHYGICAL
+## 03 - ASPECTOS PHYGITAL
 
 __Elementos fisicos__
 - Cámara.
@@ -199,6 +206,9 @@ __Calendario detallado__
 - [Cronograma: Grupo - 01 "No estas solo"](https://docs.google.com/spreadsheets/d/1gn78PgsDTkO6gHtaVM2D2_JULJietnCU3_7DKCvRut0/edit?usp=sharing)
 
 __Casos limites:__
+- Que se corte la luz.
+- Que se corte la conexión entre la encuesta y la visualización de datos.
+- Una persona con problemas motores.
 - Que no haya suficiente luz para reconocer los gestos.
 - Que el usuario no ejecute bien el gesto.
 - Que la cámara este desactivada y no pueda ver a los usuarios.
