@@ -106,3 +106,7 @@ Popurrí:
 8. https://www.reddit.com/r/badUIbattles/comments/1b4b0jz/felt_inspired/
 
 9. https://www.reddit.com/r/badUIbattles/comments/1az579g/throw_dart_at_globe_to_select_your_country/
+
+10. https://www.reddit.com/r/badUIbattles/comments/1av1w0u/binary_search_date_picker/
+
+11. https://www.reddit.com/r/badUIbattles/comments/1aofebj/using_google_earth_to_authentication/
