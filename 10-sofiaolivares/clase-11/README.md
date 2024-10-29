@@ -39,6 +39,7 @@ ejemplo concreto de preguntas:
 ¿Has sentido alguna vez que no puedes alcanzar tus propias expectativas en los Exámenes, solemnes etc?
 ¿Has notado que te sientes más cansado/a de lo normal después de preparar solemnes para D.A?
 
-Estás preguntas se relacionan estrictamente con indicadores de estrés elevados, ya que todas estás situaciones que presentamos ayudan a establecer una conexión directa que genera el estrés académico, ya que son situaciones que genera síntomas emocionales que son parte del estrés, como ansiedad, frustración, cansancio, insomnio. procrastinación, etc 
+Estás preguntas se relacionan estrictamente con indicadores de estrés elevados, ya que todas estás situaciones que presentamos ayudan a establecer una conexión directa que genera el estrés académico, ya que son situaciones que genera síntomas emocionales que son parte del estrés, como ansiedad, frustración, cansancio, insomnio. procrastinación, etc.
+
 ![](etapa2.png)
 
