@@ -53,7 +53,7 @@ Adéntrate a un basurero a ver tu trabajo caer en el y ver tus propias laminas d
 
 1. Arduino R4 Wifi
 2. Protoboard
-3. Sensores PIR HC-SR501 detector de movimiento
+3. Dos sensores PIR HC-SR501 detector de movimiento
 4. Cables
 5. Pilas
 6. Porta pilas
@@ -74,7 +74,7 @@ c) Sensor no detecta correctamente la respuesta
 
 Solución: Mostrar en pantalla un mensaje de "Intenta de nuevo" si la respuesta no se detecta en unos segundos. 
 
-d) El usuario decide abandonar la cápsula antes de completar el cuestionario:
+d) El usuario decide abandonar la cápsula antes de completar el cuestionario
 
 
 ## Preguntas encuesta
