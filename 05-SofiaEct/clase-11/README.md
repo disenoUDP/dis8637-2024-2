@@ -26,8 +26,7 @@ __¿Cómo? (Metodología y herramientas)__
 - Mediante preguntas que se relacionan a la salud mental, las personas se posicionarán en un lugar dependiendo de -sus respuestas. Con una cámara se recopilarán la posición de las personas y arrojarán datos que posteriormente se -visualizarán en una pantalla, reflejando el estado de la salud mental de alumnos y docentes de la Universidad Diego Portales.
 
 __¿Por qué? (Objetivos y justificación del proyecto)__
-
-Según UNICEF “la salud mental es un estado de bienestar mental que permite a las personas hacer frente a los momentos de estrés de la vida, desarrollar todas sus habilidades, poder aprender y trabajar adecuadamente y contribuir a la mejora de su comunidad.” Nosotros como grupo queremos generar un momento de conversación libre de prejuicios y estigma para ver si como facultad se logra ese estado; según el paper “Understanding and Addressing Mental Health Stigma Across Cultures for Improving Psychiatric Care: A Narrative Review” habla de cómo estas instancias de conversación en un espacio seguro, pueden influir en un individuo a recibir la ayuda que necesita.
+- Según UNICEF “la salud mental es un estado de bienestar mental que permite a las personas hacer frente a los momentos de estrés de la vida, desarrollar todas sus habilidades, poder aprender y trabajar adecuadamente y contribuir a la mejora de su comunidad.” Nosotros como grupo queremos generar un momento de conversación libre de prejuicios y estigma para ver si como facultad se logra ese estado; según el paper “Understanding and Addressing Mental Health Stigma Across Cultures for Improving Psychiatric Care: A Narrative Review” habla de cómo estas instancias de conversación en un espacio seguro, pueden influir en un individuo a recibir la ayuda que necesita.
 
 ## 1.1_REFERENTES
 
@@ -162,7 +161,5 @@ __Feedback y respuestas de sistema__
 ## 06_PLANIFICACION Y GESTION DEL PROYECTO
 
 ## 07_DOCUMENTACION
-
-## 08_CONSIDERACIONES ETICAS Y DE ACCESIBILIDAD
 
 
