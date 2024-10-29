@@ -25,9 +25,65 @@ Se le presenta al usuario una lista de candidatos, pero la interfaz está diseñ
 ## Listado de candidatos:
  se divide en:
  - altamente capacitada
- - medianamente capacitada 
+ 1. Sofía Guzmán (La Mejor Opción)
+
+Edad: 38 años
+
+Gustos: Literatura, senderismo, y cocina vegana.
+
+Familia: Casada con dos hijos pequeños.
+
+Preferencia política: Progresista y ecologista.
+
+Profesión: Economista con maestría en Desarrollo Sustentable.
+
+Biografía: Sofía ha liderado programas innovadores de economía verde, logrando disminuir la huella de carbono en varias ciudades y fomentar la inclusión laboral en sectores desfavorecidos. Fue reconocida por la ONU por su enfoque sostenible en políticas locales. Sus logros incluyen el desarrollo de un sistema de reciclaje urbano y una red de apoyo para emprendedores verdes.
+
+ - medianamente capacitada
+
+ 2. Fernando Morales (Opción Intermedia)
+
+Edad: 45 años
+
+Gustos: Historia, fútbol, y ciclismo.
+
+Familia: Divorciado, con una hija adolescente.
+
+Preferencia política: Liberal moderado.
+
+Profesión: Profesor de Historia en una universidad local.
+
+Biografía: Fernando ha trabajado durante años en educación y ha publicado varios libros sobre historia nacional. Aunque sin experiencia en el sector público, es conocido en la comunidad educativa por organizar charlas de historia para jóvenes. Uno de sus logros más destacados es haber sido galardonado por su trabajo de investigación histórica.
  - bajamente capacitado
+
+ 3. Carla Espinoza (Opción Intermedia)
+
+Edad: 34 años
+
+Gustos: Teatro, gastronomía y artesanía.
+
+Familia: Soltera, vive con su hermana menor.
+
+Preferencia política: Conservadora moderada.
+
+Profesión: Administradora de empresas y dueña de un restaurante.
+
+Biografía: Carla es una empresaria dedicada que ha fundado un restaurante con enfoque local. Aunque no tiene experiencia en política, es popular por sus proyectos de capacitación a emprendedores locales. Su mayor logro ha sido lograr un acuerdo con agricultores locales para abastecer su restaurante, contribuyendo al comercio justo en la región.
  - no capacitado
+
+ Ricardo Soto (El Menos Apto)
+
+Edad: 27 años
+
+Gustos: Videojuegos, música electrónica y series de ciencia ficción.
+
+Familia: Soltero, vive con su madre y su hermano menor.
+
+Preferencia política: Sin inclinación definida; tiende a cambiar sus opiniones según el contexto.
+
+Profesión: Repartidor de aplicaciones móviles y estudiante de administración de empresas (sin terminar).
+
+Biografía: Ricardo es conocido en redes sociales por sus publicaciones humorísticas y videos casuales sobre temas de actualidad. Nunca ha tenido una posición de liderazgo formal ni ha trabajado en el sector público, y su experiencia laboral se limita a empleos temporales y poco relacionados con la administración. Su mayor logro es haber organizado un torneo de videojuegos en su barrio, pero sus habilidades no lo califican para un puesto político, y su falta de claridad ideológica confunde a muchos votantes.
 
 ## Flujo de interacción
 
@@ -145,3 +201,9 @@ https://articulo.mercadolibre.cl/MLC-1447945991-pilas-aa-alcalinas-energizer-max
 
 <img width="759" alt="Screenshot 2024-10-28 at 11 45 10 PM" src="https://github.com/user-attachments/assets/07d54c60-e466-4afb-9b5c-9e09776ba936">
 
+*referencias*
+- https://www.youtube.com/watch?v=gXy-LazGf8Y
+- https://www.reddit.com/r/badUIbattles/comments/1ee36qb/draganddrop_password_login/
+- https://www.reddit.com/r/badUIbattles/comments/1e9y8eb/i_hope_you_focused_on_your_font_settings/
+- https://www.reddit.com/r/badUIbattles/comments/1b523nv/my_first_time_posting_here_a_very_easy_and_smart/
+- https://goulartnogueira.github.io/BadUI/bad-name-selector/
