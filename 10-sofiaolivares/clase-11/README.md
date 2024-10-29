@@ -69,7 +69,7 @@ https://github.com/user-attachments/assets/effd4ddb-fd2d-4b6f-adc3-e881d513c168
 
 Pantalla de Visibilización Pública
 
-Para ampliar el impacto de esta iniciativa, colocaremos una segunda pantalla en un lugar de alto tránsito en la Facultad de Diseño (entrada en Salvador Sanfuentes). En esta pantalla se mostrará un mensaje como: "200 estudiantes de Diseño UDP experimentan un nivel crítico de estrés", el cual se actualizará en tiempo real según la cantidad de estudiantes que interactúen con el proyecto. Esto permitirá que tanto estudiantes como visitantes, docentes y  autoridades comprendan la magnitud del problema de forma inmediata.
+Para ampliar el impacto de esta iniciativa, colocaremos una segunda pantalla en un lugar de alto tránsito en la Facultad de Diseño (entrada en Salvador Sanfuentes). En esta pantalla se mostrará un mensaje: "Este semestre acumuló 200 estudiantes con estrés", el cual se actualizará en tiempo real según la cantidad de estudiantes que interactúen con el proyecto. Esto permitirá que tanto estudiantes como visitantes, docentes y  autoridades comprendan la magnitud del problema de forma inmediata.
 
  https://github.com/user-attachments/assets/fc3125bf-8145-4238-ba2d-13335e160148
 
