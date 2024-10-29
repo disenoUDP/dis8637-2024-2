@@ -10,7 +10,7 @@ La votación en este proyecto, consiste en que al solicitarse el agua, el usuari
 
 **Justificación del proyecto**
 
-Nuestro proyecto nace de que como estudiantes hemos observado en el uso indiscriminado en el ámbito académico de tecnologías de IA generativas de imagen, el cual es fomentado por la escuela, en asignaturas cómo: “Narrativas Visuales e Inteligencia Artificial”. Esto sin pensar en el impacto que estas tienen en el medio ambiente, al tratarse de una tecnologia digital existe una desconexion entre el usuario y el costo ambiental de esta herramienta, costo que queremos visibilizar.
+Nuestro proyecto nace de que como estudiantes hemos observado en el uso indiscriminado en el ámbito académico de tecnologías de IA generativas de imagen, el cual es fomentado por la escuela, en asignaturas cómo: “Narrativas Visuales e Inteligencia Artificial” y "Experimentación Audiovisual". Esto sin pensar en el impacto que estas tienen en el medio ambiente, al tratarse de una tecnologia digital existe una desconexion entre el usuario y el costo ambiental de esta herramienta, costo que queremos visibilizar.
 
 Elegimos el agua porque, apesar de que google, que es la empresa que aloja los servidores de midjourney, ha hecho un esfuerzo por disminuir la huella de carbono invirtiendo en procesadores mas eficientes y energias renovables, el uso de agua como sistema de enfriamiento de los servidores sigue en pie y es mas, aumenta conforme mas crecer estos servidores y mas poder consumen.
 
