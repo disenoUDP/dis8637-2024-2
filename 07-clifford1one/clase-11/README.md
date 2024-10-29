@@ -35,25 +35,15 @@ Se le presenta al usuario una lista de candidatos, pero la interfaz está diseñ
 
 ### Flujo con Ciclos de Error Progresivo
 1. Entrada a la Habitación: El usuario llega a la habitación y ve un sistema de votación digital listo para usar.
-2. Instrucciones Iniciales: La pantalla muestra una breve introducción sobre la importancia de la votación y cómo proceder.
-3. Presentación de la Lista de Candidatos: Aparecen los candidatos, con el candidato preferido resaltado sutilmente (mediante color o posición).
-4. Selección de Candidato: El usuario elige un candidato.
-5. Validación de Candidato:
+2. Instrucciones Iniciales: La pantalla se encuentra en estado de "StandBy". Muestra a los 4 candidatos, con su nombre y código numérico, junto a un mensaje "toma el control para votar"
+3. El usuario toma el control(Wii mote).
+4. Se muestra una interfaz de votación.
+5. El usuario vota por su candidato preferido.
+6. Se muestra un mensaje "Gracias por ejercer tu voto! Vuelve más tarde para la coronación.(7s)
+7. El voto se registra mediante el sistema de contabilización de Arduino, y se muestra una animación de "acumulación de votos" en una barra.
+8. La pantalla vuelve al estado de "StandBy"
+9. Cuando un usario tome el Wii mote se muestra la siguiente interfaz de votación.
 
-*Si selecciona el candidato preferido:* Se muestra un mensaje de confirmación, y el usuario procede a completar su voto exitosamente.
-
-*Si selecciona otro candidato:* Aparece un mensaje de error indicando que ocurrió un problema y se debe intentar de nuevo.
-
-6. Carga de Nueva Interfaz (Mayor Dificultad): La interfaz se recarga, mostrando una lista de candidatos con un diseño menos intuitivo (botones menos visibles, opciones desordenadas).
-7. Segundo Intento de Selección de Candidato: El usuario intenta votar de nuevo, encontrando la interfaz más confusa.
-8. Nueva Validación de Candidato:
-
-*Si selecciona el candidato preferido:* El sistema acepta el voto.
-
-*Si selecciona otro candidato:* Ocurre un nuevo error, y se recarga otra interfaz con mayor dificultad.
-
-9. Iteración Final de Voto (Máxima Dificultad): La interfaz incluye obstáculos adicionales (formularios largos, captcha confuso), hasta que el usuario elige al candidato preferido.
-10. Confirmación de Voto: Finalmente, se muestra un mensaje confirmando que el voto ha sido registrado, mediante sistema de arduino (contabilización).
 
 <img width="922" alt="Screenshot 2024-10-28 at 11 25 29 PM" src="https://github.com/user-attachments/assets/34a7dd20-18fa-4d25-a527-a065aa2bdd36">
 
