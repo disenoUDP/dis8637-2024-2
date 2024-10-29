@@ -4,7 +4,7 @@
 Nuestro proyecto aborda el estrés de la carga acádemica y como este afecta la vida de les alumnes. 
 Estudio del año 2018 en Chile, realizado por la Universidad Andrés Bello y la Universidad de las Américas, reveló que una proporción significativa de estudiantes universitarios presenta síntomas de estrés y otros problemas de salud mental como la ansiedad y la depresión. Según la investigación, el 57% de los estudiantes reportó haber experimentado estrés académico, una cifra elevada que destaca las dificultades y demandas emocionales a las que se enfrentan en sus entornos académicos. Además, más de el 10% dentro del porcentaje de estudiantes estresados, han dicho querer suicidarse debido a tanta carga y la falta de atención de salud psicologica para poder afrontar de mejor manera estas situaciones.
 
-# Descripción de proyecto
+# Descripción de proyecto: "Lo que no se ve"
 Nuestro objetivo es visibilizar ante las autoridades de la Escuela de Diseño de la Universidad Diego Portales sobre el impacto del estrés derivado de la carga académica en sus estudiantes. A través de este proyecto, buscamos crear un espacio donde los estudiantes puedan expresar su experiencia, comprendan que no están solos en estos desafíos y visibilicen esta problemática de manera colectiva y efectiva.
 
 A través de una recopilación de datos interactiva basada en un sistema de votación sencilla, que permitirá medir y visualizar el nivel de estrés que genera la carga académica, acumulado en los estudiantes en tiempo real. 
@@ -99,6 +99,8 @@ Queremos poder cambiar la gestión del estrés académico. Mediante la visibiliz
 https://miro.com/app/board/uXjVLNU6cXI=/
 
 ### Casos límite
+- Corte de luz
+- Falla conexión inálambrica
 - La pantalla cambie al percibir a alguien cerca, pero este no presione ningún botón.
 - El usuario abandone la encuesta a la mitad.
 - La persona presione dos veces un boton en una misma pregunta.
@@ -116,9 +118,6 @@ Módulo de Conexión:
 
 Sensor de Proximidad:
 - Sensor ultrasónico (HC-SR04) 
-- Pantalla (Tablet o Televisor):
-- Tablet: Cualquier tablet que soporte Bluetooth o WiFi.
-- Televisor: Smart TV con conexión a internet o un televisor normal con un adaptador HDMI.
 
 Botones:
 - Cantidad: 2 botones de arcade jumbo (para "Sí" y "No").
