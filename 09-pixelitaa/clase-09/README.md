@@ -44,7 +44,7 @@ El sistema NO se activa con el litro de agua
 
 **Casos limites**
 
-El usuario no puede ingresar el input mediante el teclado, para esto deberiamos implementar un sistema de speech
+El usuario no puede ingresar el input mediante el teclado
 
 La interacción es realizada por mas de un usuario
 
