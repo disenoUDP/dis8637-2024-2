@@ -138,6 +138,10 @@ Pantalla de entrada: Se encarga de la visualización de datos en tiempo real de 
 Pantalla de encuesta: Se encarga de mostrar las preguntas con resultados en tiempo rela, además del saludo y la encuesta.
 
 #### Síntsis
+![](sintesis.png)
+
+### Referentes
+
 
 
 
