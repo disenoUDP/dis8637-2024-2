@@ -1,6 +1,6 @@
 # clase-11
 
-## "NO ESTAS SOLO" (provisional)
+## "NO ESTAS SOLO" 
 
 proyecto con @Mosswhosmoss y @valechavezalb
 
@@ -32,9 +32,19 @@ __¿Por qué? (Objetivos y justificación del proyecto)__
 
   Jubille: referente de esperiencia, respuesta y conversacion entre pares
 - [Do All Suicide Survivors Think The Same? | Spectrum](https://youtu.be/djU7rduvo6s?si=njpzflTRPxmsTaH2&t=29)
+- ![image](https://github.com/user-attachments/assets/769b8421-a660-4a88-98eb-f136a2176917)
+- ![image](https://github.com/user-attachments/assets/84bd8dee-2910-4e30-8758-2f770fcc817d)
+
+
 
   Aaron Koblin - "Flight patterns": referente para visualizacion de datos
-- ![image](https://github.com/user-attachments/assets/8b4e0c48-3582-4e37-96ce-2ddb8f4f1c7d)
+- ![Flight patterns](https://github.com/user-attachments/assets/8b4e0c48-3582-4e37-96ce-2ddb8f4f1c7d)
+  
+  The coding train - ml5.js: Pose Classification with PoseNet and ml5.neuralNetwork()
+- [ml5.js: Pose Classification with PoseNet and ml5.neuralNetwork()](https://youtu.be/FYgYyq-xqAw?si=LONKUtLMa7sUuCbb)
+  
+- ![image](https://github.com/user-attachments/assets/a04bc344-a9b2-499d-a678-682e25f56ee9)
+
 
 ## 02_EXPERIENCIA DE USUARIO
 
