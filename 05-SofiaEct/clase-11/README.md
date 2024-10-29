@@ -164,10 +164,14 @@ __Wireframes y prototipos__
 
 __Flujos de interacción__
 
+- [Flujo de interacción](https://www.figma.com/board/Ai1nkMEXpdXMuGIio6sb1j/Diagrama-de-flujo?node-id=0-1&t=YHUcX8sb87e2HhDS-1)
 
 __Feedback y respuestas de sistema__
-
-
+- El primer feedback aparece al momento de pasar de estados entre reposo a activo a través del gesto preestablecido para iniciar la encuestas, para saber si se lee correctamente los gestos en el periodo de respuesta, en la pantalla aparecerá un icono que se irá rellenando acorde a si lee o no los gestos de los participantes.
+- En el periodo de conversación luego de cada pregunta, en la pantalla aparecerá un temporizador que durará 1:30 min.
+- El último feedback sería la visualización de los datos con base en las respuestas de la encuesta.
+  
+![Adobe Scan 29 oct 2024 (3)_1 (1)](https://github.com/user-attachments/assets/458b6d5e-ecf2-4009-956a-969f20dd93b1)
 
 ## 06 - PLANIFICACION Y GESTION DEL PROYECTO
 
