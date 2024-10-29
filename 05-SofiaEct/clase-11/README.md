@@ -7,7 +7,7 @@ proyecto con @Mosswhosmoss y @valechavezalb
 ## 01_PREGUNTAS FUNDAMENTALES
 
 __¿Qué? (Descripción del proyecto)__
-- proyecto de recopilacion y visualizacion de datos sobre la salud mental/suicidio en los estudiantes y docentes de la udp
+- proyecto de recopilacion y visualizacion de datos sobre la salud mentalen los estudiantes y docentes de la udp
 
 __¿Quién? (Usuarios objetivo y stakeholders)__
 - estudiantes de la udp 
@@ -23,10 +23,11 @@ __¿Dónde? (Contexto de uso)__
 - Una sala de la facultad de salvador san fuentes
 
 __¿Cómo? (Metodología y herramientas)__
-- Mediante preguntas que se relacionan a la salud mental, las personas se posicionarán en un lugar dependiendo de - - sus respuestas. Con una cámara se recopilarán la posición de las personas y arrojarán datos que posteriormente se - visualizarán en una pantalla, reflejando el estado de la salud mental de alumnos y docentes de la Universidad Diego Portales.
+- Mediante preguntas que se relacionan a la salud mental, las personas se posicionarán en un lugar dependiendo de -sus respuestas. Con una cámara se recopilarán la posición de las personas y arrojarán datos que posteriormente se -visualizarán en una pantalla, reflejando el estado de la salud mental de alumnos y docentes de la Universidad Diego Portales.
 
 __¿Por qué? (Objetivos y justificación del proyecto)__
-- Para visibilizar el estado de salud mental en el estudiantado de la Universidad Diego Portales y como ésta entrega ayuda pero no da abasto.
+
+Según UNICEF “la salud mental es un estado de bienestar mental que permite a las personas hacer frente a los momentos de estrés de la vida, desarrollar todas sus habilidades, poder aprender y trabajar adecuadamente y contribuir a la mejora de su comunidad.” Nosotros como grupo queremos generar un momento de conversación libre de prejuicios y estigma para ver si como facultad se logra ese estado; según el paper “Understanding and Addressing Mental Health Stigma Across Cultures for Improving Psychiatric Care: A Narrative Review” habla de cómo estas instancias de conversación en un espacio seguro, pueden influir en un individuo a recibir la ayuda que necesita.
 
 ## 1.1_REFERENTES
 
