@@ -103,8 +103,7 @@ Nuestro modulo se visualizará de la siguiente forma:
 
 ![b592cb16-e8d9-423c-aa19-45c0d7908a54](https://github.com/user-attachments/assets/7e3544c0-5d8b-4ceb-a010-42697fe90fe2)
 
-![Uploading WhatsApp Image 2024-10-29 at 10.15.05.jpeg…]()
-
+![croquis_UX-s2](https://github.com/user-attachments/assets/d7e44eb4-51d3-4ccf-892d-94fee1f187c8)
 
 # CASOS LIMITES
 
