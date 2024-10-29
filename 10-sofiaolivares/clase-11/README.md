@@ -166,6 +166,10 @@ Mando Nintendo NES característico por su simpleza, figura rectangular plana, qu
 ### Cronograma
  ![](cronograma.png)
 
+### Documentación de Proceso en figma 
+
+https://www.figma.com/board/uV2nXn3nMcdlLp6PbWrjBT/TALLER?node-id=59-449&node-type=text&t=BzSpXuhxuKD7tigx-0
+
 
 
 
