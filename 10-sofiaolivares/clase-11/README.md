@@ -41,7 +41,10 @@ ejemplo concreto de preguntas:
 
 Estás preguntas se relacionan estrictamente con indicadores de estrés elevados, ya que todas estás situaciones que presentamos ayudan a establecer una conexión directa que genera el estrés académico, ya que son situaciones que genera síntomas emocionales que son parte del estrés, como ansiedad, frustración, cansancio, insomnio. procrastinación, etc.
 
-![](etapa1.png)
+![](etapa1.png) 
+
+ 
+Las preguntas se presentarán en una pantalla de forma simple y clara, y se responderán con un control que tendrá solo dos botones: “Sí” y “No”. Los estudiantes deben presionar el botón que mejor refleje su situación, permitiéndonos recopilar datos anónimos de manera directa y accesible. 
 
 
 
