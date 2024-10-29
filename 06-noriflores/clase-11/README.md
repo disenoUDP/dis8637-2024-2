@@ -8,6 +8,8 @@ nuestra principal dificultad fue unir la parte de la encuesta y lo que queríamo
 
 # Worth it?
 
+https://www.canva.com/design/DAGUubczQvs/3rk4y7pYDb7GiKNRyGu6DQ/edit?utm_content=DAGUubczQvs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ### ¿Qué queremos lograr?
 
 Exponer que los métodos de producción exigidos a los estudiantes en los encargos, como las impresiones, contribuyen a los excesivos gastos económicos que enfrentan los estudiantes en sus proyectos, lo que a su vez provoca una generación significativa de desechos, particularmente en el contexto del Diseño Abierto.
