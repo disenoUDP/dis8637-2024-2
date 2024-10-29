@@ -163,6 +163,7 @@ Mando Nintendo NES característico por su simpleza, figura rectangular plana, qu
 
  instalación funcional,  útil, ya que mide la satisfacción en tiempo real en tiendas y aeropuertos. El uso de botones físicos simplifica el proceso de respuesta y hace que los participantes puedan expresar su opinión de forma directa y sin distracciones. además de que genera a las empresas los  resultados acumulativos.
 
+### Cronograma
  ![](cronograma.png)
 
 
