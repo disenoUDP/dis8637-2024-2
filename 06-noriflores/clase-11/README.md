@@ -85,5 +85,12 @@ d) El usuario decide abandonar la cápsula antes de completar el cuestionario:
 
 ## Wireframes 
 
+![wireframe1](./wireframe1.png "wireframe1")
+
+![wireframe2](./wireframe2.png "wireframe2")
+
+![wireframe3](./wireframe3.png "wireframe3")
 
 ## Cronograma
+
+![cronograma](./cronograma.png "cronograma")
