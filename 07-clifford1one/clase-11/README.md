@@ -129,11 +129,11 @@ y se compondrá por:
 
 
 https://articulo.mercadolibre.cl/MLC-1458627633-control-wiimote-original-wii-funda-de-silicona-original-_JM
-- Sensor	6.000
+- Sensor	$6.000
 
 https://articulo.mercadolibre.cl/MLC-577726050-sensor-barra-infraroja-para-nintendo-wii-wii-u-receptor-ir-_JM
 
-- Monitor(HDMI)	64.900
+- Monitor(HDMI)	$64.900
 
 https://www.pcfactory.cl/producto/48279-aoc-monitor-20-hd--panel-tn-60hz-20e1h
 - Cable HDMI	$6.235
@@ -144,7 +144,7 @@ https://www.mercadolibre.cl/cable-hdmi-8k-21-jkr-tech-certificado-48gbps-2-mts-u
 
 https://articulo.mercadolibre.cl/MLC-1447945991-pilas-aa-alcalinas-energizer-max-doble-a-blister-de-4-pilas-_JM
 
-- Notebook	299.000
+- Notebook	$299.000
 
  https://www.falabella.com/falabella-cl/product/137185870/NOTEBOOK-INTEL-CORE-I5-THINKPAD/137185871
 
