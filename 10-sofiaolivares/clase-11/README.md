@@ -104,7 +104,6 @@ Queremos poder cambiar la gestión del estrés académico. Mediante la visibiliz
 - Que se presionen ambos botones en una misma pregunta.
 - La pantalla no cambie al momento en que alguien se acerque.
 - Que la pantalla se ponga negra.
-- Que el usuario se equivoque en una respuesta.
 
 ### Lista de componentes y materiales
 Arduinos:
