@@ -24,18 +24,31 @@ Mediante preguntas que se relacionan a la salud mental, las personas se posicion
 **PREGUNTAS**
 
 **¿Crees que tu salud mental se ha visto afectada estas últimas semanas?** 
+
 Si - Tal vez - No - No se
+
 **¿Sientes que tu salud mental se toma en serio en la universidad?** 
+
 Si - Tal vez - No - No se
+
 **¿Crees tener las herramientas necesarias para afrontar tu salud mental?**
+
 Si - Tal vez - No - No se 
+
 **¿Te sientes igual que al principio despues de la experiencia?**
+
 Bien - No se - Mas o menos - Mal
+
 **¿Has experimentado síntomas físicos relacionados con el estrés, como dolores de cabeza, dificultad para concentrarte o problemas digestivos?** 
+
 Si - Tal vez - No - No sé 
+
 **¿Has considerado buscar ayuda profesional sobre algún problema de salud mental o para manejar el estrés?** 
+
 Si - Tal vez - No - No sé 
+
 **¿La universidad te permite tener hobbies o actividades que permitan desconectarte,  relajarte o distraerte?** 
+
 Si - Tal vez - No - No sé
 
 
