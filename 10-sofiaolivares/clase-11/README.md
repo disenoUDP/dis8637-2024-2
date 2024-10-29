@@ -60,7 +60,7 @@ Dibujo técnico de panel con dos botones de arcade tamaño jumbo
 
 Pantalla ubicada en la exposición
 
-Cada vez que un estudiante responda “Sí” a una pregunta, el nivel de estrés acumulado en la gráfica aumentará progresivamente (en la parte visual y en la parte cuantitativa). Si al final de las preguntas un estudiante ha respondido “Sí” a todas, el sistema enviará automáticamente una notificación a las autoridades de la carrera (director y secretaría de estudios) indicando que un estudiante ha alcanzado un nivel crítico de estrés. 
+Cada vez que un estudiante responda “Sí” a una pregunta, el nivel de estrés acumulado en la gráfica aumentará progresivamente (en la parte visual y en la parte cuantitativa). Si al final de las preguntas un estudiante ha respondido “Sí” a mínimo 3 preguntas, el sistema enviará automáticamente una notificación a las autoridades de la carrera (director y secretaría de estudios) indicando que un estudiante ha alcanzado un nivel crítico de estrés. 
 
 ![](correo2.png)
 
@@ -94,8 +94,9 @@ Queremos poder cambiar la gestión del estrés académico. Mediante la visibiliz
 
    
  ### Diagrama de flujo
- ![](UX1.jpg)
- https://miro.com/app/board/uXjVLNU6cXI=/
+ ![](UX2.jpg)
+ 
+https://miro.com/app/board/uXjVLNU6cXI=/
 
 ### Casos límite
 - La pantalla cambie al percibir a alguien cerca, pero este no presione ningún botón.
