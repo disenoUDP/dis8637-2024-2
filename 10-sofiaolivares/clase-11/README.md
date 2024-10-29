@@ -26,35 +26,41 @@ Su gráfica hace uso de datos en tiempo real, la utilización de su gráfica nos
 
 ### Cuestionario Interactivo y gráfica
 Luego se mostrará en pantalla un saludo y una breve introducción para después seguir con las preguntas.  
+# GRAFICA BIENVENNIDA 
+![](etapa1.png)
+
 Las preguntas de este cuestionario están diseñadas para reflejar distintas dimensiones del estrés académico, tales como:
-Dificultad para gestionar el tiempo.
-Conflictos entre los estudios y la vida personal.
-Presión por alcanzar metas y expectativas personales.
-Falta de empatía de los académicos respecto a la carga de trabajo.
+- Dificultad para gestionar el tiempo.
+- Conflictos entre los estudios y la vida personal.
+- Presión por alcanzar metas y expectativas personales.
+- Falta de empatía de los académicos respecto a la carga de trabajo.
 
 ejemplo concreto de preguntas: 
-¿Crees que necesitas más tiempo para cumplir con tus proyectos?
-¿Te resulta difícil balancear tus estudios con actividades personales?
-¿Te sientes presionado/a por cumplir con fechas límite?
-¿Has sentido alguna vez que no puedes alcanzar tus propias expectativas en los Exámenes, solemnes etc?
-¿Has notado que te sientes más cansado/a de lo normal después de preparar solemnes para D.A?
+- ¿Crees que necesitas más tiempo para cumplir con tus proyectos?
+- ¿Te resulta difícil balancear tus estudios con actividades personales?
+- ¿Te sientes presionado/a por cumplir con fechas límite?
+- ¿Has sentido alguna vez que no puedes alcanzar tus propias expectativas en los Exámenes, solemnes etc?
+- ¿Has notado que te sientes más cansado/a de lo normal después de preparar solemnes para D.A?
 
 Estás preguntas se relacionan estrictamente con indicadores de estrés elevados, ya que todas estás situaciones que presentamos ayudan a establecer una conexión directa que genera el estrés académico, ya que son situaciones que genera síntomas emocionales que son parte del estrés, como ansiedad, frustración, cansancio, insomnio. procrastinación, etc.
 
-![](etapa1.png) 
-
-https://github.com/user-attachments/assets/effd4ddb-fd2d-4b6f-adc3-e881d513c168
- 
 Las preguntas se presentarán en una pantalla de forma simple y clara, y se responderán con un control que tendrá solo dos botones: “Sí” y “No”. Los estudiantes deben presionar el botón que mejor refleje su situación, permitiéndonos recopilar datos anónimos de manera directa y accesible. 
-
-
-
-
 
 ![](etapa2.png)
 
 Dibujo técnico de panel con dos botones de arcade tamaño jumbo
 
 ![](botones.jpg) 
+
+Visualización de Estrés Acumulado: Cada vez que un estudiante responda “Sí” a una pregunta, el nivel de estrés acumulado en la gráfica aumentará progresivamente. Si al final de las preguntas un estudiante ha respondido “Sí” a todas, el sistema enviará automáticamente una notificación a las autoridades de la carrera (director y secretaría de estudios) indicando que un estudiante ha alcanzado un nivel crítico de estrés. 
+
+![](etapa3.png)
+
+https://github.com/user-attachments/assets/effd4ddb-fd2d-4b6f-adc3-e881d513c168
+ 
+
+
+
+
 
 
