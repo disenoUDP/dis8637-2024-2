@@ -29,7 +29,20 @@ Elegimos el agua porque, apesar de que google, que es la empresa que aloja los s
 
 **Arquitectura del sistema**
 
+![waaaaaaa](https://github.com/user-attachments/assets/37066fdc-55dd-4d35-82e6-6a03c77941ca)
+
 **Lista de Componentes**
+
+Nuestra lista de componentes consiste de:
+
+- Mesa de altura 100cm, completamente forrada de un color hasta el suelo por el frente y costados.
+- Monitor de min 24"
+- Teclado mecanico, conectable via usb
+- Arduino R4 Wifi
+- Cables dupont
+- Sensor analogo de nivel de agua
+- Case de montaje
+- Bateria de Litio que alimente el dispositivo
 
 ## Plan de producción 
 
