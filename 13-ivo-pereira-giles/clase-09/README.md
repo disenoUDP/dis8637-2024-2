@@ -67,3 +67,13 @@ Preguntas encuesta
     Considerando que UDP Verde logró reducir el 19% de sus residuos y ha implementado un sistema de reciclaje activo, ¿crees que es coherente que los docentes aún exijan láminas impresas semanalmente en los proyectos de diseño?
 
 Wireframes
+
+![wireframe1](./wireframe1.png "wireframe1")
+
+![wireframe2](./wireframe2.png "wireframe2")
+
+![wireframe3](./wireframe3.png "wireframe3")
+
+## Cronograma
+
+![cronograma](./cronograma.png "cronograma")
