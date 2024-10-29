@@ -25,7 +25,7 @@ Por qué ocupar la gráfica de ikeda
 
 Su gráfica hace uso de datos en tiempo real, la utilización de su gráfica nos ayudará a llamar la atención de una manera más innovadora y que las personas hagan consciencia de su estrés de una manera distinta.
 
-### Cuestionario Interactivo y gráfica
+### Etapa 2: Cuestionario Interactivo y gráfica
 Luego se mostrará en pantalla un saludo y una breve introducción para contextualizar al usuario
 
 ![](etapa1.png)
@@ -56,7 +56,7 @@ Dibujo técnico de panel con dos botones de arcade tamaño jumbo
 
 ![](botones.jpg) 
 
-### Visualización de Estrés Acumulado
+### Etapa 3: Visualización de Estrés Acumulado
 
 Pantalla ubicada en la exposición
 
@@ -73,7 +73,7 @@ Para ampliar el impacto de esta iniciativa, colocaremos una segunda pantalla en 
 
  https://github.com/user-attachments/assets/fc3125bf-8145-4238-ba2d-13335e160148
 
-### Reporte de resultados
+### Etapa 4: Reporte de resultados
 Al finalizar Diseño Abierto, se enviará un reporte a los profesores de taller, la secretaría y el director de la escuela, que incluirá los datos recopilados sobre el estrés relacionado con la carga académica. Este reporte destacará la magnitud de la problemática al término del periodo académico, proporcionando datos concretos para apoyar la implementación de posibles cambios en la gestión académica y el bienestar estudiantil.
 
 Queremos poder cambiar la gestión del estrés académico. Mediante la visibilización pública y la presentación de datos a las autoridades, para poder fomentar una mayor empatía y sensibilidad hacia la salud mental de les estudiantes, para que los docentes y las autoridades consideren la carga académica desde una perspectiva más humana y puedan ver el impacto que genera en la vida de les estudiantes 
