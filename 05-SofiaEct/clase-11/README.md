@@ -147,7 +147,7 @@ __Arduino r4 wifi (En Arduino seria $31.182,90)__
   - RA4M1	256 kB Flash, 32 kB RAM
   - ESP32-S3	384 kB ROM, 512 kB SRAM
  - Dimensiones
-  -  Ancho	68,85 mm
+  - Ancho	68,85 mm
  - Largo
   - 53,34 mm
     
@@ -167,13 +167,18 @@ __Flujos de interacción__
 
 __Feedback y respuestas de sistema__
 
-__Casos limites:__
-- Que no haya suficiente luz para reconocer los gestos.
-- Que el usuario no ejecute bien el gesto.
-- Que la cAmara este desactivada y no pueda ver a los usuarios.
-  
-![Adobe Scan 29 oct 2024 (2)_1](https://github.com/user-attachments/assets/a5d2f69e-c972-4ee6-9838-7ee131c1fb6d)
+
 
 ## 06 - PLANIFICACION Y GESTION DEL PROYECTO
 
-gracias por su atencion :D
+__Calendario detallado__
+- [Cronograma: Grupo - 01 "No estas solo"](https://docs.google.com/spreadsheets/d/1gn78PgsDTkO6gHtaVM2D2_JULJietnCU3_7DKCvRut0/edit?usp=sharing)
+
+__Casos limites:__
+- Que no haya suficiente luz para reconocer los gestos.
+- Que el usuario no ejecute bien el gesto.
+- Que la cámara este desactivada y no pueda ver a los usuarios.
+  
+![Adobe Scan 29 oct 2024 (2)_1](https://github.com/user-attachments/assets/a5d2f69e-c972-4ee6-9838-7ee131c1fb6d)
+
+gracias por su atención :D
