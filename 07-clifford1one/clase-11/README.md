@@ -44,8 +44,8 @@ Se le presenta al usuario una lista de candidatos, pero la interfaz está diseñ
 8. La pantalla vuelve al estado de "StandBy"
 9. Cuando un usario tome el Wii mote se muestra la siguiente interfaz de votación.
 
+![image](https://github.com/user-attachments/assets/ae85f5e4-4a40-4268-8200-de5d2bc2040e)
 
-<img width="922" alt="Screenshot 2024-10-28 at 11 25 29 PM" src="https://github.com/user-attachments/assets/34a7dd20-18fa-4d25-a527-a065aa2bdd36">
 
 **Diseño de Interfaz**:
 
