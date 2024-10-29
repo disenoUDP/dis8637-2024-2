@@ -44,11 +44,11 @@ ejemplo concreto de preguntas:
 - ¿Te resulta difícil balancear tus estudios con actividades personales?
 - ¿Te sientes presionado/a por cumplir con fechas límite?
 - ¿Has sentido alguna vez que no puedes alcanzar tus propias expectativas en los Exámenes, solemnes etc?
-- ¿Has notado que te sientes más cansado/a de lo normal después de preparar solemnes para D.A?
+- ¿Has notado que te sientes más cansado/a de lo normal después de preparar el exámen para D.A?
 
 Situaciones que genera estrés a les estudiantes por la gran carga académica.
 
-Las preguntas se presentarán en una pantalla de forma simple y clara, y se responderán con un control que tendrá solo dos botones: “Sí” y “No”. Les estudiantes deben presionar el botón que mejor refleje su situación, permitiéndonos recopilar datos anónimos de manera directa y accesible. 
+Las preguntas se presentarán en una pantalla de forma simple y clara, y se responderán con un control que tendrá solo dos botones: “Sí” o “No”. Les estudiantes deben presionar el botón que mejor refleje su situación, permitiéndonos recopilar datos anónimos de manera directa y accesible. 
 
 ![](etapa2.png)
 
@@ -61,6 +61,8 @@ Dibujo técnico de panel con dos botones de arcade tamaño jumbo
 Pantalla ubicada en la exposición
 
 Cada vez que un estudiante responda “Sí” a una pregunta, el nivel de estrés acumulado en la gráfica aumentará progresivamente (en la parte visual y en la parte cuantitativa). Si al final de las preguntas un estudiante ha respondido “Sí” a todas, el sistema enviará automáticamente una notificación a las autoridades de la carrera (director y secretaría de estudios) indicando que un estudiante ha alcanzado un nivel crítico de estrés. 
+
+![](correo1.png)
 
 ![](etapa3.png)
 
