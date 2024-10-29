@@ -106,7 +106,7 @@ __Computador con webcam (en Asus se encuentra a $1.319.990)__
  - AUTONOMÍA	67 Wh, polímeros de litio, hasta 21 h de autonomía
  - DIMENSIONES Y PESO	319 x 208 x 13,9 mm 1,13 kg
    
-__Masking tape (En artemery esta a $1.200)__
+__Masking tape (En artemery está a $1.200)__
 
  - Color: Crema
  - Adhesivo: Caucho.
@@ -117,7 +117,7 @@ __Masking tape (En artemery esta a $1.200)__
  - Máxima resistencia x 30 min: 60ºC.
  - Elongación: 6% - 12%
    
-__Arduino r4 wifi (En Arduino seria $31.182,90)__
+__Arduino r4 wifi (En Arduino sería $31.182,90)__
 
  - Tabla
   - Nombre	Arduino® UNO R4 WiFi
@@ -150,9 +150,6 @@ __Arduino r4 wifi (En Arduino seria $31.182,90)__
   - Ancho	68,85 mm
  - Largo
   - 53,34 mm
-    
-__Diagrama del sistema__
-
   
 ## 05 - DISEÑO DE INTERACCION
 
