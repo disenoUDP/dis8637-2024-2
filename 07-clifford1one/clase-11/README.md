@@ -103,7 +103,8 @@ Nuestro modulo se visualizará de la siguiente forma:
 
 ![b592cb16-e8d9-423c-aa19-45c0d7908a54](https://github.com/user-attachments/assets/7e3544c0-5d8b-4ceb-a010-42697fe90fe2)
 
-![9bc81857-8d9d-4756-b6d7-9f820c61c185](https://github.com/user-attachments/assets/65a3958e-076b-4700-b473-cd0b11d9a139)
+![Uploading WhatsApp Image 2024-10-29 at 10.15.05.jpeg…]()
+
 
 # CASOS LIMITES
 
