@@ -54,6 +54,7 @@ Dibujo técnico de panel con dos botones de arcade tamaño jumbo
 ### Visualización de Estrés Acumulado
 
 Pantalla ubicada en la exposición
+
 Cada vez que un estudiante responda “Sí” a una pregunta, el nivel de estrés acumulado en la gráfica aumentará progresivamente. Si al final de las preguntas un estudiante ha respondido “Sí” a todas, el sistema enviará automáticamente una notificación a las autoridades de la carrera (director y secretaría de estudios) indicando que un estudiante ha alcanzado un nivel crítico de estrés. 
 
 ![](etapa3.png)
@@ -62,6 +63,7 @@ https://github.com/user-attachments/assets/effd4ddb-fd2d-4b6f-adc3-e881d513c168
 
 
 Pantalla de Visibilización Pública
+
 Para ampliar el impacto de esta iniciativa, colocaremos una segunda pantalla en un lugar de alto tránsito en la Facultad de Diseño (entrada en Salvador Sanfuentes). En esta pantalla se mostrará un mensaje como: "200 estudiantes de Diseño UDP experimentan un nivel crítico de estrés", el cual se actualizará en tiempo real según la cantidad de estudiantes que interactúen con el proyecto. Esto permitirá que tanto estudiantes como visitantes, docentes y  autoridades comprendan la magnitud del problema de forma inmediata.
 
  https://github.com/user-attachments/assets/fc3125bf-8145-4238-ba2d-13335e160148
@@ -84,8 +86,63 @@ Queremos poder crear un en la percepción y gestión del estrés académico. Med
 6. Verificar que el sistema vuelva al estado de espera. Confirma que, al dejar el control, la pantalla retome su imagen inicial, esperando a un nuevo usuario.
 
  ### Diagrama de flujo
- 
+ ![](UX.jpg)
  https://miro.com/app/board/uXjVLNU6cXI=/
+
+### Casos límite
+- La pantalla cambie al percibir a alguien cerca, pero este no presione ningún botón.
+- El usuario abandone la encuesta a la mitad.
+- La persona presione dos veces un boton en una misma pregunta.
+- Que se presionen ambos botones en una misma pregunta.
+- La pantalla no cambie al momento en que alguien se acerque.
+- Que la pantalla se ponga negra.
+- Que el usuario se equivoque en una respuesta.
+
+### Lista de componentes
+Arduinos:
+- Arduino Uno: Manejar entradas de botones y el sensor de proximidad
+- Arduino R4 WiFi: Controlar la comunicación con la pantalla y mostrar la encuesta y resultados.
+
+Módulo de Conexión:
+- WiFi: Módulo ESP8266 o ESP32 (para comunicación entre Arduinos o conexión a internet). Para facilitar la comunicación entre los dos Arduinos.
+
+Sensor de Proximidad:
+- Sensor ultrasónico (HC-SR04) 
+- Pantalla (Tablet o Televisor):
+- Tablet: Cualquier tablet que soporte Bluetooth o WiFi.
+- Televisor: Smart TV con conexión a internet o un televisor normal con un adaptador HDMI.
+
+Botones:
+- Cantidad: 2 botones (para "Sí" y "No").
+
+ esistencias:
+- Valor: 10kΩ (dependiendo del tipo de botones y la configuración).
+
+Protoboard y Cables
+
+Fuente de Alimentación (opcional, se puede usar usb C)
+- Tipo: Fuente de 5V (puede ser USB o adaptador).
+
+### Interacción entre componentes
+
+La interacción comienza con el sensor de proximidad: Detectará cuando el usuario se acerque al pedestal donde se encuentran los botones. Cambiando el estado de standby a activo.
+
+Botones: Una vez iniciada la encuesta, el usuario registrará sus respuestas mediantes los botones de si o no. Estos botones estarán conectados al Arduino UNO. 
+
+Arduino UNO: Se encargará de la gestión de respuestas e interacciones con los sensores (botones, sensor de proximidad), al mismo tiempo enviará datos de resultados a otro arduino. 
+
+Arduino WIFI r4: Se encarga de la comunicación inalámbrica, acumulación de datos (para envío de correos al final de diseño abierto) y envío de correos en tiempo real.
+
+Pantalla de entrada: Se encarga de la visualización de datos en tiempo real de los resultados de la encuesta. 
+
+Pantalla de encuesta: Se encarga de mostrar las preguntas con resultados en tiempo rela, además del saludo y la encuesta.
+
+#### Síntsis
+
+
+
+
+ 
 
 
 
