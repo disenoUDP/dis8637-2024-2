@@ -9,6 +9,7 @@ Se le presenta al usuario una lista de candidatos, pero la interfaz está diseñ
 
 ![image](https://github.com/user-attachments/assets/aea540ec-3161-4905-8d3d-2964ab037fb0)
 
+
 ## ¿Qué queremos lograr con éste proyecto?
 ### Que los participantes de diseño abierto reflexionen respecto a las falencias del sistema de electoral
 
@@ -20,6 +21,13 @@ Se le presenta al usuario una lista de candidatos, pero la interfaz está diseñ
 - Los políticos tienden a no cumplir sus promesas de campaña(y no ven consecuencias x esto)
 - La gente vota por los mismos (quiza pq tienen un rostro/nombre familiar/reconocido)
 - La gente cree que la culpa es de la ellos mismos por votar “mal” y no del candidato por no cumplir bien su rol político.
+
+## Listado de candidatos:
+ se divide en:
+ - altamente capacitada
+ - medianamente capacitada 
+ - bajamente capacitado
+ - no capacitado
 
 ## Flujo de interacción
 
