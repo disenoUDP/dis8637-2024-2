@@ -43,11 +43,7 @@ Estás preguntas se relacionan estrictamente con indicadores de estrés elevados
 
 ![](etapa1.png) 
 
-
-
-https://github.com/user-attachments/assets/a9684016-27db-4071-95be-79f1f3964cc0
-
-
+https://github.com/user-attachments/assets/effd4ddb-fd2d-4b6f-adc3-e881d513c168
  
 Las preguntas se presentarán en una pantalla de forma simple y clara, y se responderán con un control que tendrá solo dos botones: “Sí” y “No”. Los estudiantes deben presionar el botón que mejor refleje su situación, permitiéndonos recopilar datos anónimos de manera directa y accesible. 
 
