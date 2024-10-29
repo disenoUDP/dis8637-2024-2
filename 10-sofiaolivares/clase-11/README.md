@@ -62,7 +62,7 @@ Pantalla ubicada en la exposición
 
 Cada vez que un estudiante responda “Sí” a una pregunta, el nivel de estrés acumulado en la gráfica aumentará progresivamente (en la parte visual y en la parte cuantitativa). Si al final de las preguntas un estudiante ha respondido “Sí” a todas, el sistema enviará automáticamente una notificación a las autoridades de la carrera (director y secretaría de estudios) indicando que un estudiante ha alcanzado un nivel crítico de estrés. 
 
-![](correo1.png)
+![](correo2.png)
 
 ![](etapa3.png)
 
