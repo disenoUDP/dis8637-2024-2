@@ -11,5 +11,6 @@ A través de una recopilación de datos interactiva basada en un sistema de vota
 
 Introducción Visual con la Gráfica de Ikeda:  Al iniciar la interacción, se mostrará una pantalla con la Gráfica de Ikeda, que no solo captará la atención del usuario, sino que ofrecerá una representación simbólica de los efectos del estrés en el cerebro humano. La gráfica se utilizará para ilustrar cómo el estrés académico, la ansiedad y la tensión afectan a los estudiantes, resaltando visualmente el peso de estas presiones. 
 (boceto de  la pantalla, ubicación, espacio, tamaño, visualizar montaje)
+![](ikeda.png)
  
 
