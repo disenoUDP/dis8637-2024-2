@@ -138,9 +138,20 @@ Pantalla de entrada: Se encarga de la visualización de datos en tiempo real de 
 Pantalla de encuesta: Se encarga de mostrar las preguntas con resultados en tiempo rela, además del saludo y la encuesta.
 
 #### Síntsis
+
 ![](sintesis.png)
 
 ### Referentes
+
+![](nintendo.png)
+
+Mando Nintendo NES característico por su simpleza, figura rectangular plana, que incluye botones de acción básicos, siendo los botones ubicados a la derecha los cuales permiten una jugabilidad sencilla para el usuario con funciones básicas los cuales destacamos de este diseño.
+
+![](ref2.png)
+
+ instalación funcional,  útil, ya que mide la satisfacción en tiempo real en tiendas y aeropuertos. El uso de botones físicos simplifica el proceso de respuesta y hace que los participantes puedan expresar su opinión de forma directa y sin distracciones. además de que genera a las empresas los  resultados acumulativos.
+
+ ![](cronograma.png)
 
 
 
