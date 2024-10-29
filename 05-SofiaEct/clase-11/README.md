@@ -2,86 +2,85 @@
 
 ## "NO ESTAS SOLO" 
 
-proyecto con @Mosswhosmoss y @valechavezalb
+Proyecto con @Mosswhosmoss y @valechavezalb
 
 ## 01 - PREGUNTAS FUNDAMENTALES
 
 __¿Qué? (Descripción del proyecto)__
-- proyecto de recopilacion y visualizacion de datos sobre la salud mentalen los estudiantes y docentes de la udp
+- Proyecto de recopilación y visualización de datos sobre la salud mental en los estudiantes y docentes de la UDP.
 
 __¿Quién? (Usuarios objetivo y stakeholders)__
-- estudiantes de la udp 
-- personas interesadas en su salud mental 
-- personas que ven afectada su salud mental 
-- docentes udp
-- departamento de salud mental udp
+- Estudiantes de la UDP.
+- Personas interesadas en su salud mental.
+- Personas que ven afectada su salud mental. 
+- Docentes UDP.
+- Departamento de salud mental UDP.
 
 __¿Cuándo? (Timeline del proyecto)__
-- final de semestre, diseño abierto
+- Final de semestre, diseño abierto.
 
 __¿Dónde? (Contexto de uso)__
-- Una sala de la facultad de salvador san fuentes
+- Una sala de la facultad de Salvador Sanfuentes.
 
 __¿Cómo? (Metodología y herramientas)__
-- Para el proyecto nos inspiramos en base al video “Do All Suicide Survivors Think The Same?” que consistirá de una encuesta de 7 preguntas para grupos de máximo cuatro personas, conteniendo pregutas relacionadas a la salud mental que debera de responderse con ciertos gestos establecidos con la mano, utilizando la webcam del computador como lo muestra The Coding Train en su video de “ml5.js: Clasificación de poses con PoseNet y ml5.neuralNetwork()”, despues de cada respuesta se elegirá de forma aleatoria a un participante para comunicar lo que piensa respecto a la pregunta, al finalizar las 7 preguntas y se hayan respondido en su totalidad se les mostrará la visualización de datos creada en base a sus respuestas y las de los grupos que participaron previamente. 
+- Para el proyecto nos inspiramos basándonos en el video _“Do All Suicide Survivors Think The Same?”_, que consistirá de una encuesta de 7 preguntas para grupos de máximo cuatro personas, conteniendo preguntas relacionadas a la salud mental que deberá de responderse con ciertos gestos establecidos con la mano, utilizando la webcam del computador como lo muestra The Coding Train en su video de _“ml5.js: Clasificación de poses con PoseNet and ml5.neuralNetwork()_”, después de cada respuesta se elegirá de forma aleatoria a un participante para comunicar lo que piensa respecto a la pregunta, al finalizar las 7 preguntas y se hayan respondido en su totalidad se les mostrará la visualización de datos creada con base en sus respuestas y las de los grupos que participaron previamente. 
 
 __¿Por qué? (Objetivos y justificación del proyecto)__
-- Según UNICEF “la salud mental es un estado de bienestar mental que permite a las personas hacer frente a los momentos de estrés de la vida, desarrollar todas sus habilidades, poder aprender y trabajar adecuadamente y contribuir a la mejora de su comunidad.” Nosotros como grupo queremos generar un momento de conversación libre de prejuicios y estigma para ver si como facultad se logra ese estado; según el paper “Understanding and Addressing Mental Health Stigma Across Cultures for Improving Psychiatric Care: A Narrative Review” habla de cómo estas instancias de conversación en un espacio seguro, pueden influir en un individuo a recibir la ayuda que necesita.
+- Según UNICEF “la salud mental es un estado de bienestar mental que permite a las personas hacer frente a los momentos de estrés de la vida, desarrollar todas sus habilidades, poder aprender y trabajar adecuadamente y contribuir a la mejora de su comunidad.” Nosotros como grupo queremos generar un momento de conversación libre de prejuicios y estigma para ver si como facultad se logra ese estado; según el _paper “Understanding and Addressing Mental Health Stigma Across Cultures for Improving Psychiatric Care: A Narrative Review”_ habla de cómo estas instancias de conversación en un espacio seguro, pueden influir en un individuo a recibir la ayuda que necesita.
 
 ## 1.1 - REFERENTES
 
-  Jubille: referente de experiencia y comunicacion con el cuerpo
-- [Do All Suicide Survivors Think The Same? | Spectrum](https://youtu.be/djU7rduvo6s?si=njpzflTRPxmsTaH2&t=29)
-- ![image](https://github.com/user-attachments/assets/769b8421-a660-4a88-98eb-f136a2176917)
-- ![image](https://github.com/user-attachments/assets/84bd8dee-2910-4e30-8758-2f770fcc817d)
+  Jubille: referente de experiencia y comunicación con el cuerpo.
+- [_Do All Suicide Survivors Think The Same? | Spectrum_](https://youtu.be/djU7rduvo6s?si=njpzflTRPxmsTaH2&t=29)
+- ![_Do All Suicide Survivors Think The Same? | Spectrum_](https://github.com/user-attachments/assets/769b8421-a660-4a88-98eb-f136a2176917)
+- ![_Do All Suicide Survivors Think The Same? | Spectrum_](https://github.com/user-attachments/assets/84bd8dee-2910-4e30-8758-2f770fcc817d)
 
-  Aaron Koblin - "Flight patterns": referente para visualizacion de datos y un decaedro de competencias
+  Aaron Koblin - "Flight patterns": referente para visualizaciín de datos y un decaedro de competencias.
 - ![Flight patterns](https://github.com/user-attachments/assets/8b4e0c48-3582-4e37-96ce-2ddb8f4f1c7d)
 - ![Decaedro de competencias](https://github.com/user-attachments/assets/8b82ddfd-ab0b-4e25-bc5a-4f90e4920463)
 
-  The coding train - ml5.js: Pose Classification with PoseNet and ml5.neuralNetwork(): referente para codigo de reconocimiento de gestos
+  The coding train - ml5.js: Pose Classification with PoseNet and ml5.neuralNetwork(): referente para código de reconocimiento de gestos.
 - [ml5.js: Pose Classification with PoseNet and ml5.neuralNetwork()](https://youtu.be/FYgYyq-xqAw?si=LONKUtLMa7sUuCbb)
-  
 - ![image](https://github.com/user-attachments/assets/a04bc344-a9b2-499d-a678-682e25f56ee9)
   
 ## 02 - EXPERIENCIA DE USUARIO
 
 __Punto de inicio de la experiencia__
-- se solicitará un foro de 4 personas que se posicionan frente a las cuatro camaras para iniciar la experiencia
+- Se solicitará que 4 usuarios se posicionen frente a la webcam y que accionen el siguiente gesto ✋ para que la experiencia empiece con las instrucciones y subsiguientes.
 
 __Punto final de la experiencia__
 - se muestran los datos de todos los participantes en la pantalla segun la respuesta  sera el color  representado en la grafica, llendo de amarillo que es leve hasta rojo que es grave
 
 __Touchpoints clave__
-- la visualizacion final de datos
+- La visualización final de datos.
 
 ## 03 - ASPECTOS PHYGICAL
 
 __Elementos fisicos__
-- camara
-- parlantes
-- pantalla
-- arduino
+- Cámara.
+- Parlantes.
+- Pantalla.
+- Arduino.
   
 __Elementos digitales involucrados__
-- processing
-- p5.js
-- figma (wireframes)
+- processing.
+- p5.js.
+- figma (wireframes).
 
 __Integracion entre lo fisico y digital__
-- la visualizacioin de datos en base a la posiciones de los usuarios
+- El uso de Arduino para generar las gráficas de visualización de datos, cámara web para capturar gestos físicos de las manos.
 
 ## 04 - COMPONENTES
 
 __Lista de componentes (BOM - Bill of Materials)__
-- cables dupont
-- computador con web cam (asus zenbook 14 $10.000.000)
-- masking tape (para marcar suelo quizas)
-- arduino r4 wifi
+- Cables DuPont.
+- PC con webcam (Asus zenbook 14, $10.000.000).
+- Masking tape.
+- Arduino r4 Wi-Fi.
 
 __Especificaciones tecnicas de los componentes__
 
-__cables dupont:__
+__Cables dupont (En MCI Electronics las 10 unidades estan a $5.290)__
 
  - Material: Cobre / Plástico ABS.
  - Longitud: 10 centímetros.Cantidad: 40 Piezas por paquete.
@@ -91,7 +90,7 @@ __cables dupont:__
  - Cable flexible.
  - Calibre 26 AWG.
    
-__computador con web cam (asus zenbook 14 $10.000.000):__
+__Computador con webcam (en Asus se encuentra a $1.319.990)__
 
  - PANTALLA	LED de 14 pulgadas NanoEdge FullHD (1.080 x 1.920 px)
  - PROCESADOR	Intel Core i7-1165G7
@@ -107,7 +106,7 @@ __computador con web cam (asus zenbook 14 $10.000.000):__
  - AUTONOMÍA	67 Wh, polímeros de litio, hasta 21 h de autonomía
  - DIMENSIONES Y PESO	319 x 208 x 13,9 mm 1,13 kg
    
-__masking tape (para marcar suelo quizas)__
+__Masking tape (En artemery esta a $1.200)__
 
  - Color: Crema
  - Adhesivo: Caucho.
@@ -118,7 +117,7 @@ __masking tape (para marcar suelo quizas)__
  - Máxima resistencia x 30 min: 60ºC.
  - Elongación: 6% - 12%
    
-__arduino r4 wifi__
+__Arduino r4 wifi (En Arduino seria $31.182,90)__
 
  - Tabla
   - Nombre	Arduino® UNO R4 WiFi
