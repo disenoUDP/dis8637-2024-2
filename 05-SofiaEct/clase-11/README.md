@@ -157,13 +157,22 @@ __Diagrama del sistema__
 ## 05 - DISEÑO DE INTERACCION
 
 __Wireframes y prototipos__
-- ![BOCETO_01](https://github.com/user-attachments/assets/6f963e4a-3213-474b-8c51-3108a4bc6ba4)
-- ![BOCETO_02](https://github.com/user-attachments/assets/ab6c0bba-10e1-4d87-8c82-cad41e76f4c1)
 
-__Flujos de interaccion__
+![Adobe Scan 29 oct 2024_2](https://github.com/user-attachments/assets/09f56628-3b13-49ff-8cf3-3d03ceefcb30)
+![Adobe Scan 29 oct 2024 (1)_1](https://github.com/user-attachments/assets/5b99b8fe-55bb-4b75-8544-dd4b9471ce74)
+![Adobe Scan 29 oct 2024_1](https://github.com/user-attachments/assets/f3c4e982-3762-4543-9bc1-7c1a0e27c868)
+
+__Flujos de interacción__
+
 
 __Feedback y respuestas de sistema__
 
+__Casos limites:__
+- Que no haya suficiente luz para reconocer los gestos.
+- Que el usuario no ejecute bien el gesto.
+- Que la cAmara este desactivada y no pueda ver a los usuarios.
+  
+![Adobe Scan 29 oct 2024 (2)_1](https://github.com/user-attachments/assets/a5d2f69e-c972-4ee6-9838-7ee131c1fb6d)
 
 ## 06 - PLANIFICACION Y GESTION DEL PROYECTO
 
