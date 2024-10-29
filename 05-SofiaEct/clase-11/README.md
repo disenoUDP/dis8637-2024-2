@@ -65,18 +65,18 @@ __Preguntas planteada en la experiencia__
 3. ¿Crees tener las herramientas necesarias para afrontar tu salud mental?
   - Si - Tal vez - No - No se
     
-4. ¿te sientes igual que al principio despues de la experiencia?
+4. ¿La universidad te permite tener hobbies o actividades que permitan desconectarte,  relajarte o distraerte?
   - Bien - No se - Mas o menos - Mal
     
 5. ¿Has experimentado síntomas físicos relacionados con el estrés, como dolores de cabeza, dificultad para concentrarte o problemas digestivos? 
-  - Si - Tal vez - No - No sé
-    
+- Si - Tal vez - No - No sé
+      
 6. ¿Has considerado buscar ayuda profesional sobre algún problema de salud mental o para manejar el estrés?
   - Si - Tal vez - No - No sé
     
-7. ¿La universidad te permite tener hobbies o actividades que permitan desconectarte,  relajarte o distraerte?
-  - Si - Tal vez - No - No sé 
-
+7. ¿Te sientes igual que al principio después de la experiencia?
+  - Si - Tal vez - No - No sé
+    
 ## 03 - ASPECTOS PHYGICAL
 
 __Elementos fisicos__
