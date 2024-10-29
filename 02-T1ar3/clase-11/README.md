@@ -145,3 +145,4 @@ realizaron dos monitores  la imagende del agua cuando
 le realiza un figma de como esta realizando la funcion el usuario 
 *Muy buen mensaje conceptual en este proyecto .
 *sensor de nivel de agua .
+
