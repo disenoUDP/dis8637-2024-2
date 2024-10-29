@@ -1,5 +1,3 @@
-# clase-11
-
 ## "NO ESTAS SOLO" 
 
 Proyecto con @Mosswhosmoss y @valechavezalb
