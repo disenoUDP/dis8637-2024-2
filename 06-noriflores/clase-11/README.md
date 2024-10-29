@@ -98,3 +98,15 @@ d) El usuario decide abandonar la cápsula antes de completar el cuestionario
 ## Cronograma
 
 ![cronograma](./cronograma.png "cronograma")
+
+
+# FEEDBACK
+
+1. Mejorar explicación
+2. Mejorar wireframes
+3. Pensar en cómo será el video
+4. Definir mejor la cápsula
+5. Es buena idea estar rodeado de tu basura
+6. Hacer todo más claro
+7. Escribir "Sí" con tilde (pipipi)
+8. 
