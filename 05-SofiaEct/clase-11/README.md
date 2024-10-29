@@ -55,7 +55,7 @@ __Punto final de la experiencia__
 __Touchpoints clave__
 - la visualizacion final de datos
 
-## 03_ASPECTOS PHYGICAL
+## 03 - ASPECTOS PHYGICAL
 
 __Elementos fisicos__
 - camara
