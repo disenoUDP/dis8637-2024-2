@@ -25,7 +25,7 @@ Busca hacer una excavación profunda en la creación de sonidos mediante algorit
 Su gráfica hace uso de datos en tiempo real, la utilización de su gráfica nos ayudará a llamar la atención de una manera más innovadora y que las personas hagan consciencia de su estrés de una manera distinta.
 
 ### Cuestionario Interactivo y gráfica
-Luego se mostrará en pantalla un saludo y una breve introducción para después seguir con las preguntas. (boceto) 
+Luego se mostrará en pantalla un saludo y una breve introducción para después seguir con las preguntas.  
 Las preguntas de este cuestionario están diseñadas para reflejar distintas dimensiones del estrés académico, tales como:
 Dificultad para gestionar el tiempo.
 Conflictos entre los estudios y la vida personal.
@@ -41,8 +41,7 @@ ejemplo concreto de preguntas:
 
 Estás preguntas se relacionan estrictamente con indicadores de estrés elevados, ya que todas estás situaciones que presentamos ayudan a establecer una conexión directa que genera el estrés académico, ya que son situaciones que genera síntomas emocionales que son parte del estrés, como ansiedad, frustración, cansancio, insomnio. procrastinación, etc.
 
-
-
+![](etapa1.png)
 
 
 
