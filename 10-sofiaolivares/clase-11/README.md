@@ -173,6 +173,14 @@ Mando Nintendo NES característico por su simpleza, figura rectangular plana, qu
 
 https://www.figma.com/board/uV2nXn3nMcdlLp6PbWrjBT/TALLER?node-id=59-449&node-type=text&t=BzSpXuhxuKD7tigx-0
 
+### Bibliografia 
+https://neurolaunch.com/academic-stress-in-college-students/
+
+https://repositoriobibliotecas.uv.cl/serveruv/api/core/bitstreams/f8ad5b78-cb35-4d5c-b739-cdbeca9b3728/content
+
+https://www.biobiochile.cl/noticias/salud-y-bienestar/cuerpo/2022/06/28/el-20-de-los-universitarios-estaria-en-riesgo-suicida-asegura-estudio-chileno-de-salud-mental.shtml
+
+
 
 
 
