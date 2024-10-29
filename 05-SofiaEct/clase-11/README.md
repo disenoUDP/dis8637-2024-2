@@ -61,9 +61,9 @@ __Elementos fisicos__
 - camara
 - parlantes
 - pantalla
-
-__Elementos digitales involucrados__
 - arduino
+  
+__Elementos digitales involucrados__
 - processing
 - p5.js
 - figma (wireframes)
