@@ -27,8 +27,9 @@ Su gráfica hace uso de datos en tiempo real, la utilización de su gráfica nos
 
 ### Cuestionario Interactivo y gráfica
 Luego se mostrará en pantalla un saludo y una breve introducción para contextualizar al usuario
-# GRAFICA BIENVENNIDA 
 ![](etapa1.png)
+
+https://github.com/user-attachments/assets/03bd115b-6f58-4f24-b967-583f12f1b5a7
 
 Para luego seguir con las preguntas de este cuestionario que están diseñadas para reflejar distintas dimensiones del estrés que provoca la carga académica, tales como:
 - Dificultad para gestionar el tiempo.
