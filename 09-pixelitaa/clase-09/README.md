@@ -31,6 +31,22 @@ Elegimos el agua porque, apesar de que google, que es la empresa que aloja los s
 
 ![waaaaaaa](https://github.com/user-attachments/assets/37066fdc-55dd-4d35-82e6-6a03c77941ca)
 
+**Casos de error**
+
+Se pierde la conexion entre el Arduino R4 Wifi y el UI
+
+Se pierde la conexión del sitio MidJourney
+
+El sistema se activa con una cantidad de agua distinta a la que determinamos
+
+El sistema NO se activa con el litro de agua
+
+**Casos limites**
+
+El usuario no puede ingresar el input mediante el teclado, para esto deberiamos implementar un sistema de speech
+
+La interacción es realizada por mas de un usuario
+
 **Lista de Componentes**
 
 Nuestra lista de componentes consiste de:
@@ -43,6 +59,7 @@ Nuestra lista de componentes consiste de:
 - Sensor analogo de nivel de agua
 - Case de montaje
 - Bateria de Litio que alimente el dispositivo
+- Una cuenta de MidJourney
 
 ## Plan de producción 
 
