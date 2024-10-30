@@ -139,10 +139,4 @@ https://articulo.mercadolibre.cl/MLC-1447945991-pilas-aa-alcalinas-energizer-max
 <img width="759" alt="Screenshot 2024-10-28 at 11 45 10 PM" src="https://github.com/user-attachments/assets/07d54c60-e466-4afb-9b5c-9e09776ba936">
 
 
-##anotaciones de la clase:
-grupo 4 de paula : el proyecto no se basa en ver los resultados de votacion si no en el impacto de ambiental en forma digital, sobre el agua que utiliza midjourney .
-realizaron dos monitores  la imagende del agua cuando 
-le realiza un figma de como esta realizando la funcion el usuario 
-*Muy buen mensaje conceptual en este proyecto .
-*sensor de nivel de agua .
 
