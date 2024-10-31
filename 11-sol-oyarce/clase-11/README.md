@@ -77,7 +77,7 @@ Totem de autoservicio y sus variantes
 
 ![texto](./totem1.png)
 
-![texto](.totem2.png)
+![texto](./totem2.png)
 
 ![texto](./totem3.png)
 
