@@ -126,7 +126,7 @@ Prototipo- funcionamiento
 
 ![texto](./prototipo.png)
 
-Lista componentes con especificaciones técnicas y justificación de selección.
+- Lista componentes con especificaciones técnicas y justificación de selección.
 
    Servo motor 
   
