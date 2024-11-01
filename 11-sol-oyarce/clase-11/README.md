@@ -26,11 +26,16 @@ Invirtieron aproximadamente  2.250 millones de dolares (considerando que cada fr
 
 Otra razón por la cuál queremos elegir Mcdonalds es por el gran consumo de la marca que vemos dentro de la comunidad universitaria de la Diego Portales. Y también porque declararon que “en 2024 tenemos un plan de inversiones agresivos: queremos duplicar la presencia de McDonald's en Chile”.
 
-![texto](./GrupoAlanisBelenSol1.png)
+- Mapa de flujo
 
-![texto](./GrupoAlanisBelenSol2.png)
+![texto](./Mapadeflujo.png)
 
-- Referentes 
+- Journeymap
+
+![texto](./Journeymap.png)
+
+- Referentes
+  
 Totems y logo autoservicio McDonal's
 
 ![texto](./totem.jpg)
@@ -87,7 +92,7 @@ Diseño de interfaz: Bocetos para representar la interaccion proyecto-usuario
 
 bocetos interaccion 
 
-![texto](/interaccion.png)
+![texto](./interaccion.png)
 
 ![texto](./interaccion2.png)
 
