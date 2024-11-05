@@ -75,3 +75,21 @@ void draw() {
 https://github.com/user-attachments/assets/27bd04c4-d958-4960-afc2-0f50746aecbb
 
 
+
+## CLASE 12 OFICIAL
+
+0. Éste agradable sujeto nos recomienda los links 1-6 para entender cómo hacer un puzle: https://forum.processing.org/one/topic/how-to-make-a-jigsaw.html
+
+1. beginShape: https://processing.org/reference/beginShape_.html
+
+2. endShape: https://processing.org/reference/endShape_.html
+
+3. Vertex: https://processing.org/reference/vertex_.html
+
+4. Texture: https://processing.org/reference/texture_.html
+
+5. mousePressed: https://processing.org/reference/mousePressed_.html
+
+6. Tips: https://amnonp5.wordpress.com/2012/01/28/25-life-saving-tips-for-processing/
+
+7. map: https://processing.org/reference/map_.html
