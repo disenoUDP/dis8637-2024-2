@@ -100,7 +100,8 @@ https://github.com/user-attachments/assets/27bd04c4-d958-4960-afc2-0f50746aecbb
 https://pages.uoregon.edu/park/Processing/process1.html
 
 
-size() es para determinar el tamaño de la ventana/canvas/pestaña
+#### size() 
+ size() es para determinar el tamaño de la ventana/canvas/pestaña
 
 
 #### background() es para determinar el color de fondo:
@@ -110,6 +111,6 @@ size() es para determinar el tamaño de la ventana/canvas/pestaña
 
 3 valores -> background(255, 20, 120) determina el color, en RGB.
 
-
-
+#### line()
+line(x1, y1, x2 , y2) x1 & y1 determinan las coordenadas del primer punto de una línea; x2 & y2 determinan el 2do punto de la línea. (x es horizontal, y es vertical)
 
