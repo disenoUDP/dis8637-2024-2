@@ -51,5 +51,14 @@ function mousePressed() {
 
 ```
 
+## Próxima semanaaaaaa
+
+Todo lo que se genere esta semana estará incluido en la presentación para la comisión
+
+1. Diagrama de flujo en figma.
+2. Pasar instrucciones a pseudocódigo, los más parecido al código sin ser el código (utilizar lenguaje).
+3. Boceto de producción: Lista de cosas, gráfica, programado, etc. (con medidas y todo), wireframe de mediana fidelidad a la gráfica que se va a mostrar, randerizar la puesta en escena.
+4. Asignación de espacios en el laboratorio, ver espacios y explicar por qué lo necesitamos.
+
 
 
