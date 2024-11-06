@@ -1,5 +1,5 @@
 # clase-11
-*29 de agosto de 2024*
+*29 de Octubre de 2024*
 
 1.⁠ ⁠Preguntas fundamentales:
    - ¿Qué? (Descripción del proyecto)
