@@ -93,3 +93,24 @@ https://github.com/user-attachments/assets/27bd04c4-d958-4960-afc2-0f50746aecbb
 6. Tips: https://amnonp5.wordpress.com/2012/01/28/25-life-saving-tips-for-processing/
 
 7. map: https://processing.org/reference/map_.html
+
+
+### Aprendizaje
+
+https://pages.uoregon.edu/park/Processing/process1.html
+
+
+#### size() 
+ size() es para determinar el tamaño de la ventana/canvas/pestaña
+
+
+#### background() es para determinar el color de fondo:
+
+
+1 valor -> background(127); determina la escala de gris del fondo, siendo 0 negro, y blanco 255
+
+3 valores -> background(255, 20, 120) determina el color, en RGB.
+
+#### line()
+line(x1, y1, x2 , y2) x1 & y1 determinan las coordenadas del primer punto de una línea; x2 & y2 determinan el 2do punto de la línea. (x es horizontal, y es vertical)
+
