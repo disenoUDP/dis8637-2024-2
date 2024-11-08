@@ -48,4 +48,59 @@ Actualmente (7/11/2024) ya logré conectar el wiimote a MARSELO. EL siguiente pa
 
 ## Processing
 
+En mi camino por aprender processing comencé a experimentar con las líneas, e intenté crear un logo con ellas.
+
+```java
+
+size (500, 500);
+background (0, 20, 255);
+
+line(50, 100, 200, 100);
+//linea horizontal de más arriba a la izquierda nombreClave: techoIzq
+line(50, 100, 50, 200);
+//conecta con techoIzq en la izq
+line(200, 100, 200, 200);
+//conecta cn techoIzq en la der
+line(50, 200, 80, 200);
+//linea corta por la izq
+line(170, 200, 200, 200);
+//línea corta por la derexa
+line(80, 200, 80, 350);
+//línea larga vertical por la izq
+line(170, 200, 170, 300);
+//línea larga vertical por la der
+line(80, 350, 170, 420);
+//línea diagonal larga
+line(170, 300, 225, 350);
+//línea diagonal corta
+
+
+
+line(300, 100, 450, 100);
+//linea horizontal de más arriba a la derecha nombreClave: techoDer
+line(300, 100, 300, 200);
+//conecta con techoDer por la izq
+line(450, 100, 450, 200);
+//conecta con techoDer por la der
+line(300, 200, 330, 200);
+//linea corta por la izq
+line(450, 200, 420, 200);
+//linea corta por la der
+line(330, 200, 330, 300);
+//linea larga vertical por la izq
+line(420, 200, 420, 350);
+//linea vertical larga por la der
+line(330, 300, 280, 350); 
+//linea diagonal corta
+line(420, 350, 360, 420);
+//linea diagonal larga
+
+//ahora pondré las lineas horizontales de abajo
+line(360, 420, 170, 420);
+//linea horizontal larga
+line(225, 350, 280, 350);
+```
+El código anterior me tomó aprox 40 minutos y logré este resultado.
+
+![texto](./proceUCH.png).
 
