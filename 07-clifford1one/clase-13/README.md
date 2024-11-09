@@ -104,3 +104,43 @@ El código anterior me tomó aprox 40 minutos y logré este resultado.
 
 ![texto](./proceUCH.png).
 
+
+Después de eso copíe un par de ejemplos de la página de processing para seguir familiarizándome con el entorno de programación.
+
+https://processing.org/examples/
+
+Actualmente estoy viendo los tutoriales de Daniel Shiffman
+
+https://www.youtube.com/playlist?list=PLzJbM9-DyOZyMZzVda3HaWviHqfPiYN7e
+
+## 0.6 Overview of Topics
+
+https://www.youtube.com/watch?v=XNgfxOUoJ4g&list=PLzJbM9-DyOZyMZzVda3HaWviHqfPiYN7e&index=10
+
+Anotaciones del video
+
+### Fundamentals:
+
+Data: Information storaged on the computer. 
+
+- Variable: Is where the data is storaged
+  
+- Array: A list of data
+
+Control: 
+
+- Conditional logic(if/else statements)
+
+- Loop: Repetition to save in code "ahorrar"
+
+Organization:
+
+- Functions: contains instructions to do certain thing.
+
+- Objects:  objects has data/functionalities associated with them.
+
+
+
+
+
+
