@@ -140,6 +140,66 @@ Organization:
 - Objects:  objects has data/functionalities associated with them.
 
 
+----
+
+line(x, y, x1, y1);
+lo que está dentro del paréntesis se le llaman "arguments". "line" sería un "functionName"
+
+### Rectágunlos
+
+hay varias formas de dibujar un rectágunlo en processing, la forma predeterminada es: (x, y, width, height)
+
+donde (y, y) son las coordenadas de la esquina superior izquierda. Y (width, height) es el ancho y alto en pixeles del rectángulo completo.
+
+https://processing.org/reference/rect_.html
+
+![image](https://github.com/user-attachments/assets/b71b311a-36a6-4e82-aff5-66ec50357eb3)
+
+la función rect() te permite crear un recatngulo de cualquier tamaño y redondear sus esquinas por serparado o todas juntas, sin embargo, siempre tendrás que crear el rectangulo a partir de su esquina superior izquierda.
+
+Con la función rectMode() puedes crearlo desde su centro, o cualquiera de sus esquinas
+
+https://processing.org/reference/rectMode_.html
+
+la sintaxis para estos casos es:
+
+rectMode(CENTER)
+rect(x, y, w, h);
+
+### Elípse
+
+https://processing.org/reference/ellipse_.html
+
+sintaxis: ellipse(x, y, w, h); 
+
+en este caso (x, y) refieren al centro de la elipse. (de igual manera se puede cambiar con ellipseMode()
+
+https://processing.org/reference/ellipseMode_.html
+
+### Colores 
+
+fill()
+
+stroke()
+
+son los conceptos básicos para el color. Funcionan en formato rgb.
+
+
+Se escribe el color para la siguiente forma que se hará. Se escribe primero la data de color, y dps la forma. Entonces, si pongo un color alprincipio, funcionará para todas las formas a continuación, amenos que especifique un nuevo color.
+
+
+Los colores se pueden describir de muchas formas en pde, pero la forma predeterminada es (r, g, b);
+
+
+Para poner blanco, negro, o valores en escala de grises, basta con poner 1 digito: (0); para negro. (255); para blanco(y no es necesario poner (255, 255, 255);) 
+
+
+Si pones un "#" se puede poner el color en hex.
+
+
+
+
+
 
 
 
