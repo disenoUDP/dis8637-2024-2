@@ -196,7 +196,9 @@ Para poner blanco, negro, o valores en escala de grises, basta con poner 1 digit
 
 Si pones un "#" se puede poner el color en hex.
 
+si pones solo 2 valores - fill(0, 100); - el primer valor es para escala de gris, y el 2do para la transparencia.
 
+si pongo 4 valores, - fill(200, 100, 100, 50); - el 4to valor es la transparencia.
 
 
 
