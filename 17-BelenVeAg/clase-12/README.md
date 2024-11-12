@@ -1,7 +1,5 @@
 # clase-12
 
-# clase-12
-
 Fotos apuntes e ideas
 
 ![IMG_3529](https://github.com/user-attachments/assets/0756e435-ac47-4e82-9f41-d153703fd177)
