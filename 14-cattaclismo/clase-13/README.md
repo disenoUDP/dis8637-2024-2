@@ -203,7 +203,7 @@ function keyPressed() {
 
 ## wireframes en orden 
 
-![](Mesadetrabajo1.png)
+![](Mesa_de_trabajo_1.png)
 
 ![](saludo.png)
 
