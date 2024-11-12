@@ -30,6 +30,8 @@ Que caracteristicas de equipo y que recursos toma el desarrollo del prototipo.
 
 *"Los sueños solamente existen cuando decimos lo que queremos"*
 
+Trabajara en una web.
+
  
 
 
