@@ -13,14 +13,14 @@
 
 - Instrucciones
    - Instruccion 01
-
-       totem: El tótem se encuentra en standBy, presentando la pregunta en el monitor táctil "¿Quieres darte un gustito?" con las opciones "Sí" o "No" abajo, en un tamaño  más pequeño y encerrado en rojo.
+  
+  totem: El tótem se encuentra en standBy, presentando la pregunta en el monitor táctil "¿Quieres darte un gustito?" con las opciones "Sí" o "No" abajo, en un tamaño  más pequeño y encerrado en rojo.
            
-       Instrucciones Usuario: Usuario no presente
+  Instrucciones Usuario: Usuario no presente
            
-       Comunicación de sistemas: Entre monitor y RaspBerry.
+  Comunicación de sistemas: Entre monitor y RaspBerry.
        
-- Instruccion 02
+   - Instruccion 02
 
      totem: El tótem se encuentra en standBy, presentando la pregunta en el monitor táctil "¿Quieres darte un gustito?" con las opciones "Sí" o "No" abajo, en un tamaño más pequeño y encerrado en rojo.
          
@@ -28,7 +28,7 @@
          
      Comunicación de sistemas: Entre monitor y RaspBerry.
 
-  - Instruccion 03
+   - Instruccion 03
 
      totem: Si el usuario elige "No", ocurrirán las instrucciones 4 y 5. Si elige "Sí", ocurrirá la Instrucción 6.
          
@@ -43,8 +43,8 @@
        Instrucciones Usuario: El usuario recepcionará la info. 
            
        Comunicación de sistemas: Entre monitor y RaspBerry.
-
-    - Instruccion 05
+   
+   - Instruccion 05
 
        totem: El totem volverá a modo StandBy
            
@@ -52,7 +52,7 @@
            
        Comunicación de sistemas: Entre monitor y RaspBerry.
 
-    - Instruccion 06
+   - Instruccion 06
   
        totem: Se presentaran las opciones del menú mediante un carríl de imagenes 
            
@@ -60,7 +60,7 @@
            
        Comunicación de sistemas: Entre monitor y RaspBerry.
 
-    - Instruccion 07
+   - Instruccion 07
 
        totem: Se presentaran las opciones del menú, entre ellas se considerará si el usuario elige consumir algún producto (continua en la instrucción 7 en adelante) o "No consumir" (ocurrirás las instrucciones 4 y 5). 
            
@@ -68,7 +68,7 @@
            
        Comunicación de sistemas: Entre monitor y RaspBerry.
 
-    - Instruccion 08
+   - Instruccion 08
 
        totem: El totem mostrará en la pantalla un mensaje de "Retire su pedido", acompañado de una flecha apuntando hacia abajo, indicando el dispensador
            
@@ -76,15 +76,14 @@
            
        Comunicación de sistemas: Entre monitor y  RaspBerry 
 
-    - Instruccion 09
+   - Instruccion 09
 
        totem: El dispensador se activará y entregará una Bala 
            
        Instrucciones Usuario: El usuario debe retirar la bala 
            
        Comunicación de sistemas: Entre  RaspBerry y Sensor paso a paso
-
-    - Instruccion 10
+   - Instruccion 10
 
        totem: El Totem volverá a la instrucción 5
            
@@ -92,7 +91,7 @@
            
        Comunicación de sistemas: Entre monitor y RaspBerry.
 
-    - Instruccion 11
+   - Instruccion 11
       
       Instrucciones Usuario: El usuario se irá
            
