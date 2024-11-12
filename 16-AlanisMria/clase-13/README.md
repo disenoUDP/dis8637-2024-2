@@ -32,6 +32,10 @@ Que caracteristicas de equipo y que recursos toma el desarrollo del prototipo.
 
 Trabajara en una web.
 
+Correcciones código
+
+el break actua como un {}
+Case pantalla (numero de la pantalla), indica el estado en el que esta estará
  
 
 
