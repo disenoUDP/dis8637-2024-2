@@ -223,4 +223,9 @@ function keyPressed() {
 
 ![](101.2.png)
 
+## correcciones
+
+En pantalla, resolver bien lo que se va a mostrar y en qué momento se va a mostrar ¿qué logica sigue la gráfica de inicio? resolver, puede ser mostrando aleatoriamente las respuestas guardadas. 
+
+Resolver la disposicón de teclado y botones, no es taan buena idea hacer un podio.
 
