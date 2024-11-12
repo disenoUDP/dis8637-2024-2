@@ -14,11 +14,11 @@
 - Instrucciones
    - Instruccion 01
   
-  totem: El tótem se encuentra en standBy, presentando la pregunta en el monitor táctil "¿Quieres darte un gustito?" con las opciones "Sí" o "No" abajo, en un tamaño  más pequeño y encerrado en rojo.
-           
-  Instrucciones Usuario: Usuario no presente
-           
-  Comunicación de sistemas: Entre monitor y RaspBerry.
+     totem: El tótem se encuentra en standBy, presentando la pregunta en el monitor táctil "¿Quieres darte un gustito?" con las opciones "Sí" o "No" abajo, en un tamaño  más pequeño y encerrado en rojo.
+   
+     Instrucciones Usuario: Usuario no presente
+   
+     Comunicación de sistemas: Entre monitor y RaspBerry.
        
    - Instruccion 02
 
