@@ -201,5 +201,24 @@ function keyPressed() {
 
 ```
 
+## wireframes en orden 
+
+![](Mesadetrabajo1.png)
+
+![](saludo.png)
+
+![](encuesta1.png)
+
+![](encuesta2.png)
+
+![](indicación2.png)
+
+![](respuestas.png)
+
+![](gracias.png)
+
+![](101.png)
+
+![](101.2.png)
 
 
