@@ -10,7 +10,7 @@ Panel de control render
 
 Vista Frontal
 
-![](VF1Taller.png)
+![](VF1Taller.jpg)
 
 Vista Superior
 
@@ -18,7 +18,7 @@ Vista Superior
 
 Vista Lateral
 
-![](VLTaller.png)
+![](VLTaller.jpg)
 
 Vista Isómetrica
 
