@@ -21,4 +21,7 @@ Definición de elementos comunes en los mapas de flujo
   la iniciacion del sistema no es lo mismo que el standby :°
 
   
+![Imagen de WhatsApp 2024-11-12 a las 14 39 37_387ac201](https://github.com/user-attachments/assets/a35de5a7-140e-47ab-b4b8-a2270ad113d6) 
+
+  
   
