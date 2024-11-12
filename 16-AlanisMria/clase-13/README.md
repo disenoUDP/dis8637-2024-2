@@ -23,5 +23,15 @@ Definición de elementos comunes en los mapas de flujo
   
 ![Imagen de WhatsApp 2024-11-12 a las 14 39 37_387ac201](https://github.com/user-attachments/assets/a35de5a7-140e-47ab-b4b8-a2270ad113d6) 
 
+
+Una presentación de titulo efectiva permite entender como navegamos en los procesos, que aprendimos y que resultados obtuvimos.
+ 
+Que caracteristicas de equipo y que recursos toma el desarrollo del prototipo.
+
+*"Los sueños solamente existen cuando decimos lo que queremos"*
+
+ 
+
+
   
   
