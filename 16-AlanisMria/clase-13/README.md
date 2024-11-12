@@ -37,6 +37,12 @@ Correcciones código
 el break actua como un {}
 Case pantalla (numero de la pantalla), indica el estado en el que esta estará
  
+Proxima clase 
+- programaremos
+- debemos traer definidos los procesos formales y de fabricación
+- wireframe más en alta
+- investigar como programar
+
 
 
   
