@@ -14,4 +14,8 @@ El gasto general aproximado para la construcción de la estructura de este totem
 ![Captura de pantalla 2024-11-13 200117](https://github.com/user-attachments/assets/cc48cdb6-d04c-4a18-9f45-f0d64aff7fbb) 
 ![Captura de pantalla 2024-11-13 200315](https://github.com/user-attachments/assets/c452ab9c-071f-4a38-b530-86f721badd5d)
 
-Para la base, debido al tiempo y la economización de recursos, pensamos en posicionar el totrm encima de una mesa :)
+Para la base, debido al tiempo y la economización de recursos, pensamos en posicionar el totem encima de una mesa :)
+
+Para la fabricación de los elemntos del dispensador haremos el espiral en base a alambre de 16, para la cual se diseñará una pieza que logre conectarla de manera segura a la pieza giratoria del motor paso a paso. 
+
+![Captura de pantalla 2024-11-13 205524](https://github.com/user-attachments/assets/690cddd5-58a5-4467-abdd-2f54522f4013)
