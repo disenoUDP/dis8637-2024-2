@@ -18,4 +18,5 @@ Para la base, debido al tiempo y la economización de recursos, pensamos en posi
 
 Para la fabricación de los elemntos del dispensador haremos el espiral en base a alambre de 16, para la cual se diseñará una pieza que logre conectarla de manera segura a la pieza giratoria del motor paso a paso. 
 
-![Captura de pantalla 2024-11-13 205524](https://github.com/user-attachments/assets/690cddd5-58a5-4467-abdd-2f54522f4013)
+![Captura de pantalla 2024-11-13 210208](https://github.com/user-attachments/assets/724562ac-3166-479b-b4d1-efed543b6f27) 
+
