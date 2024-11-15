@@ -1,5 +1,5 @@
 # clase-14
-*19 de novoembbre de 2024*
+*19 de noviembre de 2024*
 
 ## Procesos formales y de fabricación 
 
