@@ -33,3 +33,50 @@ int circleX
 void draw()
 circleX = 50
 ```
+
+Tambien puedes irle sumando valores, esto hará que el objeto se mueva.
+
+Ej 
+
+```java
+int circleX;
+
+void setup(){
+size(640, 360);
+circleX = 50;
+//en este caso, la variable circleX es sobre la posición del circulo en el eje x
+}
+
+void draw(){
+background(0, 0, 255);
+ellipse(circleX, 180, 30, 30);
+
+circleX = circleX +1;
+//la linea anterior significa que cada vez que el loop se repita, el valor de circleX aumentará 1, por lo que cada vez estará un pixel más a la derecha
+}
+```
+
+## random()
+
+se le pueden asignar valores random a las distintas varibales. también puedo darle un rango en el que esté esos valores random, ejemplo, un n° random entre 0 y 10
+
+ej: random(0, 100); -seria un n° randome entre 0 y 100)
+
+``` java
+int circleX;
+
+void setup(){
+size(640, 360);
+
+}
+
+void draw() {
+background(0, 0, 255);
+ellipse(circleX, 180, 30, 30);
+circleX = random(width);
+//si le pongo solo 1 valor, lo lee como "n° random entre 0 y el valor que dice. en este caso, el valor de width es de 640, por lo que me estará dando valores random entre 0 y 640
+}
+```
+de esta forma, se generara el circulo en un lugar distinto del eje x en cada frame. si le pusiera lo mismo para el eje Y, con circleY, la elipse se dibujaria en distntos lugares random durante todo el loop.
+
+
