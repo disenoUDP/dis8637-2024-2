@@ -1,5 +1,5 @@
 # clase-14
-##pre clase 14
+## pre clase 14
 
 Hay 2 tipos de información a la que processing puede acceder.
 
@@ -78,5 +78,9 @@ circleX = random(width);
 }
 ```
 de esta forma, se generara el circulo en un lugar distinto del eje x en cada frame. si le pusiera lo mismo para el eje Y, con circleY, la elipse se dibujaria en distntos lugares random durante todo el loop.
+
+## println()
+se utiliza para corroborar cosas del codigo que no siempre puedes ver a simple vista. imprime valores en la consola, que te pueden ayudar a debugear el codigo
+
 
 
