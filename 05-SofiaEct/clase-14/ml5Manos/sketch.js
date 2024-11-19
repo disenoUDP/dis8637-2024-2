@@ -10,9 +10,18 @@ let handPose;
 let video;
 let hands = [];
 
+let opciones = {
+    maxHands: 8,
+    flipped: false,
+    runtime: "tfjs",
+    modelType: "full",
+    detectorModelUrl: undefined, //default to use the tf.hub model
+    landmarkModelUrl: undefined, //default to use the tf.hub model
+};
+
 function preload() {
   // Load the handPose model
-  handPose = ml5.handPose();
+  handPose = ml5.handPose(opciones);
 }
 
 function setup() {
@@ -22,7 +31,8 @@ function setup() {
   video.size(640, 480);
   video.hide();
   // start detecting hands from the webcam video
-  handPose.detectStart(video, gotHands);
+  // cuando tiene un resultado, llama a la funcion obtuveManos
+  handPose.detectStart(video, obtuveManos);
 }
 
 function draw() {
@@ -42,7 +52,7 @@ function draw() {
 }
 
 // Callback function for when handPose outputs data
-function gotHands(results) {
+function obtuveManos(resultados) {
   // save the output to the hands variable
-  hands = results;
+  hands = resultados;
 }
