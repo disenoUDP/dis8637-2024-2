@@ -20,3 +20,15 @@ Para la fabricación de los elemntos del dispensador haremos el espiral en base 
 
 ![Captura de pantalla 2024-11-13 210208](https://github.com/user-attachments/assets/724562ac-3166-479b-b4d1-efed543b6f27) 
 
+## Avance formal interior 
+
+![Captura de pantalla 2024-11-19 003221](https://github.com/user-attachments/assets/e423c919-0ffd-4a17-ad0e-a73e251c1c69)
+![Captura de pantalla 2024-11-19 003248](https://github.com/user-attachments/assets/042bc9a8-0da6-4c4d-999d-b9cc029830b5)
+
+
+
+Se implementará un soporte 3d para lograr conectar el motor al espiral y conseguir un giro en 360° uniforme
+Se opto por la fabricación de un cajon interior que de estabilidad y soporte a los componentes, ya que el espesor del mdf la cubierta fue repensado y será de 3mm, para facilitar fabricación y ahorrar recursos
+
+
+
