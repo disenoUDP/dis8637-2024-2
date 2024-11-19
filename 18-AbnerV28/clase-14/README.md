@@ -7,3 +7,7 @@ Primeramente debemos tener en cuenta tanto los materialeas que usaremos como la 
 // ![texto](./JumboButton.jpg) 
 Sensor para utilizarlo esto cuando el ususario quisiera responder las preguntas 
 // ![texto](./Sensorultrasonico.jpg) 
+
+Manual de uso 
+### Bocetos 
+
