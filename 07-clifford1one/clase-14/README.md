@@ -83,4 +83,43 @@ de esta forma, se generara el circulo en un lugar distinto del eje x en cada fra
 se utiliza para corroborar cosas del codigo que no siempre puedes ver a simple vista. imprime valores en la consola, que te pueden ayudar a debugear el codigo
 
 
+## if()
+
+se usa if para que ciertos pedazos del código se reproduzcan en ciertos momentos en específico.
+
+la versión pro es - if() {} else if() - en ese, se lee en orden y si la condición se cumple, se salta el resto del codigo. Entonces va viendo uno, y si no se cumple, pasa al siguiente, si sí se cumple, se salta el resto del if.
+
+ej ```java
+void setup(){
+  size(640, 360);
+}
+
+void draw(){
+background(0, 0, 255);
+rect(50, 180, 60, 60);
+
+if(mouseX < 100){
+  background(0, 0, 155);
+}
+
+  else if(mouseX < 200){
+    background(0, 0, 55);
+}
+else if(mouseX < 300){
+  background(0, 0, 30);
+}
+
+else if(mouseX < 400){
+  background(0, 30, 0);
+}
+
+else if(mouseX < 500){
+  background(0, 55, 0);
+ }
+else if(mouseX < 640){
+background(0, 155, 0);
+}
+}
+```
+
 
