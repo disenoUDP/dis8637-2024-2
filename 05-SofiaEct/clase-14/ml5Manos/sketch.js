@@ -10,13 +10,16 @@ let handPose;
 let video;
 let hands = [];
 
+// crear 4 colores
+let colores = Array();
+
 let opciones = {
-    maxHands: 8,
-    flipped: false,
-    runtime: "tfjs",
-    modelType: "full",
-    detectorModelUrl: undefined, //default to use the tf.hub model
-    landmarkModelUrl: undefined, //default to use the tf.hub model
+  maxHands: 8,
+  flipped: false,
+  runtime: 'tfjs',
+  modelType: 'full',
+  detectorModelUrl: undefined, //default to use the tf.hub model
+  landmarkModelUrl: undefined, //default to use the tf.hub model
 };
 
 function preload() {
@@ -33,6 +36,13 @@ function setup() {
   // start detecting hands from the webcam video
   // cuando tiene un resultado, llama a la funcion obtuveManos
   handPose.detectStart(video, obtuveManos);
+
+  noStroke();
+
+  colores.push(color(255));
+  colores.push(color(0));
+  colores.push(color(255, 0, 0));
+  colores.push(color(0, 255, 0));
 }
 
 function draw() {
@@ -44,8 +54,8 @@ function draw() {
     let hand = hands[i];
     for (let j = 0; j < hand.keypoints.length; j++) {
       let keypoint = hand.keypoints[j];
-      fill(0, 255, 0);
-      noStroke();
+
+      fill(colores[i]);
       circle(keypoint.x, keypoint.y, 10);
     }
   }
