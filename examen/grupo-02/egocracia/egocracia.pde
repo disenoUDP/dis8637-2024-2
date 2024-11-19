@@ -22,8 +22,13 @@ void setup() {
   fullScreen();
   cargarPantallas();
   inicializarPantallas();
+  
+  // puzzleCargar();
+  
+  // configurarPuzzle();
 }
 
 void draw() {
   proyectarPantalla();
+  // actualizarPuzzle();
 }
