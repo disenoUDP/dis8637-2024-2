@@ -5,4 +5,5 @@ Primeramente debemos tener en cuenta tanto los materialeas que usaremos como la 
 
  Botón Jumbo para la pregunta de "sí o No"
 // ![texto](./JumboButton.jpg) 
-// ![texto](./nombreimagen.jpg) 
+Sensor para utilizarlo esto cuando el ususario quisiera responder las preguntas 
+// ![texto](./Sensorultrasonico.jpg) 
