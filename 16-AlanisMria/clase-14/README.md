@@ -28,7 +28,12 @@ Para la fabricación de los elemntos del dispensador haremos el espiral en base 
 
 
 Se implementará un soporte 3d para lograr conectar el motor al espiral y conseguir un giro en 360° uniforme
-Se opto por la fabricación de un cajon interior que de estabilidad y soporte a los componentes, ya que el espesor del mdf la cubierta fue repensado y será de 3mm, para facilitar fabricación y ahorrar recursos
+Se opto por la fabricación de un cajon interior que de estabilidad y soporte a los componentes, ya que el espesor del mdf la cubierta fue repensado y será de 3mm, para facilitar fabricación y ahorrar recursos.
+
+esta nueva cubierta sera unida mediante pequeños ensambles :)
+![Imagen de WhatsApp 2024-11-19 a las 00 42 01_908f24f1](https://github.com/user-attachments/assets/590c89a0-a11a-4775-a656-42213630bd28)
+
+Imagen referencial :)
 
 
 
