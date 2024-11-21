@@ -89,7 +89,8 @@ se usa if para que ciertos pedazos del código se reproduzcan en ciertos momento
 
 la versión pro es - if() {} else if() - en ese, se lee en orden y si la condición se cumple, se salta el resto del codigo. Entonces va viendo uno, y si no se cumple, pasa al siguiente, si sí se cumple, se salta el resto del if.
 
-ej ```java
+ej
+```java
 void setup(){
   size(640, 360);
 }
@@ -123,3 +124,34 @@ background(0, 155, 0);
 ```
 
 
+## LINKS RELEVANTES
+
+https://codigofacilito.com/articulos/ejemplos-switch-java
+
+https://processing.org/reference/switch.html
+
+https://processing.org/reference/charconvert_.html
+
+https://processing.org/examples/button.html
+
+https://github.com/AndresMartinM/FODA-Processing/blob/main/sketchPlan/sketchPlan.pde
+
+https://www.paulrosero-montalvo.com/gallery/secap6.2.pdf
+
+https://zzzcode.ai/code-explain?id=e0bd2cc1-f5b8-48f3-942c-138fb2728a95
+
+https://processing.org/reference/text_.html
+
+https://processing.org/reference/translate_.html
+
+https://processing.org/examples/mousefunctions.html
+
+https://processing.org/reference/mousePressed_.html
+
+https://happycoding.io/tutorials/processing/creating-functions/random-faces(este no es tan relevante pero es xistoso)
+
+https://www.alpharithms.com/ascii-table-512119/
+
+https://forum.processing.org/two/discussion/11679/delete-the-last-letter-of-a-string.html
+
+https://processing.org/reference/String_length_.html
