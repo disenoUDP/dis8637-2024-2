@@ -1,4 +1,4 @@
-# clase-04
+# clase-04 HEROE GUITARRA
 
 Presentamos el objeto:
 
