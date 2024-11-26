@@ -216,8 +216,6 @@ __Casos limites:__
   
 ![Adobe Scan 29 oct 2024 (2)_1](https://github.com/user-attachments/assets/a5d2f69e-c972-4ee6-9838-7ee131c1fb6d)
 
-gracias por su atención :D
-
 https://github.com/user-attachments/assets/36e0a9b8-ee18-4ba7-b650-cd374ca6d6a0
 
 ## WEBCAM
