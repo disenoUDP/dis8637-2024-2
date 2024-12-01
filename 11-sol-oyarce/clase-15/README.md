@@ -1,5 +1,5 @@
 # clase-15
-## Propuesta de Packaging
+## Propuesta de Packaging 7x11,5 cm 
 
 1.Packaging Verde con rojo (Parte frontal)
 ![texto](./Packagingbala06.png)
