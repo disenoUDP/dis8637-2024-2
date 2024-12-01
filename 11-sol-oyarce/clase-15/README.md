@@ -1,5 +1,5 @@
 # clase-15
-## Propuesta de 
+## Propuesta de Packaging
 
 1.Packaging Verde con rojo (Parte frontal)
 ![texto](./Packagingbala06.png)
