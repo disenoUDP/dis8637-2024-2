@@ -1,4 +1,4 @@
-# clase-04
+# clase-04 HEROE GUITARRA
 
 Presentamos el objeto:
 
@@ -520,3 +520,106 @@ Queremos volver a mencionar las oportunas ideas y feedback que nos brindaron Pau
 
 Mención honrrosa al grupo de trabajo que formamos el día lunes 9 de septiembre. El cual consistió en una colaboración constante y conversaciones enriquecedoras: 
 Alanis, Belén, Emilia, Morgan, Sofía, Tiare.
+
+
+# RESUMENCITO
+
+```INO
+/*
+  Single Frame
+  
+  Displays single frames using matrix.loadFrame
+  
+  See the full documentation here:
+  https://docs.arduino.cc/tutorials/uno-r4-wifi/led-matrix
+*/
+
+#include "Arduino_LED_Matrix.h"  // Incluye the LED_Matrix library
+#include "framesv2.h"            // Incluye el archivo con los códigos de los frames en lenguaje hexadecimal
+
+int potPin = A0; //declaro que el pin del potenciómetro es el "A0"
+ArduinoLEDMatrix matrix;  // Create an instance of the ArduinoLEDMatrix class
+//int botonWeno = 2; Originalmente declaraba el pin del pulsador
+
+bool ogDerSeen = false; //Variable que utilizaré como "flag", que sirve para indicar que una vez que se haya cumplido cierta condición, el código se ejecute a partir de cierta línea
+//bool fase2Seen = false;  //Ésta era otra flag, utilizada para una fase mas avanzada del juego(por temas de tiempo fue descartada.
+
+void setup() {
+  Serial.begin(9600);  // Se inicializa la comunicación
+  matrix.begin();      // Se inicializa la matriz LED 
+}
+
+void loop() {
+
+  int potValue = analogRead(potPin); // Acá le pido que, lea el valor(potValue) desde el pin del potenciómetro(potPin).
+
+  int carril = map(potValue, 0, 1023, 0, 255); //Ésta línea sirve para hacer una conversión proporcional entre los valores emitidos por el potenciómetro, y los valores leídos por el pin análogo
+
+  if (ogDerSeen == false) {   //Declaro que, si, el frame "ogDerSeen" no ha sido mostrado, pasa lo siguiente
+    if (potValue > 140 && potValue < 401) {  
+      matrix.loadFrame(ogIzq);
+    }  //Declaro que, si, el valor del potenciómetro está entre 142 y 400, muestre el frame "ogIzq".
+
+    // Load and display the "danger" frame on the LED matrix
+    else if (potValue > 400 && potValue < 639) {
+      matrix.loadFrame(ogMed);
+    }  //Declaro que, si, el valor del potenciómetro está entre 401 y 638, muestre el frame "ogMed".
+
+    else if (potValue > 638 && potValue < 890) {
+      matrix.loadFrame(ogDer);
+     ogDerSeen = true;//aca declaro la variable "ogDerSeen" como HIGH, para usarlo como referencia de la fase.
+
+    }  //Declaro que, si, el valor del potenciómetro está entre 639 y 889, muestre el frame "ogDer".
+  }
+
+
+//FASE 2, esto es marcado por la flag "ogDerSeen".
+if(ogDerSeen == true) { //Declaro que, si, la variable "ogDerSeen" está HIGH, el código corre a partir de aquí.
+    // Load and display the "danger" frame on the LED matrix
+    if (potValue  > 638 && potValue < 890) {
+      matrix.loadFrame(ogDer);
+    }  //aca le pido que si el valor esta entre 400 y 639, se "coloque" en el carril del medio
+
+  else if (potValue > 400 && potValue < 639) {
+      matrix.loadFrame(fase2);
+      //fase2Seen = true;
+  }
+
+  else if (potValue > 140 && potValue < 401) {
+      matrix.loadFrame(faseExp);
+      //fase2Seen = true;
+    } 
+/*
+if(fase2Seen == true) {
+    if (potValue > 140 && potValue < 401) {
+      matrix.loadFrame(fase3);
+    }
+    else if(potValue > 400 && potValue < 639){
+     matrix.loadFrame(fase4);
+  }
+  else if(potValue > 638 && potValue < 890){
+     matrix.loadFrame(fase5);
+}
+}*/ //Este es un intento por crear más faces que alarguen la duración del juego. Sin embargo por limitaciones de tiempo no se pudo implementar correctamente.
+}
+}
+
+
+
+
+
+
+/*if (potValue > 638 && potValue < 890 && botonValue == HIGH) {
+
+    matrix.loadFrame(finFase1);
+  }  // aca quiero pedirle que si està en el carril derecho(es decir, que el valor del pot sea entre 638 y 890) y que si el botòn es pulsado, que muestre otro frame
+}
+*/ //Aquí se encuentra un intento por incluir el botón dentro de las mecanicas del juego. FInalmente no pudo ser implementado.
+
+ ```
+
+(La idea original era que, con el potenciómetro, al apuntar al carril correcto, y presionar cualquiera de los dos botones, se "elimina" la casilla y se pasa al siguiente paso(eliminar la casilla más cercana). No logramos hacer funcionar el botón, así que en este codigo, con solo apuntar a la casilla, ésta se "elimina". 
+
+PD: la idea de que hubieran 2 botones era para que fuera cómodo para zurdos y diestros.
+
+Componentes utilizados: dos botones, potenciómetro, arduino UNO R4 WIFI, cables dupont.
