@@ -1,6 +1,6 @@
 # FUENTES DE INVESTIGACIÓN Y BIBLIOGRAFÍA 
 
-*El siguiente proyecto "La cajita de la conciencia" esta realizado con fines academicos y sin fines de lucro, el cual no busca difamar ni dañar a ninguna marca aludida solo exponer datos y hechos relevantes que han marcado la guerra Israel- Palestina*
+*El siguiente proyecto "La cajita de la conciencia" esta realizado con fines academicos y sin fines de lucro, el cual no busca difamar a ninguna marca aludida solo exponer datos y hechos relevantes que han marcado la guerra Israel- Palestina*
 
 ## Justificación y relevancia 
 
