@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Page</title>
+    <style>
+        .form-container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .submit-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .submit-button.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            background-color: #cccccc;
+        }
+        .enabled {
+            border-color: #4CAF50;
+            box-shadow: 0 0 5px #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form id="mainForm" action="/gallery" method="GET">
+            <input type="text" 
+                   id="messageInput"
+                   class="form-input" 
+                   placeholder="Enter your message" 
+                   required>
+            <button type="submit" 
+                    id="submitButton" 
+                    class="submit-button {{ 'enabled' if form_enabled else 'disabled' }}"
+                    {{ 'disabled' if not form_enabled else '' }}>
+                Enviar
+            </button>
+        </form>
+    </div>
+
+    <script>
+        const form = document.getElementById('mainForm');
+        const submitButton = document.getElementById('submitButton');
+        const isEnabled = {{ 'true' if form_enabled else 'false' }};
+
+        // Prevenir envío del formulario con Enter cuando está deshabilitado
+        form.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && !isEnabled) {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        // Prevenir envío del formulario cuando está deshabilitado
+        form.addEventListener('submit', function(e) {
+            if (!isEnabled) {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        // Si está habilitado, agregar clase visual
+        if (isEnabled) {
+            submitButton.classList.add('enabled');
+            submitButton.classList.remove('disabled');
+        }
+    </script>
+</body>
+</html>
