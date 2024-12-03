@@ -3,7 +3,9 @@
 *3 de Diciembre de 2024*
 
 ## Código de giro en 360 en un sentido
-link: https://www.youtube.com/watch?v=wLdFx4Kgc4M 
+
+link: <https://www.youtube.com/watch?v=wLdFx4Kgc4M>
+
 ```ino
 
        #include <Stepper.h>
@@ -27,8 +29,11 @@ void loop() {
   }
 }
 ```
+
 ## Código de giro con devuelta
-link: https://www.youtube.com/watch?v=XixNg9DGxgo
+
+link: <https://www.youtube.com/watch?v=XixNg9DGxgo>
+
 ```ino
 #include <Stepper.h>
 int stepsPerRevolution = 2048;
@@ -49,6 +54,3 @@ void loop() {
   
 }
 ```
-
-
-
