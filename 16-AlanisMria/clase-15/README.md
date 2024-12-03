@@ -8,7 +8,7 @@ link: <https://www.youtube.com/watch?v=wLdFx4Kgc4M>
 
 ```ino
 
-       #include <Stepper.h>
+#include <Stepper.h>
 int pasosPorVuelta = 2480;
 Stepper Motor(pasosPorVuelta, 8, 9, 10, 11);
 

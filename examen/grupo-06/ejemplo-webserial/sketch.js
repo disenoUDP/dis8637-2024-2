@@ -3,7 +3,8 @@
 
 let puerto;
 let botonConexion;
-let botonEnviar;
+let botonGirarMotor1;
+let botonGirarMotor2;
 
 function setup() {
   createCanvas(400, 400);
@@ -15,18 +16,18 @@ function setup() {
   // without user interaction
 
   let puertosUsados = usedSerialPorts();
-  if (puertosUsados.length > 0) { 
+  if (puertosUsados.length > 0) {
     puerto.open(puertosUsados[0], 57600);
   }
 
-  botonConexion = document.getElementById("botonConexion");
-  botonConexion.addEventListener("click", conectarClick);
+  botonConexion = document.getElementById('botonConexion');
+  botonConexion.addEventListener('click', conectarClick);
 
-  // any other ports can be opened via a dialog after
-  // user interaction (see connectBtnClick below)
+  botonGirarMotor1 = document.getElementById('botonGirarMotor1');
+  botonGirarMotor1.addEventListener('click', girarMotor1);
 
-  botonEnviar = document.getElementById("botonEnviar");
-  botonEnviar.addEventListener("click", enviarClick);
+  botonGirarMotor2 = document.getElementById('botonGirarMotor2');
+  botonGirarMotor2.addEventListener('click', girarMotor2);
 }
 
 function draw() {
@@ -42,20 +43,24 @@ function draw() {
 
   // changes button label based on connection status
   if (!puerto.opened()) {
-    botonConexion.innerHTML = "Conectar";
+    botonConexion.innerHTML = 'Conectar';
   } else {
-    botonConexion.innerHTML = "Desconectar";
+    botonConexion.innerHTML = 'Desconectar';
   }
 }
 
 function conectarClick() {
   if (!puerto.opened()) {
-    puerto.open("Arduino", 57600);
+    puerto.open('Arduino', 57600);
   } else {
     puerto.close();
   }
 }
 
-function enviarClick() {
-  puerto.write("Hola desde p5.js\n");
+function botonGirarMotor1() {
+  puerto.write('girar1\n');
+}
+
+function botonGirarMotor2() {
+  puerto.write('girar2\n');
 }
