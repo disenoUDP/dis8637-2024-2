@@ -10,18 +10,20 @@ let classifier;
 let handPose;
 let video;
 let hands = [];
-let rockDataCount = 0;
-let paperDataCount = 0;
-let scissorsDataCount = 0;
+let contadorBien = 0;
+let contadorMal = 0;
+let contadorMasOMenos = 0;
+let contadorTalVez = 0;
 let isTrained = false;
-let classification = "";
+let classification = '';
 
-//UI elements
+// UI elements
 let instructionP;
 let dataCountsP;
-let rockButton;
-let paperButton;
-let scissorsButton;
+let botonBien;
+let botonMal;
+let botonMasOMenos;
+let botonTalVez;
 let trainButton;
 
 function preload() {
@@ -38,34 +40,35 @@ function setup() {
   video.hide();
 
   // Setup the UI buttons for training
-  instructionP = createP(
-    'To add data, hold up hand gesture for rock while pressing the "Add Rock Data" button. Likewise for paper and scissors. When you have a good amount of data for each gesture class, press the "Train and Save Model" button to train the model and save it for future use.'
-  );
-  instructionP.style("width", "640px");
+  // instructionP.style('width', '640px');
   dataCountsP = createP(
-    "Rock data: " +
-      rockDataCount +
-      "<br>Paper data: " +
-      paperDataCount +
-      "<br>Scissors data: " +
-      scissorsDataCount
+    'Datos Bien: ' +
+      contadorBien +
+      '<br>Datos Mal: ' +
+      contadorMal +
+      '<br>Datos MasOMenos: ' +
+      contadorMasOMenos +
+      '<br>Datos TalVez: ' +
+      contadorTalVez,
   );
-  rockButton = createButton("Add Rock Data");
-  rockButton.mousePressed(addRockData);
-  paperButton = createButton("Add Paper Data");
-  paperButton.mousePressed(addPaperData);
-  scissorsButton = createButton("Add Scissors Data");
-  scissorsButton.mousePressed(addScissorsData);
-  trainButton = createButton("Train and Save Model");
+  botonBien = createButton('Agregar datos bien');
+  botonBien.mousePressed(agregarDatosBien);
+  botonMal = createButton('Agregar datos mal');
+  botonMal.mousePressed(agregarDatosMal);
+  botonMasOMenos = createButton('Agregar datos mas o menos');
+  botonMasOMenos.mousePressed(agregarDatosMasOMenos);
+  botonTalVez = createButton('Agregar datos talVez');
+  botonTalVez.mousePressed(agregarDatosTalVez);
+  trainButton = createButton('Train and Save Model');
   trainButton.mousePressed(train);
 
   // For this example to work across all browsers
   // "webgl" or "cpu" needs to be set as the backend
-  ml5.setBackend("webgl");
+  ml5.setBackend('webgl');
 
   // Set up the neural network
   let classifierOptions = {
-    task: "classification",
+    task: 'classification',
     debug: true,
   };
   classifier = ml5.neuralNetwork(classifierOptions);
@@ -122,34 +125,44 @@ function flattenHandData() {
 }
 
 // Add the current handPose data to the classifier as "Rock"
-function addRockData() {
+function agregarDatosBien() {
   if (hands[0]) {
     let inputData = flattenHandData();
-    let outputData = ["Rock"];
+    let outputData = ['Bien'];
     classifier.addData(inputData, outputData);
-    rockDataCount++;
+    contadorBien++;
   }
   updateDataCountUI();
 }
 
 // Add the current handPose data to the classifier as "Paper"
-function addPaperData() {
+function agregarDatosMal() {
   if (hands[0]) {
     let inputData = flattenHandData();
-    let outputData = ["Paper"];
+    let outputData = ['Mal'];
     classifier.addData(inputData, outputData);
-    paperDataCount++;
+    contadorMal++;
   }
   updateDataCountUI();
 }
 
 // Add the current handPose data to the classifier as "Scissors"
-function addScissorsData() {
+function agregarDatosMasOMenos() {
   if (hands[0]) {
     let inputData = flattenHandData();
-    let outputData = ["Scissors"];
+    let outputData = ['MasOMenos'];
     classifier.addData(inputData, outputData);
-    scissorsDataCount++;
+    contadorMasOMenos++;
+  }
+  updateDataCountUI();
+}
+
+function agregarDatosTalVez() {
+  if (hands[0]) {
+    let inputData = flattenHandData();
+    let outputData = ['TalVez'];
+    classifier.addData(inputData, outputData);
+    contadorTalVez++;
   }
   updateDataCountUI();
 }
@@ -157,12 +170,14 @@ function addScissorsData() {
 // Update the HTML UI with the current data counts
 function updateDataCountUI() {
   dataCountsP.html(
-    "Rock data: " +
-      rockDataCount +
-      "<br>Paper data: " +
-      paperDataCount +
-      "<br>Scissors data: " +
-      scissorsDataCount
+    'Datos bien: ' +
+      contadorBien +
+      '<br>Datos mal: ' +
+      contadorMal +
+      '<br>Datos masOMenos: ' +
+      contadorMasOMenos +
+      '<br>Datos talVez: ' +
+      contadorTalVez,
   );
 }
 
@@ -180,7 +195,7 @@ function train() {
 
 // When the model is trained, save the model
 function finishedTraining() {
-  console.log("Training finished!");
+  console.log('Training finished!');
   classifier.save();
   isTrained = true;
 }
