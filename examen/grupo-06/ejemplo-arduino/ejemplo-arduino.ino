@@ -1,5 +1,4 @@
 
-
 // incluir biblioteca
 #include <Stepper.h>
 
@@ -13,8 +12,7 @@ int lines = 0;
 unsigned long lastSent = 0;
 
 void setup() {
-  Serial.begin(57600);
-
+  Serial.begin(9600);
 
   // definir velocidad del motor
   MotorUno.setSpeed(10);
@@ -31,11 +29,14 @@ void loop() {
 
       lines++;
 
+      // MotorUno.step(0);
+      MotorUno.step(pasosPorVuelta);
+
 
       if (input == "girar1") {
         // girar motor1
 
-        MotorUno.step(pasosPorVuelta);
+        // MotorUno.step(pasosPorVuelta);
 
       } else if (input == "girar2") {
         // girar motor2
@@ -45,9 +46,9 @@ void loop() {
 
   unsigned long now = millis();
   if (now - lastSent > 2000) {
-    // Serial.print("Hello! I heard you ");
-    // Serial.print(lines);
-    // Serial.println(" times");
-    // lastSent = now;
+    Serial.print("Hello! I heard you ");
+    Serial.print(lines);
+    Serial.println(" times");
+    lastSent = now;
   }
 }

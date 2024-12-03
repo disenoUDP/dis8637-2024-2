@@ -3,8 +3,8 @@
 
 let puerto;
 let botonConexion;
-let botonGirarMotor1;
-let botonGirarMotor2;
+let botonGirarMotorUno;
+let botonGirarMotorDos;
 
 function setup() {
   createCanvas(400, 400);
@@ -17,17 +17,17 @@ function setup() {
 
   let puertosUsados = usedSerialPorts();
   if (puertosUsados.length > 0) {
-    puerto.open(puertosUsados[0], 57600);
+    puerto.open(puertosUsados[0], 9600);
   }
 
   botonConexion = document.getElementById('botonConexion');
   botonConexion.addEventListener('click', conectarClick);
 
-  botonGirarMotor1 = document.getElementById('botonGirarMotor1');
-  botonGirarMotor1.addEventListener('click', girarMotor1);
+  botonGirarMotorUno = document.getElementById('botonGirarMotorUno');
+  botonGirarMotorUno.addEventListener('click', girarMotorUno);
 
-  botonGirarMotor2 = document.getElementById('botonGirarMotor2');
-  botonGirarMotor2.addEventListener('click', girarMotor2);
+  botonGirarMotorDos = document.getElementById('botonGirarMotorDos');
+  botonGirarMotorDos.addEventListener('click', girarMotorUno);
 }
 
 function draw() {
@@ -51,16 +51,18 @@ function draw() {
 
 function conectarClick() {
   if (!puerto.opened()) {
-    puerto.open('Arduino', 57600);
+    puerto.open('Arduino', 9600);
   } else {
     puerto.close();
   }
 }
 
-function girarMotor1() {
-  puerto.write('girar1\n');
+function girarMotorUno() {
+  console.log('girarMotorUno');
+  puerto.write('girarUno\n');
 }
 
-function girarMotor2() {
-  puerto.write('girar2\n');
+function girarMotorDos() {
+  console.log('girarMotorDos');
+  puerto.write('girarDos\n');
 }
