@@ -16,3 +16,11 @@ const modelDetails = {
     weights: './modelos/modelo-v0/model.weights.bin',
   };
 ```
+modelo-v0
+https://github.com/user-attachments/assets/e3758c07-359d-4739-b8ba-539405242d79
+
+modelo-v1 
+https://github.com/user-attachments/assets/06e1b607-0de1-467e-af51-1d1add33c0be
+
+
+
