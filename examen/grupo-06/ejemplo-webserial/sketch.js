@@ -57,10 +57,10 @@ function conectarClick() {
   }
 }
 
-function botonGirarMotor1() {
+function girarMotor1() {
   puerto.write('girar1\n');
 }
 
-function botonGirarMotor2() {
+function girarMotor2() {
   puerto.write('girar2\n');
 }
