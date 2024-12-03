@@ -1,49 +1,62 @@
-let botonConectar;
-let botonEnviar;
+// This example is also available online in the p5.js web editor:
+// https://editor.p5js.org/gohai/sketches/X0XD9xvIR
 
-let puerto;
-
-let puertosUsados = usedSerialPorts();
-if (puertosUsados.length > 0) {
-  port.open(usedPorts[0], 9600);
-}
+let port;
+let connectBtn;
 
 function setup() {
   createCanvas(400, 400);
-  puerto = createSerial();
+  background(220);
 
-  botonConectar = document.getElementById('botonConectar');
-  botonConectar.addEventListener('click', conectar);
+  port = createSerial();
 
-  botonEnviar = document.getElementById('botonEnviar');
-  botonEnviar.addEventListener('click', enviarHola);
+  // in setup, we can open ports we have used previously
+  // without user interaction
+
+  let usedPorts = usedSerialPorts();
+  if (usedPorts.length > 0) {
+    port.open(usedPorts[0], 57600);
+  }
+
+  // any other ports can be opened via a dialog after
+  // user interaction (see connectBtnClick below)
+
+  connectBtn = createButton('Connect to Arduino');
+  connectBtn.position(80, 200);
+  connectBtn.mousePressed(connectBtnClick);
+
+  let sendBtn = createButton('Send hello');
+  sendBtn.position(220, 200);
+  sendBtn.mousePressed(sendBtnClick);
 }
 
 function draw() {
-  background(255, 0, 0);
-
+  // this makes received text scroll up
   copy(0, 0, width, height, 0, -1, width, height);
 
-  let str = port.readUntil("\n");
+  // reads in complete lines and prints them at the
+  // bottom of the canvas
+  let str = port.readUntil('\n');
   if (str.length > 0) {
-    text(str, 10, height-20);
+    text(str, 10, height - 20);
   }
 
-  if (!puerto.opened()) {
-    botonConectar.innerHTML = 'Conectar';
+  // changes button label based on connection status
+  if (!port.opened()) {
+    connectBtn.html('Connect to Arduino');
   } else {
-    botonConectar.innerHTML = 'Desconectar';
+    connectBtn.html('Disconnect');
   }
 }
 
-function conectar () {
-  if (!puerto.opened()) {
-    puerto.open('Arduino', 9600);
+function connectBtnClick() {
+  if (!port.opened()) {
+    port.open('Arduino', 57600);
   } else {
-    puerto.close();
+    port.close();
   }
 }
 
-function enviarHola () {
-  puerto.write("hola\n");
+function sendBtnClick() {
+  port.write('Hello from p5.js\n');
 }

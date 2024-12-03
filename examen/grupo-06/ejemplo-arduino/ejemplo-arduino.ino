@@ -2,7 +2,7 @@ int lines = 0;
 unsigned long lastSent = 0;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(57600);
 }
 
 void loop() {
@@ -20,9 +20,9 @@ void loop() {
 
   unsigned long now = millis();
   if (now-lastSent > 2000) {
-    Serial.print("hola! te escuche ");
+    Serial.print("Hello! I heard you ");
     Serial.print(lines);
-    Serial.println(" veces ");
+    Serial.println(" times");
     lastSent = now;
   }
 }
