@@ -101,4 +101,73 @@ Para probar el sistema sin el hardware, puedes usar el modo de simulación:
    python app.py
    ```
 3. Accede a `http://localhost:5000`
-4. Para simular la señal del Ardui
+4. Para simular la señal del Arduino:
+   - Visita `http://localhost:5000/test/enable-form` para habilitar el formulario
+   - Visita `http://localhost:5000/test/reset` para resetear el estado
+
+### Simulación Avanzada (con Puerto Serial Virtual)
+
+#### Windows
+1. Instala [com0com](https://sourceforge.net/projects/com0com/)
+2. Crea un par de puertos virtuales (ejemplo: COM3-COM4)
+3. Ajusta los puertos en los scripts
+4. Ejecuta el simulador:
+   ```bash
+   python serial_simulator.py
+   ```
+
+#### Linux/Mac
+1. El simulador creará automáticamente un puerto virtual
+2. Ejecuta el simulador:
+   ```bash
+   python serial_simulator.py
+   ```
+
+## Flujo de Funcionamiento
+
+1. El sistema inicia con el formulario web deshabilitado
+2. El sensor ultrasónico mide constantemente el nivel de líquido
+3. Cuando el líquido alcanza el umbral:
+   - Arduino envía 'A' al servidor
+   - El formulario web se habilita
+4. Al enviar el formulario:
+   - Se muestra la galería de imágenes
+   - El servidor envía 'B' al Arduino
+   - La bomba se activa por 30 segundos
+5. Después de 30 segundos:
+   - Se muestra la página de agradecimiento
+   - La bomba se detiene
+6. Después de 20 segundos:
+   - El sistema vuelve al inicio
+   - Espera nuevo llenado del contenedor
+
+## Solución de Problemas
+
+### El formulario no se habilita
+- Verifica la conexión USB del Arduino
+- Comprueba el puerto serial en `app.py`
+- Usa el modo simulación para probar la interfaz
+
+### Error de puerto serial
+- Verifica que el puerto existe y está disponible
+- Asegúrate de tener permisos de acceso al puerto
+- En Linux, añade tu usuario al grupo dialout:
+  ```bash
+  sudo usermod -a -G dialout $USER
+  ```
+
+### La bomba no se activa
+- Verifica las conexiones del relé
+- Comprueba que el pin del relé coincide con el código
+- Verifica la alimentación de la bomba
+
+## Contribuir
+
+Si deseas contribuir al proyecto:
+1. Haz un fork del repositorio
+2. Crea una rama para tu característica
+3. Envía un pull request
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT.
