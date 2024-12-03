@@ -35,7 +35,7 @@ void loop() {
       if (input == "girar1") {
         // girar motor1
 
-        MotorUno.step(pasosPorvuelta);
+        MotorUno.step(pasosPorVuelta);
 
       } else if (input == "girar2") {
         // girar motor2
