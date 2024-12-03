@@ -27,7 +27,7 @@ function setup() {
   botonGirarMotorUno.addEventListener('click', girarMotorUno);
 
   botonGirarMotorDos = document.getElementById('botonGirarMotorDos');
-  botonGirarMotorDos.addEventListener('click', girarMotorUno);
+  botonGirarMotorDos.addEventListener('click', girarMotorDos);
 }
 
 function draw() {
@@ -59,10 +59,10 @@ function conectarClick() {
 
 function girarMotorUno() {
   console.log('girarMotorUno');
-  puerto.write('girarUno\n');
+  puerto.write('u\n');
 }
 
 function girarMotorDos() {
   console.log('girarMotorDos');
-  puerto.write('girarDos\n');
+  puerto.write('d\n');
 }

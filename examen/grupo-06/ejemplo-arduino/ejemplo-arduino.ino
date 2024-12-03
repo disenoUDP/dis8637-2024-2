@@ -3,13 +3,16 @@
 #include <Stepper.h>
 
 // definir movimiento
-int pasosPorVuelta = 2480;
+int pasosPorVuelta = 2048;
 
 // conectar motor
 Stepper MotorUno(pasosPorVuelta, 8, 9, 10, 11);
 
 int lines = 0;
 unsigned long lastSent = 0;
+
+String uno = "u";
+String dos = "d";
 
 void setup() {
   Serial.begin(9600);
@@ -29,16 +32,17 @@ void loop() {
 
       lines++;
 
-      // MotorUno.step(0);
-      MotorUno.step(pasosPorVuelta);
 
-
-      if (input == "girar1") {
+      if (input.equals(uno)) {
         // girar motor1
 
-        // MotorUno.step(pasosPorVuelta);
+        for (int pasito = 0; pasito < pasosPorVuelta; pasito++) {
+        MotorUno.step(1);
+        delay(1);
+      }
 
-      } else if (input == "girar2") {
+
+      } else if (input.equals(dos)) {
         // girar motor2
       }
     }
