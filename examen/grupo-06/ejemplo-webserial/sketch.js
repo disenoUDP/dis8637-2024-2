@@ -25,5 +25,5 @@ function conectar () {
 }
 
 function enviarHola () {
-  puerto.write('hola');
+  puerto.write('hola\n');
 }
