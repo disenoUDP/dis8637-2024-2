@@ -48,6 +48,7 @@ void loop() {
 ```
 
 ![foto](prueba.jpg)
+Me falta calibrarll un poquito pero ahí vamos
 
 
 
