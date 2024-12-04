@@ -1,3 +1,4 @@
+# importar modulos
 from flask import Flask, render_template, redirect, url_for
 import serial
 import threading
@@ -5,12 +6,12 @@ import time
 
 app = Flask(__name__)
 
-# Configuración del puerto serial
+# configuracion del puerto serial
 SERIAL_PORT = '/dev/cu.usbmodem34B7DA5FECF42'  # Ajusta según tu sistema
 BAUD_RATE = 9600
 serial_port = serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=1)
 
-# Variable global para control de estado
+# variable global para control de estado
 form_enabled = False
 
 def serial_listener():
@@ -22,7 +23,7 @@ def serial_listener():
                 form_enabled = True
         time.sleep(0.1)
 
-# Iniciar thread para escuchar el puerto serial
+# iniciar thread para escuchar el puerto serial
 serial_thread = threading.Thread(target=serial_listener, daemon=True)
 serial_thread.start()
 

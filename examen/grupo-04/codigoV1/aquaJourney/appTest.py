@@ -1,5 +1,6 @@
+# importar modulos
 from flask import Flask, render_template, Response
-import serial
+# import serial
 import threading
 import time
 import json
@@ -14,7 +15,10 @@ class MockSerial:
         print(f"Datos enviados al 'Arduino': {data}")
     
     def read(self):
-        return b''
+       # esta linea esta bien?
+       # return b''
+       # la reemplace por esta
+       return 'B'
 
 # Usar el puerto serial mock en lugar del real
 serial_port = MockSerial()
@@ -53,8 +57,7 @@ def stream():
             time.sleep(0.1)
     return Response(event_stream(), mimetype="text/event-stream")
 
-
-# Esta ruta viene después del prompt del usuario
+# esta ruta viene despues del prompt del usuario
 @app.route('/gallery')
 def gallery():
     # Simular envío de 'B' al Arduino
@@ -70,12 +73,13 @@ def gallery():
     ]
     return render_template('gallery.html', images=images)
 
-# Esta ruta viene después de la galería. Si la quieres saltar, modifica el HTML de la galeria
+# esta ruta viene después de la galeria.
+# si la quieres saltar, modifica el HTML de la galeria
 @app.route('/thanks')
 def thanks():
     return render_template('thanks.html')
 
-# Esta ruta es el panel de control para simular
+#eEsta ruta es el panel de control para simular
 @app.route('/test')
 def test():
     return render_template('test.html')
