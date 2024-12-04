@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Page</title>
+    <style>
+        .form-container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .submit-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .submit-button.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            background-color: #cccccc;
+        }
+        .enabled {
+            border-color: #4CAF50;
+            box-shadow: 0 0 5px #4CAF50;
+        }
+
+    .submit-button.enabled {
+        background-color: #4CAF50;
+        cursor: pointer;
+    }
+
+    .submit-button.disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+</style>
+
+</head>
+<body>
+    <div class="form-container">
+        <h1>Hola {{nombre}}</h1>
+        <p>Llevas {{desperdicio}}% de agua del mundo gastada</p>
+        <form id="mainForm" action="/gallery" method="GET">
+            <input type="text" 
+                   id="messageInput"
+                   class="form-input" 
+                   placeholder="Enter your message"     
+                   required>
+            <button type="submit" 
+                    id="submitButton" 
+                    class="submit-button {{ 'enabled' if form_enabled else 'disabled' }}"
+                    {{ 'disabled' if not form_enabled else '' }}>
+                Enviar
+            </button>
+        </form>
+    </div>
+
+    <script>
+        const eventSource = new EventSource('/stream');
+    const submitButton = document.getElementById('submitButton');
+    const mainForm = document.getElementById('mainForm');
+    let formEnabled = false;  // Variable para controlar el estado global del formulario
+
+    // Prevenir envío con ENTER cuando el formulario está deshabilitado
+    mainForm.addEventListener('keypress', function(event) {
+        if (event.key === 'Enter' && !formEnabled) {
+            event.preventDefault();
+        }
+    });
+
+    // Prevenir envío del formulario cuando está deshabilitado
+    mainForm.addEventListener('submit', function(event) {
+        if (!formEnabled) {
+            event.preventDefault();
+        }
+    });
+    
+    eventSource.onmessage = function(event) {
+        const data = JSON.parse(event.data);
+        formEnabled = data.form_enabled;  // Actualizar estado global
+        
+        // Habilitar/deshabilitar el botón
+        submitButton.disabled = !formEnabled;
+        
+        // Actualizar las clases CSS
+        if (formEnabled) {
+            submitButton.classList.remove('disabled');
+            submitButton.classList.add('enabled');
+        } else {
+            submitButton.classList.remove('enabled');
+            submitButton.classList.add('disabled');
+        }
+    };
+
+    eventSource.onerror = function(error) {
+        console.error('Error en EventSource:', error);
+        eventSource.close();
+    };
+    </script>
+</body>
+</html>

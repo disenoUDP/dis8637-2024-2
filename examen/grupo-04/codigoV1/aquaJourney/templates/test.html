@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Controls</title>
+    <style>
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .enable {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .disable {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .status {
+            margin: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Control Panel de Prueba</h1>
+    
+    <div>
+        <button onclick="toggleForm('enable')" class="button enable">
+            Habilitar Formulario
+        </button>
+        <button onclick="toggleForm('disable')" class="button disable">
+            Deshabilitar Formulario
+        </button>
+    </div>
+
+    <div class="status">
+        Estado actual: <span id="formStatus">Cargando...</span>
+    </div>
+
+    <script>
+        async function toggleForm(state) {
+            try {
+                const response = await fetch(`/toggle_form/${state}`);
+                const data = await response.json();
+                updateStatus(data.form_enabled);
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        function updateStatus(enabled) {
+            const statusElement = document.getElementById('formStatus');
+            statusElement.textContent = enabled ? 'Habilitado' : 'Deshabilitado';
+            statusElement.style.color = enabled ? '#4CAF50' : '#f44336';
+        }
+
+        // Verificar estado inicial
+        async function checkInitialStatus() {
+            try {
+                const response = await fetch('/toggle_form/check');
+                const data = await response.json();
+                updateStatus(data.form_enabled);
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        // Verificar estado al cargar la página
+        checkInitialStatus();
+    </script>
+</body>
+</html>
