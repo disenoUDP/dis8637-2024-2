@@ -10,8 +10,8 @@ def create_virtual_serial():
         import pty
         import os
         
-        master, slave = pty.openpty()
-        port_name = os.ttyname(slave)
+        leader, follower = pty.openpty()
+        port_name = os.ttyname(follower)
         return port_name 
         #return '/dev/cu.usbmodem34B7DA5FECF42'
     except:
