@@ -1,0 +1,3 @@
+# instalar flask
+flask
+pyserial
