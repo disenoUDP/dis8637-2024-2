@@ -7,7 +7,8 @@ import time
 app = Flask(__name__)
 
 # configuracion del puerto serial
-SERIAL_PORT = '/dev/cu.usbmodem34B7DA5FECF42'  # Ajusta según tu sistema
+# Ajusta según tu sistema
+SERIAL_PORT = '/dev/cu.usbmodem101'
 BAUD_RATE = 9600
 serial_port = serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=1)
 
