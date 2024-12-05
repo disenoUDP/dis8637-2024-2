@@ -47,7 +47,12 @@ void loop() {
 
 ```
 
+
+https://github.com/user-attachments/assets/97427064-9cb4-46b1-b2ba-36344eee65a4
+
+
 ![foto](prueba.jpg)
+
 Me falta calibrar un poquito pero ahí vamos
 
 2. Botones: Les di la función de hacer que se encienda un led si el botón está presionado.
@@ -85,5 +90,8 @@ void loop() {
 }
 ```
 ![botones](botones.jpg)
+https://github.com/user-attachments/assets/c7fe4e92-e36b-417e-bec8-6c86a49282cf
 
+Me pasó lo mismo que le había pasado con anterioridad a ptrp grupo, el botón por nada empezó a funcionar como sensor. 
+Un pequeño detalle que verán en el video es que la función que le dí a esto está pasando al revés pero es porque las resistencias que le puse a los botones son menores a las que necesito (saqué todo antes de que pasara algo) 
 
