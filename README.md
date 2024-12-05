@@ -10,6 +10,10 @@ equipo docente:
 - aarón montoya
 - andrés martin
 
+## enlace a examen
+
+- [examen](./examen/)
+
 ## enlaces a cada carpeta
 
 - [00-profes](./00-profes/)
