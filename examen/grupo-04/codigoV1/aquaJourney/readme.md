@@ -46,14 +46,18 @@ pip install flask pyserial
 
 Crea la siguiente estructura de archivos:
 
+```
 proyecto/
 ├── app.py
+├── appTest.py
 ├── templates/
 │   ├── index.html
 │   ├── gallery.html
+│   ├── test.html
 │   └── thanks.html
 └── arduino/
     └── control_fluidos.ino
+```
 
 ### 3. Configuración del Arduino
 
@@ -85,29 +89,28 @@ Conecta los componentes al Arduino:
 1. Conecta el Arduino al puerto USB
 2. Identifica el puerto serial (COM3, /dev/ttyUSB0, etc.)
 3. Modifica el `SERIAL_PORT` en `app.py` según corresponda
-4. Ejecuta el servidor Flask:
+4. Ejecuta el servidor Flask, puede ser el de producción:
 
    ```bash
    python app.py
    ```
 
-5. Abre tu navegador y visita `http://localhost:5000`
+5. Abre tu navegador y visita `http://localhost:5000/`
 
 ### Modo Simulación (sin Arduino)
 
 Para probar el sistema sin el hardware, puedes usar el modo de simulación:
 
-1. Usa la versión modificada de `app.py` con los endpoints de prueba
+1. Usa la versión modificada de `appTest.py` con los endpoints de prueba
 2. Ejecuta el servidor:
 
    ```bash
-   python app.py
+   python appTest.py
    ```
 
 3. Accede a `http://localhost:5000`
 4. Para simular la señal del Arduino:
-   - Visita `http://localhost:5000/test/enable-form` para habilitar el formulario
-   - Visita `http://localhost:5000/test/reset` para resetear el estado
+   - Visita `http://localhost:5000/test/` para habilitar el formulario
 
 ### Simulación Avanzada (con Puerto Serial Virtual)
 
@@ -118,18 +121,18 @@ Para probar el sistema sin el hardware, puedes usar el modo de simulación:
 3. Ajusta los puertos en los scripts
 4. Ejecuta el simulador:
 
-```bash
-python serial_simulator.py
-```
+   ```bash
+   python serial_simulator.py
+   ```
 
 #### Linux/Mac
 
 1. El simulador creará automáticamente un puerto virtual
 2. Ejecuta el simulador:
 
-```bash
-python serial_simulator.py
-```
+   ```bash
+   python serial_simulator.py
+   ```
 
 ## Flujo de Funcionamiento
 
@@ -163,9 +166,9 @@ python serial_simulator.py
 - Asegúrate de tener permisos de acceso al puerto
 - En Linux, añade tu usuario al grupo dialout:
 
-```bash
-sudo usermod -a -G dialout $USER
-```
+  ```bash
+  sudo usermod -a -G dialout $USER
+  ```
 
 ### La bomba no se activa
 
