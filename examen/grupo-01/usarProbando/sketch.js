@@ -17,9 +17,8 @@ let estadoActual = 'espera';
 
 //variable para las imagenes de los estados
 //referencia https://www.youtube.com/watch?v=ZmPz7lWhKxw
-let numFrames = 4;
-let frame = 0;
 let imgEspera = [];
+let imgEsperaActual = 0;
 
 /* This example demonstrates loading a pre-trained model with ml5.neuralNetwork.
  */
@@ -30,6 +29,13 @@ let video;
 let hands = [];
 let classification = '';
 let isModelLoaded = false;
+
+// variables para controlar las imagenes de espera
+// esperar 3 segundo antes de cambiar la imagen
+let tiempoEsperaDelta = 3000;
+let tiempoEsperaUltimoCambio = 0;
+
+let colorFondo;
 
 function preload() {
   //array de imagenEspera
@@ -44,6 +50,8 @@ function preload() {
 
 function setup() {
   createCanvas(1920, 1080);
+
+  colorFondo = color(243, 244, 248);
 
   // Create the webcam video and hide it
   video = createCapture(VIDEO);
@@ -70,18 +78,31 @@ function setup() {
 
   // Start the handPose detection
   handPose.detectStart(video, gotHands);
+
+  // guardar el momento en que termino el setup
+  tiempoEsperaUltimoCambio = millis();
 }
 
 function draw() {
   //referencia:https://editor.p5js.org/jao123/sketches/qMfNbq_BL
   if (estadoActual == 'espera') {
-    background(243, 244, 248);
+    background(colorFondo);
 
-    frame++;
-    if (frame > numFrames - 1) frame = 0;
-    image(imgEspera[frame], 0, 0);
+    // mostrar la imagen
+    image(imgEspera[imgEsperaActual], 0, 0);
 
-    //función para que la consola muestre los gestos que se guardan en el almacenamiento local
+    // si ya paso el tiempo de espera
+    // cambiar la imagen
+    if (millis() - tiempoEsperaUltimoCambio > tiempoEsperaDelta) {
+      // subir numero de la imagen
+      imgEsperaActual++;
+      // si llegamos a la ultima, volver a la cero
+      imgEsperaActual = imgEsperaActual % imgEspera.length;
+      // guardar el momento en que se cambio la imagen
+      tiempoEsperaUltimoCambio = millis();
+    }
+
+    //variable  para que la consola muestre los gestos que se guardan en el almacenamiento local
     let recuperaGesto = getItem('gestoDetectado');
     if (recuperaGesto !== null) {
       console.log(recuperaGesto);
@@ -111,12 +132,9 @@ function draw() {
       storeItem('gestoDetectado', classification);
     }
   }
-}
-
-function moveFrame() {
-  imagenEsperaIndex++;
-  if (imagenEsperaIndex > imagenEspera.length - 1) {
-    imagenEsperaIndex = 0;
+  // si no esta en estado de espera
+  else {
+    background(0, 255, 0);
   }
 }
 
