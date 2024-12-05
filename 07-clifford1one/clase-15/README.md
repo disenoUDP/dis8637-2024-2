@@ -421,3 +421,51 @@ void mouseReleased() {
   }
 }
 ```
+
+CODIGO GRADIENTE AVANCE CON AARÓN GRANDE AARÓN
+
+```java
+//https://www.youtube.com/watch?v=tIgLJz0ZQD4
+
+
+
+int r = 0;
+int g = 0;
+int b = 0;
+
+int renglonX = 600;
+
+int renglonY = 100;
+
+//leo azul (0, 0, 255)
+//miguel rojo(255, 0, 0)
+//rafa morado (255/2, 0, 255/2)
+// dona (0, 255, 0)
+
+color azul = color(0, 0, 255);
+color rojo = color(255, 0, 0);
+color morado = color(255/2, 0, 255/2);
+color verde = color(0, 255, 0);
+
+int numeroColores = 255;
+
+void setup() {
+  size(1366, 768);
+  noStroke();
+
+  for (int i = 0; i< numeroColores; i++) {
+    float componenteR = red(azul) + i * (red(rojo) - red(azul))/numeroColores;
+    float componenteG = green(azul) + i * (green(rojo) - green(azul))/numeroColores;
+    float componenteB = blue(azul) + i * (blue(rojo) - blue(azul))/numeroColores;
+    fill(componenteR, componenteG, componenteB);
+
+    rect(floor(i * float(width/(4*numeroColores))), 0, ceil(width/float(4*numeroColores)), height);
+  }
+}
+
+
+//fill(r, i, b);
+//rect(0, i * height/256, width, height/256);
+```
+
+![image](https://github.com/user-attachments/assets/d55143d2-afa5-4ad4-99a8-f8f0c4b99ab1)
