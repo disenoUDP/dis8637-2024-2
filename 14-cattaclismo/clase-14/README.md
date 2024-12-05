@@ -48,7 +48,42 @@ void loop() {
 ```
 
 ![foto](prueba.jpg)
-Me falta calibrarll un poquito pero ahí vamos
+Me falta calibrar un poquito pero ahí vamos
 
+2. Botones: Les di la función de hacer que se encienda un led si el botón está presionado.
+```
+   const int button1Pin = 2;  
+const int button2Pin = 3;  
+const int led1Pin = 4;    
+const int led2Pin = 5;    
+
+void setup() {
+  pinMode(button1Pin, INPUT); 
+  pinMode(button2Pin, INPUT); 
+  pinMode(led1Pin, OUTPUT);   
+  pinMode(led2Pin, OUTPUT);   
+  Serial.begin(9600);         
+}
+
+void loop() {
+  int button1State = digitalRead(button1Pin); // estado de botón
+  int button2State = digitalRead(button2Pin); // estado de botón
+  
+  if (button1State == HIGH) {
+    digitalWrite(led1Pin, HIGH); // si se presiona se prende el led 1(rojo)
+    Serial.println("Botón 1 presionado");
+  } else {
+    digitalWrite(led1Pin, LOW);  
+  }
+
+  if (button2State == HIGH) {
+    digitalWrite(led2Pin, HIGH); // si se presiona se prende el led 2 (amarillo)
+    Serial.println("Botón 2 presionado");
+  } else {
+    digitalWrite(led2Pin, LOW);  
+  }
+}
+```
+![botones](botones.jpg)
 
 
