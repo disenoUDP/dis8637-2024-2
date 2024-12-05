@@ -13,12 +13,13 @@ respuesta = Se mantiene por 90 segundos y elige al azar del 1 al 4 para que los 
 visualizaciónDeDatos = Se mantiene por 30 segundos, un gráfico de radar donde se mostraran las respuestas de todos  los grupos de usuarios que participaron de la encuesta
 fin = se mantiene por 10 segundos agradeciendo por participar 
 */
-let estadoActual = "espera";
+let estadoActual = 'espera';
 
 //variable para las imagenes de los estados
 //referencia https://www.youtube.com/watch?v=ZmPz7lWhKxw
+let numFrames = 4;
+let frame = 0;
 let imgEspera = [];
-let imgEsperaIndex = 0;
 
 /* This example demonstrates loading a pre-trained model with ml5.neuralNetwork.
  */
@@ -27,15 +28,15 @@ let classifier;
 let handPose;
 let video;
 let hands = [];
-let classification = "";
+let classification = '';
 let isModelLoaded = false;
 
 function preload() {
   //array de imagenEspera
-  imgEspera[0] = loadImage("imgEspera/esperaPantalla_1.png");
-  imgEspera[1] = loadImage("imgEspera/esperaPantalla_2.png");
-  imgEspera[2] = loadImage("imgEspera/esperaPantalla_3.png");
-  imgEspera[3] = loadImage("imgEspera/esperaPantalla_4.png");
+  imgEspera.push(loadImage('imgEspera/esperaPantalla0.png'));
+  imgEspera.push(loadImage('imgEspera/esperaPantalla1.png'));
+  imgEspera.push(loadImage('imgEspera/esperaPantalla2.png'));
+  imgEspera.push(loadImage('imgEspera/esperaPantalla3.png'));
 
   // Load the handPose model
   handPose = ml5.handPose();
@@ -51,18 +52,18 @@ function setup() {
 
   // For this example to work across all browsers
   // "webgl" or "cpu" needs to be set as the backend
-  ml5.setBackend("webgl");
+  ml5.setBackend('webgl');
 
   // Set up the neural network
   let classifierOptions = {
-    task: "classification",
+    task: 'classification',
   };
   classifier = ml5.neuralNetwork(classifierOptions);
 
   const modelDetails = {
-    model: "./modelos/modelo-v1/model.json",
-    metadata: "./modelos/modelo-v1/model_meta.json",
-    weights: "./modelos/modelo-v1/model.weights.bin",
+    model: './modelos/modelo-v1/model.json',
+    metadata: './modelos/modelo-v1/model_meta.json',
+    weights: './modelos/modelo-v1/model.weights.bin',
   };
 
   classifier.load(modelDetails, modelLoaded);
@@ -73,13 +74,15 @@ function setup() {
 
 function draw() {
   //referencia:https://editor.p5js.org/jao123/sketches/qMfNbq_BL
-  if (estadoActual == "espera") {
+  if (estadoActual == 'espera') {
     background(243, 244, 248);
 
-    image(imgEspera[imgEsperaIndex], 0, 0, 1920, 1080);
+    frame++;
+    if (frame > numFrames - 1) frame = 0;
+    image(imgEspera[frame], 0, 0);
 
     //función para que la consola muestre los gestos que se guardan en el almacenamiento local
-    let recuperaGesto = getItem("gestoDetectado");
+    let recuperaGesto = getItem('gestoDetectado');
     if (recuperaGesto !== null) {
       console.log(recuperaGesto);
     }
@@ -105,7 +108,7 @@ function draw() {
       fill(0, 255, 0);
       text(classification, 20, 60);
       // Callback function for when classification has finished
-      storeItem("gestoDetectado", classification);
+      storeItem('gestoDetectado', classification);
     }
   }
 }
