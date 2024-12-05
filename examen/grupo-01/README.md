@@ -9,6 +9,7 @@
 * [entrenar](./entrenar/)
 * [usar](./usar/)
 * [usarProbando](./usarProbando/)
+* [estadosPrueba](./estadosPrueba/)
 
 Para ver las versiones del modelo de prueba se cambia este código con el número de la version de la carpeta.
 
