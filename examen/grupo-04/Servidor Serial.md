@@ -5,6 +5,7 @@ Este proyecto implementa un sistema que integra una interfaz web con un Arduino 
 ## Requisitos del Sistema
 
 ### Hardware
+
 - Arduino (cualquier modelo compatible)
 - Sensor ultrasónico HC-SR04
 - Módulo relé
@@ -12,6 +13,7 @@ Este proyecto implementa un sistema que integra una interfaz web con un Arduino 
 - Cable USB para Arduino
 
 ### Software
+
 - Python 3.8 o superior
 - Arduino IDE
 - Navegador web moderno
@@ -44,7 +46,6 @@ pip install flask pyserial
 
 Crea la siguiente estructura de archivos:
 
-```
 proyecto/
 ├── app.py
 ├── templates/
@@ -53,7 +54,6 @@ proyecto/
 │   └── thanks.html
 └── arduino/
     └── control_fluidos.ino
-```
 
 ### 3. Configuración del Arduino
 
@@ -86,9 +86,11 @@ Conecta los componentes al Arduino:
 2. Identifica el puerto serial (COM3, /dev/ttyUSB0, etc.)
 3. Modifica el `SERIAL_PORT` en `app.py` según corresponda
 4. Ejecuta el servidor Flask:
+
    ```bash
    python app.py
    ```
+
 5. Abre tu navegador y visita `http://localhost:5000`
 
 ### Modo Simulación (sin Arduino)
@@ -97,9 +99,11 @@ Para probar el sistema sin el hardware, puedes usar el modo de simulación:
 
 1. Usa la versión modificada de `app.py` con los endpoints de prueba
 2. Ejecuta el servidor:
+
    ```bash
    python app.py
    ```
+
 3. Accede a `http://localhost:5000`
 4. Para simular la señal del Arduino:
    - Visita `http://localhost:5000/test/enable-form` para habilitar el formulario
@@ -108,20 +112,24 @@ Para probar el sistema sin el hardware, puedes usar el modo de simulación:
 ### Simulación Avanzada (con Puerto Serial Virtual)
 
 #### Windows
+
 1. Instala [com0com](https://sourceforge.net/projects/com0com/)
 2. Crea un par de puertos virtuales (ejemplo: COM3-COM4)
 3. Ajusta los puertos en los scripts
 4. Ejecuta el simulador:
-   ```bash
-   python serial_simulator.py
-   ```
+
+```bash
+python serial_simulator.py
+```
 
 #### Linux/Mac
+
 1. El simulador creará automáticamente un puerto virtual
 2. Ejecuta el simulador:
-   ```bash
-   python serial_simulator.py
-   ```
+
+```bash
+python serial_simulator.py
+```
 
 ## Flujo de Funcionamiento
 
@@ -144,19 +152,23 @@ Para probar el sistema sin el hardware, puedes usar el modo de simulación:
 ## Solución de Problemas
 
 ### El formulario no se habilita
+
 - Verifica la conexión USB del Arduino
 - Comprueba el puerto serial en `app.py`
 - Usa el modo simulación para probar la interfaz
 
 ### Error de puerto serial
+
 - Verifica que el puerto existe y está disponible
 - Asegúrate de tener permisos de acceso al puerto
 - En Linux, añade tu usuario al grupo dialout:
-  ```bash
-  sudo usermod -a -G dialout $USER
-  ```
+
+```bash
+sudo usermod -a -G dialout $USER
+```
 
 ### La bomba no se activa
+
 - Verifica las conexiones del relé
 - Comprueba que el pin del relé coincide con el código
 - Verifica la alimentación de la bomba
@@ -164,6 +176,7 @@ Para probar el sistema sin el hardware, puedes usar el modo de simulación:
 ## Contribuir
 
 Si deseas contribuir al proyecto:
+
 1. Haz un fork del repositorio
 2. Crea una rama para tu característica
 3. Envía un pull request
