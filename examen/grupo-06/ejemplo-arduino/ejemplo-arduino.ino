@@ -7,6 +7,7 @@ int pasosPorVuelta = 2048;
 
 // conectar motor
 Stepper MotorUno(pasosPorVuelta, 8, 9, 10, 11);
+Stepper MotorDos(pasosPorVuelta, 7, 6, 5, 4);
 
 int lines = 0;
 unsigned long lastSent = 0;
@@ -19,6 +20,7 @@ void setup() {
 
   // definir velocidad del motor
   MotorUno.setSpeed(10);
+  MotorDos.setSpeed(10);
 }
 
 void loop() {
@@ -44,6 +46,10 @@ void loop() {
 
       } else if (input.equals(dos)) {
         // girar motor2
+         for (int pasito = 0; pasito < pasosPorVuelta; pasito++) {
+        MotorDos.step(1);
+        delay(1);
+      }
       }
     }
   }
