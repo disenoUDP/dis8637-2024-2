@@ -69,7 +69,7 @@ function setup() {
   // Set up the neural network
   let classifierOptions = {
     task: 'classification',
-    debug: true,
+    // debug: true,
   };
   classifier = ml5.neuralNetwork(classifierOptions);
 
