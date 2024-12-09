@@ -39,6 +39,9 @@ let imgPreguntasTresActual = 0;
 let imgPreguntasCuatro = [];
 let imgPreguntasCuatroActual = 0;
 
+let imgVizDatos = [];
+let imgVizDatosActual = 0;
+
 //Este ejemplo demuestra cómo cargar un modelo previamente entrenado con ml5.neuralNetwork.
 
 let classifier;
@@ -64,6 +67,9 @@ let tiempoPreguntaTresDelta;
 let tiempoPreguntaTresUltimoCambio = 0;
 let tiempoPreguntaCuatroDelta;
 let tiempoPreguntaCuatroUltimoCambio = 0;
+
+let tiempoVizDatosDelta;
+let tiempoVizDatosUltimoCambio = 0;
 
 let colorFondo;
 
@@ -121,6 +127,7 @@ function setup() {
     tiempoPreguntaDosDelta = tiempoEsperaDelta;
     tiempoPreguntaTresDelta = tiempoEsperaDelta;
     tiempoPreguntaCuatroDelta = tiempoEsperaDelta;
+    tiempoVizDatosDelta = tiempoEsperaDelta;
   } else {
     tiempoEsperaDelta = 6000;
     tiempoInstruccionesDelta = tiempoEsperaDelta;
@@ -128,6 +135,7 @@ function setup() {
     tiempoPreguntaDosDelta = tiempoEsperaDelta;
     tiempoPreguntaTresDelta = tiempoEsperaDelta;
     tiempoPreguntaCuatroDelta = tiempoEsperaDelta;
+    tiempoVizDatosDelta = tiempoEsperaDelta;
   }
 
   colorFondo = color(243, 244, 248);
@@ -183,12 +191,24 @@ function draw() {
   }
   else if (estadoActual == 2) {
    dibujarPreguntaUno();
-  }
+  } else if (estadoActual == 3) {
+    dibujarPreguntaDos();
+   }  else if (estadoActual == 4) {
+    dibujarPreguntaTres();
+   }
+   else if (estadoActual == 5) {
+    dibujarPreguntaCuatro();
+   } else if (estadoActual == 6) {
+    dibujarVizDatos();
+   }
   
   //ESTADO MUESTRA DE DATOS
   //aqui no se que hacer
 
-  image(video, 0, 0, width/5, height/5);
+  if (modoPrueba) {
+    image(video, 0, 0, width/5, height/5);
+
+  }
 }
 
 // convert the handPose data to a 1D array
@@ -349,6 +369,103 @@ function dibujarPreguntaUno() {
     estadoActual = 3;
     tiempoPreguntaDosUltimoCambio = millis();
   }
+}
+
+function dibujarPreguntaDos() {
+  // mostrar la imagen
+  if (modoPrueba) {
+    // mostrar la imagen mas chiquita cuando esta en modo prueba
+    image(imgPreguntasDos[imgPreguntasDosActual], 0, 0, width, height);
+  } else {
+    image(imgPreguntasDos[imgPreguntasDosActual], 0, 0);
+  }
+
+  // si ya paso el tiempo de instrucciones
+  // cambiar la imagen
+  //esto es para crear el gif de imagenes/movimientos
+  if (millis() - tiempoPreguntaDosUltimoCambio > tiempoPreguntaDosDelta) {
+    // subir numero de la imagen
+    imgPreguntasDosActual++;
+    console.log(imgPreguntasDosActual);
+    // si llegamos a la ultima, volver a la cero
+    // imgInstruccionesActual = imgInstruccionesActual % imgInstrucciones.length;
+    
+    // guardar el momento en que se cambio la imagen
+    tiempoPreguntaDosUltimoCambio = millis();
+  }
+  // si llegamos a la ultima imagen de instrucciones
+  if (imgPreguntasDosActual >= imgPreguntasDos.length) {
+    // cambiamos al estado 4
+    // 4 = pregunta 3
+    estadoActual = 4;
+    tiempoPreguntaTresUltimoCambio = millis();
+  }
+}
+
+function dibujarPreguntaTres() {
+  // mostrar la imagen
+  if (modoPrueba) {
+    // mostrar la imagen mas chiquita cuando esta en modo prueba
+    image(imgPreguntasTres[imgPreguntasTresActual], 0, 0, width, height);
+  } else {
+    image(imgPreguntasTres[imgPreguntasTresActual], 0, 0);
+  }
+
+  // si ya paso el tiempo de instrucciones
+  // cambiar la imagen
+  //esto es para crear el gif de imagenes/movimientos
+  if (millis() - tiempoPreguntaTresUltimoCambio > tiempoPreguntaTresDelta) {
+    // subir numero de la imagen
+    imgPreguntasTresActual++;
+    console.log(imgPreguntasTresActual);
+    // si llegamos a la ultima, volver a la cero
+    // imgInstruccionesActual = imgInstruccionesActual % imgInstrucciones.length;
+    
+    // guardar el momento en que se cambio la imagen
+    tiempoPreguntaTresUltimoCambio = millis();
+  }
+  // si llegamos a la ultima imagen de instrucciones
+  if (imgPreguntasTresActual >= imgPreguntasTres.length) {
+    // cambiamos al estado 5
+    // 5 = pregunta 4
+    estadoActual = 5;
+    tiempoPreguntaCuatroUltimoCambio = millis();
+  }
+}
+
+function dibujarPreguntaCuatro() {
+  // mostrar la imagen
+  if (modoPrueba) {
+    // mostrar la imagen mas chiquita cuando esta en modo prueba
+    image(imgPreguntasCuatro[imgPreguntasCuatroActual], 0, 0, width, height);
+  } else {
+    image(imgPreguntasCuatro[imgPreguntasCuatroActual], 0, 0);
+  }
+
+  // si ya paso el tiempo de instrucciones
+  // cambiar la imagen
+  //esto es para crear el gif de imagenes/movimientos
+  if (millis() - tiempoPreguntaCuatroUltimoCambio > tiempoPreguntaCuatroDelta) {
+    // subir numero de la imagen
+    imgPreguntasCuatroActual++;
+    console.log(imgPreguntasCuatroActual);
+    // si llegamos a la ultima, volver a la cero
+    // imgInstruccionesActual = imgInstruccionesActual % imgInstrucciones.length;
+    
+    // guardar el momento en que se cambio la imagen
+    tiempoPreguntaCuatroUltimoCambio = millis();
+  }
+  // si llegamos a la ultima imagen de instrucciones
+  if (imgPreguntasCuatroActual >= imgPreguntasCuatro.length) {
+    // cambiamos al estado 6
+    // 6 = visualizacion de datos
+    estadoActual = 5;
+    tiempoVizDatosUltimoCambio = millis();
+  }
+}
+
+function dibujarVizDatos() {
+  console.log("por hacer vizDatos")
 }
 
 
