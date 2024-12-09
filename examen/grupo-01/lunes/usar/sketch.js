@@ -29,8 +29,15 @@ let imgEspera = [];
 let imgEsperaActual = 0;
 let imgInstrucciones = [];
 let imgInstruccionesActual = 0;
-let imgPreguntas = [];
-let imgPreguntasActual = 0;
+
+let imgPreguntasUno = [];
+let imgPreguntasUnoActual = 0;
+let imgPreguntasDos = [];
+let imgPreguntasDosActual = 0;
+let imgPreguntasTres = [];
+let imgPreguntasTresActual = 0;
+let imgPreguntasCuatro = [];
+let imgPreguntasCuatroActual = 0;
 
 //Este ejemplo demuestra cómo cargar un modelo previamente entrenado con ml5.neuralNetwork.
 
@@ -49,6 +56,15 @@ let tiempoEsperaUltimoCambio = 0;
 let tiempoInstruccionesDelta;
 let tiempoInstruccionesUltimoCambio = 0;
 
+let tiempoPreguntaUnoDelta;
+let tiempoPreguntaUnoUltimoCambio = 0;
+let tiempoPreguntaDosDelta;
+let tiempoPreguntaDosUltimoCambio = 0;
+let tiempoPreguntaTresDelta;
+let tiempoPreguntaTresUltimoCambio = 0;
+let tiempoPreguntaCuatroDelta;
+let tiempoPreguntaCuatroUltimoCambio = 0;
+
 let colorFondo;
 
 function preload() {
@@ -65,21 +81,21 @@ function preload() {
   imgInstrucciones.push(loadImage("imgInstrucciones/instrucciones4.png"));
   imgInstrucciones.push(loadImage("imgInstrucciones/instrucciones5.png"));
 
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta1-0.png"));
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta1-1.png"));
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta1-2.png"));
+  imgPreguntasUno.push(loadImage("imgPreguntas/pregunta1-0.png"));
+  imgPreguntasUno.push(loadImage("imgPreguntas/pregunta1-1.png"));
+  imgPreguntasUno.push(loadImage("imgPreguntas/pregunta1-2.png"));
   
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta2-0.png"));
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta2-1.png"));
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta2-2.png"));
+  imgPreguntasDos.push(loadImage("imgPreguntas/pregunta2-0.png"));
+  imgPreguntasDos.push(loadImage("imgPreguntas/pregunta2-1.png"));
+  imgPreguntasDos.push(loadImage("imgPreguntas/pregunta2-2.png"));
 
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta3-0.png"));
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta3-1.png"));
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta3-2.png"));
+  imgPreguntasTres.push(loadImage("imgPreguntas/pregunta3-0.png"));
+  imgPreguntasTres.push(loadImage("imgPreguntas/pregunta3-1.png"));
+  imgPreguntasTres.push(loadImage("imgPreguntas/pregunta3-2.png"));
 
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta4-0.png"));
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta4-1.png"));
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta4-2.png"));
+  imgPreguntasCuatro.push(loadImage("imgPreguntas/pregunta4-0.png"));
+  imgPreguntasCuatro.push(loadImage("imgPreguntas/pregunta4-1.png"));
+  imgPreguntasCuatro.push(loadImage("imgPreguntas/pregunta4-2.png"));
 
   // Load the handPose model
   handPose = ml5.handPose();
@@ -101,9 +117,17 @@ function setup() {
   if (modoPrueba) {
     tiempoEsperaDelta = 2000;
     tiempoInstruccionesDelta = tiempoEsperaDelta;
+    tiempoPreguntaUnoDelta = tiempoEsperaDelta;
+    tiempoPreguntaDosDelta = tiempoEsperaDelta;
+    tiempoPreguntaTresDelta = tiempoEsperaDelta;
+    tiempoPreguntaCuatroDelta = tiempoEsperaDelta;
   } else {
     tiempoEsperaDelta = 6000;
     tiempoInstruccionesDelta = tiempoEsperaDelta;
+    tiempoPreguntaUnoDelta = tiempoEsperaDelta;
+    tiempoPreguntaDosDelta = tiempoEsperaDelta;
+    tiempoPreguntaTresDelta = tiempoEsperaDelta;
+    tiempoPreguntaCuatroDelta = tiempoEsperaDelta;
   }
 
   colorFondo = color(243, 244, 248);
@@ -158,7 +182,7 @@ function draw() {
     dibujarInstrucciones();
   }
   else if (estadoActual == 2) {
-    console.log("yay llegue al estado 2")
+   dibujarPreguntaUno();
   }
   
   //ESTADO MUESTRA DE DATOS
@@ -257,7 +281,7 @@ function dibujarInstrucciones() {
     // cambiamos al estado 1
     // 1 = instrucciones
     estadoActual = 2;
-    tiempoInstruccionesUltimoCambio = millis();
+    tiempoPreguntaUnoUltimoCambio = millis();
   }
 
       // // If the model is loaded, make a classification and display the result
@@ -294,6 +318,37 @@ function dibujarInstrucciones() {
       }*/
   
 
+}
+
+function dibujarPreguntaUno() {
+  // mostrar la imagen
+  if (modoPrueba) {
+    // mostrar la imagen mas chiquita cuando esta en modo prueba
+    image(imgPreguntasUno[imgPreguntasUnoActual], 0, 0, width, height);
+  } else {
+    image(imgPreguntasUno[imgPreguntasUnoActual], 0, 0);
+  }
+
+  // si ya paso el tiempo de instrucciones
+  // cambiar la imagen
+  //esto es para crear el gif de imagenes/movimientos
+  if (millis() - tiempoPreguntaUnoUltimoCambio > tiempoPreguntaUnoDelta) {
+    // subir numero de la imagen
+    imgPreguntasUnoActual++;
+    console.log(imgPreguntasUnoActual);
+    // si llegamos a la ultima, volver a la cero
+    // imgInstruccionesActual = imgInstruccionesActual % imgInstrucciones.length;
+    
+    // guardar el momento en que se cambio la imagen
+    tiempoPreguntaUnoUltimoCambio = millis();
+  }
+  // si llegamos a la ultima imagen de instrucciones
+  if (imgPreguntasUnoActual >= imgPreguntasUno.length) {
+    // cambiamos al estado 1
+    // 1 = instrucciones
+    estadoActual = 3;
+    tiempoPreguntaDosUltimoCambio = millis();
+  }
 }
 
 
