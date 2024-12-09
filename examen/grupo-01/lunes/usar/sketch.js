@@ -20,10 +20,6 @@ let modeloCargado;
 // 2 = pregunta1 + votar
 // 3 = pregunta2 + votar
 // 4 = pregunta3 + votar
-// 5 = pregunta4 + votar
-// 6 = pregunta5 + votar
-// 7 = pregunta6 + votar
-// 8 = pregunta7 + votar
 // 9 = mostrar visualizacion
 
 let estadoActual = 0;
@@ -82,18 +78,6 @@ function preload() {
   imgPreguntas.push(loadImage("imgPreguntas/pregunta4-0.png"));
   imgPreguntas.push(loadImage("imgPreguntas/pregunta4-1.png"));
   imgPreguntas.push(loadImage("imgPreguntas/pregunta4-2.png"));
-
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta5-0.png"));
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta5-1.png"));
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta5-2.png"));
-
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta6-0.png"));
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta6-1.png"));
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta6-2.png"));
-
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta7-0.png"));
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta7-1.png"));
-  imgPreguntas.push(loadImage("imgPreguntas/pregunta7-2.png"));
 
   // Load the handPose model
   handPose = ml5.handPose();
