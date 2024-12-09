@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instalación Artística - Estrés Estudiantil</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <style>
+        body { margin: 0; padding: 0; overflow: hidden; }
+        #textInput {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            padding: 10px;
+            width: 80%;
+            max-width: 600px;
+            display: none;
+        }
+        #controls {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            display: none;
+            min-width: 200px;
+        }
+        #toggleControls {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+            z-index: 1000;
+        }
+        #toggleControls:hover {
+            background: rgba(0,0,0,0.8);
+        }
+        .stats {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255,255,255,0.3);
+        }
+        .stat-item {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="textInput" placeholder="Escribe tu razón aquí...">
+    <button id="toggleControls">Mostrar Controles</button>
+    <div id="controls">
+        <div>Controles de simulación:</div>
+        <div>1: Detectar persona</div>
+        <div>2: Botón SÍ</div>
+        <div>3: Botón NO</div>
+        <div>ENTER: Enviar razón</div>
+        <div class="stats">
+            <div class="stat-item">Total participantes: <span id="totalParticipantes">0</span></div>
+            <div class="stat-item">Participantes estresados: <span id="totalEstresados">0</span></div>
+            <div class="stat-item">Porcentaje estresados: <span id="porcentajeEstresados">0</span>%</div>
+        </div>
+    </div>
+    <script>
+        const socket = io();
+        let currentState = 'STAND_BY';
+        let stressedCount = 0;
+        let timeoutBar = 0;
+        let lastInteractionTime = Date.now();
+        let responses = [];
+        let timeoutDuration = 10000;
+
+        // Control del panel de controles
+        const toggleButton = document.getElementById('toggleControls');
+        const controlsPanel = document.getElementById('controls');
+        
+        toggleButton.addEventListener('click', () => {
+            const isVisible = controlsPanel.style.display === 'block';
+            controlsPanel.style.display = isVisible ? 'none' : 'block';
+            toggleButton.textContent = isVisible ? 'Mostrar Controles' : 'Ocultar Controles';
+            toggleButton.style.left = isVisible ? '20px' : '240px';
+        });
+
+        // Actualización de estadísticas
+        function updateStats() {
+            const totalCount = responses.length;
+            const stressedCount = responses.filter(r => r.usuarioEstresado).length;
+            const porcentaje = totalCount > 0 ? ((stressedCount / totalCount) * 100).toFixed(1) : 0;
+
+            document.getElementById('totalParticipantes').textContent = totalCount;
+            document.getElementById('totalEstresados').textContent = stressedCount;
+            document.getElementById('porcentajeEstresados').textContent = porcentaje;
+        }
+
+        socket.on('configUpdate', (config) => {
+            timeoutDuration = config.timeout;
+        });
+
+        socket.on('stateChange', (state) => {
+            currentState = state;
+            lastInteractionTime = Date.now();
+            if (state === 'RAZON') {
+                document.getElementById('textInput').style.display = 'block';
+                document.getElementById('textInput').focus();
+            } else {
+                document.getElementById('textInput').style.display = 'none';
+            }
+        });
+
+        socket.on('stressedCount', (count) => {
+            stressedCount = count;
+            updateStats();
+        });
+
+        socket.on('updateResponses', (newResponses) => {
+            responses = newResponses;
+            updateStats();
+        });
+
+        socket.on('requestReason', () => {
+            const reason = document.getElementById('textInput').value;
+            socket.emit('submitReason', reason);
+            document.getElementById('textInput').value = '';
+        });
+
+        document.addEventListener('keydown', (event) => {
+            switch(event.key.toLowerCase()) {
+                case '1':
+                    socket.emit('simulateArduino', 'PERSON_DETECTED');
+                    break;
+                case '2':
+                    socket.emit('simulateArduino', 'BUTTON_YES');
+                    break;
+                case '3':
+                    socket.emit('simulateArduino', 'BUTTON_NO');
+                    break;
+                case 'enter':
+                    if (currentState === 'RAZON') {
+                        socket.emit('simulateArduino', 'BUTTON_REASON');
+                    }
+                    break;
+            }
+        });
+
+        document.getElementById('textInput').addEventListener('keydown', (event) => {
+            if (event.key === 'Enter' && currentState === 'RAZON') {
+                event.preventDefault();
+                socket.emit('simulateArduino', 'BUTTON_REASON');
+            }
+        });
+
+
+        // Acá empieza P5js
+
+        let votosSi = 0; 
+        let respuestas = []; 
+        let estado = "inicio";  
+        let tiempoInicio; 
+        let tiempoRespuestaActual = 0;
+        let respuestaMostrada = []; 
+        let posicionesCuadrados = []; 
+        let logoFAAD;
+
+        const palabrasProhibidas = ["poto", "weon", "wea", "hueon", "mierda", "pico", "wn", "huea", "weones", "weas", "pene", "hoyo"];
+
+        function preload() {
+            // logo
+            logoFAAD = loadImage('logOFAADlogo.png');  
+        }
+
+        function mostrarEncabezado() {
+            // textos superiores
+            fill(0);
+            textSize(15);
+            textAlign(LEFT, CENTER);
+            text("Encuesta UDP  -  Diciembre de 2024", 10, 20);
+
+            textAlign(RIGHT, CENTER);
+            text("TALLER UX - EXPERIENCIA DE USUARIO", width - 60, 20);
+
+            //logo en la esquina superior derecha
+            imageMode(CENTER);
+            image(logoFAAD, width - 30, 23, 40, 40); 
+            }
+
+        function mostrarPantallaInicio() {
+            mostrarCuadrados(); // cuadrados según los votos
+
+            textSize(30);
+            fill(0);
+
+            // respuesta mostrada cada 3 segundos, no está funcionando
+            if (respuestas.length > 0 && millis() - tiempoRespuestaActual > 3000) {
+                respuestaMostrada = random(respuestas); 
+                tiempoRespuestaActual = millis(); 
+            }
+
+            // para las respuestas
+            fill(0);
+            
+            textSize(30);
+            textWrap(WORD);
+            textAlign(CENTER, CENTER); 
+            text(respuestaMostrada, width / 2.5, height / 1.5, 130); 
+            text(`Este semestre se ha acumulado ${stressedCount} personas con estrés`, width - 760, height - 400);
+            // no cambiar
+    
+          
+        }
+
+
+        function mostrarCuadrados() {
+        for (let i = 0; i < stressedCount && i < posicionesCuadrados.length; i++) {
+            let cuadrado = posicionesCuadrados[i];
+            fill(cuadrado.color);
+            rect(cuadrado.x, cuadrado.y, 20, 20); 
+            noStroke();
+        }
+        }
+
+        function mostrarInstrucciones() {
+        textSize(30);
+        fill(0);
+        let y = 80; 
+        let interlineado = 40; 
+
+        textAlign(CENTER, CENTER);
+        textWrap(WORD);
+
+        text("Hola!", width / 2, y); 
+        y += interlineado; 
+
+        text(
+            "Esta es una encuesta que tiene que ver con el estrés académico. Nuestro objetivo es hacer visible todo esto con el fin de buscar una solución a nivel de comunidad UDP.",
+            width / 12,
+            150,
+            500
+        );
+        }
+
+        function mostrarPantallaPregunta(pregunta) {
+        mostrarCuadrados();
+
+        // fondo para la pregunta
+        fill(200, 200, 200, 200); 
+        noStroke();
+        rect(width / 2 - 220, height / 2 - 80, 440, 160, 10); 
+
+        fill(0);
+        textSize(30);
+        textWrap(WORD);
+        textAlign(CENTER, CENTER)
+        text(pregunta, width / 6, height / 2 - 50, 400);
+
+        textSize(20);
+        fill(100, 255, 100);
+        text("Sí", width / 2 + 100, height / 2 + 30);
+        fill(255, 100, 100);
+        text("No", width / 2 - 100, height / 2 + 30);
+        }
+        function mostrarFrameTeclado() {
+        fill(0);
+        textSize(30);
+        textAlign(CENTER, CENTER);
+        text("Despliega el teclado bajo los botones para escribir tu respuesta", width / 2, height / 2);
+
+        //han pasado 5 segundos, mostrar el espacio para escribir (prompt)
+        if (millis() - tiempoInicio > 5000) {
+            let respuesta = prompt("Escribe lo que te estresa:"); 
+            if (respuesta && validarRespuesta(respuesta)) {
+            respuestas.push(respuesta); 
+            } else if (respuesta) {
+            alert("Tu respuesta contiene palabras no permitidas."); // palabras prohibidas
+            }
+
+            //
+            tiempoInicio = millis(); 
+            estado = "agradecimiento";
+        }
+        }
+
+
+
+        function mostrarFrameAgradecimiento() {
+        fill(0);
+        textSize(30);
+        textAlign(CENTER, CENTER);
+        text("Gracias por participar ;)", width / 2, height / 2);
+
+        // después de 3 segundos, vuelve al inicio
+        if (millis() - tiempoInicio > 3000) {
+            estado = "inicio";
+        }
+        }
+
+
+        function mostrarRespuestas() {
+        mostrarCuadrados();
+
+        textSize(28);
+        textAlign(CENTER, CENTER)
+        fill(0);
+        text("Respuestas compartidas:", width / 2, 70);
+
+        textSize(26);
+        let y = 100;
+        textWrap(WORD);
+        for (let i = 0; i < respuestas.length; i++) {
+            text(respuestas[i], width / 2 - 200, y, 400);
+            y += 40;
+        }
+
+        text("Volviendo a la pantalla inicial en 10 segundos...", width / 2, height - 50);
+
+        if (millis() - tiempoInicio > 10000) {
+            estado = "inicio";
+        }
+        }
+
+        function validarRespuesta(respuesta) {
+        let respuestaLower = respuesta.toLowerCase();
+
+        for (let palabra of palabrasProhibidas) {
+            if (respuestaLower.includes(palabra.toLowerCase())) {
+            return false; 
+            }
+        }
+        return true; 
+        }
+
+
+        function setup() {
+            createCanvas(windowWidth, windowHeight);
+            textAlign(CENTER, CENTER); 
+            textSize(15);
+            textFont('Work Sans regular');
+
+            for (let i = 0; i < 50; i++) {
+                let randomX = random(0, width - 20);
+                let randomY = random(0, height - 20);
+                let randomColor = color(random(255), random(255), random(255)); 
+                posicionesCuadrados.push({ x: randomX, y: randomY, color: randomColor });
+            }
+
+            tiempoRespuestaActual = millis(); 
+        }
+
+        function draw() {
+            background(255);
+            mostrarEncabezado();
+            
+            const elapsedTime = Date.now() - lastInteractionTime;
+            timeoutBar = (elapsedTime / timeoutDuration) * width;
+            
+             switch(currentState) {
+                case 'STAND_BY':
+                    mostrarPantallaInicio();
+                    
+                 break;
+                
+                case 'INTRODUCCION': 
+                   fill(0);
+                   textSize(20);
+                   textWrap(WORD);
+                   textAlign(CENTER, CENTER)
+                  
+                   text("Hola!", width / 2, y); 
+                   y += interlineado; 
+
+                  text(
+                  "Esta es una encuesta que tiene que ver con el estrés académico. Nuestro objetivo es hacer visible todo esto con el fin de buscar una solución a nivel de comunidad UDP.",
+                  width / 12,
+                  150,
+                  500
+                  );
+                   
+                   break; 
+                    
+                case 'PREGUNTA':
+                    fill(0);
+                    textSize(30);
+                    textWrap(WORD);
+                    textAlign(CENTER, CENTER)
+                    text('¿Sientes que el estrés academico está tomando control sobre tu forma de vida?\n\nPresiona 2 para SÍ o 3 para NO', width/2, height/2);
+                    break;
+                    
+                case 'RAZON':
+                    fill(0);
+                    textSize(30);
+                    textAlign(CENTER, CENTER);
+                    text('Si quieres, puedes dejar un mensaje deslizando el teclado que se encuentra en la parte inferior de la botonera\ny presiona ENTER para continuar', width/2, height/2 + 100);
+                    break;
+                    
+                case 'RESUMEN':
+                    displayResponses();
+                    break;
+            }
+            
+            if (currentState !== 'STAND_BY') {
+                fill(255, 0, 0);
+                rect(0, height - 5, timeoutBar, 5);
+                
+                if (elapsedTime > timeoutDuration) {
+                    socket.emit('timeout');
+                }
+            }
+        }
+
+        function displayResponses() {
+            push();
+            textSize(32);
+            textAlign(CENTER, TOP);
+            fill(0);
+            text('Respuestas de otros estudiantes', width/2, 30);
+            
+            textSize(16);
+            textAlign(LEFT, TOP);
+            
+            const margin = 40;
+            const startY = 100;
+            const lineHeight = 60;
+            const columnsCount = 3;
+            const columnWidth = (width - (margin * 2)) / columnsCount;
+            
+            const textsWithContent = responses.filter(response => response.texto);
+            
+            textsWithContent.forEach((response, i) => {
+                const column = i % columnsCount;
+                const row = Math.floor(i / columnsCount);
+                
+                const x = margin + (column * columnWidth);
+                const y = startY + (row * lineHeight);
+                
+                const maxWidth = columnWidth - 20;
+                text(response.texto, x, y, maxWidth);
+            });
+            pop();
+        }
+
+        function windowResized() {
+            resizeCanvas(windowWidth, windowHeight);
+        }
+    </script>
+</body>
+</html>
