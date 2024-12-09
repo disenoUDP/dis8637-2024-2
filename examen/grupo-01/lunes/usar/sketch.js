@@ -117,6 +117,7 @@ function setup() {
     task: "classification",
     debug: true,
   };
+
   classifier = ml5.neuralNetwork(classifierOptions);
 
   const modelDetails = {
@@ -134,6 +135,7 @@ function setup() {
   tiempoEsperaUltimoCambio = millis();
 }
 
+
 function draw() {
   
   if (modoPrueba) {
@@ -142,34 +144,7 @@ function draw() {
 
   // 0 = espera
   if (estadoActual == 0) {
-    background(colorFondo);
-
-    // mostrar la imagen
-    if (modoPrueba) {
-      // mostrar la imagen mas chiquita cuando esta en modo pruegba
-      image(imgEspera[imgEsperaActual], 0, 0, width, height);
-    } else {
-      image(imgEspera[imgEsperaActual], 0, 0);
-    }
-
-    // si ya paso el tiempo de espera
-    // cambiar la imagen
-    //esto es para crear el gif de imagenes/movimientos
-    if (millis() - tiempoEsperaUltimoCambio > tiempoEsperaDelta) {
-      // subir numero de la imagen
-      imgEsperaActual++;
-      // si llegamos a la ultima, volver a la cero
-      // imgEsperaActual = imgEsperaActual % imgEspera.length;
-      
-      // guardar el momento en que se cambio la imagen
-      tiempoEsperaUltimoCambio = millis();
-    }
-    // si llegamos a la ultima imagen de espera
-    if (imgEsperaActual >= imgEspera.length) {
-      // cambiamos al estado 1
-      // 1 = instrucciones
-      estadoActual = 1;
-    }
+    dibujarEspera();
   }
   //ESTADO INSTRUCCIONES
   // si no esta en estado de espera inicia estado instrucciones
@@ -245,6 +220,39 @@ function draw() {
 //     // console.log(classification);
 //   }
 // }
+
+function dibujarEspera() {
+  background(colorFondo);
+
+  // mostrar la imagen
+  if (modoPrueba) {
+    // mostrar la imagen mas chiquita cuando esta en modo pruegba
+    image(imgEspera[imgEsperaActual], 0, 0, width, height);
+  } else {
+    image(imgEspera[imgEsperaActual], 0, 0);
+  }
+
+  // si ya paso el tiempo de espera
+  // cambiar la imagen
+  //esto es para crear el gif de imagenes/movimientos
+  if (millis() - tiempoEsperaUltimoCambio > tiempoEsperaDelta) {
+    // subir numero de la imagen
+    imgEsperaActual++;
+    // si llegamos a la ultima, volver a la cero
+    // imgEsperaActual = imgEsperaActual % imgEspera.length;
+    
+    // guardar el momento en que se cambio la imagen
+    tiempoEsperaUltimoCambio = millis();
+  }
+  // si llegamos a la ultima imagen de espera
+  if (imgEsperaActual >= imgEspera.length) {
+    // cambiamos al estado 1
+    // 1 = instrucciones
+    estadoActual = 1;
+  }
+  
+}
+
 
 function flattenHandData() {
   let hand = hands[0];
