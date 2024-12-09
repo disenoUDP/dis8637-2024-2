@@ -158,7 +158,7 @@ function draw() {
     dibujarInstrucciones();
   }
   else if (estadoActual == 2) {
-    
+    console.log("yay llegue al estado 2")
   }
   
   //ESTADO MUESTRA DE DATOS
@@ -239,8 +239,6 @@ function dibujarInstrucciones() {
     image(imgInstrucciones[imgInstruccionesActual], 0, 0);
   }
 
-
-
   // si ya paso el tiempo de instrucciones
   // cambiar la imagen
   //esto es para crear el gif de imagenes/movimientos
@@ -255,16 +253,12 @@ function dibujarInstrucciones() {
     tiempoInstruccionesUltimoCambio = millis();
   }
   // si llegamos a la ultima imagen de instrucciones
-  if (imgInstruccionesActual >= imgInstruccionesActual.length) {
+  if (imgInstruccionesActual >= imgInstrucciones.length) {
     // cambiamos al estado 1
     // 1 = instrucciones
     estadoActual = 2;
     tiempoInstruccionesUltimoCambio = millis();
   }
-
-
-
-
 
       // // If the model is loaded, make a classification and display the result
       // if (isModelLoaded && hands[0]) {
