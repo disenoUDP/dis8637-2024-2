@@ -4,7 +4,6 @@ let deteccionActual;
 let manosActual;
 let modeloCargado;
 
-
 //Estados: espera, instrucciones, votación, error, respuesta, visualizaciónDeDatos, fin.
 //espera = Se mantiene hasta que ml5.js detecte a los cuatro participantes hacer el gesto de "STOP" con la mano.
 //instrucciones = Se mantiene hasta que ml5 detecte que los cuatro participantes hicieron el gesto requerido.
@@ -46,6 +45,9 @@ let isModelLoaded = false;
 // esperar 3 segundo antes de cambiar la imagen
 let tiempoEsperaDelta;
 let tiempoEsperaUltimoCambio = 0;
+
+let tiempoInstruccionesDelta;
+let tiempoInstruccionesUltimoCambio = 0;
 
 let colorFondo;
 
@@ -98,8 +100,10 @@ function setup() {
   
   if (modoPrueba) {
     tiempoEsperaDelta = 2000;
+    tiempoInstruccionesDelta = tiempoEsperaDelta;
   } else {
     tiempoEsperaDelta = 6000;
+    tiempoInstruccionesDelta = tiempoEsperaDelta;
   }
 
   colorFondo = color(243, 244, 248);
@@ -151,40 +155,10 @@ function draw() {
   // es fundamental que "algo" haga cambiar los estados, en este caso si detecta gesto con un 90% de seguridad.
   // && quiere decir "y también", se deben cumplir AMBAS condiciones
   else if (estadoActual == 1) {
-    // If the model is loaded, make a classification and display the result
-    if (isModelLoaded && hands[0]) {
-      let inputData = flattenHandData();
-      classifier.classify(inputData, gotClassification);
-      textSize(64);
-      fill(0, 255, 0);
-      deteccionActual.innerHTML = "Detección actual: " + classification;
-      text(classification, 20, 60);
-      // Callback function for when classification has finished
-      // storeItem("gestoDetectado", gotClassification);
-      estadoActual = 2;
-
-      //variable  para que la consola muestre los gestos que se guardan en el almacenamiento local
-      // let recuperaGesto = getItem("gestoDetectado");
-      // if (recuperaGesto !== null) {
-        // console.log(recuperaGesto);
-      // }
-
-      //Camara que muestra, solo necesitamos que encienda la camara pero que no se muestre en panatlla
-      /*image(video, 0, 0, width, height);
-
-    // Draw the handPose keypoints
-    if (hands[0]) {
-      let hand = hands[0];
-      // console.log(hand.value());
-      for (let i = 0; i < hand.keypoints.length; i++) {
-        let keypoint = hand.keypoints[i];
-        fill(0, 255, 0);
-        noStroke();
-        circle(keypoint.x, keypoint.y, 10);
-      }
-    }*/
-
-    }
+    dibujarInstrucciones();
+  }
+  else if (estadoActual == 2) {
+    
   }
   
   //ESTADO MUESTRA DE DATOS
@@ -226,12 +200,11 @@ function dibujarEspera() {
 
   // mostrar la imagen
   if (modoPrueba) {
-    // mostrar la imagen mas chiquita cuando esta en modo pruegba
+    // mostrar la imagen mas chiquita cuando esta en modo prueba
     image(imgEspera[imgEsperaActual], 0, 0, width, height);
   } else {
     image(imgEspera[imgEsperaActual], 0, 0);
   }
-
   // si ya paso el tiempo de espera
   // cambiar la imagen
   //esto es para crear el gif de imagenes/movimientos
@@ -249,8 +222,84 @@ function dibujarEspera() {
     // cambiamos al estado 1
     // 1 = instrucciones
     estadoActual = 1;
+    tiempoEsperaUltimoCambio = millis();
   }
   
+}
+
+function dibujarInstrucciones() {
+
+  background(colorFondo);
+
+  // mostrar la imagen
+  if (modoPrueba) {
+    // mostrar la imagen mas chiquita cuando esta en modo prueba
+    image(imgInstrucciones[imgInstruccionesActual], 0, 0, width, height);
+  } else {
+    image(imgInstrucciones[imgInstruccionesActual], 0, 0);
+  }
+
+
+
+  // si ya paso el tiempo de instrucciones
+  // cambiar la imagen
+  //esto es para crear el gif de imagenes/movimientos
+  if (millis() - tiempoInstruccionesUltimoCambio > tiempoInstruccionesDelta) {
+    // subir numero de la imagen
+    imgInstruccionesActual++;
+    console.log(imgInstruccionesActual);
+    // si llegamos a la ultima, volver a la cero
+    // imgInstruccionesActual = imgInstruccionesActual % imgInstrucciones.length;
+    
+    // guardar el momento en que se cambio la imagen
+    tiempoInstruccionesUltimoCambio = millis();
+  }
+  // si llegamos a la ultima imagen de instrucciones
+  if (imgInstruccionesActual >= imgInstruccionesActual.length) {
+    // cambiamos al estado 1
+    // 1 = instrucciones
+    estadoActual = 2;
+    tiempoInstruccionesUltimoCambio = millis();
+  }
+
+
+
+
+
+      // // If the model is loaded, make a classification and display the result
+      // if (isModelLoaded && hands[0]) {
+      //   let inputData = flattenHandData();
+      //   classifier.classify(inputData, gotClassification);
+      //   textSize(64);
+      //   fill(0, 255, 0);
+      //   deteccionActual.innerHTML = "Detección actual: " + classification;
+      //   text(classification, 20, 60);
+      //   // Callback function for when classification has finished
+      //   // storeItem("gestoDetectado", gotClassification);
+      //   estadoActual = 2;
+  
+        //variable  para que la consola muestre los gestos que se guardan en el almacenamiento local
+        // let recuperaGesto = getItem("gestoDetectado");
+        // if (recuperaGesto !== null) {
+          // console.log(recuperaGesto);
+        // }
+  
+        //Camara que muestra, solo necesitamos que encienda la camara pero que no se muestre en panatlla
+        /*image(video, 0, 0, width, height);
+  
+      // Draw the handPose keypoints
+      if (hands[0]) {
+        let hand = hands[0];
+        // console.log(hand.value());
+        for (let i = 0; i < hand.keypoints.length; i++) {
+          let keypoint = hand.keypoints[i];
+          fill(0, 255, 0);
+          noStroke();
+          circle(keypoint.x, keypoint.y, 10);
+        }
+      }*/
+  
+
 }
 
 
