@@ -1,0 +1,476 @@
+[
+  {
+    "id": "1733690266523",
+    "timestamp": "2024-12-08T20:37:46.523Z",
+    "usuarioEstresado": true,
+    "texto": ""
+  },
+  {
+    "id": "1733690283117",
+    "timestamp": "2024-12-08T20:38:03.117Z",
+    "usuarioEstresado": true,
+    "texto": "deja un mensaje ya sea largo o corto"
+  },
+  {
+    "id": "1733690302224",
+    "timestamp": "2024-12-08T20:38:22.224Z",
+    "usuarioEstresado": true,
+    "texto": ""
+  },
+  {
+    "id": "1733690870194",
+    "timestamp": "2024-12-08T20:47:50.194Z",
+    "usuarioEstresado": true,
+    "texto": ""
+  },
+  {
+    "id": "1733690876041",
+    "timestamp": "2024-12-08T20:47:56.041Z",
+    "usuarioEstresado": true,
+    "texto": "estoy"
+  },
+  {
+    "id": "1733690878883",
+    "timestamp": "2024-12-08T20:47:58.883Z",
+    "usuarioEstresado": true,
+    "texto": ""
+  },
+  {
+    "id": "1733690266523",
+    "timestamp": "2024-12-08T14:37:46.523Z",
+    "usuarioEstresado": true,
+    "texto": "Tengo demasiados trabajos para entregar esta semana"
+  },
+  {
+    "id": "1733690266524",
+    "timestamp": "2024-12-08T13:15:22.123Z",
+    "usuarioEstresado": true,
+    "texto": "No entiendo la materia de cálculo"
+  },
+  {
+    "id": "1733690266525",
+    "timestamp": "2024-12-08T12:45:11.856Z",
+    "usuarioEstresado": true,
+    "texto": "Me cuesta dormir pensando en los exámenes"
+  },
+  {
+    "id": "1733690266526",
+    "timestamp": "2024-12-08T11:30:15.789Z",
+    "usuarioEstresado": true,
+    "texto": "Extraño a mi familia, soy de otra ciudad"
+  },
+  {
+    "id": "1733690266527",
+    "timestamp": "2024-12-08T10:20:33.456Z",
+    "usuarioEstresado": true,
+    "texto": "No me alcanza el dinero este mes"
+  },
+  {
+    "id": "1733690266528",
+    "timestamp": "2024-12-08T09:15:44.789Z",
+    "usuarioEstresado": true,
+    "texto": "Tengo problemas con mi grupo de trabajo"
+  },
+  {
+    "id": "1733690266529",
+    "timestamp": "2024-12-08T08:05:12.345Z",
+    "usuarioEstresado": true,
+    "texto": "Me siento solo en la universidad"
+  },
+  {
+    "id": "1733690266530",
+    "timestamp": "2024-12-07T23:45:18.901Z",
+    "usuarioEstresado": true,
+    "texto": "No logro concentrarme en clases"
+  },
+  {
+    "id": "1733690266531",
+    "timestamp": "2024-12-07T22:30:27.567Z",
+    "usuarioEstresado": true,
+    "texto": "Mi computadora está fallando y tengo entregas pendientes"
+  },
+  {
+    "id": "1733690266532",
+    "timestamp": "2024-12-07T21:20:33.789Z",
+    "usuarioEstresado": true,
+    "texto": "El transporte público me estresa mucho"
+  },
+  {
+    "id": "1733690266533",
+    "timestamp": "2024-12-07T20:15:44.123Z",
+    "usuarioEstresado": true,
+    "texto": "No encuentro tiempo para hacer ejercicio"
+  },
+  {
+    "id": "1733690266534",
+    "timestamp": "2024-12-07T19:10:55.456Z",
+    "usuarioEstresado": true,
+    "texto": "Tengo que trabajar y estudiar al mismo tiempo"
+  },
+  {
+    "id": "1733690266535",
+    "timestamp": "2024-12-07T18:05:16.789Z",
+    "usuarioEstresado": true,
+    "texto": "Mi rutina de sueño está muy desorganizada"
+  },
+  {
+    "id": "1733690266536",
+    "timestamp": "2024-12-07T17:00:27.123Z",
+    "usuarioEstresado": true,
+    "texto": "No sé si elegí la carrera correcta"
+  },
+  {
+    "id": "1733690266537",
+    "timestamp": "2024-12-07T16:55:38.456Z",
+    "usuarioEstresado": true,
+    "texto": "Me preocupa no encontrar trabajo después de graduarme"
+  },
+  {
+    "id": "1733690266538",
+    "timestamp": "2024-12-07T15:50:49.789Z",
+    "usuarioEstresado": true,
+    "texto": "Tengo problemas de ansiedad social"
+  },
+  {
+    "id": "1733690266539",
+    "timestamp": "2024-12-07T14:45:50.123Z",
+    "usuarioEstresado": true,
+    "texto": "Mi familia tiene expectativas muy altas"
+  },
+  {
+    "id": "1733690266540",
+    "timestamp": "2024-12-07T13:40:11.456Z",
+    "usuarioEstresado": true,
+    "texto": "No puedo mantener el ritmo de las clases"
+  },
+  {
+    "id": "1733690266541",
+    "timestamp": "2024-12-07T12:35:22.789Z",
+    "usuarioEstresado": true,
+    "texto": "Me preocupa perder la beca"
+  },
+  {
+    "id": "1733690266542",
+    "timestamp": "2024-12-07T11:30:33.123Z",
+    "usuarioEstresado": true,
+    "texto": "No tengo tiempo para socializar"
+  },
+  {
+    "id": "1733690266543",
+    "timestamp": "2024-12-07T10:25:44.456Z",
+    "usuarioEstresado": true,
+    "texto": "Me siento agotado todo el tiempo"
+  },
+  {
+    "id": "1733690266544",
+    "timestamp": "2024-12-07T09:20:55.789Z",
+    "usuarioEstresado": true,
+    "texto": "No logro organizar bien mi tiempo"
+  },
+  {
+    "id": "1733690266545",
+    "timestamp": "2024-12-07T08:15:16.123Z",
+    "usuarioEstresado": true,
+    "texto": "Las clases online me estresan mucho"
+  },
+  {
+    "id": "1733690266546",
+    "timestamp": "2024-12-06T23:10:27.456Z",
+    "usuarioEstresado": true,
+    "texto": "Tengo problemas de salud y no puedo faltar"
+  },
+  {
+    "id": "1733690266547",
+    "timestamp": "2024-12-06T22:05:38.789Z",
+    "usuarioEstresado": true,
+    "texto": "No tengo un buen lugar para estudiar en casa"
+  },
+  {
+    "id": "1733690266548",
+    "timestamp": "2024-12-06T21:00:49.123Z",
+    "usuarioEstresado": true,
+    "texto": "Me cuesta pedir ayuda a los profesores"
+  },
+  {
+    "id": "1733690266549",
+    "timestamp": "2024-12-06T20:55:50.456Z",
+    "usuarioEstresado": true,
+    "texto": "Siento que no encajo en mi clase"
+  },
+  {
+    "id": "1733690266550",
+    "timestamp": "2024-12-06T19:50:11.789Z",
+    "usuarioEstresado": true,
+    "texto": "Las presentaciones orales me dan mucha ansiedad"
+  },
+  {
+    "id": "1733690266551",
+    "timestamp": "2024-12-06T18:45:22.123Z",
+    "usuarioEstresado": true,
+    "texto": "No puedo mantener una dieta saludable"
+  },
+  {
+    "id": "1733690266552",
+    "timestamp": "2024-12-06T17:40:33.456Z",
+    "usuarioEstresado": true,
+    "texto": "Me preocupa el futuro incierto"
+  },
+  {
+    "id": "1733690266553",
+    "timestamp": "2024-12-06T16:35:44.789Z",
+    "usuarioEstresado": true,
+    "texto": "Tengo problemas con mi compañero de cuarto"
+  },
+  {
+    "id": "1733690266554",
+    "timestamp": "2024-12-06T15:30:55.123Z",
+    "usuarioEstresado": true,
+    "texto": "No encuentro motivación para estudiar"
+  },
+  {
+    "id": "1733690266555",
+    "timestamp": "2024-12-06T14:25:16.456Z",
+    "usuarioEstresado": true,
+    "texto": "Me siento presionado por mis compañeros"
+  },
+  {
+    "id": "1733690266556",
+    "timestamp": "2024-12-06T13:20:27.789Z",
+    "usuarioEstresado": true,
+    "texto": "No puedo costear todos los materiales"
+  },
+  {
+    "id": "1733690266557",
+    "timestamp": "2024-12-06T12:15:38.123Z",
+    "usuarioEstresado": true,
+    "texto": "Me preocupa mi salud mental"
+  },
+  {
+    "id": "1733690266558",
+    "timestamp": "2024-12-06T11:10:49.456Z",
+    "usuarioEstresado": true,
+    "texto": "No tengo apoyo familiar en mis estudios"
+  },
+  {
+    "id": "1733690266559",
+    "timestamp": "2024-12-06T10:05:50.789Z",
+    "usuarioEstresado": true,
+    "texto": "El ambiente competitivo me agobia"
+  },
+  {
+    "id": "1733690266560",
+    "timestamp": "2024-12-06T09:00:11.123Z",
+    "usuarioEstresado": true,
+    "texto": "Tengo muchas responsabilidades familiares"
+  },
+  {
+    "id": "1733690266561",
+    "timestamp": "2024-12-06T08:55:22.456Z",
+    "usuarioEstresado": true,
+    "texto": "No logro mantener amistades por falta de tiempo"
+  },
+  {
+    "id": "1733690266562",
+    "timestamp": "2024-12-05T23:50:33.789Z",
+    "usuarioEstresado": true,
+    "texto": "Me preocupa no cumplir las expectativas"
+  },
+  {
+    "id": "1733690266563",
+    "timestamp": "2024-12-05T22:45:44.123Z",
+    "usuarioEstresado": true,
+    "texto": "El ruido en la biblioteca me desconcentra"
+  },
+  {
+    "id": "1733690266564",
+    "timestamp": "2024-12-05T21:40:55.456Z",
+    "usuarioEstresado": true,
+    "texto": "No tengo tiempo para mis hobbies"
+  },
+  {
+    "id": "1733690266565",
+    "timestamp": "2024-12-05T20:35:16.789Z",
+    "usuarioEstresado": true,
+    "texto": "Me siento abrumado por las responsabilidades"
+  },
+  {
+    "id": "1733690266566",
+    "timestamp": "2024-12-05T19:30:27.123Z",
+    "usuarioEstresado": true,
+    "texto": "La presión académica es muy alta"
+  },
+  {
+    "id": "1733690266567",
+    "timestamp": "2024-12-05T18:25:38.456Z",
+    "usuarioEstresado": true,
+    "texto": "No puedo participar en actividades extracurriculares"
+  },
+  {
+    "id": "1733690266568",
+    "timestamp": "2024-12-05T17:20:49.789Z",
+    "usuarioEstresado": true,
+    "texto": "Me preocupa mi rendimiento académico"
+  },
+  {
+    "id": "1733690266569",
+    "timestamp": "2024-12-05T16:15:50.123Z",
+    "usuarioEstresado": true,
+    "texto": "No logro equilibrar estudio y vida personal"
+  },
+  {
+    "id": "1733690266570",
+    "timestamp": "2024-12-05T15:10:11.456Z",
+    "usuarioEstresado": true,
+    "texto": "Me siento exhausto mentalmente"
+  },
+  {
+    "id": "1733690266571",
+    "timestamp": "2024-12-05T14:05:22.789Z",
+    "usuarioEstresado": true,
+    "texto": "Las deadlines se acumulan demasiado"
+  },
+  {
+    "id": "1733690266572",
+    "timestamp": "2024-12-05T13:00:33.123Z",
+    "usuarioEstresado": true,
+    "texto": "No encuentro tiempo para descansar"
+  },
+  {
+    "id": "1733690266573",
+    "timestamp": "2024-12-05T12:55:44.456Z",
+    "usuarioEstresado": true,
+    "texto": "Me preocupa decepcionar a mis padres"
+  },
+  {
+    "id": "1733690266574",
+    "timestamp": "2024-12-05T11:50:55.789Z",
+    "usuarioEstresado": true,
+    "texto": "El nivel de exigencia es muy alto"
+  },
+  {
+    "id": "1733690266575",
+    "timestamp": "2024-12-05T10:45:16.123Z",
+    "usuarioEstresado": true,
+    "texto": "No puedo mantener una vida social activa"
+  },
+  {
+    "id": "1733690266576",
+    "timestamp": "2024-12-05T09:40:27.456Z",
+    "usuarioEstresado": true,
+    "texto": "Me siento ansioso por mi futuro profesional"
+  },
+  {
+    "id": "1733690266577",
+    "timestamp": "2024-12-05T08:35:38.789Z",
+    "usuarioEstresado": true,
+    "texto": "La carga académica es excesiva"
+  },
+  {
+    "id": "1733690266578",
+    "timestamp": "2024-12-04T23:30:49.123Z",
+    "usuarioEstresado": true,
+    "texto": "No tengo tiempo para hacer deporte"
+  },
+  {
+    "id": "1733690266579",
+    "timestamp": "2024-12-04T22:25:50.456Z",
+    "usuarioEstresado": true,
+    "texto": "Me preocupa no estar a la altura"
+  },
+  {
+    "id": "1733690266580",
+    "timestamp": "2024-12-04T21:20:11.789Z",
+    "usuarioEstresado": true,
+    "texto": "El ambiente universitario me agobia"
+  },
+  {
+    "id": "1733693901536",
+    "timestamp": "2024-12-08T21:38:21.537Z",
+    "usuarioEstresado": true,
+    "texto": ""
+  },
+  {
+    "id": "1733694578004",
+    "timestamp": "2024-12-08T21:49:38.004Z",
+    "usuarioEstresado": true,
+    "texto": "YYUYNJHJ"
+  },
+  {
+    "id": "1733752686346",
+    "timestamp": "2024-12-09T13:58:06.346Z",
+    "usuarioEstresado": true,
+    "texto": "gfgfgdg"
+  },
+  {
+    "id": "1733752841392",
+    "timestamp": "2024-12-09T14:00:41.392Z",
+    "usuarioEstresado": true,
+    "texto": ""
+  },
+  {
+    "id": "1733753280663",
+    "timestamp": "2024-12-09T14:08:00.663Z",
+    "usuarioEstresado": true,
+    "texto": "222"
+  },
+  {
+    "id": "1733753397003",
+    "timestamp": "2024-12-09T14:09:57.003Z",
+    "usuarioEstresado": true,
+    "texto": "ggh"
+  },
+  {
+    "id": "1733753702264",
+    "timestamp": "2024-12-09T14:15:02.264Z",
+    "usuarioEstresado": true,
+    "texto": "yfjf"
+  },
+  {
+    "id": "1733753778218",
+    "timestamp": "2024-12-09T14:16:18.218Z",
+    "usuarioEstresado": true,
+    "texto": ""
+  },
+  {
+    "id": "1733753927586",
+    "timestamp": "2024-12-09T14:18:47.586Z",
+    "usuarioEstresado": true,
+    "texto": ""
+  },
+  {
+    "id": "1733754150943",
+    "timestamp": "2024-12-09T14:22:30.943Z",
+    "usuarioEstresado": true,
+    "texto": ""
+  },
+  {
+    "id": "1733754227413",
+    "timestamp": "2024-12-09T14:23:47.413Z",
+    "usuarioEstresado": true,
+    "texto": "gliltohyty"
+  },
+  {
+    "id": "1733754873976",
+    "timestamp": "2024-12-09T14:34:33.976Z",
+    "usuarioEstresado": true,
+    "texto": "SHAF"
+  },
+  {
+    "id": "1733754949986",
+    "timestamp": "2024-12-09T14:35:49.986Z",
+    "usuarioEstresado": true,
+    "texto": "3KNL"
+  },
+  {
+    "id": "1733755565725",
+    "timestamp": "2024-12-09T14:46:05.725Z",
+    "usuarioEstresado": true,
+    "texto": ""
+  },
+  {
+    "id": "1733756545688",
+    "timestamp": "2024-12-09T15:02:25.688Z",
+    "usuarioEstresado": true,
+    "texto": "hdfhdsfkjhs"
+  }
+]
