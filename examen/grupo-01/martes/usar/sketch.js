@@ -42,6 +42,8 @@ let imgPreguntasCuatroActual = 0;
 let imgVizDatos = [];
 let imgVizDatosActual = 0;
 
+let haHabidoClasificacionInstrucciones = false;
+
 //Este ejemplo demuestra cómo cargar un modelo previamente entrenado con ml5.neuralNetwork.
 
 let classifier;
@@ -295,12 +297,28 @@ function dibujarInstrucciones() {
     // guardar el momento en que se cambio la imagen
     tiempoInstruccionesUltimoCambio = millis();
   }
-  // si llegamos a la ultima imagen de instrucciones
+
+
+   // si estamos en la ultima imagen de las instrucciones
+  // y detectamos con nuestro modelo
+  if (imgInstruccionesActual == imgInstrucciones.length - 1) {
+    clasificarConModelo();
+  }
+
+  // si se acaban las imagenes de la pregunta,
+  // pasamos a la siguiente
+// haHabidoClasificacionInstrucciones
   if (imgInstruccionesActual >= imgInstrucciones.length) {
+    if (haHabidoClasificacionInstrucciones) {
     // cambiamos al estado 1
     // 1 = instrucciones
     estadoActual = 2;
     tiempoPreguntaUnoUltimoCambio = millis();
+    }
+    else {
+      imgInstruccionesActual = imgInstrucciones.length - 1;
+    }
+
   }
 
       // // If the model is loaded, make a classification and display the result
@@ -518,7 +536,15 @@ function gotHands(results) {
 
 // Callback function for when the classifier makes a classification
 function gotClassification(results) {
+
+  // guarda la clasificacion
   classification = results[0].label;
+
+  // si estamos en instrucciones
+  if (estadoActual == 1) {
+    // cambia boolean para determinar que ha habido clasificacion
+    haHabidoClasificacionInstrucciones = true;
+  }
 }
 
 // Callback function for when the pre-trained model is loaded
