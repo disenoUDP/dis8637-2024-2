@@ -1,8 +1,8 @@
 let modoPrueba = true;
 
-let deteccionActual;
-let manosActual;
 let modeloCargado;
+let manosActual;
+let deteccionActual;
 
 //Estados: espera, instrucciones, votación, error, respuesta, visualizaciónDeDatos, fin.
 //espera = Se mantiene hasta que ml5.js detecte a los cuatro participantes hacer el gesto de "STOP" con la mano.
@@ -109,9 +109,9 @@ function preload() {
 
 function setup() {
 
-  deteccionActual = document.getElementById("deteccionActual");
-  manosActual = document.getElementById("manosActual");
   modeloCargado = document.getElementById("modeloCargado");
+  manosActual = document.getElementById("manosActual");
+  deteccionActual = document.getElementById("deteccionActual");
 
   if (modoPrueba) {
     createCanvas(480, 270);
@@ -213,31 +213,31 @@ function draw() {
 
 // convert the handPose data to a 1D array
 
-// function draw() {
-//   //Display the webcam video
-//   image(video, 0, 0, width, height);
+function dibujarDeteccionHandPose() {
+  // Draw the handPose keypoints
+  if (hands[0]) {
+    let hand = hands[0];
+    for (let i = 0; i < hand.keypoints.length; i++) {
+      let keypoint = hand.keypoints[i];
+      fill(0, 255, 0);
+      noStroke();
+      circle(keypoint.x, keypoint.y, 10);
+    }
+  }
+}
 
-//   // Draw the handPose keypoints
-//   if (hands[0]) {
-//     let hand = hands[0];
-//     for (let i = 0; i < hand.keypoints.length; i++) {
-//       let keypoint = hand.keypoints[i];
-//       fill(0, 255, 0);
-//       noStroke();
-//       circle(keypoint.x, keypoint.y, 10);
-//     }
-//   }
 
-//   // If the model is loaded, make a classification and display the result
-//   if (isModelLoaded && hands[0]) {
-//     let inputData = flattenHandData();
-//     classifier.classify(inputData, gotClassification);
-//     textSize(64);
-//     fill(0, 255, 0);
-//     text(classification, 20, 60);
-//     // console.log(classification);
-//   }
-// }
+function clasificarConModelo() {
+
+  // si el modelo esta cargado
+  // haz una clasificacion y muestra el resultado
+  if (isModelLoaded && hands[0]) {
+    let inputData = flattenHandData();
+    classifier.classify(inputData, gotClassification);
+    deteccionActual.innerHTML = "Detección actual: " + classification;
+    console.log(classification);
+  }
+}
 
 function dibujarEspera() {
   background(colorFondo);
@@ -336,7 +336,6 @@ function dibujarInstrucciones() {
         }
       }*/
   
-
 }
 
 function dibujarPreguntaUno() {
@@ -361,7 +360,15 @@ function dibujarPreguntaUno() {
     // guardar el momento en que se cambio la imagen
     tiempoPreguntaUnoUltimoCambio = millis();
   }
-  // si llegamos a la ultima imagen de instrucciones
+
+  // si estamos en la ultima imagen de la pregunta
+  // detectamos con nuestro modelo
+  if (imgPreguntasUnoActual == imgPreguntasUno.length - 1) {
+    clasificarConModelo();
+  }
+
+  // si se acaban las imagenes de la pregunta,
+  // pasamos a la siguiente
   if (imgPreguntasUnoActual >= imgPreguntasUno.length) {
     // cambiamos al estado 1
     // 1 = instrucciones
@@ -391,7 +398,15 @@ function dibujarPreguntaDos() {
     // guardar el momento en que se cambio la imagen
     tiempoPreguntaDosUltimoCambio = millis();
   }
-  // si llegamos a la ultima imagen de instrucciones
+
+  // si estamos en la ultima imagen de la pregunta
+  // detectamos con nuestro modelo
+  if (imgPreguntasDosActual == imgPreguntasDos.length - 1) {
+    clasificarConModelo();
+  }
+
+  // si se acaban las imagenes de la pregunta,
+  // pasamos a la siguiente
   if (imgPreguntasDosActual >= imgPreguntasDos.length) {
     // cambiamos al estado 4
     // 4 = pregunta 3
@@ -421,7 +436,16 @@ function dibujarPreguntaTres() {
     // guardar el momento en que se cambio la imagen
     tiempoPreguntaTresUltimoCambio = millis();
   }
-  // si llegamos a la ultima imagen de instrucciones
+
+
+  // si estamos en la ultima imagen de la pregunta
+  // detectamos con nuestro modelo
+  if (imgPreguntasTresActual == imgPreguntasTres.length - 1) {
+    clasificarConModelo();
+  }
+
+  // si se acaban las imagenes de la pregunta,
+  // pasamos a la siguiente
   if (imgPreguntasTresActual >= imgPreguntasTres.length) {
     // cambiamos al estado 5
     // 5 = pregunta 4
@@ -451,7 +475,16 @@ function dibujarPreguntaCuatro() {
     // guardar el momento en que se cambio la imagen
     tiempoPreguntaCuatroUltimoCambio = millis();
   }
-  // si llegamos a la ultima imagen de instrucciones
+
+
+  // si estamos en la ultima imagen de la pregunta
+  // detectamos con nuestro modelo
+  if (imgPreguntasCuatroActual == imgPreguntasCuatro.length - 1) {
+    clasificarConModelo();
+  }
+
+  // si se acaban las imagenes de la pregunta,
+  // pasamos a la siguiente
   if (imgPreguntasCuatroActual >= imgPreguntasCuatro.length) {
     // cambiamos al estado 6
     // 6 = visualizacion de datos
