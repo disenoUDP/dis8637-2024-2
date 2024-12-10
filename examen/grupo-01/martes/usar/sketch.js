@@ -27,6 +27,7 @@ let numeroEstados = 10;
 //variable para las imagenes de los estados
 let imgEspera = [];
 let imgEsperaActual = 0;
+let imgClasificaciones = [];
 let imgInstrucciones = [];
 let imgInstruccionesActual = 0;
 
@@ -67,6 +68,7 @@ let tiempoInstruccionesUltimoCambio = 0;
 
 let tiempoPreguntaUnoDelta;
 let tiempoPreguntaUnoUltimoCambio = 0;
+let tiempoDeteccionDelta = 0;
 let tiempoPreguntaDosDelta;
 let tiempoPreguntaDosUltimoCambio = 0;
 let tiempoPreguntaTresDelta;
@@ -85,7 +87,12 @@ function preload() {
   imgEspera.push(loadImage("imgEspera/espera1.png"));
   imgEspera.push(loadImage("imgEspera/espera2.png"));
   imgEspera.push(loadImage("imgEspera/espera3.png"));
-  
+
+  imgClasificaciones.push(loadImage("imgClasificaciones/clasificacion-bien.png"));
+  imgClasificaciones.push(loadImage("imgClasificaciones/clasificacion-mal.png"));
+  imgClasificaciones.push(loadImage("imgClasificaciones/clasificacion-masOMenos.png"));
+  imgClasificaciones.push(loadImage("imgClasificaciones/clasificacion-talVez.png"));
+
   imgInstrucciones.push(loadImage("imgInstrucciones/instrucciones0.png"));
   imgInstrucciones.push(loadImage("imgInstrucciones/instrucciones1.png"));
   imgInstrucciones.push(loadImage("imgInstrucciones/instrucciones2.png"));
@@ -129,6 +136,7 @@ function setup() {
   if (modoPrueba) {
     tiempoEsperaDelta = 2000;
     tiempoInstruccionesDelta = tiempoEsperaDelta;
+    tiempoDeteccionDelta = tiempoEsperaDelta;
     tiempoPreguntaUnoDelta = tiempoEsperaDelta;
     tiempoPreguntaDosDelta = tiempoEsperaDelta;
     tiempoPreguntaTresDelta = tiempoEsperaDelta;
@@ -374,7 +382,6 @@ function dibujarPreguntaUno() {
   if (millis() - tiempoPreguntaUnoUltimoCambio > tiempoPreguntaUnoDelta) {
     // subir numero de la imagen
     imgPreguntasUnoActual++;
-    console.log(imgPreguntasUnoActual);
     // si llegamos a la ultima, volver a la cero
     // imgInstruccionesActual = imgInstruccionesActual % imgInstrucciones.length;
     
@@ -399,7 +406,7 @@ function dibujarPreguntaUno() {
     tiempoPreguntaDosUltimoCambio = millis();
     }
     else {
-      imgPreguntasUnoActual = imgPreguntasUno.length - 1;
+      imgPreguntasUnoActual = imgPreguntaUno.length - 1;
     }
   }
 }
@@ -446,8 +453,6 @@ function dibujarPreguntaDos() {
       imgPreguntasDosActual = imgPreguntasDos.length - 1;
     }
   }
-
-
 }
 
 function dibujarPreguntaTres() {
@@ -541,10 +546,6 @@ function dibujarPreguntaCuatro() {
       imgPreguntasCuatroActual = imgPreguntasCuatro.length - 1;
     }
   }
-
-
-
-  
 }
 
 function dibujarVizDatos() {
@@ -581,18 +582,22 @@ function gotClassification(results) {
     // cambia boolean para determinar que ha habido clasificacion
     haHabidoClasificacionInstrucciones = true;
   }
+  // si estamos en pregunta 1
   else if (estadoActual == 2) {
     // cambia boolean para determinar que ha habido clasificacion
     haHabidoClasificacionPreguntaUno = true;
   }
+  // si estamos en pregunta 2
   else if (estadoActual == 3) {
     // cambia boolean para determinar que ha habido clasificacion
     haHabidoClasificacionPreguntaDos = true;
   }
+  // si estamos en pregunta 3
   else if (estadoActual == 4) {
     // cambia boolean para determinar que ha habido clasificacion
     haHabidoClasificacionPreguntaTres = true;
   }
+  // si estamos en pregunta 4
   else if (estadoActual == 5) {
     // cambia boolean para determinar que ha habido clasificacion
     haHabidoClasificacionPreguntaCuatro = true;
