@@ -289,7 +289,6 @@ function dibujarInstrucciones() {
   if (millis() - tiempoInstruccionesUltimoCambio > tiempoInstruccionesDelta) {
     // subir numero de la imagen
     imgInstruccionesActual++;
-    console.log(imgInstruccionesActual);
     // si llegamos a la ultima, volver a la cero
     // imgInstruccionesActual = imgInstruccionesActual % imgInstrucciones.length;
     
@@ -386,7 +385,6 @@ function dibujarPreguntaDos() {
   if (millis() - tiempoPreguntaDosUltimoCambio > tiempoPreguntaDosDelta) {
     // subir numero de la imagen
     imgPreguntasDosActual++;
-    console.log(imgPreguntasDosActual);
     // si llegamos a la ultima, volver a la cero
     // imgInstruccionesActual = imgInstruccionesActual % imgInstrucciones.length;
     
@@ -417,7 +415,6 @@ function dibujarPreguntaTres() {
   if (millis() - tiempoPreguntaTresUltimoCambio > tiempoPreguntaTresDelta) {
     // subir numero de la imagen
     imgPreguntasTresActual++;
-    console.log(imgPreguntasTresActual);
     // si llegamos a la ultima, volver a la cero
     // imgInstruccionesActual = imgInstruccionesActual % imgInstrucciones.length;
     
@@ -448,7 +445,6 @@ function dibujarPreguntaCuatro() {
   if (millis() - tiempoPreguntaCuatroUltimoCambio > tiempoPreguntaCuatroDelta) {
     // subir numero de la imagen
     imgPreguntasCuatroActual++;
-    console.log(imgPreguntasCuatroActual);
     // si llegamos a la ultima, volver a la cero
     // imgInstruccionesActual = imgInstruccionesActual % imgInstrucciones.length;
     
@@ -459,7 +455,7 @@ function dibujarPreguntaCuatro() {
   if (imgPreguntasCuatroActual >= imgPreguntasCuatro.length) {
     // cambiamos al estado 6
     // 6 = visualizacion de datos
-    estadoActual = 5;
+    estadoActual = 6;
     tiempoVizDatosUltimoCambio = millis();
   }
 }
