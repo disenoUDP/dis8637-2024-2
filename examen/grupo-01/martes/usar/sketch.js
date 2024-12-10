@@ -43,6 +43,10 @@ let imgVizDatos = [];
 let imgVizDatosActual = 0;
 
 let haHabidoClasificacionInstrucciones = false;
+let haHabidoClasificacionPreguntaUno = false;
+let haHabidoClasificacionPreguntaDos = false;
+let haHabidoClasificacionPreguntaTres = false;
+let haHabidoClasificacionPreguntaCuatro = false;
 
 //Este ejemplo demuestra cómo cargar un modelo previamente entrenado con ml5.neuralNetwork.
 
@@ -305,9 +309,9 @@ function dibujarInstrucciones() {
     clasificarConModelo();
   }
 
-  // si se acaban las imagenes de la pregunta,
-  // pasamos a la siguiente
-// haHabidoClasificacionInstrucciones
+  // si se acaban las imagenes de las instrucciones,
+  // pasamos a la siguiente si hay deteccion
+  // si no, nos quedamos en la ultima
   if (imgInstruccionesActual >= imgInstrucciones.length) {
     if (haHabidoClasificacionInstrucciones) {
     // cambiamos al estado 1
@@ -318,7 +322,6 @@ function dibujarInstrucciones() {
     else {
       imgInstruccionesActual = imgInstrucciones.length - 1;
     }
-
   }
 
       // // If the model is loaded, make a classification and display the result
@@ -386,12 +389,18 @@ function dibujarPreguntaUno() {
   }
 
   // si se acaban las imagenes de la pregunta,
-  // pasamos a la siguiente
+  // pasamos a la siguiente si hay deteccion
+  // si no, nos quedamos en la ultima
   if (imgPreguntasUnoActual >= imgPreguntasUno.length) {
-    // cambiamos al estado 1
-    // 1 = instrucciones
+    if (haHabidoClasificacionPreguntaUno) {
+    // cambiamos al estado 3
+    // 3 = pregunta 2
     estadoActual = 3;
     tiempoPreguntaDosUltimoCambio = millis();
+    }
+    else {
+      imgPreguntasUnoActual = imgPreguntasUno.length - 1;
+    }
   }
 }
 
@@ -424,13 +433,21 @@ function dibujarPreguntaDos() {
   }
 
   // si se acaban las imagenes de la pregunta,
-  // pasamos a la siguiente
+  // pasamos a la siguiente si hay deteccion
+  // si no, nos quedamos en la ultima
   if (imgPreguntasDosActual >= imgPreguntasDos.length) {
+    if (haHabidoClasificacionPreguntaDos) {
     // cambiamos al estado 4
     // 4 = pregunta 3
     estadoActual = 4;
     tiempoPreguntaTresUltimoCambio = millis();
+    }
+    else {
+      imgPreguntasDosActual = imgPreguntasDos.length - 1;
+    }
   }
+
+
 }
 
 function dibujarPreguntaTres() {
@@ -462,14 +479,22 @@ function dibujarPreguntaTres() {
     clasificarConModelo();
   }
 
+
   // si se acaban las imagenes de la pregunta,
-  // pasamos a la siguiente
+  // pasamos a la siguiente si hay deteccion
+  // si no, nos quedamos en la ultima
   if (imgPreguntasTresActual >= imgPreguntasTres.length) {
-    // cambiamos al estado 5
+    if (haHabidoClasificacionPreguntaTres) {
+   // cambiamos al estado 5
     // 5 = pregunta 4
     estadoActual = 5;
     tiempoPreguntaCuatroUltimoCambio = millis();
+    }
+    else {
+      imgPreguntasTresActual = imgPreguntasTres.length - 1;
+    }
   }
+
 }
 
 function dibujarPreguntaCuatro() {
@@ -501,14 +526,25 @@ function dibujarPreguntaCuatro() {
     clasificarConModelo();
   }
 
-  // si se acaban las imagenes de la pregunta,
-  // pasamos a la siguiente
+
+    // si se acaban las imagenes de la pregunta,
+  // pasamos a la siguiente si hay deteccion
+  // si no, nos quedamos en la ultima
   if (imgPreguntasCuatroActual >= imgPreguntasCuatro.length) {
-    // cambiamos al estado 6
+    if (haHabidoClasificacionPreguntaCuatro) {
+       // cambiamos al estado 6
     // 6 = visualizacion de datos
     estadoActual = 6;
     tiempoVizDatosUltimoCambio = millis();
+    }
+    else {
+      imgPreguntasCuatroActual = imgPreguntasCuatro.length - 1;
+    }
   }
+
+
+
+  
 }
 
 function dibujarVizDatos() {
@@ -544,6 +580,22 @@ function gotClassification(results) {
   if (estadoActual == 1) {
     // cambia boolean para determinar que ha habido clasificacion
     haHabidoClasificacionInstrucciones = true;
+  }
+  else if (estadoActual == 2) {
+    // cambia boolean para determinar que ha habido clasificacion
+    haHabidoClasificacionPreguntaUno = true;
+  }
+  else if (estadoActual == 3) {
+    // cambia boolean para determinar que ha habido clasificacion
+    haHabidoClasificacionPreguntaDos = true;
+  }
+  else if (estadoActual == 4) {
+    // cambia boolean para determinar que ha habido clasificacion
+    haHabidoClasificacionPreguntaTres = true;
+  }
+  else if (estadoActual == 5) {
+    // cambia boolean para determinar que ha habido clasificacion
+    haHabidoClasificacionPreguntaCuatro = true;
   }
 }
 
