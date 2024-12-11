@@ -97,8 +97,6 @@ function preload() {
   //array de imagenEspera
   imgEspera.push(loadImage('imgEspera/espera0.png'));
   imgEspera.push(loadImage('imgEspera/espera1.png'));
-  imgEspera.push(loadImage('imgEspera/espera2.png'));
-  imgEspera.push(loadImage('imgEspera/espera3.png'));
 
   imgClasificaciones.push(
     loadImage('imgClasificaciones/clasificacion-bien.png'),
