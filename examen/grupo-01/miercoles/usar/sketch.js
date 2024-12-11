@@ -156,9 +156,9 @@ function setup() {
   manosActual = document.getElementById('manosActual');
   deteccionActual = document.getElementById('deteccionActual');
 
+  colorMasOMenos = color(255, 255, 0);
   colorBien = color(0, 255, 0);
   colorMal = color(255, 0, 0);
-  colorMasOMenos = color(255, 255, 0);
   colorNoSe = color(0, 0, 255);
 
   // recuperar votaciones pasadas
@@ -237,7 +237,7 @@ function setup() {
   colorFondo = color(243, 244, 248);
 
   video = createCapture(VIDEO);
-  video.size(1920, 1080);
+  video.size(960, 540);
   video.hide();
 
   // For this example to work across all browsers
@@ -294,11 +294,10 @@ function draw() {
     dibujarVizDatos();
   }
 
-  //ESTADO MUESTRA DE DATOS
-  //aqui no se que hacer
-
   if (modoPrueba) {
-    image(video, 0, 0, width / 5, height / 5);
+    video.show();
+  } else {
+    video.hide();
   }
 }
 
@@ -463,7 +462,7 @@ function dibujarInstrucciones() {
       estadoActual = 2;
       tiempoPreguntaUnoUltimoCambio = millis();
     } else {
-      imgInstruccionesActual = imgInstrucciones.length;
+      imgInstruccionesActual = imgInstrucciones.length - 1;
     }
   }
 }
@@ -689,6 +688,136 @@ function dibujarPreguntaCuatro() {
 }
 
 function dibujarVizDatos() {
+  let unoBien = getItem('votosPreguntaUno').bien;
+  let unoMal = getItem('votosPreguntaUno').mal;
+  let unoMasOMenos = getItem('votosPreguntaUno').masOMenos;
+  let unoNoSe = getItem('votosPreguntaUno').noSe;
+
+  let dosBien = getItem('votosPreguntaDos').bien;
+  let dosMal = getItem('votosPreguntaDos').mal;
+  let dosMasOMenos = getItem('votosPreguntaDos').masOMenos;
+  let dosNoSe = getItem('votosPreguntaDos').noSe;
+
+  let tresBien = getItem('votosPreguntaTres').bien;
+  let tresMal = getItem('votosPreguntaTres').mal;
+  let tresMasOMenos = getItem('votosPreguntaTres').masOMenos;
+  let tresNoSe = getItem('votosPreguntaTres').noSe;
+
+  let cuatroBien = getItem('votosPreguntaCuatro').bien;
+  let cuatroMal = getItem('votosPreguntaCuatro').mal;
+  let cuatroMasOMenos = getItem('votosPreguntaCuatro').masOMenos;
+  let cuatroNoSe = getItem('votosPreguntaCuatro').noSe;
+
+  background(colorFondo);
+
+  textAlign(LEFT, CENTER);
+  fill(0);
+  stroke(0);
+
+  if (modoPrueba) {
+    textSize(10);
+  } else {
+    textSize(100);
+  }
+
+  text(
+    'pregunta uno',
+    (10 * width) / 100,
+    ((5 + 7 * 0) * height) / 100,
+  );
+  text(
+    'bien: ' + String(unoBien),
+    (10 * width) / 100,
+    ((5 + 7 * 1) * height) / 100,
+  );
+  text(
+    'mal: ' + String(unoMal),
+    (10 * width) / 100,
+    ((5 + 7 * 2) * height) / 100,
+  );
+  text(
+    'más o menos: ' + String(unoMasOMenos),
+    (10 * width) / 100,
+    ((5 + 7 * 3) * height) / 100,
+  );
+  text(
+    'no sé: ' + String(unoNoSe),
+    (10 * width) / 100,
+    ((5 + 7 * 4) * height) / 100,
+  );
+
+  text('pregunta dos', (60 * width) / 100, (5 * height) / 100);
+  text(
+    'bien: ' + String(dosBien),
+    (60 * width) / 100,
+    (15 * height) / 100,
+  );
+  text(
+    'mal: ' + String(dosMal),
+    (60 * width) / 100,
+    (25 * height) / 100,
+  );
+  text(
+    'más o menos: ' + String(dosMasOMenos),
+    (60 * width) / 100,
+    (35 * height) / 100,
+  );
+  text(
+    'no sé: ' + String(dosNoSe),
+    (60 * width) / 100,
+    (40 * height) / 100,
+  );
+
+  text(
+    'pregunta tres',
+    (10 * width) / 100,
+    ((55 + 7 * 0) * height) / 100,
+  );
+  text(
+    'bien: ' + String(tresBien),
+    (10 * width) / 100,
+    ((55 + 7 * 0) * height) / 100,
+  );
+  text(
+    'mal: ' + String(tresMal),
+    (10 * width) / 100,
+    ((55 + 7 * 1) * height) / 100,
+  );
+  text(
+    'más o menos: ' + String(tresMasOMenos),
+    (10 * width) / 100,
+    ((55 + 7 * 2) * height) / 100,
+  );
+  text(
+    'no sé: ' + String(tresNoSe),
+    (10 * width) / 100,
+    ((55 + 7 * 3) * height) / 100,
+  );
+
+  text('pregunta cuatro', (10 * width) / 100, (5 * height) / 100);
+  text(
+    'bien: ' + String(cuatroBien),
+    (60 * width) / 100,
+    (15 * height) / 100,
+  );
+  text(
+    'mal: ' + String(cuatroMal),
+    (60 * width) / 100,
+    (25 * height) / 100,
+  );
+  text(
+    'más o menos: ' + String(cuatroMasOMenos),
+    (60 * width) / 100,
+    (35 * height) / 100,
+  );
+  text(
+    'no sé: ' + String(cuatroNoSe),
+    (60 * width) / 100,
+    (40 * height) / 100,
+  );
+}
+
+function dibujarVizGraficoDeBarras() {
   let anchoBarra = (5 * width) / 100;
   let alturaBarra = (20 * height) / 100;
   let margenY = (10 * height) / 100;
@@ -708,13 +837,14 @@ function dibujarVizDatos() {
     1 * anchoBarra,
     margenY,
     1 * anchoBarra,
-    map(
-      getItem('votosPreguntaUno').masOMenos,
-      0,
-      100,
-      0,
-      alturaBarra,
-    ),
+    // map(
+    //   getItem('votosPreguntaUno').masOMenos,
+    //   0,
+    //   100,
+    //   0,
+    //   alturaBarra,
+    // ),
+    100,
   );
 
   // fill(colorFondo);
@@ -725,7 +855,8 @@ function dibujarVizDatos() {
     2 * anchoBarra,
     margenY,
     1 * anchoBarra,
-    map(getItem('votosPreguntaUno').bien, 0, 100, 0, alturaBarra),
+    //map(getItem('votosPreguntaUno').bien, 0, 100, 0, alturaBarra),
+    100,
   );
 
   // fill(colorFondo);
@@ -736,19 +867,17 @@ function dibujarVizDatos() {
     3 * anchoBarra,
     margenY,
     1 * anchoBarra,
-    map(getItem('votosPreguntaUno').mal, 0, 100, 0, alturaBarra),
+    // map(getItem('votosPreguntaUno').mal, 0, 100, 0, alturaBarra),
+    100,
   );
-
-  // fill(colorFondo);
-  // rect(4 * anchoBarra, margenY, 1 * anchoBarra, alturaBarra);
 
   fill(colorNoSe);
-  rect(
-    4 * anchoBarra,
-    margenY,
-    1 * anchoBarra,
-    map(getItem('votosPreguntaUno').noSe, 0, 100, 0, alturaBarra),
-  );
+  rect(4 * anchoBarra, margenY, 1 * anchoBarra, alturaBarra);
+
+  fill(colorFondo);
+  let alturaNoSe = Number(getItem('votosPreguntaUno').noSe);
+  let mapNoSe = map(alturaNoSe, 0, 100, 0, alturaBarra);
+  rect(4 * anchoBarra, margenY, 1 * anchoBarra, mapNoSe);
   pop();
   // dibujar preguntaDos
 
