@@ -1,3 +1,5 @@
+// para desarrollo usar modoPrueba true
+// para mostrar usar modoPrueba false
 let modoPrueba = true;
 
 let modeloCargado;
@@ -13,18 +15,16 @@ let deteccionActual;
 //visualizaciónDeDatos = Se mantiene por 30 segundos, un gráfico de radar donde se mostraran las respuestas de todos  los grupos de usuarios que participaron de la encuesta
 //fin = se mantiene por 10 segundos agradeciendo por participar
 
-// let estadoActual = "espera";
 // 0 = espera
 // 1 = instrucciones
 // 2 = pregunta1 + votar
 // 3 = pregunta2 + votar
 // 4 = pregunta3 + votar
-// 9 = mostrar visualizacion
-
+// 5 = pregunta4 + votar
+// 6 = mostrar visualizacion
 let estadoActual = 0;
-let numeroEstados = 10;
 
-//variable para las imagenes de los estados
+// variable para las imagenes de los estados
 let imgEspera = [];
 let imgEsperaActual = 0;
 let imgClasificaciones = [];
@@ -49,7 +49,7 @@ let haHabidoClasificacionPreguntaDos = false;
 let haHabidoClasificacionPreguntaTres = false;
 let haHabidoClasificacionPreguntaCuatro = false;
 
-//Este ejemplo demuestra cómo cargar un modelo previamente entrenado con ml5.neuralNetwork.
+// este ejemplo demuestra cómo cargar un modelo previamente entrenado con ml5.neuralNetwork.
 
 let classifier;
 let handPose;
@@ -168,6 +168,10 @@ function setup() {
     tiempoPreguntaTresDelta = tiempoEsperaDelta;
     tiempoPreguntaCuatroDelta = tiempoEsperaDelta;
     tiempoVizDatosDelta = tiempoEsperaDelta;
+    // esconder elementos cuando no estoy en modo prueba
+    modeloCargado.style.display = 'none';
+    manosActual.style.display = 'none';
+    deteccionActual.style.display = 'none';
   }
 
   colorFondo = color(243, 244, 248);
