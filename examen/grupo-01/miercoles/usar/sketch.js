@@ -55,7 +55,7 @@ let classifier;
 let handPose;
 let video;
 let hands = [];
-let classification = "";
+let classification = '';
 let isModelLoaded = false;
 
 // variables para controlar las imagenes de espera
@@ -83,56 +83,74 @@ let colorFondo;
 
 function preload() {
   //array de imagenEspera
-  imgEspera.push(loadImage("imgEspera/espera0.png"));
-  imgEspera.push(loadImage("imgEspera/espera1.png"));
-  imgEspera.push(loadImage("imgEspera/espera2.png"));
-  imgEspera.push(loadImage("imgEspera/espera3.png"));
+  imgEspera.push(loadImage('imgEspera/espera0.png'));
+  imgEspera.push(loadImage('imgEspera/espera1.png'));
+  imgEspera.push(loadImage('imgEspera/espera2.png'));
+  imgEspera.push(loadImage('imgEspera/espera3.png'));
 
-  imgClasificaciones.push(loadImage("imgClasificaciones/clasificacion-bien.png"));
-  imgClasificaciones.push(loadImage("imgClasificaciones/clasificacion-mal.png"));
-  imgClasificaciones.push(loadImage("imgClasificaciones/clasificacion-masOMenos.png"));
-  imgClasificaciones.push(loadImage("imgClasificaciones/clasificacion-talVez.png"));
+  imgClasificaciones.push(
+    loadImage('imgClasificaciones/clasificacion-bien.png'),
+  );
+  imgClasificaciones.push(
+    loadImage('imgClasificaciones/clasificacion-mal.png'),
+  );
+  imgClasificaciones.push(
+    loadImage('imgClasificaciones/clasificacion-masOMenos.png'),
+  );
+  imgClasificaciones.push(
+    loadImage('imgClasificaciones/clasificacion-talVez.png'),
+  );
 
-  imgInstrucciones.push(loadImage("imgInstrucciones/instrucciones0.png"));
-  imgInstrucciones.push(loadImage("imgInstrucciones/instrucciones1.png"));
-  imgInstrucciones.push(loadImage("imgInstrucciones/instrucciones2.png"));
-  imgInstrucciones.push(loadImage("imgInstrucciones/instrucciones3.png"));
-  imgInstrucciones.push(loadImage("imgInstrucciones/instrucciones4.png"));
-  imgInstrucciones.push(loadImage("imgInstrucciones/instrucciones5.png"));
+  imgInstrucciones.push(
+    loadImage('imgInstrucciones/instrucciones0.png'),
+  );
+  imgInstrucciones.push(
+    loadImage('imgInstrucciones/instrucciones1.png'),
+  );
+  imgInstrucciones.push(
+    loadImage('imgInstrucciones/instrucciones2.png'),
+  );
+  imgInstrucciones.push(
+    loadImage('imgInstrucciones/instrucciones3.png'),
+  );
+  imgInstrucciones.push(
+    loadImage('imgInstrucciones/instrucciones4.png'),
+  );
+  imgInstrucciones.push(
+    loadImage('imgInstrucciones/instrucciones5.png'),
+  );
 
-  imgPreguntasUno.push(loadImage("imgPreguntas/pregunta1-0.png"));
-  imgPreguntasUno.push(loadImage("imgPreguntas/pregunta1-1.png"));
-  imgPreguntasUno.push(loadImage("imgPreguntas/pregunta1-2.png"));
-  
-  imgPreguntasDos.push(loadImage("imgPreguntas/pregunta2-0.png"));
-  imgPreguntasDos.push(loadImage("imgPreguntas/pregunta2-1.png"));
-  imgPreguntasDos.push(loadImage("imgPreguntas/pregunta2-2.png"));
+  imgPreguntasUno.push(loadImage('imgPreguntas/pregunta1-0.png'));
+  imgPreguntasUno.push(loadImage('imgPreguntas/pregunta1-1.png'));
+  imgPreguntasUno.push(loadImage('imgPreguntas/pregunta1-2.png'));
 
-  imgPreguntasTres.push(loadImage("imgPreguntas/pregunta3-0.png"));
-  imgPreguntasTres.push(loadImage("imgPreguntas/pregunta3-1.png"));
-  imgPreguntasTres.push(loadImage("imgPreguntas/pregunta3-2.png"));
+  imgPreguntasDos.push(loadImage('imgPreguntas/pregunta2-0.png'));
+  imgPreguntasDos.push(loadImage('imgPreguntas/pregunta2-1.png'));
+  imgPreguntasDos.push(loadImage('imgPreguntas/pregunta2-2.png'));
 
-  imgPreguntasCuatro.push(loadImage("imgPreguntas/pregunta4-0.png"));
-  imgPreguntasCuatro.push(loadImage("imgPreguntas/pregunta4-1.png"));
-  imgPreguntasCuatro.push(loadImage("imgPreguntas/pregunta4-2.png"));
+  imgPreguntasTres.push(loadImage('imgPreguntas/pregunta3-0.png'));
+  imgPreguntasTres.push(loadImage('imgPreguntas/pregunta3-1.png'));
+  imgPreguntasTres.push(loadImage('imgPreguntas/pregunta3-2.png'));
+
+  imgPreguntasCuatro.push(loadImage('imgPreguntas/pregunta4-0.png'));
+  imgPreguntasCuatro.push(loadImage('imgPreguntas/pregunta4-1.png'));
+  imgPreguntasCuatro.push(loadImage('imgPreguntas/pregunta4-2.png'));
 
   // Load the handPose model
   handPose = ml5.handPose();
 }
 
 function setup() {
-
-  modeloCargado = document.getElementById("modeloCargado");
-  manosActual = document.getElementById("manosActual");
-  deteccionActual = document.getElementById("deteccionActual");
+  modeloCargado = document.getElementById('modeloCargado');
+  manosActual = document.getElementById('manosActual');
+  deteccionActual = document.getElementById('deteccionActual');
 
   if (modoPrueba) {
     createCanvas(480, 270);
   } else {
     createCanvas(1920, 1080);
   }
-  
-  
+
   if (modoPrueba) {
     tiempoEsperaDelta = 2000;
     tiempoInstruccionesDelta = tiempoEsperaDelta;
@@ -160,20 +178,20 @@ function setup() {
 
   // For this example to work across all browsers
   // "webgl" or "cpu" needs to be set as the backend
-  ml5.setBackend("webgl");
+  ml5.setBackend('webgl');
 
   // Set up the neural network
   let classifierOptions = {
-    task: "classification",
+    task: 'classification',
     debug: true,
   };
 
   classifier = ml5.neuralNetwork(classifierOptions);
 
   const modelDetails = {
-    model: "./modelos/modelo-v1/model.json",
-    metadata: "./modelos/modelo-v1/model_meta.json",
-    weights: "./modelos/modelo-v1/model.weights.bin",
+    model: './modelos/modelo-v3/model.json',
+    metadata: './modelos/modelo-v3/model_meta.json',
+    weights: './modelos/modelo-v3/model.weights.bin',
   };
 
   classifier.load(modelDetails, modelLoaded);
@@ -185,11 +203,9 @@ function setup() {
   tiempoEsperaUltimoCambio = millis();
 }
 
-
 function draw() {
-  
   if (modoPrueba) {
-    console.log("estadoActual: " + estadoActual);
+    console.log('estadoActual: ' + estadoActual);
   }
 
   // 0 = espera
@@ -202,26 +218,23 @@ function draw() {
   // && quiere decir "y también", se deben cumplir AMBAS condiciones
   else if (estadoActual == 1) {
     dibujarInstrucciones();
-  }
-  else if (estadoActual == 2) {
-   dibujarPreguntaUno();
+  } else if (estadoActual == 2) {
+    dibujarPreguntaUno();
   } else if (estadoActual == 3) {
     dibujarPreguntaDos();
-   }  else if (estadoActual == 4) {
+  } else if (estadoActual == 4) {
     dibujarPreguntaTres();
-   }
-   else if (estadoActual == 5) {
+  } else if (estadoActual == 5) {
     dibujarPreguntaCuatro();
-   } else if (estadoActual == 6) {
+  } else if (estadoActual == 6) {
     dibujarVizDatos();
-   }
-  
+  }
+
   //ESTADO MUESTRA DE DATOS
   //aqui no se que hacer
 
   if (modoPrueba) {
-    image(video, 0, 0, width/5, height/5);
-
+    image(video, 0, 0, width / 5, height / 5);
   }
 }
 
@@ -240,15 +253,13 @@ function dibujarDeteccionHandPose() {
   }
 }
 
-
 function clasificarConModelo() {
-
   // si el modelo esta cargado
   // haz una clasificacion y muestra el resultado
   if (isModelLoaded && hands[0]) {
     let inputData = flattenHandData();
     classifier.classify(inputData, gotClassification);
-    deteccionActual.innerHTML = "Detección actual: " + classification;
+    deteccionActual.innerHTML = 'Detección actual: ' + classification;
     console.log(classification);
   }
 }
@@ -271,7 +282,7 @@ function dibujarEspera() {
     imgEsperaActual++;
     // si llegamos a la ultima, volver a la cero
     // imgEsperaActual = imgEsperaActual % imgEspera.length;
-    
+
     // guardar el momento en que se cambio la imagen
     tiempoEsperaUltimoCambio = millis();
   }
@@ -282,17 +293,21 @@ function dibujarEspera() {
     estadoActual = 1;
     tiempoEsperaUltimoCambio = millis();
   }
-  
 }
 
 function dibujarInstrucciones() {
-
   background(colorFondo);
 
   // mostrar la imagen
   if (modoPrueba) {
     // mostrar la imagen mas chiquita cuando esta en modo prueba
-    image(imgInstrucciones[imgInstruccionesActual], 0, 0, width, height);
+    image(
+      imgInstrucciones[imgInstruccionesActual],
+      0,
+      0,
+      width,
+      height,
+    );
   } else {
     image(imgInstrucciones[imgInstruccionesActual], 0, 0);
   }
@@ -300,18 +315,20 @@ function dibujarInstrucciones() {
   // si ya paso el tiempo de instrucciones
   // cambiar la imagen
   //esto es para crear el gif de imagenes/movimientos
-  if (millis() - tiempoInstruccionesUltimoCambio > tiempoInstruccionesDelta) {
+  if (
+    millis() - tiempoInstruccionesUltimoCambio >
+    tiempoInstruccionesDelta
+  ) {
     // subir numero de la imagen
     imgInstruccionesActual++;
     // si llegamos a la ultima, volver a la cero
     // imgInstruccionesActual = imgInstruccionesActual % imgInstrucciones.length;
-    
+
     // guardar el momento en que se cambio la imagen
     tiempoInstruccionesUltimoCambio = millis();
   }
 
-
-   // si estamos en la ultima imagen de las instrucciones
+  // si estamos en la ultima imagen de las instrucciones
   // y detectamos con nuestro modelo
   if (imgInstruccionesActual == imgInstrucciones.length - 1) {
     clasificarConModelo();
@@ -322,36 +339,35 @@ function dibujarInstrucciones() {
   // si no, nos quedamos en la ultima
   if (imgInstruccionesActual >= imgInstrucciones.length) {
     if (haHabidoClasificacionInstrucciones) {
-    // cambiamos al estado 1
-    // 1 = instrucciones
-    estadoActual = 2;
-    tiempoPreguntaUnoUltimoCambio = millis();
-    }
-    else {
+      // cambiamos al estado 1
+      // 1 = instrucciones
+      estadoActual = 2;
+      tiempoPreguntaUnoUltimoCambio = millis();
+    } else {
       imgInstruccionesActual = imgInstrucciones.length - 1;
     }
   }
 
-      // // If the model is loaded, make a classification and display the result
-      // if (isModelLoaded && hands[0]) {
-      //   let inputData = flattenHandData();
-      //   classifier.classify(inputData, gotClassification);
-      //   textSize(64);
-      //   fill(0, 255, 0);
-      //   deteccionActual.innerHTML = "Detección actual: " + classification;
-      //   text(classification, 20, 60);
-      //   // Callback function for when classification has finished
-      //   // storeItem("gestoDetectado", gotClassification);
-      //   estadoActual = 2;
-  
-        //variable  para que la consola muestre los gestos que se guardan en el almacenamiento local
-        // let recuperaGesto = getItem("gestoDetectado");
-        // if (recuperaGesto !== null) {
-          // console.log(recuperaGesto);
-        // }
-  
-        //Camara que muestra, solo necesitamos que encienda la camara pero que no se muestre en panatlla
-        /*image(video, 0, 0, width, height);
+  // // If the model is loaded, make a classification and display the result
+  // if (isModelLoaded && hands[0]) {
+  //   let inputData = flattenHandData();
+  //   classifier.classify(inputData, gotClassification);
+  //   textSize(64);
+  //   fill(0, 255, 0);
+  //   deteccionActual.innerHTML = "Detección actual: " + classification;
+  //   text(classification, 20, 60);
+  //   // Callback function for when classification has finished
+  //   // storeItem("gestoDetectado", gotClassification);
+  //   estadoActual = 2;
+
+  //variable  para que la consola muestre los gestos que se guardan en el almacenamiento local
+  // let recuperaGesto = getItem("gestoDetectado");
+  // if (recuperaGesto !== null) {
+  // console.log(recuperaGesto);
+  // }
+
+  //Camara que muestra, solo necesitamos que encienda la camara pero que no se muestre en panatlla
+  /*image(video, 0, 0, width, height);
   
       // Draw the handPose keypoints
       if (hands[0]) {
@@ -364,14 +380,19 @@ function dibujarInstrucciones() {
           circle(keypoint.x, keypoint.y, 10);
         }
       }*/
-  
 }
 
 function dibujarPreguntaUno() {
   // mostrar la imagen
   if (modoPrueba) {
     // mostrar la imagen mas chiquita cuando esta en modo prueba
-    image(imgPreguntasUno[imgPreguntasUnoActual], 0, 0, width, height);
+    image(
+      imgPreguntasUno[imgPreguntasUnoActual],
+      0,
+      0,
+      width,
+      height,
+    );
   } else {
     image(imgPreguntasUno[imgPreguntasUnoActual], 0, 0);
   }
@@ -379,12 +400,15 @@ function dibujarPreguntaUno() {
   // si ya paso el tiempo de instrucciones
   // cambiar la imagen
   //esto es para crear el gif de imagenes/movimientos
-  if (millis() - tiempoPreguntaUnoUltimoCambio > tiempoPreguntaUnoDelta) {
+  if (
+    millis() - tiempoPreguntaUnoUltimoCambio >
+    tiempoPreguntaUnoDelta
+  ) {
     // subir numero de la imagen
     imgPreguntasUnoActual++;
     // si llegamos a la ultima, volver a la cero
     // imgInstruccionesActual = imgInstruccionesActual % imgInstrucciones.length;
-    
+
     // guardar el momento en que se cambio la imagen
     tiempoPreguntaUnoUltimoCambio = millis();
   }
@@ -400,12 +424,11 @@ function dibujarPreguntaUno() {
   // si no, nos quedamos en la ultima
   if (imgPreguntasUnoActual >= imgPreguntasUno.length) {
     if (haHabidoClasificacionPreguntaUno) {
-    // cambiamos al estado 3
-    // 3 = pregunta 2
-    estadoActual = 3;
-    tiempoPreguntaDosUltimoCambio = millis();
-    }
-    else {
+      // cambiamos al estado 3
+      // 3 = pregunta 2
+      estadoActual = 3;
+      tiempoPreguntaDosUltimoCambio = millis();
+    } else {
       imgPreguntasUnoActual = imgPreguntaUno.length - 1;
     }
   }
@@ -415,7 +438,13 @@ function dibujarPreguntaDos() {
   // mostrar la imagen
   if (modoPrueba) {
     // mostrar la imagen mas chiquita cuando esta en modo prueba
-    image(imgPreguntasDos[imgPreguntasDosActual], 0, 0, width, height);
+    image(
+      imgPreguntasDos[imgPreguntasDosActual],
+      0,
+      0,
+      width,
+      height,
+    );
   } else {
     image(imgPreguntasDos[imgPreguntasDosActual], 0, 0);
   }
@@ -423,12 +452,15 @@ function dibujarPreguntaDos() {
   // si ya paso el tiempo de instrucciones
   // cambiar la imagen
   //esto es para crear el gif de imagenes/movimientos
-  if (millis() - tiempoPreguntaDosUltimoCambio > tiempoPreguntaDosDelta) {
+  if (
+    millis() - tiempoPreguntaDosUltimoCambio >
+    tiempoPreguntaDosDelta
+  ) {
     // subir numero de la imagen
     imgPreguntasDosActual++;
     // si llegamos a la ultima, volver a la cero
     // imgInstruccionesActual = imgInstruccionesActual % imgInstrucciones.length;
-    
+
     // guardar el momento en que se cambio la imagen
     tiempoPreguntaDosUltimoCambio = millis();
   }
@@ -444,12 +476,11 @@ function dibujarPreguntaDos() {
   // si no, nos quedamos en la ultima
   if (imgPreguntasDosActual >= imgPreguntasDos.length) {
     if (haHabidoClasificacionPreguntaDos) {
-    // cambiamos al estado 4
-    // 4 = pregunta 3
-    estadoActual = 4;
-    tiempoPreguntaTresUltimoCambio = millis();
-    }
-    else {
+      // cambiamos al estado 4
+      // 4 = pregunta 3
+      estadoActual = 4;
+      tiempoPreguntaTresUltimoCambio = millis();
+    } else {
       imgPreguntasDosActual = imgPreguntasDos.length - 1;
     }
   }
@@ -459,7 +490,13 @@ function dibujarPreguntaTres() {
   // mostrar la imagen
   if (modoPrueba) {
     // mostrar la imagen mas chiquita cuando esta en modo prueba
-    image(imgPreguntasTres[imgPreguntasTresActual], 0, 0, width, height);
+    image(
+      imgPreguntasTres[imgPreguntasTresActual],
+      0,
+      0,
+      width,
+      height,
+    );
   } else {
     image(imgPreguntasTres[imgPreguntasTresActual], 0, 0);
   }
@@ -467,16 +504,18 @@ function dibujarPreguntaTres() {
   // si ya paso el tiempo de instrucciones
   // cambiar la imagen
   //esto es para crear el gif de imagenes/movimientos
-  if (millis() - tiempoPreguntaTresUltimoCambio > tiempoPreguntaTresDelta) {
+  if (
+    millis() - tiempoPreguntaTresUltimoCambio >
+    tiempoPreguntaTresDelta
+  ) {
     // subir numero de la imagen
     imgPreguntasTresActual++;
     // si llegamos a la ultima, volver a la cero
     // imgInstruccionesActual = imgInstruccionesActual % imgInstrucciones.length;
-    
+
     // guardar el momento en que se cambio la imagen
     tiempoPreguntaTresUltimoCambio = millis();
   }
-
 
   // si estamos en la ultima imagen de la pregunta
   // detectamos con nuestro modelo
@@ -484,29 +523,32 @@ function dibujarPreguntaTres() {
     clasificarConModelo();
   }
 
-
   // si se acaban las imagenes de la pregunta,
   // pasamos a la siguiente si hay deteccion
   // si no, nos quedamos en la ultima
   if (imgPreguntasTresActual >= imgPreguntasTres.length) {
     if (haHabidoClasificacionPreguntaTres) {
-   // cambiamos al estado 5
-    // 5 = pregunta 4
-    estadoActual = 5;
-    tiempoPreguntaCuatroUltimoCambio = millis();
-    }
-    else {
+      // cambiamos al estado 5
+      // 5 = pregunta 4
+      estadoActual = 5;
+      tiempoPreguntaCuatroUltimoCambio = millis();
+    } else {
       imgPreguntasTresActual = imgPreguntasTres.length - 1;
     }
   }
-
 }
 
 function dibujarPreguntaCuatro() {
   // mostrar la imagen
   if (modoPrueba) {
     // mostrar la imagen mas chiquita cuando esta en modo prueba
-    image(imgPreguntasCuatro[imgPreguntasCuatroActual], 0, 0, width, height);
+    image(
+      imgPreguntasCuatro[imgPreguntasCuatroActual],
+      0,
+      0,
+      width,
+      height,
+    );
   } else {
     image(imgPreguntasCuatro[imgPreguntasCuatroActual], 0, 0);
   }
@@ -514,16 +556,18 @@ function dibujarPreguntaCuatro() {
   // si ya paso el tiempo de instrucciones
   // cambiar la imagen
   //esto es para crear el gif de imagenes/movimientos
-  if (millis() - tiempoPreguntaCuatroUltimoCambio > tiempoPreguntaCuatroDelta) {
+  if (
+    millis() - tiempoPreguntaCuatroUltimoCambio >
+    tiempoPreguntaCuatroDelta
+  ) {
     // subir numero de la imagen
     imgPreguntasCuatroActual++;
     // si llegamos a la ultima, volver a la cero
     // imgInstruccionesActual = imgInstruccionesActual % imgInstrucciones.length;
-    
+
     // guardar el momento en que se cambio la imagen
     tiempoPreguntaCuatroUltimoCambio = millis();
   }
-
 
   // si estamos en la ultima imagen de la pregunta
   // detectamos con nuestro modelo
@@ -531,27 +575,24 @@ function dibujarPreguntaCuatro() {
     clasificarConModelo();
   }
 
-
-    // si se acaban las imagenes de la pregunta,
+  // si se acaban las imagenes de la pregunta,
   // pasamos a la siguiente si hay deteccion
   // si no, nos quedamos en la ultima
   if (imgPreguntasCuatroActual >= imgPreguntasCuatro.length) {
     if (haHabidoClasificacionPreguntaCuatro) {
-       // cambiamos al estado 6
-    // 6 = visualizacion de datos
-    estadoActual = 6;
-    tiempoVizDatosUltimoCambio = millis();
-    }
-    else {
+      // cambiamos al estado 6
+      // 6 = visualizacion de datos
+      estadoActual = 6;
+      tiempoVizDatosUltimoCambio = millis();
+    } else {
       imgPreguntasCuatroActual = imgPreguntasCuatro.length - 1;
     }
   }
 }
 
 function dibujarVizDatos() {
-  console.log("por hacer vizDatos")
+  console.log('por hacer vizDatos');
 }
-
 
 function flattenHandData() {
   let hand = hands[0];
@@ -567,13 +608,11 @@ function flattenHandData() {
 // Callback function for when handPose outputs data
 function gotHands(results) {
   hands = results;
-  manosActual.innerHTML = "Manos detectadas: " + hands.length;
-
+  manosActual.innerHTML = 'Manos detectadas: ' + hands.length;
 }
 
 // Callback function for when the classifier makes a classification
 function gotClassification(results) {
-
   // guarda la clasificacion
   classification = results[0].label;
 
@@ -607,5 +646,5 @@ function gotClassification(results) {
 // Callback function for when the pre-trained model is loaded
 function modelLoaded() {
   isModelLoaded = true;
-  modeloCargado.innerHTML = "Modelo cargado!";
+  modeloCargado.innerHTML = 'Modelo cargado!';
 }
