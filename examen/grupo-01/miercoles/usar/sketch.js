@@ -718,105 +718,105 @@ function dibujarVizDatos() {
   text(
     'pregunta uno',
     (10 * width) / 100,
-    ((7 + 6 * 0) * height) / 100,
+    ((7 + 7 * 0) * height) / 100,
   );
   text(
     'bien: ' + String(unoBien),
     (10 * width) / 100,
-    ((7 + 6 * 1) * height) / 100,
+    ((7 + 7 * 1) * height) / 100,
   );
   text(
     'mal: ' + String(unoMal),
     (10 * width) / 100,
-    ((7 + 6 * 2) * height) / 100,
+    ((7 + 7 * 2) * height) / 100,
   );
   text(
     'más o menos: ' + String(unoMasOMenos),
     (10 * width) / 100,
-    ((7 + 6 * 3) * height) / 100,
+    ((7 + 7 * 3) * height) / 100,
   );
   text(
     'no sé: ' + String(unoNoSe),
     (10 * width) / 100,
-    ((7 + 6 * 4) * height) / 100,
+    ((7 + 7 * 4) * height) / 100,
   );
 
   text(
     'pregunta dos',
     (60 * width) / 100,
-    ((7 + 6 * 0) * height) / 100,
+    ((7 + 7 * 0) * height) / 100,
   );
   text(
     'bien: ' + String(dosBien),
     (60 * width) / 100,
-    ((7 + 6 * 1) * height) / 100,
+    ((7 + 7 * 1) * height) / 100,
   );
   text(
     'mal: ' + String(dosMal),
     (60 * width) / 100,
-    ((7 + 6 * 2) * height) / 100,
+    ((7 + 7 * 2) * height) / 100,
   );
   text(
     'más o menos: ' + String(dosMasOMenos),
     (60 * width) / 100,
-    ((7 + 6 * 3) * height) / 100,
+    ((7 + 7 * 3) * height) / 100,
   );
   text(
     'no sé: ' + String(dosNoSe),
     (60 * width) / 100,
-    ((7 + 6 * 4) * height) / 100,
+    ((7 + 7 * 4) * height) / 100,
   );
 
   text(
     'pregunta tres',
     (10 * width) / 100,
-    ((57 + 6 * 0) * height) / 100,
+    ((57 + 7 * 0) * height) / 100,
   );
   text(
     'bien: ' + String(tresBien),
     (10 * width) / 100,
-    ((57 + 6 * 1) * height) / 100,
+    ((57 + 7 * 1) * height) / 100,
   );
   text(
     'mal: ' + String(tresMal),
     (10 * width) / 100,
-    ((55 + 7 * 2) * height) / 100,
+    ((57 + 7 * 2) * height) / 100,
   );
   text(
     'más o menos: ' + String(tresMasOMenos),
     (10 * width) / 100,
-    ((57 + 6 * 3) * height) / 100,
+    ((57 + 7 * 3) * height) / 100,
   );
   text(
     'no sé: ' + String(tresNoSe),
     (10 * width) / 100,
-    ((57 + 6 * 4) * height) / 100,
+    ((57 + 7 * 4) * height) / 100,
   );
 
   text(
     'pregunta cuatro',
     (60 * width) / 100,
-    ((57 + 6 * 0) * height) / 100,
+    ((57 + 7 * 0) * height) / 100,
   );
   text(
     'bien: ' + String(cuatroBien),
     (60 * width) / 100,
-    ((57 + 6 * 1) * height) / 100,
+    ((57 + 7 * 1) * height) / 100,
   );
   text(
     'mal: ' + String(cuatroMal),
     (60 * width) / 100,
-    ((57 + 6 * 2) * height) / 100,
+    ((57 + 7 * 2) * height) / 100,
   );
   text(
     'más o menos: ' + String(cuatroMasOMenos),
     (60 * width) / 100,
-    ((57 + 6 * 3) * height) / 100,
+    ((57 + 7 * 3) * height) / 100,
   );
   text(
     'no sé: ' + String(cuatroNoSe),
     (60 * width) / 100,
-    ((57 + 6 * 4) * height) / 100,
+    ((57 + 7 * 4) * height) / 100,
   );
 
   if (modoPrueba) {
