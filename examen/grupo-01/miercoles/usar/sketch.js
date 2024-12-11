@@ -81,6 +81,12 @@ let tiempoVizDatosUltimoCambio = 0;
 
 let colorFondo;
 
+// variables para almacenar votaciones
+let votosPreguntaUno = null;
+let votosPreguntaDos = null;
+let votosPreguntaTres = null;
+let votosPreguntaCuatro = null;
+
 function preload() {
   //array de imagenEspera
   imgEspera.push(loadImage('imgEspera/espera0.png'));
@@ -144,6 +150,26 @@ function setup() {
   modeloCargado = document.getElementById('modeloCargado');
   manosActual = document.getElementById('manosActual');
   deteccionActual = document.getElementById('deteccionActual');
+
+  // recuperar votaciones pasadas
+  votosPreguntaUno = getItem('votosPreguntaUno');
+  votosPreguntaDos = getItem('votosPreguntaDos');
+  votosPreguntaTres = getItem('votosPreguntaTres');
+  votosPreguntaCuatro = getItem('votosPreguntaCuatro');
+
+  // si no estan en el almacenamiento local, inicializar a 0
+  if (!votosPreguntaUno) {
+    votosPreguntaUno = 0;
+  }
+  if (!votosPreguntaDos) {
+    votosPreguntaDos = 0;
+  }
+  if (!votosPreguntaTres) {
+    votosPreguntaTres = 0;
+  }
+  if (!votosPreguntaCuatro) {
+    votosPreguntaCuatro = 0;
+  }
 
   if (modoPrueba) {
     createCanvas(480, 270);
@@ -351,8 +377,6 @@ function dibujarInstrucciones() {
       imgInstruccionesActual = imgInstrucciones.length - 1;
     }
   }
-
-  // storeItem("gestoDetectado", gotClassification);
 }
 
 function dibujarPreguntaUno() {
