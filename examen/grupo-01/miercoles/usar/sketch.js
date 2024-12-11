@@ -840,6 +840,17 @@ function dibujarVizDatos() {
     tiempoPreguntaTresUltimoCambio = 0;
     tiempoPreguntaCuatroUltimoCambio = 0;
     tiempoVizDatosUltimoCambio = 0;
+    imgEsperaActual = 0;
+    imgInstruccionesActual = 0;
+    imgPreguntasUnoActual = 0;
+    imgPreguntasDosActual = 0;
+    imgPreguntasTresActual = 0;
+    imgPreguntasCuatroActual = 0;
+    haHabidoClasificacionInstrucciones = false;
+    haHabidoClasificacionPreguntaUno = false;
+    haHabidoClasificacionPreguntaDos = false;
+    haHabidoClasificacionPreguntaTres = false;
+    haHabidoClasificacionPreguntaCuatro = false;
   }
 }
 
