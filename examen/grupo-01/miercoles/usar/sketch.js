@@ -6,6 +6,11 @@ let modeloCargado;
 let manosActual;
 let deteccionActual;
 
+let colorBien;
+let colorMal;
+let colorMasOMenos;
+let colorNoSe;
+
 //Estados: espera, instrucciones, votación, error, respuesta, visualizaciónDeDatos, fin.
 //espera = Se mantiene hasta que ml5.js detecte a los cuatro participantes hacer el gesto de "STOP" con la mano.
 //instrucciones = Se mantiene hasta que ml5 detecte que los cuatro participantes hicieron el gesto requerido.
@@ -151,6 +156,11 @@ function setup() {
   manosActual = document.getElementById('manosActual');
   deteccionActual = document.getElementById('deteccionActual');
 
+  colorBien = color(0, 255, 0);
+  colorMal = color(255, 0, 0);
+  colorMasOMenos = color(255, 255, 0);
+  colorNoSe = color(0, 0, 255);
+
   // recuperar votaciones pasadas
   votosPreguntaUno = getItem('votosPreguntaUno');
   votosPreguntaDos = getItem('votosPreguntaDos');
@@ -160,40 +170,41 @@ function setup() {
   // si no estan en el almacenamiento local, inicializar a 0
   if (!votosPreguntaUno) {
     let votos = {
+      masOMenos: 0,
       bien: 0,
       mal: 0,
-      masOMenos: 0,
       noSe: 0,
     };
     storeItem('votosPreguntaUno', votos);
   }
   if (!votosPreguntaDos) {
     let votos = {
+      masOMenos: 0,
       bien: 0,
       mal: 0,
-      masOMenos: 0,
       noSe: 0,
     };
     storeItem('votosPreguntaDos', votos);
   }
   if (!votosPreguntaTres) {
     let votos = {
+      masOMenos: 0,
       bien: 0,
       mal: 0,
-      masOMenos: 0,
       noSe: 0,
     };
     storeItem('votosPreguntaTres', votos);
   }
   if (!votosPreguntaCuatro) {
     let votos = {
+      masOMenos: 0,
       bien: 0,
       mal: 0,
-      masOMenos: 0,
       noSe: 0,
     };
     storeItem('votosPreguntaCuatro', votos);
   }
+
   if (modoPrueba) {
     createCanvas(480, 270);
   } else {
@@ -201,7 +212,7 @@ function setup() {
   }
 
   if (modoPrueba) {
-    tiempoEsperaDelta = 2000;
+    tiempoEsperaDelta = 1000;
     tiempoInstruccionesDelta = tiempoEsperaDelta;
     tiempoDeteccionDelta = tiempoEsperaDelta;
     tiempoPreguntaUnoDelta = tiempoEsperaDelta;
@@ -314,6 +325,61 @@ function clasificarConModelo() {
     classifier.classify(inputData, gotClassification);
     deteccionActual.innerHTML = 'Detección actual: ' + classification;
     console.log(classification);
+    if (estadoActual == 2) {
+      // guardar votos
+      if (classification == 'MasOMenos') {
+        votosPreguntaUno.masOMenos++;
+      } else if (classification == 'Bien') {
+        votosPreguntaUno.bien++;
+      } else if (classification == 'Mal') {
+        votosPreguntaUno.mal++;
+      } else if (classification == 'TalVez') {
+        votosPreguntaUno.noSe++;
+      }
+      storeItem('votosPreguntaUno', votosPreguntaUno);
+      console.log(getItem('votosPreguntaUno'));
+    } else if (estadoActual == 3) {
+      // guardar votos
+      if (classification == 'MasOMenos') {
+        votosPreguntaDos.masOMenos++;
+      } else if (classification == 'Bien') {
+        votosPreguntaDos.bien++;
+      } else if (classification == 'Mal') {
+        votosPreguntaDos.mal++;
+      } else if (classification == 'TalVez') {
+        votosPreguntaDos.noSe++;
+      }
+      storeItem('votosPreguntaDos', votosPreguntaDos);
+      console.log(getItem('votosPreguntaDos'));
+    } else if (estadoActual == 4) {
+      // guardar votos
+      if (classification == 'MasOMenos') {
+        votosPreguntaTres.masOMenos++;
+      } else if (classification == 'Bien') {
+        votosPreguntaTres.bien++;
+      } else if (classification == 'Mal') {
+        votosPreguntaTres.mal++;
+      } else if (classification == 'TalVez') {
+        votosPreguntaTres.noSe++;
+      }
+      storeItem('votosPreguntaTres', votosPreguntaTres);
+      console.log(getItem('votosPreguntaTres'));
+    }
+    // si estamos en pregunta 4
+    else if (estadoActual == 5) {
+      // guardar votos
+      if (classification == 'MasOMenos') {
+        votosPreguntaCuatro.masOMenos++;
+      } else if (classification == 'Bien') {
+        votosPreguntaCuatro.bien++;
+      } else if (classification == 'Mal') {
+        votosPreguntaCuatro.mal++;
+      } else if (classification == 'TalVez') {
+        votosPreguntaCuatro.noSe++;
+      }
+      storeItem('votosPreguntaCuatro', votosPreguntaCuatro);
+      console.log(getItem('votosPreguntaCuatro'));
+    }
   }
 }
 
@@ -397,7 +463,7 @@ function dibujarInstrucciones() {
       estadoActual = 2;
       tiempoPreguntaUnoUltimoCambio = millis();
     } else {
-      imgInstruccionesActual = imgInstrucciones.length - 1;
+      imgInstruccionesActual = imgInstrucciones.length;
     }
   }
 }
@@ -435,7 +501,10 @@ function dibujarPreguntaUno() {
 
   // si estamos en la ultima imagen de la pregunta
   // detectamos con nuestro modelo
-  if (imgPreguntasUnoActual == imgPreguntasUno.length - 1) {
+  if (
+    !haHabidoClasificacionPreguntaUno &&
+    imgPreguntasUnoActual == imgPreguntasUno.length - 1
+  ) {
     clasificarConModelo();
   }
 
@@ -487,7 +556,10 @@ function dibujarPreguntaDos() {
 
   // si estamos en la ultima imagen de la pregunta
   // detectamos con nuestro modelo
-  if (imgPreguntasDosActual == imgPreguntasDos.length - 1) {
+  if (
+    !haHabidoClasificacionPreguntaDos &&
+    imgPreguntasDosActual == imgPreguntasDos.length - 1
+  ) {
     clasificarConModelo();
   }
 
@@ -539,14 +611,17 @@ function dibujarPreguntaTres() {
 
   // si estamos en la ultima imagen de la pregunta
   // detectamos con nuestro modelo
-  if (imgPreguntasTresActual == imgPreguntasTres.length - 1) {
+  if (
+    !haHabidoClasificacionPreguntaTres &&
+    imgPreguntasTresActual == imgPreguntasTres.length - 1
+  ) {
     clasificarConModelo();
   }
 
   // si se acaban las imagenes de la pregunta,
   // pasamos a la siguiente si hay deteccion
   // si no, nos quedamos en la ultima
-  if (imgPreguntasTresActual >= imgPreguntasTres.length) {
+  if (imgPreguntasTresActual == imgPreguntasTres.length) {
     if (haHabidoClasificacionPreguntaTres) {
       // cambiamos al estado 5
       // 5 = pregunta 4
@@ -591,7 +666,10 @@ function dibujarPreguntaCuatro() {
 
   // si estamos en la ultima imagen de la pregunta
   // detectamos con nuestro modelo
-  if (imgPreguntasCuatroActual == imgPreguntasCuatro.length - 1) {
+  if (
+    !haHabidoClasificacionPreguntaCuatro &&
+    imgPreguntasCuatroActual == imgPreguntasCuatro.length - 1
+  ) {
     clasificarConModelo();
   }
 
@@ -610,19 +688,73 @@ function dibujarPreguntaCuatro() {
   }
 }
 
-let bien = color(0, 255, 0);
-let mal = color(255, 0, 0);
-let masOMenos = color(255, 255, 0);
-let noSe = color(0, 0, 255);
-
 function dibujarVizDatos() {
-  background(colorFondo);
-  push();
-  noStroke();
-  fill(bien);
-  rect(0, 0, width / 2, height / 2);
+  let anchoBarra = (5 * width) / 100;
+  let alturaBarra = (20 * height) / 100;
+  let margenY = (10 * height) / 100;
 
+  // dibujar preguntaUno
+  background(colorFondo);
+
+  push();
+
+  noStroke();
+  // fill(colorFondo);
+  // rect(1 * anchoBarra, margenY, 1 * anchoBarra, alturaBarra);
+
+  fill(colorMasOMenos);
+
+  rect(
+    1 * anchoBarra,
+    margenY,
+    1 * anchoBarra,
+    map(
+      getItem('votosPreguntaUno').masOMenos,
+      0,
+      100,
+      0,
+      alturaBarra,
+    ),
+  );
+
+  // fill(colorFondo);
+  // rect(2 * anchoBarra, margenY, 1 * anchoBarra, alturaBarra);
+
+  fill(colorBien);
+  rect(
+    2 * anchoBarra,
+    margenY,
+    1 * anchoBarra,
+    map(getItem('votosPreguntaUno').bien, 0, 100, 0, alturaBarra),
+  );
+
+  // fill(colorFondo);
+  // rect(3 * anchoBarra, margenY, 1 * anchoBarra, alturaBarra);
+
+  fill(colorMal);
+  rect(
+    3 * anchoBarra,
+    margenY,
+    1 * anchoBarra,
+    map(getItem('votosPreguntaUno').mal, 0, 100, 0, alturaBarra),
+  );
+
+  // fill(colorFondo);
+  // rect(4 * anchoBarra, margenY, 1 * anchoBarra, alturaBarra);
+
+  fill(colorNoSe);
+  rect(
+    4 * anchoBarra,
+    margenY,
+    1 * anchoBarra,
+    map(getItem('votosPreguntaUno').noSe, 0, 100, 0, alturaBarra),
+  );
   pop();
+  // dibujar preguntaDos
+
+  // dibujarPreguntaTres
+
+  // dibujarPreguntaCuatro
 }
 
 function flattenHandData() {
@@ -646,6 +778,7 @@ function gotHands(results) {
 function gotClassification(results) {
   // guarda la clasificacion
   classification = results[0].label;
+  console.log(classification);
 
   // si estamos en instrucciones
   if (estadoActual == 1) {
