@@ -352,38 +352,7 @@ function dibujarInstrucciones() {
     }
   }
 
-  // // If the model is loaded, make a classification and display the result
-  // if (isModelLoaded && hands[0]) {
-  //   let inputData = flattenHandData();
-  //   classifier.classify(inputData, gotClassification);
-  //   textSize(64);
-  //   fill(0, 255, 0);
-  //   deteccionActual.innerHTML = "Detección actual: " + classification;
-  //   text(classification, 20, 60);
-  //   // Callback function for when classification has finished
-  //   // storeItem("gestoDetectado", gotClassification);
-  //   estadoActual = 2;
-
-  //variable  para que la consola muestre los gestos que se guardan en el almacenamiento local
-  // let recuperaGesto = getItem("gestoDetectado");
-  // if (recuperaGesto !== null) {
-  // console.log(recuperaGesto);
-  // }
-
-  //Camara que muestra, solo necesitamos que encienda la camara pero que no se muestre en panatlla
-  /*image(video, 0, 0, width, height);
-  
-      // Draw the handPose keypoints
-      if (hands[0]) {
-        let hand = hands[0];
-        // console.log(hand.value());
-        for (let i = 0; i < hand.keypoints.length; i++) {
-          let keypoint = hand.keypoints[i];
-          fill(0, 255, 0);
-          noStroke();
-          circle(keypoint.x, keypoint.y, 10);
-        }
-      }*/
+  // storeItem("gestoDetectado", gotClassification);
 }
 
 function dibujarPreguntaUno() {
