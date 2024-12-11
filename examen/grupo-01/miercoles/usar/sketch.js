@@ -776,44 +776,48 @@ function dibujarVizDatos() {
   text(
     'bien: ' + String(tresBien),
     (10 * width) / 100,
-    ((55 + 7 * 0) * height) / 100,
+    ((55 + 7 * 1) * height) / 100,
   );
   text(
     'mal: ' + String(tresMal),
     (10 * width) / 100,
-    ((55 + 7 * 1) * height) / 100,
+    ((55 + 7 * 2) * height) / 100,
   );
   text(
     'más o menos: ' + String(tresMasOMenos),
     (10 * width) / 100,
-    ((55 + 7 * 2) * height) / 100,
+    ((55 + 7 * 3) * height) / 100,
   );
   text(
     'no sé: ' + String(tresNoSe),
     (10 * width) / 100,
-    ((55 + 7 * 3) * height) / 100,
+    ((55 + 7 * 4) * height) / 100,
   );
 
-  text('pregunta cuatro', (10 * width) / 100, (5 * height) / 100);
+  text(
+    'pregunta cuatro',
+    (60 * width) / 100,
+    ((55 + 7 * 0) * height) / 100,
+  );
   text(
     'bien: ' + String(cuatroBien),
     (60 * width) / 100,
-    (15 * height) / 100,
+    ((55 + 7 * 1) * height) / 100,
   );
   text(
     'mal: ' + String(cuatroMal),
     (60 * width) / 100,
-    (25 * height) / 100,
+    ((55 + 7 * 2) * height) / 100,
   );
   text(
     'más o menos: ' + String(cuatroMasOMenos),
     (60 * width) / 100,
-    (35 * height) / 100,
+    ((55 + 7 * 3) * height) / 100,
   );
   text(
     'no sé: ' + String(cuatroNoSe),
     (60 * width) / 100,
-    (40 * height) / 100,
+    ((55 + 7 * 4) * height) / 100,
   );
 }
 
