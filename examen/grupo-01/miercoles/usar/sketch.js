@@ -1,6 +1,6 @@
 // para desarrollo usar modoPrueba true
 // para mostrar usar modoPrueba false
-let modoPrueba = true;
+let modoPrueba = false;
 
 let modeloCargado;
 let manosActual;
@@ -222,7 +222,7 @@ function setup() {
     tiempoPreguntaCuatroDelta = tiempoEsperaDelta;
     tiempoVizDatosDelta = tiempoEsperaDelta;
   } else {
-    tiempoEsperaDelta = 6000;
+    tiempoEsperaDelta = 3000;
     tiempoInstruccionesDelta = tiempoEsperaDelta;
     tiempoPreguntaUnoDelta = tiempoEsperaDelta;
     tiempoPreguntaDosDelta = tiempoEsperaDelta;
@@ -324,7 +324,7 @@ function clasificarConModelo() {
     let inputData = flattenHandData();
     classifier.classify(inputData, gotClassification);
     deteccionActual.innerHTML = 'Detección actual: ' + classification;
-    console.log(classification);
+    // console.log(classification);
     if (estadoActual == 2) {
       // guardar votos
       if (classification == 'MasOMenos') {
@@ -337,7 +337,6 @@ function clasificarConModelo() {
         votosPreguntaUno.noSe++;
       }
       storeItem('votosPreguntaUno', votosPreguntaUno);
-      console.log(getItem('votosPreguntaUno'));
     } else if (estadoActual == 3) {
       // guardar votos
       if (classification == 'MasOMenos') {
@@ -350,7 +349,6 @@ function clasificarConModelo() {
         votosPreguntaDos.noSe++;
       }
       storeItem('votosPreguntaDos', votosPreguntaDos);
-      console.log(getItem('votosPreguntaDos'));
     } else if (estadoActual == 4) {
       // guardar votos
       if (classification == 'MasOMenos') {
@@ -363,7 +361,6 @@ function clasificarConModelo() {
         votosPreguntaTres.noSe++;
       }
       storeItem('votosPreguntaTres', votosPreguntaTres);
-      console.log(getItem('votosPreguntaTres'));
     }
     // si estamos en pregunta 4
     else if (estadoActual == 5) {
@@ -378,7 +375,6 @@ function clasificarConModelo() {
         votosPreguntaCuatro.noSe++;
       }
       storeItem('votosPreguntaCuatro', votosPreguntaCuatro);
-      console.log(getItem('votosPreguntaCuatro'));
     }
   }
 }
@@ -944,7 +940,7 @@ function gotHands(results) {
 function gotClassification(results) {
   // guarda la clasificacion
   classification = results[0].label;
-  console.log(classification);
+  // console.log(classification);
 
   // si estamos en instrucciones
   if (estadoActual == 1) {
