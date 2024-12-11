@@ -159,18 +159,41 @@ function setup() {
 
   // si no estan en el almacenamiento local, inicializar a 0
   if (!votosPreguntaUno) {
-    votosPreguntaUno = 0;
+    let votos = {
+      bien: 0,
+      mal: 0,
+      masOMenos: 0,
+      noSe: 0,
+    };
+    storeItem('votosPreguntaUno', votos);
   }
   if (!votosPreguntaDos) {
-    votosPreguntaDos = 0;
+    let votos = {
+      bien: 0,
+      mal: 0,
+      masOMenos: 0,
+      noSe: 0,
+    };
+    storeItem('votosPreguntaDos', votos);
   }
   if (!votosPreguntaTres) {
-    votosPreguntaTres = 0;
+    let votos = {
+      bien: 0,
+      mal: 0,
+      masOMenos: 0,
+      noSe: 0,
+    };
+    storeItem('votosPreguntaTres', votos);
   }
   if (!votosPreguntaCuatro) {
-    votosPreguntaCuatro = 0;
+    let votos = {
+      bien: 0,
+      mal: 0,
+      masOMenos: 0,
+      noSe: 0,
+    };
+    storeItem('votosPreguntaCuatro', votos);
   }
-
   if (modoPrueba) {
     createCanvas(480, 270);
   } else {
