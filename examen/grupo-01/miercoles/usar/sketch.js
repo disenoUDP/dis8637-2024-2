@@ -47,6 +47,7 @@ let imgPreguntasCuatroActual = 0;
 
 let imgVizDatos = [];
 let imgVizDatosActual = 0;
+let tiempoVizDatos;
 
 let haHabidoClasificacionInstrucciones = false;
 let haHabidoClasificacionPreguntaUno = false;
@@ -823,6 +824,23 @@ function dibujarVizDatos() {
     (60 * width) / 100,
     ((55 + 7 * 4) * height) / 100,
   );
+
+  if (modoPrueba) {
+    tiempoVizDatos = 5000;
+  } else {
+    tiempoVizDatos = 15000;
+  }
+
+  if (millis() - tiempoVizDatosUltimoCambio > tiempoVizDatos) {
+    estadoActual = 0;
+    tiempoEsperaUltimoCambio = millis();
+    tiempoEsperaUltimoCambio = 0;
+    tiempoInstruccionesUltimoCambio = 0;
+    tiempoPreguntaUnoUltimoCambio = 0;
+    tiempoPreguntaTresUltimoCambio = 0;
+    tiempoPreguntaCuatroUltimoCambio = 0;
+    tiempoVizDatosUltimoCambio = 0;
+  }
 }
 
 function dibujarVizGraficoDeBarras() {
