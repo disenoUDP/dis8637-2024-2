@@ -449,7 +449,7 @@ function dibujarPreguntaUno() {
       estadoActual = 3;
       tiempoPreguntaDosUltimoCambio = millis();
     } else {
-      imgPreguntasUnoActual = imgPreguntaUno.length - 1;
+      imgPreguntasUnoActual = imgPreguntasUno.length - 1;
     }
   }
 }
@@ -617,12 +617,12 @@ let noSe = color(0, 0, 255);
 
 function dibujarVizDatos() {
   background(colorFondo);
-  pushStyle();
+  push();
   noStroke();
   fill(bien);
   rect(0, 0, width / 2, height / 2);
 
-  popStyle();
+  pop();
 }
 
 function flattenHandData() {
