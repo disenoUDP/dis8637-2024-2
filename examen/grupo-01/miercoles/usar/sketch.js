@@ -104,7 +104,7 @@ function preload() {
     loadImage('imgClasificaciones/clasificacion-masOMenos.png'),
   );
   imgClasificaciones.push(
-    loadImage('imgClasificaciones/clasificacion-talVez.png'),
+    loadImage('imgClasificaciones/clasificacion-noSe.png'),
   );
 
   imgInstrucciones.push(
@@ -610,8 +610,19 @@ function dibujarPreguntaCuatro() {
   }
 }
 
+let bien = color(0, 255, 0);
+let mal = color(255, 0, 0);
+let masOMenos = color(255, 255, 0);
+let noSe = color(0, 0, 255);
+
 function dibujarVizDatos() {
-  console.log('por hacer vizDatos');
+  background(colorFondo);
+  pushStyle();
+  noStroke();
+  fill(bien);
+  rect(0, 0, width / 2, height / 2);
+
+  popStyle();
 }
 
 function flattenHandData() {
