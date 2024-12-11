@@ -6,10 +6,18 @@
 * 03 - Valentina Chávez Albornoz
 * 05 - Sofía Etchepare Vásquez
 
+primero hicimos estos ejemplos
+
 * [entrenar](./entrenar/)
 * [usar](./usar/)
-* [usarProbando](./usarProbando/)  https://editor.p5js.org/SofiaEct/sketches/bqcry5KQE
+* [usarProbando](./usarProbando/)  <https://editor.p5js.org/SofiaEct/sketches/bqcry5KQE>
 * [estadosPrueba](./estadosPrueba/)
+
+y luego cada día creamos nuevas versiones de la interfaz:
+
+* [lunes/usar](./lunes/usar/)
+* [martes/usar](./martes/usar/)
+* [miercoles/usar](./miercoles/usar/)
 
 Para ver las versiones del modelo de prueba se cambia este código con el número de la version de la carpeta.
 
